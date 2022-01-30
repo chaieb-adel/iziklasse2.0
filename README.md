@@ -1,3 +1,15 @@
+**Version 2.0 du projet iziklasse 
+===============================**
+**Nouveautés
+========**
+
+1. Système de quiz (QCM) en accord avec le standard français  avec possibilité d'ajout via des fichiers xml
+2. Correction du bugs dans la barre de bas des pages.
+3. Correction et mis a jours de l'algorithme de parsing de fichiers xml
+4. Et bien plus encore a rétrouver sur le site http://iziklasse.net
+
+
+
 Yaksh
 =====
 
