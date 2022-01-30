@@ -1,0 +1,2996 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: email_host_user\n"
+"POT-Creation-Date: 2021-07-31 18:54:41\n"
+"PO-Revision-Date: 2021-07-31 18:54:41\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <email_host_user>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: yaksh/forms.py:263
+msgid ""
+"            <p>\n"
+"            This examination system has been developed with the intention of\n"
+"            making you learn programming and be assessed in an interactive and\n"
+"            fun manner.You will be presented with a series of programming\n"
+"            questions and problems that you will answer online and get\n"
+"            immediate feedback for.\n"
+"            </p><p>Here are some important instructions and rules that you\n"
+"            should understand carefully.</p>\n"
+"            <ul><li>For any programming questions, you can submit solutions as\n"
+"            many times as you want without a penalty. You may skip questions\n"
+"            and solve them later.</li><li> You <strong>may</strong>\n"
+"            use your computer's Python/IPython shell or an editor to solve the\n"
+"            problem and cut/paste the solution to the web interface.\n"
+"            </li><li> <strong>You are not allowed to use any internet resources\n"
+"            i.e. no google etc.</strong>\n"
+"            </li>\n"
+"            <li> Do not copy or share the questions or answers with anyone\n"
+"            until the exam is complete <strong>for everyone</strong>.\n"
+"            </li><li> <strong>All</strong> your attempts at the questions are\n"
+"            logged. Do not try to outsmart and break the testing system.\n"
+"            If you do, we know who you are and we will expel you from the\n"
+"            course. You have been warned.\n"
+"            </li></ul>\n"
+"            <p>We hope you enjoy taking this exam !!!</p>\n"
+"        "
+msgstr "            <p> Azterketa sistema hau programazioa ikasten eta modu dibertigarrian eta dibertigarrian ebaluatzen laguntzeko asmoz garatu da. Sarean erantzungo diezun eta berehala iritziak jasotzeko programazio galdera eta arazo sorta bat aurkeztuko zaizu. </p> <p> Hona hemen arretaz ulertu beharko zenituzkeen zenbait argibide eta arau garrantzitsu. </p> <ul> <li> Programazioari buruzko edozein galdera egiteko, konponbideak nahi adina aldiz bidal ditzakezu zigorrik gabe. Galderak salta ditzakezu eta geroago konpondu. </li> <li> <strong> Zure ordenagailuaren Python / IPython shell edo editorea erabil dezakezu arazoa konpontzeko eta irtenbidea web interfazean moztu / itsatsi. </li> <li> <strong> Ez duzu Interneteko baliabiderik erabiltzeko baimenik, hau da, googlerik ez. </strong> </li> <li> Ez kopiatu edo partekatu galderak edo erantzunak inorekin azterketa egin arte osatu <strong> guztiontzat </strong>. </li> <li> <strong> Guztiak </strong> galderetan egiten dituzun saiakerak erregistratuta daude. Ez saiatu proba sistema gainditzen eta hausten. Hala egiten baduzu, badakigu nor zaren eta ikastaroatik kanporatuko zaitugu. Abisatu egin zaituzte. </li> </ul> <p> Espero dugu azterketa hau egitea gustatuko zaizula !!! </p>\n"
+"        "
+
+#: yaksh/templates/yaksh/paginator.html:19
+msgid "(current)"
+msgstr "(oraingoa)"
+
+#: yaksh/templates/yaksh/monitor.html:236
+msgid "(Latest)"
+msgstr "(Azkenak)"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "(will take"
+msgstr "(hartuko du"
+
+#: yaksh/templates/yaksh/course_students.html:35
+msgid "- If username and password are not provided then"
+msgstr "- Erabiltzaile izena eta pasahitza ematen ez badira"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "- Mandatory fields are"
+msgstr "- Derrigorrezko eremuak dira"
+
+#: yaksh/templates/yaksh/course_students.html:34
+msgid "- Other fields are optional."
+msgstr "- Beste eremu batzuk aukerakoak dira."
+
+#: yaksh/templates/yaksh/course_students.html:30
+msgid ""
+"- The uploaded csv should have headers exactly same as mentioned below:"
+msgstr "- Igotako csv-k behean aipatutako goiburuak izan beharko lituzke:"
+
+#: yaksh/templates/yaksh/activation_status.html:5
+#: yaksh/templates/yaksh/activation_status.html:6
+msgid "Account Activation"
+msgstr "Kontuaren aktibazioa"
+
+#: yaksh/templates/yaksh/add_lesson.html:87
+#: yaksh/templates/yaksh/add_module.html:82
+#: yaksh/templates/yaksh/courses.html:172
+#: yaksh/templates/yaksh/courses.html:258
+#: yaksh/templates/yaksh/lessons.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:58
+#: yaksh/templates/yaksh/modules.html:101
+#: yaksh/templates/yaksh/quizzes.html:109
+msgid "Active"
+msgstr "Aktiboa"
+
+#: yaksh/templates/yaksh/add_lesson.html:217
+#: yaksh/templates/yaksh/quizzes.html:139
+msgid "Add"
+msgstr "Gehitu"
+
+#: yaksh/templates/yaksh/add_lesson.html:226
+msgid "Add a Video Path or Upload a video file to setup lesson contents"
+msgstr "Gehitu bideo bidea edo igo bideo fitxategia ikasgaiaren edukia konfiguratzeko"
+
+#: yaksh/templates/yaksh/post_comments.html:57
+msgid "Add comment:"
+msgstr "Gehitu iruzkina:"
+
+#: yaksh/templates/yaksh/add_course.html:15
+#: yaksh/templates/yaksh/add_course.html:16
+#: yaksh/templates/yaksh/moderator_dashboard.html:19
+msgid "Add Course"
+msgstr "Gehitu ikastaroa"
+
+#: yaksh/templates/yaksh/add_exercise.html:5
+#: yaksh/templates/yaksh/add_exercise.html:6
+#: yaksh/templates/yaksh/course_added_modules.html:39
+msgid "Add Exercise"
+msgstr "Gehitu ariketa"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:33
+msgid "Add Fixed Questions"
+msgstr "Gehitu galdera finkoak"
+
+#: yaksh/templates/yaksh/course_added_modules.html:29
+msgid "Add Lesson"
+msgstr "Gehitu ikasgaia"
+
+#: yaksh/templates/yaksh/course_added_modules.html:7
+msgid "Add Module"
+msgstr "Gehitu modulua"
+
+#: yaksh/templates/yaksh/add_video_quiz.html:24
+msgid "Add More"
+msgstr "Gehitu gehiago"
+
+#: yaksh/templates/yaksh/quizzes.html:49
+msgid "Add New Exercise"
+msgstr "Gehitu ariketa berria"
+
+#: yaksh/templates/yaksh/lessons.html:45
+msgid "Add new Lesson"
+msgstr "Gehitu ikasgai berria"
+
+#: yaksh/templates/yaksh/modules.html:46
+msgid "Add new Module"
+msgstr "Gehitu Modulu berria"
+
+#: yaksh/templates/yaksh/quizzes.html:46
+msgid "Add New Quiz"
+msgstr "Gehitu Galdetegi berria"
+
+#: yaksh/templates/yaksh/add_question.html:6
+#: yaksh/templates/yaksh/add_question.html:7
+#: yaksh/templates/yaksh/showquestions.html:146
+msgid "Add Question"
+msgstr "Gehitu galdera"
+
+#: yaksh/templates/yaksh/course_added_modules.html:34
+msgid "Add Quiz"
+msgstr "Gehitu galdetegia"
+
+#: yaksh/templates/yaksh/modules.html:113
+msgid "Add Quizzes/Lessons for"
+msgstr "Gehitu galdetegiak / ikasgaiak"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:39
+msgid "Add Random Questions"
+msgstr "Gehitu ausazko galderak"
+
+#: yaksh/templates/yaksh/addteacher.html:72
+msgid "Add Selected"
+msgstr "Gehitu hautatua"
+
+#: yaksh/templates/yaksh/addteacher.html:4
+#: yaksh/templates/yaksh/course_detail_options.html:83
+msgid "Add Teachers/TAs"
+msgstr "Gehitu irakasleak / TAak"
+
+#: yaksh/templates/yaksh/add_question.html:121
+msgid "Add Test Case:"
+msgstr "Gehitu proba kasua:"
+
+#: yaksh/templates/yaksh/design_course_session.html:57
+msgid "Add to course"
+msgstr "Gehitu ikastaroari"
+
+#: yaksh/templates/yaksh/add_module.html:148
+msgid "Add to Module"
+msgstr "Gehitu moduluan"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:144
+#: yaksh/templates/yaksh/design_questionpaper.html:225
+msgid "Add to paper"
+msgstr "Gehitu paperera"
+
+#: yaksh/forms.py:526
+msgid "Add videos from youtube, vimeo or other"
+msgstr "Gehitu youtube, vimeo edo bestelako bideoak"
+
+#: yaksh/templates/yaksh/add_lesson.html:235
+msgid "Add/Edit Content"
+msgstr "Gehitu / Editatu Edukia"
+
+#: yaksh/templates/yaksh/add_course.html:29
+#: yaksh/templates/yaksh/courses.html:25 yaksh/templates/yaksh/lessons.html:18
+#: yaksh/templates/yaksh/modules.html:19 yaksh/templates/yaksh/quizzes.html:19
+msgid "Add/Edit Course"
+msgstr "Gehitu / Editatu ikastaroa"
+
+#: yaksh/templates/yaksh/add_quiz.html:5 yaksh/templates/yaksh/add_quiz.html:7
+msgid "Add/Edit Quiz"
+msgstr "Gehitu / Editatu galdetegia"
+
+#: yaksh/templates/yaksh/add_course.html:34
+#: yaksh/templates/yaksh/courses.html:30 yaksh/templates/yaksh/lessons.html:34
+#: yaksh/templates/yaksh/modules.html:35 yaksh/templates/yaksh/quizzes.html:35
+msgid "Add/View Grading Systems"
+msgstr "Gehitu / Ikusi Sailkapen Sistemak"
+
+#: yaksh/templates/yaksh/lessons.html:28 yaksh/templates/yaksh/modules.html:29
+#: yaksh/templates/yaksh/quizzes.html:29
+msgid "Add/View Lessons"
+msgstr "Gehitu / Ikusi ikasgaiak"
+
+#: yaksh/templates/yaksh/lessons.html:31 yaksh/templates/yaksh/modules.html:32
+#: yaksh/templates/yaksh/quizzes.html:32
+msgid "Add/View Modules"
+msgstr "Gehitu / Ikusi moduluak"
+
+#: yaksh/templates/yaksh/lessons.html:25 yaksh/templates/yaksh/modules.html:26
+#: yaksh/templates/yaksh/quizzes.html:26
+msgid "Add/View Quizzes"
+msgstr "Gehitu / ikusi galdetegiak"
+
+#: yaksh/views.py:201
+msgid "All Courses"
+msgstr "Ikastaro guztiak"
+
+#: yaksh/templates/yaksh/showquestions.html:18
+msgid "All Questions"
+msgstr "Galdera guztiak"
+
+#: yaksh/forms.py:118 yaksh/forms.py:502
+msgid "All timings are shown based on the selected timezone"
+msgstr "Denbora guztiak hautatutako ordu-eremuan oinarrituta erakusten dira"
+
+#: yaksh/templates/yaksh/courses.html:116
+#: yaksh/templates/yaksh/courses.html:215
+msgid "Allotted Course"
+msgstr "Emandako ikastaroa"
+
+#: yaksh/templates/yaksh/micromonitor.html:7
+#: yaksh/templates/yaksh/micromonitor.html:10
+msgid "Allow"
+msgstr "Onartu"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:274
+msgid "Almost finished creating your question paper"
+msgstr "Ia amaitu da zure galdera papera sortzen"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "and"
+msgstr "eta"
+
+#: yaksh/templates/yaksh/course_forum.html:125
+#: yaksh/templates/yaksh/lessons_forum.html:72
+#: yaksh/templates/yaksh/post_comments.html:37
+#: yaksh/templates/yaksh/post_comments.html:75
+#: yaksh/templates/yaksh/show_video.html:260
+msgid "Anonymous"
+msgstr "Anonimoa"
+
+#: yaksh/templates/yaksh/add_lesson.html:211
+msgid "Answer in Float"
+msgstr "Erantzuna Float-en"
+
+#: yaksh/templates/yaksh/add_lesson.html:207
+msgid "Answer in Integer"
+msgstr "Erantzun zenbaki osoetan"
+
+#: yaksh/templates/yaksh/add_lesson.html:209
+msgid "Answer in String"
+msgstr "Erantzun katean"
+
+#: yaksh/templates/yaksh/course_modules.html:178
+#: yaksh/templates/yaksh/course_modules.html:182
+msgid "Answer paper"
+msgstr "Erantzun papera"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:8
+msgid "Answer Paper  for"
+msgstr "Erantzun papera"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:39
+#: yaksh/templates/yaksh/show_lesson_statistics.html:155
+#: yaksh/templates/yaksh/show_lesson_statistics.html:158
+msgid "Answer:"
+msgstr "Erantzuna:"
+
+#: yaksh/templates/yaksh/statistics_question.html:41
+msgid "Answered Correctly"
+msgstr "Zuzen erantzun da"
+
+#: yaksh/templates/yaksh/quit.html:48
+msgid "Are you sure you wish to quit the exam?"
+msgstr "Ziur zaude azterketatik irten nahi duzula?"
+
+#: yaksh/templates/yaksh/quit.html:45
+msgid "Are you sure you wish to quit the Exercise?"
+msgstr "Ziur zaude Ariketa utzi nahi duzula?"
+
+#: yaksh/templates/yaksh/question.html:408
+msgid "Are you Sure?"
+msgstr "Ziur zaude?"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+msgid "ARRANGE THE OPTIONS IN CORRECT ORDER"
+msgstr "AGINDU ZUZENEKO AUKERAK ANTOLATU"
+
+#: yaksh/templates/yaksh/grade_user.html:431
+#: yaksh/templates/yaksh/user_data.html:170
+#: yaksh/templates/yaksh/view_answerpaper.html:191
+msgid "Assignment File for"
+msgstr "Esleipen fitxategia"
+
+#: yaksh/templates/yaksh/grade_user.html:438
+#: yaksh/templates/yaksh/user_data.html:177
+#: yaksh/templates/yaksh/view_answerpaper.html:198
+msgid "Assignment not submitted by"
+msgstr "Egileak ez du bidali"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+msgid "ASSIGNMENT UPLOAD"
+msgstr "ESLEIPENA KARGATU"
+
+#: yaksh/templates/yaksh/course_send_mail.html:14
+msgid "Attachments:"
+msgstr "Eranskinak:"
+
+#: yaksh/templates/yaksh/question.html:371
+msgid "Attempt Later"
+msgstr "Saiatu geroago"
+
+#: yaksh/templates/yaksh/grade_user.html:281
+#: yaksh/templates/yaksh/grade_user.html:449
+#: yaksh/templates/yaksh/user_data.html:40
+#: yaksh/templates/yaksh/user_data.html:189
+#: yaksh/templates/yaksh/view_answerpaper.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:209
+msgid "Attempt Number:"
+msgstr "Saiakera zenbakia:"
+
+#: yaksh/templates/yaksh/add_exercise.html:82
+msgid "Attempt quiz the way normal users will attempt i.e. -"
+msgstr "Saiatu erabiltzaile normalak saiatuko diren galdeketa, alegia -"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Attempt quiz the way students will attempt i.e. -"
+msgstr "Saiatu galdeketa ikasleak saiatuko diren moduan, alegia -"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Attempt quiz without any time or eligibilty constraints."
+msgstr "Saiatu galdetegia inolako denborarik edo onargarritasun mugarik gabe."
+
+#: yaksh/templates/yaksh/complete.html:41 yaksh/templates/yaksh/quit.html:32
+msgid "Attempted"
+msgstr "Saiatu da"
+
+#: yaksh/templates/exam.html:84
+msgid "Attempted question(s)"
+msgstr "Saiatu den galdera (k)"
+
+#: yaksh/templates/yaksh/monitor.html:92
+msgid "Auto-Refreshes every 5 minutes"
+msgstr "Auto freskatzen da 5 minuturo"
+
+#: yaksh/templates/yaksh/add_module.html:126
+msgid "Available Lessons and quizzes: (Add Lessons and Quizzes)"
+msgstr "Eskuragarri dauden ikasgaiak eta galdetegiak: (Gehitu ikasgaiak eta galdetegiak)"
+
+#: yaksh/templates/yaksh/design_course_session.html:21
+msgid "Available Modules:"
+msgstr "Eskuragarri dauden moduluak:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:98
+#: yaksh/templates/yaksh/showquestions.html:103
+msgid "Available Tags"
+msgstr "Erabilgarri dauden etiketak"
+
+#: yaksh/templates/yaksh/add_lesson.html:33
+#: yaksh/templates/yaksh/add_module.html:30
+#: yaksh/templates/yaksh/add_module.html:35
+#: yaksh/templates/yaksh/course_detail_options.html:9
+#: yaksh/templates/yaksh/course_forum.html:19
+#: yaksh/templates/yaksh/course_forum.html:23
+#: yaksh/templates/yaksh/design_questionpaper.html:23
+#: yaksh/templates/yaksh/lessons_forum.html:19
+#: yaksh/templates/yaksh/lessons_forum.html:23
+#: yaksh/templates/yaksh/show_lesson_statistics.html:37
+#: yaksh/templates/yaksh/view_answerpaper.html:19
+msgid "Back"
+msgstr "Itzuli"
+
+#: yaksh/templates/yaksh/post_comments.html:12
+msgid "Back to Posts"
+msgstr "Itzuli mezuetara"
+
+#: yaksh/templates/yaksh/quit.html:49
+msgid "Be sure, as you won\\"
+msgstr "Ziur egon, irabazi zenuen moduan \\"
+
+#: yaksh/templates/yaksh/paginator.html:11
+msgid "begin"
+msgstr "hasi"
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "by the course creator"
+msgstr "ikastaroaren sortzailearen eskutik"
+
+#: yaksh/templates/registration/password_change_form.html:98
+#: yaksh/templates/registration/password_reset_form.html:36
+#: yaksh/templates/yaksh/add_course.html:60
+#: yaksh/templates/yaksh/editprofile.html:47
+#: yaksh/templates/yaksh/question.html:415
+#: yaksh/templates/yaksh/register.html:58
+msgid "Cancel"
+msgstr "Utzi"
+
+#: yaksh/templates/exam.html:96
+msgid "Category"
+msgstr "Kategoria"
+
+#: yaksh/templates/registration/password_change_form.html:95
+#: yaksh/templates/yaksh/design_course_session.html:88
+#: yaksh/templates/yaksh/design_course_session.html:90
+msgid "Change"
+msgstr "Aldaketa"
+
+#: yaksh/templates/yaksh/add_module.html:212
+#: yaksh/templates/yaksh/design_course_session.html:131
+msgid "Change Order"
+msgstr "Ordena aldatu"
+
+#: yaksh/templates/manage.html:74
+#: yaksh/templates/registration/password_change_form.html:29
+#: yaksh/templates/registration/password_change_form.html:43
+#: yaksh/templates/registration/password_change_form.html:45
+#: yaksh/templates/user.html:60
+msgid "Change Password"
+msgstr "Aldatu pasahitza"
+
+#: yaksh/templates/yaksh/add_module.html:213
+msgid "Change Prerequisite"
+msgstr "Aldatu aurrebaldintza"
+
+#: yaksh/templates/yaksh/design_course_session.html:132
+msgid "Change Prerequisite Completion"
+msgstr "Aldatu aurrebaldintza betetzea"
+
+#: yaksh/templates/yaksh/design_course_session.html:133
+msgid "Change Prerequisite Passing"
+msgstr "Aldatu aurrebaldintza gainditzea"
+
+#: yaksh/templates/yaksh/question.html:355
+msgid "Check Answer"
+msgstr "Egiaztatu Erantzuna"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "Check on"
+msgstr "Egiaztatu"
+
+#: yaksh/templates/yaksh/add_module.html:163
+msgid "Check Prerequisite"
+msgstr "Egiaztatu aurrebaldintza"
+
+#: yaksh/templates/yaksh/design_course_session.html:70
+msgid "Check Prerequisite Completion"
+msgstr "Egiaztatu aurrebaldintza betetzea"
+
+#: yaksh/templates/yaksh/design_course_session.html:76
+msgid "Check Prerequisite Passing"
+msgstr "Egiaztatu aurrebaldintza gainditzea"
+
+#: yaksh/templates/base.html:90
+msgid "Checking..."
+msgstr "Egiaztatzen ..."
+
+#: yaksh/templates/yaksh/grade_user.html:366
+#: yaksh/templates/yaksh/preview_questionpaper.html:44
+msgid "Choices:"
+msgstr "Aukerak:"
+
+#: yaksh/templates/yaksh/add_lesson.html:113
+#: yaksh/templates/yaksh/add_question.html:72
+#: yaksh/templates/yaksh/course_send_mail.html:17
+#: yaksh/templates/yaksh/course_students.html:18
+#: yaksh/templates/yaksh/showquestions.html:59
+msgid "Choose file"
+msgstr "Aukeratu fitxategia"
+
+#: yaksh/templates/yaksh/add_module.html:155
+msgid "Chosen Lessons and quizzes:"
+msgstr "Aukeratutako ikasgaiak eta galdetegiak:"
+
+#: yaksh/templates/yaksh/design_course_session.html:63
+msgid "Chosen Modules:"
+msgstr "Aukeratutako moduluak:"
+
+#: yaksh/templates/yaksh/courses.html:62
+#: yaksh/templates/yaksh/showquestions.html:127
+msgid "Clear"
+msgstr "Garbi"
+
+#: yaksh/templates/yaksh/course_forum.html:92
+#: yaksh/templates/yaksh/lessons.html:72 yaksh/templates/yaksh/modules.html:73
+#: yaksh/templates/yaksh/quizzes.html:76
+msgid "Clear Search"
+msgstr "Garbitu Bilaketa"
+
+#: yaksh/templates/yaksh/course_students.html:39
+msgid "Click"
+msgstr "Egin klik"
+
+#: yaksh/templates/yaksh/courses.html:146
+#: yaksh/templates/yaksh/courses.html:235
+msgid "Clone Course"
+msgstr "Klonatzeko ikastaroa"
+
+#: yaksh/templates/yaksh/course_forum.html:67
+#: yaksh/templates/yaksh/grade_user.html:635
+#: yaksh/templates/yaksh/monitor.html:248
+msgid "Close"
+msgstr "Itxi"
+
+#: yaksh/templates/yaksh/lessons.html:103
+#: yaksh/templates/yaksh/modules.html:105
+#: yaksh/templates/yaksh/quizzes.html:113
+msgid "Closed"
+msgstr "Itxita"
+
+#: yaksh/templates/yaksh/grade_user.html:566
+msgid "Comment:"
+msgstr "Iruzkina:"
+
+#: yaksh/templates/yaksh/show_video.html:241
+msgid "Comments:"
+msgstr "Iruzkinak:"
+
+#: yaksh/templates/yaksh/complete.html:6
+msgid "Complete"
+msgstr "Osatua"
+
+#: yaksh/templates/yaksh/monitor.html:195
+msgid "Completed"
+msgstr "Osatuta"
+
+#: yaksh/templates/yaksh/course_added_modules.html:110
+msgid "completed out of"
+msgstr "amaitu"
+
+#: yaksh/templates/yaksh/course_progress.html:36
+msgid "Completion Percentage"
+msgstr "Osaketa ehunekoa"
+
+#: forms.py:85
+msgid "Confirm Password"
+msgstr "pasahitza baieztatu"
+
+#: yaksh/templates/base.html:128
+msgid "Contact: pythonsupport@fossee.in"
+msgstr "Harremanetarako: pythonsupport@fossee.in"
+
+#: yaksh/templates/yaksh/course_modules.html:88
+#: yaksh/templates/yaksh/quizzes_user.html:82
+msgid "Continue"
+msgstr "Jarraitu"
+
+msgid "Correct Answer"
+msgstr "Erantzun zuzena"
+
+#: yaksh/templates/yaksh/grade_user.html:389
+#: yaksh/templates/yaksh/user_data.html:128
+#: yaksh/templates/yaksh/view_answerpaper.html:137
+msgid "Correct Answer:"
+msgstr "Erantzun zuzena:"
+
+#: yaksh/templates/yaksh/grade_user.html:401
+#: yaksh/templates/yaksh/user_data.html:140
+#: yaksh/templates/yaksh/view_answerpaper.html:149
+msgid "Correct Order:"
+msgstr "Ordena zuzena:"
+
+#: forms.py:437
+msgid "Course Code"
+msgstr "Ikastaroaren kodea"
+
+#: yaksh/templates/yaksh/course_modules.html:32
+#: yaksh/templates/yaksh/quizzes_user.html:143
+#: yaksh/templates/yaksh/user_status.html:9
+msgid "Course completed"
+msgstr "Ikastaroa amaitu da"
+
+#: yaksh/templates/yaksh/quizzes_user.html:120
+msgid "Course Content"
+msgstr "Ikastaroaren edukia"
+
+#: yaksh/templates/yaksh/course_detail.html:6
+#: yaksh/templates/yaksh/grade_user.html:240
+#: yaksh/templates/yaksh/user_data.html:21
+#: yaksh/templates/yaksh/view_answerpaper.html:27
+msgid "Course Details"
+msgstr "Ikastaroaren xehetasunak"
+
+#: forms.py:446
+msgid "Course End DateTime"
+msgstr "Ikastaroaren amaiera-data"
+
+#: yaksh/templates/yaksh/sidebar.html:8
+msgid "Course Forum"
+msgstr "Ikastaro Foroa"
+
+#: forms.py:440
+msgid "Course instructions"
+msgstr "Ikastaroaren argibideak"
+
+#: yaksh/templates/yaksh/course_added_modules.html:5
+#: yaksh/templates/yaksh/course_detail_options.html:33
+#: yaksh/templates/yaksh/course_modules.html:5
+msgid "Course Modules"
+msgstr "Ikastaro moduluak"
+
+#: forms.py:431
+msgid "Course Name"
+msgstr "Ikastaroaren izena"
+
+#: yaksh/templates/yaksh/monitor.html:63
+msgid "Course Name:"
+msgstr "Ikastaroaren izena:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:53
+#: yaksh/templates/yaksh/course_progress.html:8
+msgid "Course Progress"
+msgstr "Ikastaroaren aurrerapena"
+
+#: forms.py:443
+msgid "Course Start DateTime"
+msgstr "Ikastaroaren hasiera-data"
+
+#: yaksh/templates/yaksh/courses.html:69
+msgid "Course(s) Available"
+msgstr "Ikastaroa (k) eskuragarri"
+
+#: yaksh/templates/yaksh/grade_user.html:245
+#: yaksh/templates/yaksh/user_data.html:26
+#: yaksh/templates/yaksh/view_answerpaper.html:32
+msgid "Course:"
+msgstr "Ikastaroa:"
+
+#: yaksh/templates/manage.html:24 yaksh/templates/yaksh/courses.html:5
+#: yaksh/templates/yaksh/courses.html:6
+msgid "Courses"
+msgstr "Ikastaroak"
+
+#: yaksh/templates/yaksh/course_forum.html:54
+msgid "Create a new Post"
+msgstr "Sortu mezu berria"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:22
+msgid "Create Demo Course"
+msgstr "Sortu Demo Ikastaroa"
+
+#: yaksh/templates/yaksh/add_lesson.html:171
+msgid "Create lesson table of contents"
+msgstr "Sortu ikasgaiaren aurkibidea"
+
+#: yaksh/templates/yaksh/login.html:92
+msgid "Create new account"
+msgstr "Sortu kontu berria"
+
+#: yaksh/templates/yaksh/add_module.html:6
+msgid "Create/Edit Learning Module"
+msgstr "Ikasteko modulua sortu / editatu"
+
+#: yaksh/templates/yaksh/add_lesson.html:6
+msgid "Create/Edit Lesson"
+msgstr "Sortu / Editatu ikasgaia"
+
+#: yaksh/templates/yaksh/course_forum.html:109
+#: yaksh/templates/yaksh/lessons_forum.html:56
+msgid "Created by"
+msgstr "Egilea:"
+
+#: yaksh/templates/yaksh/courses.html:120
+#: yaksh/templates/yaksh/courses.html:219
+msgid "Created Course"
+msgstr "Sortutako ikastaroa"
+
+#: yaksh/templates/yaksh/courses.html:180
+#: yaksh/templates/yaksh/courses.html:266
+msgid "Creator:"
+msgstr "Sortzailea:"
+
+#: yaksh/templates/exam.html:85
+msgid "Current question"
+msgstr "Gaur egungo galdera"
+
+#: yaksh/templates/yaksh/course_detail_options.html:93
+msgid "Current Teachers/TAs"
+msgstr "Egungo irakasleak / TAak"
+
+#: yaksh/templates/yaksh/course_progress.html:35
+msgid "Current Unit"
+msgstr "Unitate unitatea"
+
+#: yaksh/templates/yaksh/add_module.html:174
+#: yaksh/templates/yaksh/design_course_session.html:87
+#: yaksh/templates/yaksh/design_course_session.html:89
+msgid "Currently"
+msgstr "Gaur egun"
+
+#: yaksh/templates/yaksh/user_data.html:7
+msgid "Data for user"
+msgstr "Erabiltzailearen datuak"
+
+#: yaksh/templates/yaksh/add_question.html:85
+#: yaksh/templates/yaksh/add_question.html:97
+#: yaksh/templates/yaksh/showquestions.html:169
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: yaksh/templates/yaksh/add_lesson.html:148
+msgid "Delete Files"
+msgstr "Ezabatu fitxategiak"
+
+#: yaksh/templates/yaksh/showquestions.html:218
+msgid "Delete Selected"
+msgstr "Ezabatu hautatua"
+
+#: yaksh/forms.py:108 yaksh/forms.py:492
+#: yaksh/templates/yaksh/addteacher.html:46
+#: yaksh/templates/yaksh/course_students.html:76
+#: yaksh/templates/yaksh/course_students.html:153
+#: yaksh/templates/yaksh/course_students.html:224
+msgid "Department"
+msgstr "Sail"
+
+#: yaksh/forms.py:106
+msgid "Department you work/study at"
+msgstr "Lan egiten duzun / ikasten duzun saila"
+
+#: yaksh/templates/yaksh/grade_user.html:227
+#: yaksh/templates/yaksh/view_profile.html:27
+msgid "Department:"
+msgstr "Sail:"
+
+#: yaksh/forms.py:314 yaksh/forms.py:687 yaksh/forms.py:737
+msgid "Description"
+msgstr "Deskribapena"
+
+#: yaksh/templates/yaksh/add_lesson.html:76
+#: yaksh/templates/yaksh/add_module.html:102
+msgid "Description Preview"
+msgstr "Deskribapenaren aurrebista"
+
+#: yaksh/templates/yaksh/statistics_question.html:59
+#: yaksh/templates/yaksh/view_notifications.html:47
+msgid "Description:"
+msgstr "Deskribapena:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:43
+msgid "Design Course"
+msgstr "Diseinu ikastaroa"
+
+#: yaksh/templates/yaksh/design_course_session.html:5
+msgid "Design Course Session"
+msgstr "Diseinu Ikastaroaren Saioa"
+
+#: yaksh/templates/yaksh/course_added_modules.html:44
+#: yaksh/templates/yaksh/modules.html:85
+msgid "Design Module"
+msgstr "Diseinu modulua"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:7
+msgid "Design Question Paper"
+msgstr "Diseinatzeko Galdera Papera"
+
+#: yaksh/templates/yaksh/add_question.html:148
+#: yaksh/templates/yaksh/course_modules.html:76
+#: yaksh/templates/yaksh/grade_user.html:58
+#: yaksh/templates/yaksh/grade_user.html:460
+#: yaksh/templates/yaksh/grade_user.html:471
+#: yaksh/templates/yaksh/moderator_dashboard.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:67
+#: yaksh/templates/yaksh/show_lesson_statistics.html:59
+#: yaksh/templates/yaksh/user_data.html:200
+#: yaksh/templates/yaksh/user_data.html:211
+#: yaksh/templates/yaksh/view_answerpaper.html:220
+msgid "Details"
+msgstr "Xehetasunak"
+
+#: yaksh/templates/yaksh/grade_user.html:353
+#: yaksh/templates/yaksh/user_data.html:93
+#: yaksh/templates/yaksh/view_answerpaper.html:102
+msgid "Details:"
+msgstr "Xehetasunak:"
+
+#: yaksh/templates/base.html:125
+#: yaksh/templates/yaksh/download_course_templates/index.html:69
+#: yaksh/templates/yaksh/download_course_templates/module.html:64
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:98
+#: yaksh/templates/yaksh/download_course_templates/unit.html:129
+msgid "Developed by FOSSEE group, IIT Bombay"
+msgstr "FOSSEE taldeak, IIT Bombay-k garatua"
+
+#: yaksh/templates/yaksh/grade_user.html:445
+#: yaksh/templates/yaksh/user_data.html:185
+#: yaksh/templates/yaksh/view_answerpaper.html:205
+msgid "Did not attempt"
+msgstr "Ez da saiatu"
+
+#: yaksh/templates/yaksh/grade_user.html:625
+msgid "Did not Grade"
+msgstr "Ez du kalifikatu"
+
+#: yaksh/templates/yaksh/course_detail_options.html:73
+#: yaksh/templates/yaksh/course_forum.html:6
+#: yaksh/templates/yaksh/course_forum.html:13
+#: yaksh/templates/yaksh/course_modules.html:12
+#: yaksh/templates/yaksh/lessons_forum.html:13
+msgid "Discussion Forum"
+msgstr "Eztabaida Foroa"
+
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Dont extract"
+msgstr "Ez atera"
+
+#: yaksh/templates/yaksh/monitor.html:245
+#: yaksh/templates/yaksh/showquestions.html:168
+#: yaksh/templates/yaksh/upload_download_course_md.html:6
+msgid "Download"
+msgstr "Deskargatu"
+
+#: yaksh/templates/yaksh/grade_user.html:142
+msgid "Download All Assignments"
+msgstr "Deskargatu zeregin guztiak"
+
+#: yaksh/templates/yaksh/courses.html:160
+#: yaksh/templates/yaksh/courses.html:245
+msgid "Download Course"
+msgstr "Deskargatu ikastaroa"
+
+#: yaksh/templates/yaksh/courses.html:153
+#: yaksh/templates/yaksh/courses.html:240
+#: yaksh/templates/yaksh/monitor.html:98
+msgid "Download CSV"
+msgstr "Deskargatu CSV"
+
+#: yaksh/templates/yaksh/monitor.html:224
+msgid "Download CSV for"
+msgstr "Deskargatu CSVrako"
+
+#: yaksh/templates/yaksh/course_progress.html:16
+msgid "Download Data"
+msgstr "Deskargatu datuak"
+
+#: yaksh/templates/yaksh/show_toc.html:9
+msgid "Download Sample"
+msgstr "Deskargatu lagina"
+
+#: yaksh/templates/yaksh/showquestions.html:215
+msgid "Download Selected"
+msgstr "Deskargatu hautatua"
+
+#: yaksh/templates/yaksh/showquestions.html:52
+msgid "Download Template"
+msgstr "Deskargatu txantiloia"
+
+#: yaksh/templates/yaksh/monitor.html:115
+msgid "Download the CSV file from the button"
+msgstr "Deskargatu CSV fitxategia botoitik"
+
+#: yaksh/templates/yaksh/upload_file.html:27
+msgid "Drop files here or click to upload."
+msgstr "Jaregin fitxategiak hemen edo egin klik kargatzeko."
+
+#: yaksh/templates/yaksh/monitor.html:118
+msgid "Edit and upload the same"
+msgstr "Editatu eta igo bera"
+
+#: yaksh/templates/yaksh/courses.html:139
+#: yaksh/templates/yaksh/courses.html:230
+msgid "Edit Course"
+msgstr "Editatu ikastaroa"
+
+#: yaksh/templates/yaksh/editprofile.html:4
+#: yaksh/templates/yaksh/view_profile.html:43
+msgid "Edit Profile"
+msgstr "Editatu profila"
+
+#: yaksh/templates/yaksh/add_exercise.html:50
+#: yaksh/templates/yaksh/add_quiz.html:61
+msgid "Edit Question Paper"
+msgstr "Editatu galdera papera"
+
+#: yaksh/templates/yaksh/addteacher.html:44
+#: yaksh/templates/yaksh/course_send_mail.html:36
+#: yaksh/templates/yaksh/course_students.html:73
+#: yaksh/templates/yaksh/course_students.html:150
+#: yaksh/templates/yaksh/course_students.html:221
+#: yaksh/templates/yaksh/course_teachers.html:21
+#: yaksh/templates/yaksh/show_lesson_statistics.html:202
+msgid "Email"
+msgstr "Posta elektronikoa"
+
+#: yaksh/templates/yaksh/view_profile.html:19
+msgid "Email:"
+msgstr "Posta elektronikoa:"
+
+#: yaksh/templates/yaksh/paginator.html:32
+msgid "end"
+msgstr "amaiera"
+
+#: models.py:946
+msgid "End Date and Time for enrollment of course"
+msgstr "Ikastaroan izena emateko amaiera eguna eta ordua"
+
+#: yaksh/templates/yaksh/grade_user.html:250
+#: yaksh/templates/yaksh/user_data.html:31
+#: yaksh/templates/yaksh/view_answerpaper.html:37
+msgid "End time:"
+msgstr "Amaiera ordua:"
+
+#: yaksh/templates/yaksh/courses.html:186
+#: yaksh/templates/yaksh/courses.html:272
+#: yaksh/templates/yaksh/quizzes_user.html:138
+msgid "Ends On:"
+msgstr "Amaitzen da:"
+
+#: yaksh/templates/yaksh/course_students.html:96
+msgid "Enroll "
+msgstr "Izena eman "
+
+#: models.py:85
+msgid "Enroll Request"
+msgstr "Izena emateko eskaera"
+
+#: yaksh/templates/yaksh/course_students.html:113
+#: yaksh/templates/yaksh/course_students.html:255
+msgid "Enroll selected"
+msgstr "Izena eman hautatuta"
+
+#: yaksh/templates/yaksh/course_students.html:77
+msgid "Enroll/Reject"
+msgstr "Izena eman / Baztertu"
+
+#: yaksh/templates/yaksh/course_students.html:129
+msgid "Enrolled Students"
+msgstr "Matrikulatutako ikasleak"
+
+#: models.py:920
+msgid "enrollment"
+msgstr "matrikula"
+
+#: yaksh/templates/yaksh/course_detail_options.html:23
+msgid "Enrollments"
+msgstr "Matrikulazioak"
+
+#: yaksh/templates/yaksh/quizzes_user.html:23
+msgid "Enter course code to search"
+msgstr "Sartu ikastaroaren kodea bilatzeko"
+
+#: yaksh/templates/yaksh/question.html:253
+#: yaksh/templates/yaksh/show_lesson_quiz.html:92
+msgid "Enter Decimal Value :"
+msgstr "Idatzi balio hamartarra:"
+
+#: yaksh/templates/yaksh/question.html:239
+#: yaksh/templates/yaksh/show_lesson_quiz.html:78
+msgid "Enter Integer:"
+msgstr "Sartu zenbaki oso bat:"
+
+#: yaksh/forms.py:538
+msgid "Enter Lesson Description as Markdown text"
+msgstr "Idatzi ikasgaiaren deskribapena Markdown testu gisa"
+
+#: yaksh/templates/yaksh/question.html:246
+#: yaksh/templates/yaksh/show_lesson_quiz.html:85
+msgid "Enter Text:"
+msgstr "Idatzi testua:"
+
+#: yaksh/templates/registration/password_reset_form.html:19
+msgid "Enter your registered email address to reset your password"
+msgstr "Idatzi erregistratutako helbide elektronikoa pasahitza berrezartzeko"
+
+#: yaksh/templates/404.html:20
+msgid "Error Message:-"
+msgstr "Akats mezua: -"
+
+#: yaksh/templates/yaksh/error_template.html:15
+msgid "Error No."
+msgstr "Errorea ez."
+
+#: yaksh/templates/yaksh/error_template.html:90
+#: yaksh/templates/yaksh/grade_user.html:467
+#: yaksh/templates/yaksh/grade_user.html:511
+#: yaksh/templates/yaksh/user_data.html:207
+#: yaksh/templates/yaksh/view_answerpaper.html:227
+#: yaksh/templates/yaksh/view_answerpaper.html:272
+msgid "Error:"
+msgstr "Errorea:"
+
+#: yaksh/templates/yaksh/error_template.html:41
+#: yaksh/templates/yaksh/grade_user.html:531
+#: yaksh/templates/yaksh/user_data.html:271
+#: yaksh/templates/yaksh/view_answerpaper.html:292
+msgid "Exception Message:"
+msgstr "Salbuespen mezua:"
+
+#: yaksh/templates/yaksh/error_template.html:37
+#: yaksh/templates/yaksh/grade_user.html:527
+#: yaksh/templates/yaksh/user_data.html:267
+#: yaksh/templates/yaksh/view_answerpaper.html:288
+msgid "Exception Name:"
+msgstr "Salbuespenaren izena:"
+
+#: yaksh/templates/yaksh/add_lesson.html:195
+#: yaksh/templates/yaksh/course_added_modules.html:97
+msgid "Exercise"
+msgstr "Ariketa fisikoa"
+
+#: yaksh/forms.py:220
+msgid "Exercise Description"
+msgstr "Ariketaren deskribapena"
+
+#: yaksh/templates/yaksh/micromanaged.html:17
+msgid "Exhausted"
+msgstr "Nekatuta"
+
+#: yaksh/templates/yaksh/error_template.html:71
+#: yaksh/templates/yaksh/grade_user.html:492
+#: yaksh/templates/yaksh/user_data.html:232
+#: yaksh/templates/yaksh/view_answerpaper.html:253
+msgid "Expected Output"
+msgstr "Espero zen irteera"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Extract"
+msgstr "Atera"
+
+#: yaksh/templates/yaksh/grade_user.html:269
+#: yaksh/templates/yaksh/user_data.html:52
+#: yaksh/templates/yaksh/view_answerpaper.html:57
+msgid "Failed"
+msgstr "Huts egin du"
+
+#: yaksh/templates/yaksh/question.html:391
+msgid "File not selected"
+msgstr "Fitxategia ez da hautatu"
+
+#: yaksh/templates/yaksh/add_question.html:67
+msgid "File:"
+msgstr "Fitxategia:"
+
+#: yaksh/templates/yaksh/add_lesson.html:121
+msgid "Files added to this lesson"
+msgstr "Ikasgai honi gehitu zaizkion fitxategiak"
+
+#: yaksh/templates/yaksh/show_video.html:216
+msgid "Files for this lesson"
+msgstr "Ikasgai honetako fitxategiak"
+
+#: yaksh/templates/yaksh/showquestions.html:40
+#: yaksh/templates/yaksh/showquestions.html:42
+msgid "Files required by questions"
+msgstr "Galderek eskatzen dituzten fitxategiak"
+
+#: yaksh/templates/yaksh/question.html:195
+msgid "Files to download for this question"
+msgstr "Galdera honetarako deskargatu beharreko fitxategiak"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+msgid "FILL IN THE BLANKS WITH FLOAT ANSWER"
+msgstr "BETE HUTSAK FLOTO ERANTZUNAREKIN"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+msgid "FILL IN THE BLANKS WITH INTEGER ANSWER"
+msgstr "BETE HUTSAK ERANTZUN OSOAREKIN"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+msgid "FILL IN THE BLANKS WITH STRING ANSWER"
+msgstr "BETE HUTSAK SAREAREN ERANTZUNAREKIN"
+
+#: yaksh/templates/yaksh/showquestions.html:93
+msgid "Filter"
+msgstr "Iragazi"
+
+#: yaksh/templates/yaksh/showquestions.html:88
+msgid "Filters Questions:"
+msgstr "Iragazkiak Galderak:"
+
+#: yaksh/templates/exam.html:29
+#: yaksh/templates/yaksh/design_questionpaper.html:45
+msgid "Finish"
+msgstr "Amaitu"
+
+#: yaksh/forms.py:90 yaksh/forms.py:482
+#: yaksh/templates/yaksh/addteacher.html:42
+msgid "First Name"
+msgstr "Izena"
+
+#: yaksh/templates/yaksh/view_profile.html:11
+msgid "First name:"
+msgstr "Izena:"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "firstname, lastname and email."
+msgstr "izena, abizena eta posta elektronikoa."
+
+#: yaksh/templates/yaksh/course_students.html:31
+msgid ""
+"firstname, lastname, email, username, password, institute, roll_no, "
+"department,"
+msgstr "izena, abizena, posta elektronikoa, erabiltzaile izena, pasahitza, institutua, roll_no, saila,"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:16
+msgid "Fixed Questions"
+msgstr "Galdera finkoak"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:149
+msgid "Fixed questions currently in paper:"
+msgstr "Paperean dauden galdera finkoak:"
+
+#: forms.py:36
+msgid "Float Testcase"
+msgstr "Flotagailuen probalekua"
+
+#: yaksh/templates/yaksh/course_added_modules.html:14
+msgid "For additional module settings, Click on Design Module"
+msgstr "Moduluaren ezarpen osagarriak lortzeko, egin klik Diseinu moduluan"
+
+#: yaksh/templates/yaksh/error_template.html:58
+#: yaksh/templates/yaksh/grade_user.html:484
+#: yaksh/templates/yaksh/user_data.html:224
+#: yaksh/templates/yaksh/view_answerpaper.html:245
+msgid "For given Input value(s):"
+msgstr "Emandako sarrera-balioetarako:"
+
+#: yaksh/templates/registration/password_reset_form.html:24
+msgid "Forgot Password?"
+msgstr "Pasahitza ahaztua?"
+
+#: yaksh/templates/yaksh/view_notifications.html:45
+msgid "From:"
+msgstr "Noiztik:"
+
+#: yaksh/templates/yaksh/course_send_mail.html:35
+#: yaksh/templates/yaksh/course_students.html:72
+#: yaksh/templates/yaksh/course_students.html:149
+#: yaksh/templates/yaksh/course_students.html:220
+msgid "Full Name"
+msgstr "Izen osoa"
+
+#: yaksh/templates/yaksh/error_template.html:46
+#: yaksh/templates/yaksh/grade_user.html:535
+#: yaksh/templates/yaksh/user_data.html:275
+#: yaksh/templates/yaksh/view_answerpaper.html:296
+msgid "Full Traceback:"
+msgstr "Traceback osoa:"
+
+#: yaksh/templates/yaksh/question.html:302
+msgid "Generate QR Code"
+msgstr "Sortu QR kodea"
+
+#: yaksh/templates/yaksh/intro.html:32 yaksh/templates/yaksh/intro.html:37
+msgid "Go Back"
+msgstr "Atzera egin"
+
+#: yaksh/templates/registration/password_reset_done.html:23
+msgid "Go to Login"
+msgstr "Joan Saioa hastera"
+
+#: yaksh/templates/yaksh/download_course_templates/index.html:49
+msgid "Go to Module"
+msgstr "Joan Modulura atalera"
+
+#: yaksh/templates/yaksh/add_exercise.html:63
+msgid "God Mode"
+msgstr "Jainkoaren modua"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+msgid "God Mode:"
+msgstr "Jainkoaren modua:"
+
+#: yaksh/templates/yaksh/course_progress.html:37
+#: yaksh/templates/yaksh/grade_user.html:82
+msgid "Grade"
+msgstr "Kalifikazioa"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Grade:"
+msgstr "Kalifikazioa:"
+
+#: yaksh/templates/yaksh/add_lesson.html:194
+msgid "Graded Quiz"
+msgstr "Galdetegi kalifikatua"
+
+#: yaksh/templates/yaksh/grade_user.html:622
+msgid "Graded Successfully"
+msgstr "Arrakastaz kalifikatu da"
+
+#: yaksh/templates/yaksh/add_exercise.html:66
+#: yaksh/templates/yaksh/add_quiz.html:77
+msgid "Help"
+msgstr "Laguntza"
+
+#: yaksh/templates/yaksh/course_students.html:41
+msgid "here"
+msgstr "hemen"
+
+#: yaksh/templates/yaksh/error_template.html:19
+msgid "Hidden test case failed"
+msgstr "Ezkutatutako proba kasuak huts egin du"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Hide"
+msgstr "Ezkutatu"
+
+#: yaksh/templates/user.html:17
+#: yaksh/templates/yaksh/activation_status.html:43
+#: yaksh/templates/yaksh/activation_status.html:69
+#: yaksh/templates/yaksh/complete.html:75
+msgid "Home"
+msgstr "Etxea"
+
+#: forms.py:33
+msgid "Hook Testcase"
+msgstr "Hook Testcase"
+
+#: yaksh/templates/yaksh/courses.html:176
+#: yaksh/templates/yaksh/courses.html:262
+#: yaksh/templates/yaksh/moderator_dashboard.html:62
+msgid "Inactive"
+msgstr "Inaktiboa"
+
+#: yaksh/templates/yaksh/quizzes_user.html:104
+msgid "Inactive Course"
+msgstr "Inaktibo ikastaroa"
+
+#: yaksh/templates/yaksh/monitor.html:193
+msgid "Inprogress"
+msgstr "Inprogressa"
+
+#: yaksh/forms.py:103 yaksh/forms.py:489
+#: yaksh/templates/yaksh/addteacher.html:45
+#: yaksh/templates/yaksh/course_send_mail.html:38
+#: yaksh/templates/yaksh/course_students.html:75
+#: yaksh/templates/yaksh/course_students.html:152
+#: yaksh/templates/yaksh/course_students.html:223
+msgid "Institute"
+msgstr "Institutua"
+
+#: yaksh/forms.py:101
+msgid "Institute/Organization"
+msgstr "Institutua / Erakundea"
+
+#: yaksh/templates/yaksh/grade_user.html:228
+#: yaksh/templates/yaksh/view_profile.html:23
+msgid "Institute:"
+msgstr "Institutua:"
+
+#: yaksh/templates/registration/password_reset_done.html:20
+msgid ""
+"Instruction for setting new password has been mailed to your registered "
+"email address"
+msgstr "Pasahitz berria ezartzeko argibideak zure helbide elektronikora bidali dira"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:24
+#: yaksh/templates/yaksh/quizzes_user.html:131
+msgid "Instructions"
+msgstr "Argibideak"
+
+#: yaksh/templates/yaksh/quizzes_user.html:116
+msgid "Instructor:"
+msgstr "Irakaslea:"
+
+#: forms.py:34
+msgid "Integer Testcase"
+msgstr "Zenbaki osoen testcase"
+
+#: yaksh/templates/500.html:16
+msgid "Internal Server error."
+msgstr "Barneko zerbitzari-errorea."
+
+#: yaksh/forms.py:211
+msgid "Invalid username/password"
+msgstr "Erabiltzaile / pasahitz baliogabea"
+
+#: yaksh/templates/404.html:16
+msgid "It seems that you have encountered an error"
+msgstr "Badirudi akats bat topatu duzula"
+
+#: yaksh/templates/yaksh/question.html:394
+msgid "Kindly attach a file and then click upload."
+msgstr "Erantsi fitxategi bat eta egin klik kargatu botoian."
+
+#: yaksh/templates/yaksh/showquestions.html:164
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: yaksh/templates/yaksh/question.html:164
+#: yaksh/templates/yaksh/show_lesson_quiz.html:38
+#: yaksh/templates/yaksh/show_lesson_statistics.html:91
+msgid "Language:"
+msgstr "Hizkuntza:"
+
+#: yaksh/forms.py:93 yaksh/forms.py:486
+#: yaksh/templates/yaksh/addteacher.html:43
+msgid "Last Name"
+msgstr "Abizena"
+
+#: yaksh/templates/yaksh/view_profile.html:15
+msgid "Last name:"
+msgstr "Abizena:"
+
+#: yaksh/templates/yaksh/course_forum.html:111
+#: yaksh/templates/yaksh/lessons_forum.html:58
+msgid "Last reply"
+msgstr "Azken erantzuna"
+
+#: yaksh/templates/yaksh/question.html:183
+msgid "Last submitted answer is considered for evaluation"
+msgstr "Aurkeztutako azken erantzuna ebaluatzeko kontuan hartzen da"
+
+#: yaksh/templates/yaksh/course_forum.html:121
+#: yaksh/templates/yaksh/lessons_forum.html:68
+msgid "Last updated:"
+msgstr "Azken eguneratzea:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:203
+msgid "Latest Submission"
+msgstr "Azken bidalketa"
+
+#: yaksh/templates/yaksh/modules.html:79
+msgid "Learning Module(s) Available"
+msgstr "Ikasteko modulua (k) eskuragarri"
+
+#: yaksh/templates/yaksh/modules.html:84
+msgid "Learning Modules"
+msgstr "Ikaskuntza moduluak"
+
+#: yaksh/templates/yaksh/course_added_modules.html:102
+#: yaksh/templates/yaksh/lessons.html:83
+msgid "Lesson"
+msgstr "Ikasgaia"
+
+#: yaksh/templates/yaksh/show_video.html:205
+msgid "Lesson Description"
+msgstr "Ikasgaiaren deskribapena"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:93
+msgid "Lesson Files (Click on lesson file to download)"
+msgstr "Ikasgaiaren fitxategiak (Egin klik ikasgaiaren fitxategian deskargatzeko)"
+
+#: yaksh/templates/yaksh/add_lesson.html:108
+msgid "Lesson Files:"
+msgstr "Ikasgaiaren fitxategiak:"
+
+#: yaksh/forms.py:540
+msgid "Lesson Name"
+msgstr "Ikasgaiaren izena"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:6
+msgid "Lesson Quiz Stats"
+msgstr "Ikasgaiaren galderaren estatistikak"
+
+#: yaksh/templates/yaksh/lessons.html:78
+msgid "Lesson(s) Available"
+msgstr "Ikasgaia (k) eskuragarri"
+
+#: yaksh/templates/yaksh/download_course_templates/module.html:39
+msgid "Lessons (Click on lesson name to open lesson)"
+msgstr "Ikasgaiak (Egin klik ikasgaiaren izenean ikasgaia irekitzeko)"
+
+#: yaksh/templates/yaksh/lessons_forum.html:6
+#: yaksh/templates/yaksh/sidebar.html:13
+msgid "Lessons Forum"
+msgstr "Ikasgaien Foroa"
+
+#: yaksh/templates/yaksh/design_course_session.html:27
+#: yaksh/templates/yaksh/modules.html:86
+msgid "Lessons/Quizzes"
+msgstr "Ikasgaiak / Galdetegiak"
+
+#: forms.py:72
+msgid "Letters, digits, period and underscores only."
+msgstr "Letrak, digituak, puntuak eta azpimarrak soilik."
+
+#: yaksh/templates/yaksh/error_template.html:70
+#: yaksh/templates/yaksh/grade_user.html:491
+#: yaksh/templates/yaksh/user_data.html:231
+#: yaksh/templates/yaksh/view_answerpaper.html:252
+msgid "Line No."
+msgstr "Linea zk."
+
+#: yaksh/templates/yaksh/showquestionpapers.html:6
+msgid "List of Question Papers"
+msgstr "Galdera-agirien zerrenda"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:13
+msgid ""
+"List of quizzes! Click on the given links to have a look at answer papers "
+"for a quiz"
+msgstr "Galdetegien zerrenda! Egin klik emandako esteketan galdetegi baterako erantzun paperak ikusteko"
+
+#: yaksh/templates/base.html:96 yaksh/templates/base.html:99
+#: yaksh/templates/base.html:102 yaksh/templates/base.html:105
+msgid "Loading..."
+msgstr "Kargatzen ..."
+
+#: yaksh/templates/registration/password_reset_complete.html:21
+msgid "Log in"
+msgstr "Saioa hasi"
+
+#: yaksh/templates/yaksh/login.html:6
+msgid "Login"
+msgstr "Saioa hasi"
+
+#: yaksh/templates/manage.html:78
+#: yaksh/templates/registration/password_change_form.html:33
+#: yaksh/templates/user.html:64
+#: yaksh/templates/yaksh/activation_status.html:27
+msgid "Logout"
+msgstr "Saioa amaitu"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:69
+msgid "Manage Course"
+msgstr "Kudeatu ikastaroa"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Manual mode to design the"
+msgstr "Eskuzko modua"
+
+#: yaksh/templates/yaksh/view_notifications.html:23
+msgid "Mark all as read"
+msgstr "Markatu irakurritako guztiak"
+
+#: yaksh/templates/yaksh/grade_user.html:354
+#: yaksh/templates/yaksh/preview_questionpaper.html:34
+#: yaksh/templates/yaksh/view_answerpaper.html:103
+msgid "Mark(s):"
+msgstr "Markak):"
+
+#: yaksh/forms.py:702 yaksh/forms.py:757
+msgid "Marker time should be in the format hh:mm:ss"
+msgstr "Markatzailearen denbora hh: mm: ss formatuan egon behar da"
+
+#: yaksh/templates/yaksh/grade_user.html:161
+#: yaksh/templates/yaksh/monitor.html:165
+#: yaksh/templates/yaksh/showquestions.html:166
+msgid "Marks"
+msgstr "Markak"
+
+#: yaksh/templates/yaksh/grade_user.html:320
+#: yaksh/templates/yaksh/user_data.html:75
+#: yaksh/templates/yaksh/view_answerpaper.html:80
+msgid "Marks Obtained"
+msgstr "Lortutako markak"
+
+#: yaksh/templates/yaksh/grade_user.html:273
+#: yaksh/templates/yaksh/user_data.html:56
+#: yaksh/templates/yaksh/view_answerpaper.html:61
+msgid "Marks obtained:"
+msgstr "Lortutako markak:"
+
+#: yaksh/views.py:4086
+msgid "Marks Uploaded!"
+msgstr "Markak kargatuta!"
+
+#: yaksh/templates/yaksh/grade_user.html:579
+#: yaksh/templates/yaksh/question.html:179
+#: yaksh/templates/yaksh/show_lesson_statistics.html:116
+#: yaksh/templates/yaksh/user_data.html:316
+msgid "Marks:"
+msgstr "Markak:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:13
+msgid "Maximum Mark(s):"
+msgstr "Gehienezko marka (k):"
+
+#: yaksh/templates/yaksh/results_user.html:13
+msgid "Maximum Marks"
+msgstr "Gehienezko marka"
+
+#: forms.py:32
+msgid "MCQ Testcase"
+msgstr "MCQ Testcase"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "minutes"
+msgstr "minutu"
+
+#: yaksh/forms.py:612
+msgid "Module Description"
+msgstr "Moduluaren deskribapena"
+
+#: yaksh/forms.py:609
+msgid "Module Name"
+msgstr "Moduluaren izena"
+
+#: yaksh/templates/yaksh/design_course_session.html:26
+msgid "Modules"
+msgstr "Moduluak"
+
+#: yaksh/templates/yaksh/grade_user.html:77
+#: yaksh/templates/yaksh/monitor.html:6 yaksh/templates/yaksh/monitor.html:7
+msgid "Monitor"
+msgstr "Monitorea"
+
+#: yaksh/templates/yaksh/courses.html:132
+#: yaksh/templates/yaksh/lessons.html:22 yaksh/templates/yaksh/modules.html:23
+#: yaksh/templates/yaksh/quizzes.html:23
+msgid "More"
+msgstr "Gehiago"
+
+#: yaksh/templates/yaksh/add_question.html:89
+msgid "More info"
+msgstr "Informazio gehiago"
+
+#: yaksh/templates/yaksh/add_lesson.html:205
+msgid "Multiple Correct Choices"
+msgstr "Aukera zuzenak anitz"
+
+#: yaksh/templates/yaksh/add_course.html:24
+#: yaksh/templates/yaksh/courses.html:20 yaksh/templates/yaksh/lessons.html:13
+#: yaksh/templates/yaksh/modules.html:14 yaksh/templates/yaksh/quizzes.html:14
+msgid "My Courses"
+msgstr "Nire Ikastaroak"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:6
+#: yaksh/templates/yaksh/moderator_dashboard.html:7
+msgid "My Dashboard"
+msgstr "Nire arbela"
+
+#: yaksh/templates/yaksh/lessons.html:5
+msgid "My Lessons"
+msgstr "Nire ikasgaiak"
+
+#: yaksh/templates/manage.html:64
+#: yaksh/templates/registration/password_change_form.html:25
+#: yaksh/templates/user.html:50 yaksh/templates/yaksh/editprofile.html:5
+msgid "My Profile"
+msgstr "Nire profila"
+
+#: yaksh/templates/yaksh/quizzes.html:6
+msgid "My Quizzes"
+msgstr "Nire galdetegiak"
+
+#: yaksh/forms.py:681 yaksh/templates/yaksh/addteacher.html:87
+#: yaksh/templates/yaksh/course_progress.html:34
+#: yaksh/templates/yaksh/course_teachers.html:20
+#: yaksh/templates/yaksh/monitor.html:163
+msgid "Name"
+msgstr "Izena"
+
+#: yaksh/templates/yaksh/grade_user.html:218
+msgid "Name:"
+msgstr "Izena:"
+
+#: yaksh/templates/yaksh/course_forum.html:29
+msgid "New Post"
+msgstr "Mezu berria"
+
+#: yaksh/templates/yaksh/complete.html:64
+#: yaksh/templates/yaksh/complete.html:69
+#: yaksh/templates/yaksh/design_questionpaper.html:182
+#: yaksh/templates/yaksh/design_questionpaper.html:268
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:84
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:88
+#: yaksh/templates/yaksh/download_course_templates/unit.html:116
+#: yaksh/templates/yaksh/download_course_templates/unit.html:120
+#: yaksh/templates/yaksh/question.html:361
+#: yaksh/templates/yaksh/question.html:363
+#: yaksh/templates/yaksh/show_video.html:135
+#: yaksh/templates/yaksh/show_video.html:235
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: yaksh/templates/yaksh/add_module.html:197
+#: yaksh/templates/yaksh/design_course_session.html:106
+#: yaksh/templates/yaksh/design_course_session.html:116
+#: yaksh/templates/yaksh/quit.html:56 yaksh/templates/yaksh/quit.html:58
+msgid "No"
+msgstr "Ez"
+
+#: yaksh/views.py:1413
+msgid "No AnswerPapers found"
+msgstr "Ez da erantzunik aurkitu paperak"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:105
+#: yaksh/templates/yaksh/showquestions.html:110
+msgid "No Available Tags"
+msgstr "Etiketa erabilgarririk ez"
+
+#: yaksh/templates/yaksh/course_progress.html:83
+msgid "No course data found"
+msgstr "Ez da ikastaroaren daturik aurkitu"
+
+#: yaksh/templates/yaksh/courses.html:41
+msgid "No Courses Found"
+msgstr "Ez da ikastaroik aurkitu"
+
+#: yaksh/templates/yaksh/grade_user.html:107
+msgid "No courses found to grade"
+msgstr "Ez da kalifikaziorik aurkitu"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:40
+msgid "No Courses found. Add a new course or Create demo course"
+msgstr "Ez da ikastaroik aurkitu. Gehitu ikastaro berria edo Sortu demo ikastaroa"
+
+#: yaksh/templates/yaksh/quizzes_user.html:54
+msgid "No Courses to display"
+msgstr "Ez dago ikastaroak erakusteko"
+
+#: yaksh/templates/yaksh/course_forum.html:154
+msgid "No discussion posts are there yet. Create one to start discussing."
+msgstr "Ez dago eztabaida mezurik oraindik. Sortu bat eztabaidatzen hasteko."
+
+#: yaksh/templates/yaksh/course_send_mail.html:66
+#: yaksh/templates/yaksh/course_students.html:189
+msgid "No enrolled students yet"
+msgstr "Oraindik ez dago matrikulatutako ikaslerik"
+
+#: yaksh/templates/yaksh/quizzes_user.html:99
+msgid "No Enrollments allowed"
+msgstr "Ez da matrikula onartzen"
+
+#: yaksh/templates/yaksh/add_lesson.html:137
+msgid "No Files added to this lesson"
+msgstr "Ez da fitxategirik gehitu ikasgai honetan"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:105
+msgid "No files for"
+msgstr "Ez dago fitxategirik"
+
+#: yaksh/templates/yaksh/course_added_modules.html:161
+msgid "No learning modules"
+msgstr "Ikasteko modulurik ez"
+
+#: yaksh/templates/yaksh/modules.html:51
+msgid "No learning modules found"
+msgstr "Ez da ikasteko modulurik aurkitu"
+
+#: yaksh/templates/yaksh/modules.html:132
+msgid "No Learning units"
+msgstr "Ikasteko unitateak ez"
+
+#: yaksh/templates/yaksh/course_modules.html:60
+msgid "No lectures found"
+msgstr "Ez da hitzaldirik aurkitu"
+
+#: yaksh/templates/yaksh/lessons_forum.html:100
+msgid ""
+"No Lesson posts here. They will appear when someone comments on video "
+"lessons."
+msgstr "Hemen ez dago ikasgairik. Norbaitek bideo ikasgaiak iruzkintzen dituenean agertuko dira."
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:227
+msgid "No lesson quizzes found"
+msgstr "Ez da ikasgai galdetegirik aurkitu"
+
+#: yaksh/templates/yaksh/course_added_modules.html:150
+msgid "No lesson/quiz added"
+msgstr "Ez da ikasgairik / galdetegirik gehitu"
+
+#: yaksh/templates/yaksh/lessons.html:50
+msgid "No lessons found"
+msgstr "Ez da ikasgairik aurkitu"
+
+#: yaksh/templates/yaksh/show_video.html:126
+msgid "No Module information"
+msgstr "Moduluaren informaziorik ez"
+
+#: yaksh/templates/yaksh/view_notifications.html:60
+msgid "No Notifications Found"
+msgstr "Ez da jakinarazpenik aurkitu"
+
+#: yaksh/templates/yaksh/quizzes.html:135
+msgid "No Question Paper"
+msgstr "Galdera Paperik ez"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:24
+msgid "No Question Papers available"
+msgstr "Ez dago Galderarik"
+
+#: yaksh/templates/yaksh/showquestions.html:208
+msgid "No Questions found"
+msgstr "Ez da galderarik aurkitu"
+
+#: yaksh/templates/yaksh/monitor.html:265
+msgid "No Quiz Found"
+msgstr "Ez da galdeketarik aurkitu"
+
+#: yaksh/templates/yaksh/grade_user.html:92
+#: yaksh/templates/yaksh/moderator_dashboard.html:108
+msgid "No Quizzes"
+msgstr "Galdetegirik ez"
+
+#: yaksh/templates/yaksh/quizzes.html:54
+msgid "No quizzes found"
+msgstr "Ez da galdetegirik aurkitu"
+
+#: yaksh/templates/yaksh/course_students.html:262
+msgid "No rejected students yet"
+msgstr "Ikasle baztertuak oraindik ez"
+
+#: yaksh/templates/yaksh/course_students.html:119
+msgid "No requests yet"
+msgstr "Ez dago eskaerarik oraindik"
+
+#: yaksh/templates/yaksh/addteacher.html:20
+msgid "No results found"
+msgstr "Ez da emaitzarik aurkitu"
+
+#: yaksh/templates/yaksh/user_data.html:331
+#: yaksh/templates/yaksh/view_answerpaper.html:353
+msgid "No submissions found"
+msgstr "Ez da bidalketarik aurkitu"
+
+#: yaksh/templates/yaksh/show_toc.html:58
+#: yaksh/templates/yaksh/show_video.html:188
+msgid "No Table of contents added"
+msgstr "Ez da aurkibiderik gehitu"
+
+#: yaksh/templates/yaksh/course_teachers.html:44
+msgid "No Teacher(s) added"
+msgstr "Ez da irakaslerik gehitu"
+
+#: yaksh/templates/yaksh/addteacher.html:97
+msgid "No Teacher(s)TA(s) Added"
+msgstr "Ez da irakaslerik gehitu TA"
+
+#: yaksh/templates/yaksh/grade_user.html:132
+#: yaksh/templates/yaksh/monitor.html:259
+msgid "No Users Found for"
+msgstr "Ez da erabiltzailerik aurkitu"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:90
+msgid "No. of users Failed"
+msgstr "Erabiltzaile kopurua huts egin du"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:89
+msgid "No. of users Passed"
+msgstr "Erabiltzaile kopurua gaindituta"
+
+#: yaksh/templates/yaksh/course_forum.html:136
+#: yaksh/templates/yaksh/lessons_forum.html:83
+msgid "None"
+msgstr "Bat ere ez"
+
+#: yaksh/templates/yaksh/complete.html:45 yaksh/templates/yaksh/quit.html:35
+msgid "Not Attempted"
+msgstr "Ez Saiatu"
+
+#: yaksh/templates/yaksh/monitor.html:121
+msgid "Note: Do not change the CSV Headers"
+msgstr "Oharra: Ez aldatu CSV goiburuak"
+
+#: yaksh/templates/yaksh/complete.html:21
+msgid ""
+"Note:- Please Click on the Next button to submit the quiz. Please do not "
+"close the browser without clicking Next."
+msgstr "Oharra: - Mesedez, egin klik Hurrengo botoian galdetegia bidaltzeko. Mesedez, ez itxi arakatzailea Hurrengoa sakatu gabe."
+
+#: yaksh/templates/manage.html:51 yaksh/templates/user.html:37
+#: yaksh/templates/yaksh/view_notifications.html:4
+#: yaksh/templates/yaksh/view_notifications.html:5
+msgid "Notifications"
+msgstr "Jakinarazpenak"
+
+#: yaksh/templates/yaksh/monitor.html:71
+msgid "Number of papers:"
+msgstr "Paper kopurua:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:194
+msgid "Number of questions to be picked from the pool"
+msgstr "Igerilekuan jaso beharreko galdera kopurua"
+
+#: yaksh/templates/yaksh/course_progress.html:12
+msgid "Number Of Students:"
+msgstr "Ikasle kopurua:"
+
+#: yaksh/templates/yaksh/results_user.html:12
+msgid "Obtained Marks"
+msgstr "Lortutako markak"
+
+#: yaksh/templates/yaksh/question.html:397
+#: yaksh/templates/yaksh/question.html:414
+msgid "OK"
+msgstr "ADOS"
+
+#: yaksh/templates/yaksh/showquestions.html:34
+msgid "One can also upload zip with the following zip structure -"
+msgstr "Zip ere igo daiteke zip egitura honekin -"
+
+#: yaksh/forms.py:137
+msgid ""
+"Only letters, digits and punctuation                                        "
+"are allowed in password"
+msgstr "Pasahitzan letrak, digituak eta puntuazioa soilik onartzen dira"
+
+#: yaksh/forms.py:125
+msgid ""
+"Only letters, digits, period and underscore characters are allowed in "
+"username"
+msgstr "Letrak, digituak, puntuak eta azpimarra karaktereak soilik onartzen dira erabiltzaile izenean"
+
+#: yaksh/forms.py:588
+msgid "Only one type of video path is allowed"
+msgstr "Bideo bide mota bakarra onartzen da"
+
+#: models.py:86
+msgid "Open Enrollment"
+msgstr "Matrikula irekia"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:82
+#: yaksh/templates/yaksh/showquestions.html:54
+msgid "Or"
+msgstr "Edo"
+
+#: yaksh/templates/yaksh/login.html:41
+msgid "Or Sign in with credentials"
+msgstr "Edo Saioa hasi kredentzialekin"
+
+#: yaksh/templates/yaksh/add_module.html:162
+#: yaksh/templates/yaksh/design_course_session.html:69
+msgid "Order"
+msgstr "Agindua"
+
+#: yaksh/forms.py:522
+msgid "Others"
+msgstr "Beste batzuk"
+
+#: yaksh/templates/yaksh/monitor.html:189
+msgid "out of"
+msgstr "kanpo"
+
+#: yaksh/templates/yaksh/monitor.html:75
+msgid "Papers Completed:"
+msgstr "Lanak beteta:"
+
+#: yaksh/templates/yaksh/monitor.html:81
+msgid "Papers in progress:"
+msgstr "Lanak egiten:"
+
+#: yaksh/templates/yaksh/grade_user.html:267
+#: yaksh/templates/yaksh/user_data.html:50
+#: yaksh/templates/yaksh/view_answerpaper.html:55
+msgid "Passed"
+msgstr "Gaindituta"
+
+#: yaksh/forms.py:196
+msgid "Password"
+msgstr "Pasahitza"
+
+#: yaksh/templates/registration/password_reset_done.html:18
+msgid "Password reset successful"
+msgstr "Pasahitza berrezarri da"
+
+#: yaksh/forms.py:145
+msgid "Passwords do not match"
+msgstr "Pasahitzak ez datoz bat"
+
+#: yaksh/templates/yaksh/user_status.html:29
+msgid "Per Module Progress:"
+msgstr "Moduluaren aurrerapen bakoitzeko:"
+
+#: yaksh/templates/yaksh/results_user.html:14
+msgid "Percentage"
+msgstr "Ehunekoa"
+
+#: yaksh/templates/yaksh/grade_user.html:277
+#: yaksh/templates/yaksh/user_data.html:58
+#: yaksh/templates/yaksh/view_answerpaper.html:63
+msgid "Percentage obtained:"
+msgstr "Lortutako ehunekoa:"
+
+#: yaksh/templates/404.html:18
+msgid "Please contact your administrator"
+msgstr "Mesedez, jarri harremanetan administratzailearekin"
+
+#: yaksh/templates/registration/password_reset_confirm.html:32
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly"
+msgstr "Mesedez, sartu pasahitz berria bi aldiz, ondo idatzi duzula egiaztatu ahal izateko"
+
+#: yaksh/templates/yaksh/register.html:24
+msgid "Please fill in the following details:"
+msgstr "Mesedez, bete datu hauek:"
+
+#: yaksh/views.py:1536
+msgid "Please select atleast one question"
+msgstr "Mesedez, hautatu galdera bat gutxienez"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:70
+msgid "Please select Question type and Marks"
+msgstr "Mesedez, hautatu Galdera mota eta Markak"
+
+#: yaksh/forms.py:730
+msgid "Points"
+msgstr "Puntuak"
+
+#: yaksh/templates/yaksh/show_lesson_quiz.html:53
+#: yaksh/templates/yaksh/statistics_question.html:65
+msgid "Points:"
+msgstr "Puntuak:"
+
+#: yaksh/templates/yaksh/add_lesson.html:196
+msgid "Poll"
+msgstr "Inkesta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:230
+msgid "Pool of  questions currently in paper:"
+msgstr "Gaur egun paperean dauden galdera multzoa:"
+
+#: yaksh/forms.py:114 yaksh/forms.py:498
+#: yaksh/templates/yaksh/addteacher.html:47
+msgid "Position"
+msgstr "Posizioa"
+
+#: yaksh/templates/yaksh/grade_user.html:224
+#: yaksh/templates/yaksh/view_profile.html:35
+msgid "Position:"
+msgstr "Kargua:"
+
+#: yaksh/templates/yaksh/course_forum.html:108
+#: yaksh/templates/yaksh/lessons_forum.html:55
+msgid "Posts"
+msgstr "Mezuak"
+
+#: yaksh/templates/yaksh/quizzes.html:128
+msgid "Preview"
+msgstr "Aurrebista"
+
+#: yaksh/templates/yaksh/add_exercise.html:53
+#: yaksh/templates/yaksh/add_quiz.html:64
+msgid "Preview Question Paper"
+msgstr "Aurreikusi galdera-papera"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:265
+#: yaksh/templates/yaksh/design_questionpaper.html:286
+msgid "Previous"
+msgstr "Aurrekoa"
+
+#: yaksh/templates/yaksh/profile_updated.html:5
+#: yaksh/templates/yaksh/view_profile.html:5
+msgid "Profile"
+msgstr "Profila"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+msgid "PROGRAMMING"
+msgstr "PROGRAMAZIOA"
+
+#: yaksh/templates/yaksh/complete.html:32 yaksh/templates/yaksh/quit.html:23
+#: yaksh/templates/yaksh/statistics_question.html:38
+msgid "Question"
+msgstr "Galdera"
+
+#: yaksh/templates/exam.html:50
+msgid "Question Navigator"
+msgstr "Galdera Nabigatzailea"
+
+#: yaksh/templates/exam.html:97
+msgid "Question No."
+msgstr "Galdera zk."
+
+#: yaksh/templates/yaksh/course_added_modules.html:81
+#: yaksh/templates/yaksh/course_added_modules.html:86
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Question Paper"
+msgstr "Galdera-papera"
+
+#: yaksh/templates/yaksh/quizzes.html:124
+msgid "Question Paper for"
+msgstr "Galdera-orria"
+
+#: yaksh/templates/yaksh/monitor.html:104
+#: yaksh/templates/yaksh/statistics_question.html:7
+msgid "Question Statistics"
+msgstr "Galdera Estatistikak"
+
+#: yaksh/forms.py:727
+msgid "Question topic name"
+msgstr "Galderaren gaiaren izena"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s)"
+msgstr "galdera (k)"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s) from"
+msgstr "galdera (k) tik"
+
+#: yaksh/templates/exam.html:89
+msgid "Question(s) left:"
+msgstr "Galdera (k) geratzen da:"
+
+#: yaksh/templates/yaksh/grade_user.html:360
+#: yaksh/templates/yaksh/preview_questionpaper.html:38
+#: yaksh/templates/yaksh/view_answerpaper.html:108
+msgid "Question:"
+msgstr "Galdera:"
+
+#: yaksh/templates/yaksh/quizzes.html:88
+msgid "QuestionPaper"
+msgstr "GalderaPaper"
+
+#: yaksh/templates/manage.html:19 yaksh/templates/yaksh/grade_user.html:159
+#: yaksh/templates/yaksh/grade_user.html:318
+#: yaksh/templates/yaksh/showquestions.html:6
+#: yaksh/templates/yaksh/showquestions.html:8
+#: yaksh/templates/yaksh/user_data.html:73
+#: yaksh/templates/yaksh/view_answerpaper.html:78
+msgid "Questions"
+msgstr "Galderak"
+
+#: yaksh/templates/yaksh/monitor.html:166
+msgid "Questions Attempted"
+msgstr "Saiatutako galderak"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:6
+msgid "Questions in"
+msgstr "Galderak hemen"
+
+#: yaksh/templates/exam.html:27
+msgid "Quit"
+msgstr "Utzi"
+
+#: yaksh/templates/yaksh/course_added_modules.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:87
+msgid "Quiz"
+msgstr "Galdetegia"
+
+#: yaksh/templates/yaksh/results_user.html:11
+msgid "Quiz Description"
+msgstr "Galdetegiaren deskribapena"
+
+#: yaksh/templates/yaksh/monitor.html:67
+msgid "Quiz Name:"
+msgstr "Galdetegiaren izena:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:136
+msgid "Quiz Submissions"
+msgstr "Galdeketen bidalketak"
+
+#: yaksh/templates/yaksh/add_exercise.html:75
+#: yaksh/templates/yaksh/add_quiz.html:86
+msgid "Quiz Test Modes"
+msgstr "Galdetegi proba moduak"
+
+#: yaksh/forms.py:741
+msgid "Quiz Time"
+msgstr "Galdetegiaren ordua"
+
+#: yaksh/templates/yaksh/add_exercise.html:84
+#: yaksh/templates/yaksh/add_quiz.html:94
+msgid "Quiz will have the same duration as that of the original quiz."
+msgstr "Galdetegiak jatorrizko galdetegiaren iraupen bera izango du."
+
+#: yaksh/templates/yaksh/add_exercise.html:85
+msgid "Quiz won"
+msgstr "Galdetegiak irabazi zuen"
+
+#: yaksh/templates/yaksh/add_quiz.html:95
+msgid "Quiz won\\"
+msgstr "Galdetegia irabazi du \\"
+
+#: yaksh/templates/yaksh/quizzes.html:82
+msgid "Quiz(zes) Available"
+msgstr "Galdetegia (zes) eskuragarri"
+
+#: yaksh/templates/yaksh/quizzes.html:87
+msgid "Quiz/Exercise"
+msgstr "Quiz/Exercise"
+
+#: yaksh/templates/yaksh/grade_user.html:246
+#: yaksh/templates/yaksh/preview_questionpaper.html:6
+#: yaksh/templates/yaksh/user_data.html:27
+#: yaksh/templates/yaksh/view_answerpaper.html:33
+msgid "Quiz:"
+msgstr "Galdetegia:"
+
+#: yaksh/templates/manage.html:29 yaksh/templates/yaksh/grade_user.html:8
+#: yaksh/templates/yaksh/grade_user.html:10
+msgid "Quizzes"
+msgstr "Galdetegiak"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:20
+msgid "Random Questions"
+msgstr "Ausazko galderak"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "Random Set"
+msgstr "Ausazko multzoa"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "randomly out of"
+msgstr "ausaz kanpo"
+
+#: yaksh/templates/registration/password_change_done.html:30
+msgid "Redirecting ..."
+msgstr "Birbideratzen ..."
+
+#: yaksh/templates/yaksh/profile_updated.html:27
+msgid "Redirecting..."
+msgstr "Birbideratzen ..."
+
+#: yaksh/templates/yaksh/register.html:6
+#: yaksh/templates/yaksh/register.html:55
+msgid "Register"
+msgstr "Izena eman"
+
+#: yaksh/templates/yaksh/register.html:7
+msgid "Registration"
+msgstr "Izena ematea"
+
+#: yaksh/templates/yaksh/grade_user.html:162
+#: yaksh/templates/yaksh/grade_user.html:173
+#: yaksh/templates/yaksh/grade_user.html:321
+#: yaksh/templates/yaksh/grade_user.html:336
+#: yaksh/templates/yaksh/grade_user.html:611
+msgid "Regrade"
+msgstr "Goretsi"
+
+#: yaksh/templates/yaksh/grade_user.html:150
+msgid "Regrade papers by questions"
+msgstr "Paperak galderen bidez aldatzea"
+
+#: yaksh/templates/yaksh/grade_user.html:308
+msgid "Regrade Whole Paper"
+msgstr "Paper osoaren erregistroa"
+
+#: yaksh/templates/yaksh/course_students.html:100
+msgid "Reject "
+msgstr "Baztertu "
+
+#: yaksh/templates/yaksh/course_students.html:110
+#: yaksh/templates/yaksh/course_students.html:183
+msgid "Reject selected"
+msgstr "Baztertu hautatutakoa"
+
+#: yaksh/templates/yaksh/course_students.html:200
+msgid "Rejected Students"
+msgstr "Baztertutako Ikasleak"
+
+#: yaksh/templates/yaksh/course_students.html:32
+msgid "remove"
+msgstr "kendu"
+
+#: yaksh/templates/yaksh/design_course_session.html:130
+msgid "Remove from course"
+msgstr "Kendu ikastarotik"
+
+#: yaksh/templates/yaksh/add_module.html:211
+msgid "Remove from Module"
+msgstr "Kendu modulutik"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:176
+#: yaksh/templates/yaksh/design_questionpaper.html:259
+msgid "Remove from paper"
+msgstr "Kendu paperetik"
+
+#: yaksh/templates/yaksh/course_teachers.html:40
+msgid "Remove Teachers"
+msgstr "Kendu irakasleak"
+
+#: yaksh/templates/yaksh/course_forum.html:110
+#: yaksh/templates/yaksh/lessons_forum.html:57
+msgid "Replies"
+msgstr "Erantzunak"
+
+#: yaksh/templates/registration/password_reset_form.html:33
+msgid "Request"
+msgstr "Eskaera"
+
+#: yaksh/templates/yaksh/quizzes_user.html:73
+msgid "Request Pending"
+msgstr "Eskaera zain"
+
+#: yaksh/templates/yaksh/quizzes_user.html:77
+msgid "Request Rejected"
+msgstr "Eskaera baztertua"
+
+#: yaksh/templates/yaksh/course_students.html:52
+msgid "Requested Students"
+msgstr "Eskatutako Ikasleak"
+
+#: yaksh/templates/registration/password_reset_confirm.html:29
+msgid "Reset Password"
+msgstr "Pasahitza berrezarri"
+
+#: yaksh/templates/yaksh/results_user.html:5
+msgid "Results"
+msgstr "Emaitzak"
+
+#: yaksh/templates/yaksh/micromonitor.html:5
+msgid "Revoke"
+msgstr "Ezeztatu"
+
+#: yaksh/templates/yaksh/monitor.html:164
+#: yaksh/templates/yaksh/show_lesson_statistics.html:201
+msgid "Roll No"
+msgstr "Erroilua Ez"
+
+#: yaksh/templates/yaksh/course_progress.html:33
+msgid "Roll No."
+msgstr "Erroilua"
+
+#: yaksh/forms.py:98 yaksh/forms.py:495
+#: yaksh/templates/yaksh/course_send_mail.html:37
+#: yaksh/templates/yaksh/course_students.html:74
+#: yaksh/templates/yaksh/course_students.html:151
+#: yaksh/templates/yaksh/course_students.html:222
+msgid "Roll Number"
+msgstr "Roll zenbakia"
+
+#: yaksh/templates/yaksh/grade_user.html:223
+#: yaksh/templates/yaksh/view_profile.html:31
+msgid "Roll number:"
+msgstr "Erregistro zenbakia:"
+
+#: yaksh/templates/yaksh/add_course.html:57
+#: yaksh/templates/yaksh/add_exercise.html:41
+#: yaksh/templates/yaksh/add_lesson.html:144
+#: yaksh/templates/yaksh/add_module.html:90
+#: yaksh/templates/yaksh/add_question.html:170
+#: yaksh/templates/yaksh/add_topic.html:12
+#: yaksh/templates/yaksh/add_video_quiz.html:44
+#: yaksh/templates/yaksh/grade_user.html:591
+msgid "Save"
+msgstr "Gorde"
+
+#: yaksh/templates/yaksh/grade_user.html:260
+#: yaksh/templates/yaksh/user_data.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:50
+msgid "Scorecard"
+msgstr "Puntuazio txartela"
+
+#: yaksh/templates/yaksh/addteacher.html:11
+#: yaksh/templates/yaksh/course_forum.html:84
+#: yaksh/templates/yaksh/courses.html:59
+#: yaksh/templates/yaksh/design_questionpaper.html:92
+#: yaksh/templates/yaksh/lessons.html:70 yaksh/templates/yaksh/modules.html:71
+#: yaksh/templates/yaksh/quizzes.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:25
+msgid "Search"
+msgstr "Bilatu"
+
+#: yaksh/forms.py:392
+msgid "Search by course name"
+msgstr "Bilatu ikastaroaren izenaren arabera"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:85
+msgid "Search Questions:"
+msgstr "Bilatu galderak:"
+
+#: yaksh/templates/yaksh/addteacher.html:22 yaksh/views.py:191
+msgid "Search Results"
+msgstr "Bilaketaren emaitzak"
+
+#: yaksh/templates/yaksh/addteacher.html:25
+msgid "Search results does not include teachers already added"
+msgstr "Bilaketaren emaitzetan ez dira dagoeneko gehitutako irakasleak sartzen"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:84
+#: yaksh/templates/yaksh/showquestions.html:100
+msgid "Search using Tags:"
+msgstr "Bilatu etiketak erabiliz:"
+
+#: yaksh/templates/yaksh/courses.html:49
+msgid "Search/Filter Courses"
+msgstr "Bilatu / Iragazi ikastaroak"
+
+#: yaksh/templates/yaksh/modules.html:59
+msgid "Search/Filter Learning Modules"
+msgstr "Bilatu / Iragazi Ikasketa moduluak"
+
+#: yaksh/templates/yaksh/lessons.html:58
+msgid "Search/Filter Lessons"
+msgstr "Bilatu / Iragazi ikasgaiak"
+
+#: yaksh/templates/yaksh/quizzes.html:62
+msgid "Search/Filter Quizzes"
+msgstr "Bilatu / Iragazi galdetegiak"
+
+#: yaksh/templates/yaksh/add_module.html:160
+#: yaksh/templates/yaksh/course_teachers.html:19
+#: yaksh/templates/yaksh/design_course_session.html:25
+#: yaksh/templates/yaksh/design_course_session.html:67
+#: yaksh/templates/yaksh/monitor.html:143
+#: yaksh/templates/yaksh/showquestions.html:161
+msgid "Select"
+msgstr "Aukeratu"
+
+#: yaksh/templates/yaksh/course_send_mail.html:24
+#: yaksh/templates/yaksh/course_students.html:59
+#: yaksh/templates/yaksh/course_students.html:136
+#: yaksh/templates/yaksh/course_students.html:207
+msgid "Select all"
+msgstr "Hautatu guztiak"
+
+#: yaksh/templates/yaksh/grade_user.html:286
+msgid "Select attempt number"
+msgstr "Aukeratu saiakera zenbakia"
+
+#: yaksh/templates/yaksh/monitor.html:139
+msgid "Select Attempt number:"
+msgstr "Aukeratu Saiakera zenbakia:"
+
+#: yaksh/templates/yaksh/monitor.html:232
+msgid "Select Attempt Number: Default latest attempt"
+msgstr "Aukeratu Saiakera zenbakia: azken saiakera lehenetsia"
+
+#: forms.py:25
+msgid "Select Language"
+msgstr "Aukeratu hizkuntza"
+
+#: yaksh/templates/yaksh/add_lesson.html:192
+msgid "Select Marker"
+msgstr "Aukeratu Markatzailea"
+
+#: yaksh/forms.py:350 yaksh/forms.py:376
+msgid "Select Marks"
+msgstr "Aukeratu Markak"
+
+#: yaksh/templates/yaksh/add_lesson.html:201
+msgid "Select question type"
+msgstr "Aukeratu galdera mota"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:190
+msgid "Select questions to add to the pool:"
+msgstr "Aukeratu igerilekuan gehitzeko galderak:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:116
+msgid "Select questions to add:"
+msgstr "Aukeratu gehitzeko galderak:"
+
+#: forms.py:40
+msgid "Select Status"
+msgstr "Aukeratu Egoera"
+
+#: yaksh/templates/yaksh/grade_user.html:118
+msgid "Select student"
+msgstr "Aukeratu ikaslea"
+
+#: yaksh/templates/yaksh/add_question.html:124
+msgid "Select Testcase"
+msgstr "Aukeratu Testcase"
+
+#: yaksh/forms.py:521
+msgid "Select Video Option"
+msgstr "Aukeratu Bideo aukera"
+
+#: yaksh/templates/yaksh/activation_status.html:57
+msgid "Send Email"
+msgstr "Bidali posta elektronikoa"
+
+#: yaksh/templates/yaksh/course_detail_options.html:63
+#: yaksh/templates/yaksh/course_send_mail.html:60
+msgid "Send Mail"
+msgstr "Bidali posta"
+
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Show"
+msgstr "Ikuskizuna"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:281
+msgid "Shuffle MCQ/MCC options for each student"
+msgstr "Nahastu MCQ / MCC aukerak ikasle bakoitzarentzat"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:277
+msgid "Shuffle questions\\"
+msgstr "Nahastu galderak \\"
+
+#: yaksh/templates/yaksh/login.html:82
+msgid "Sign in"
+msgstr "Hasi saioa"
+
+#: yaksh/templates/yaksh/login.html:23
+msgid "Sign in with"
+msgstr "Hasi saioa honekin"
+
+#: yaksh/templates/yaksh/add_lesson.html:203
+msgid "Single Correct Choice"
+msgstr "Aukera zuzena bakarra"
+
+#: yaksh/forms.py:323
+msgid "Snippet"
+msgstr "Puskatxoa"
+
+#: yaksh/forms.py:320
+msgid "Solution"
+msgstr "Irtenbidea"
+
+#: yaksh/templates/yaksh/question.html:216
+msgid "Solution by teacher"
+msgstr "Irtenbidea irakaslearen eskutik"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:177
+msgid "Solution for the question"
+msgstr "Galderaren irtenbidea"
+
+#: yaksh/templates/500.html:18
+msgid "Sorry for the inconvenience."
+msgstr "Barkatu eragozpenak."
+
+#: yaksh/templates/yaksh/monitor.html:170
+msgid "Special Attempt"
+msgstr "Saiakera Berezia"
+
+#: yaksh/templates/yaksh/addteacher.html:86
+#: yaksh/templates/yaksh/monitor.html:162
+#: yaksh/templates/yaksh/show_lesson_statistics.html:199
+#: yaksh/templates/yaksh/showquestions.html:162
+msgid "Sr No."
+msgstr "Sr No."
+
+#: yaksh/templates/yaksh/course_progress.html:32
+msgid "Sr. No"
+msgstr "Ez"
+
+#: yaksh/templates/yaksh/lessons.html:82 yaksh/templates/yaksh/modules.html:83
+#: yaksh/templates/yaksh/quizzes.html:86
+msgid "Sr.No"
+msgstr "Sr.No"
+
+#: forms.py:30
+msgid "Standard Testcase"
+msgstr "Probeta Estandarra"
+
+#: yaksh/templates/yaksh/course_modules.html:92
+#: yaksh/templates/yaksh/intro.html:47
+#: yaksh/templates/yaksh/quizzes_user.html:86
+#: yaksh/templates/yaksh/show_video.html:130
+msgid "Start"
+msgstr "Hasi"
+
+#: models.py:939
+msgid "Start Date and Time for enrollment of course"
+msgstr "Ikastaroan izena emateko hasiera data eta ordua"
+
+#: yaksh/templates/yaksh/micromanaged.html:14
+msgid "Start Special Attempt"
+msgstr "Hasi Saiakera Berezia"
+
+#: yaksh/templates/yaksh/grade_user.html:249
+#: yaksh/templates/yaksh/user_data.html:30
+#: yaksh/templates/yaksh/view_answerpaper.html:36
+msgid "Start time:"
+msgstr "Hasiera ordua:"
+
+#: yaksh/templates/yaksh/courses.html:183
+#: yaksh/templates/yaksh/courses.html:269
+#: yaksh/templates/yaksh/quizzes_user.html:137
+msgid "Starts On:"
+msgstr "Hasten da:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:118
+#: yaksh/templates/yaksh/course_added_modules.html:127
+msgid "Statistics"
+msgstr "Estatistikak"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:7
+#: yaksh/templates/yaksh/statistics_question.html:8
+msgid "Statistics for"
+msgstr "Estatistikak"
+
+#: yaksh/templates/yaksh/complete.html:33
+#: yaksh/templates/yaksh/error_template.html:73
+#: yaksh/templates/yaksh/grade_user.html:494
+#: yaksh/templates/yaksh/monitor.html:168 yaksh/templates/yaksh/quit.html:24
+#: yaksh/templates/yaksh/user_data.html:234
+#: yaksh/templates/yaksh/view_answerpaper.html:255
+msgid "Status"
+msgstr "Egoera"
+
+#: yaksh/templates/yaksh/grade_user.html:265
+#: yaksh/templates/yaksh/user_data.html:48
+msgid "Status:"
+msgstr "Egoera:"
+
+#: forms.py:31
+msgid "StdIO Based Testcase"
+msgstr "StdIO oinarritutako testcase"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:32
+msgid "STEP 1"
+msgstr "1. URRATSA"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:38
+msgid "STEP 2"
+msgstr "2. URRATSA"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:44
+msgid "STEP 3"
+msgstr "3. URRATSA"
+
+#: forms.py:35
+msgid "String Testcase"
+msgstr "Soken testcase"
+
+#: yaksh/templates/yaksh/grade_user.html:424
+#: yaksh/templates/yaksh/user_data.html:163
+#: yaksh/templates/yaksh/view_answerpaper.html:184
+msgid "Student answer(s):"
+msgstr "Ikaslearen erantzuna (k):"
+
+#: yaksh/templates/yaksh/quizzes_user.html:5
+msgid "Student Dashboard"
+msgstr "Ikasleen panela"
+
+#: yaksh/templates/yaksh/grade_user.html:215
+msgid "Student Details"
+msgstr "Ikaslearen xehetasunak"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:200
+msgid "Student Name"
+msgstr "Ikaslearen izena"
+
+#: yaksh/templates/yaksh/user_status.html:4
+msgid "Student Name:"
+msgstr "Ikaslearen izena:"
+
+#: yaksh/forms.py:112
+msgid "Student/Faculty/Researcher/Industry/Fellowship/etc."
+msgstr "Student/Faculty/Researcher/Industry/Fellowship/etc."
+
+#: yaksh/templates/yaksh/grade_user.html:304
+#: yaksh/templates/yaksh/user_data.html:67
+#: yaksh/templates/yaksh/view_answerpaper.html:72
+msgid "Submission Details"
+msgstr "Bidalketa xehetasunak"
+
+#: yaksh/templates/yaksh/complete.html:28 yaksh/templates/yaksh/quit.html:19
+msgid "Submission Status"
+msgstr "Bidalketa egoera"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:73
+msgid "Submissions"
+msgstr "Aurkezpenak"
+
+#: yaksh/templates/registration/password_reset_confirm.html:64
+#: yaksh/templates/yaksh/activation_status.html:87
+#: yaksh/templates/yaksh/show_lesson_quiz.html:131
+#: yaksh/templates/yaksh/show_lesson_quiz.html:133
+msgid "Submit"
+msgstr "Bidali"
+
+#: yaksh/templates/yaksh/question.html:347
+#: yaksh/templates/yaksh/question.html:351
+msgid "Submit Answer"
+msgstr "Bidali erantzuna"
+
+#: yaksh/forms.py:302 yaksh/forms.py:721
+#: yaksh/templates/yaksh/showquestions.html:163
+msgid "Summary"
+msgstr "Laburpen"
+
+#: yaksh/templates/yaksh/statistics_question.html:53
+msgid "Summary:"
+msgstr "Laburpen:"
+
+#: yaksh/templates/user.html:55
+msgid "Switch To Moderator"
+msgstr "Aldatu moderatzailera"
+
+#: yaksh/templates/manage.html:69
+msgid "Switch To Student"
+msgstr "Ikaslearengana aldatu"
+
+#: yaksh/templates/yaksh/add_lesson.html:161
+#: yaksh/templates/yaksh/show_video.html:162
+msgid "Table Of Contents"
+msgstr "Edukien taula"
+
+#: yaksh/forms.py:317
+msgid "Tags"
+msgstr "Etiketak"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:88
+msgid "Taken By"
+msgstr "Hartutakoa"
+
+#: yaksh/templates/yaksh/grade_user.html:586
+#: yaksh/templates/yaksh/user_data.html:323
+#: yaksh/templates/yaksh/view_answerpaper.html:345
+msgid "Teacher comments:"
+msgstr "Irakaslearen iruzkinak:"
+
+#: yaksh/templates/yaksh/addteacher.html:81
+msgid "Teacher(s) added"
+msgstr "Irakaslea (k) gehitu da"
+
+#: yaksh/templates/yaksh/course_teachers.html:3
+msgid "Teacher(s)/TA(s)"
+msgstr "Teacher(s)/TA(s)"
+
+#: yaksh/templates/yaksh/showquestions.html:167
+#: yaksh/templates/yaksh/showquestions.html:191
+msgid "Test"
+msgstr "Proba"
+
+#: yaksh/templates/yaksh/add_question.html:143
+msgid "Test case"
+msgstr "Proba kasua"
+
+#: yaksh/templates/yaksh/add_question.html:115
+msgid "Test Cases"
+msgstr "Proba kasuak"
+
+#: yaksh/templates/yaksh/grade_user.html:412
+#: yaksh/templates/yaksh/user_data.html:151
+#: yaksh/templates/yaksh/view_answerpaper.html:160
+msgid "Test cases:"
+msgstr "Proba kasuak:"
+
+#: yaksh/templates/yaksh/showquestions.html:216
+msgid "Test Selected"
+msgstr "Hautatutako proba"
+
+#: yaksh/templates/yaksh/error_template.html:33
+#: yaksh/templates/yaksh/grade_user.html:524
+#: yaksh/templates/yaksh/user_data.html:264
+msgid "The following error took place:"
+msgstr "Honako errore hau gertatu da:"
+
+#: yaksh/forms.py:152
+msgid "This email already exists"
+msgstr "Mezu elektronikoa dagoeneko badago"
+
+#: yaksh/templates/500.html:17
+msgid "This event will be reported."
+msgstr "Gertaera honen berri emango da."
+
+#: yaksh/templates/yaksh/intro.html:17
+msgid "This Quiz has expired. You can no longer attempt this Quiz."
+msgstr "Galdetegi hau iraungi egin da. Jada ezin duzu galdetegi hau probatu."
+
+#: yaksh/templates/registration/password_reset_confirm.html:67
+msgid "This reset link is no longer valid!"
+msgstr "Berrezartzeko esteka hau jada ez da baliozkoa!"
+
+#: yaksh/forms.py:684
+msgid "Time"
+msgstr "Denbora"
+
+#: yaksh/templates/yaksh/monitor.html:169
+msgid "Time Extension"
+msgstr "Denboraren luzapena"
+
+#: yaksh/templates/yaksh/monitor.html:167
+msgid "Time Left"
+msgstr "Denbora geratzen da"
+
+#: yaksh/templates/yaksh/view_profile.html:39
+msgid "Timezone:"
+msgstr "Ordu eremu:"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "to delete files,"
+msgstr "fitxategiak ezabatzeko,"
+
+#: yaksh/templates/yaksh/course_students.html:42
+msgid "to download a sample CSV, edit and upload it"
+msgstr "CSV lagin bat deskargatzeko, editatu eta igo"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to extract files and"
+msgstr "fitxategiak ateratzeko eta"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to hide files"
+msgstr "fitxategiak ezkutatzeko"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "to the programming quiz!"
+msgstr "programazio galdetegira!"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:71
+msgid "TOC"
+msgstr "TOC"
+
+#: yaksh/templates/yaksh/add_lesson.html:193
+msgid "Topic"
+msgstr "Gai"
+
+#: yaksh/forms.py:308
+msgid "Topic name"
+msgstr "Gaiaren izena"
+
+#: yaksh/templates/yaksh/question.html:162
+#: yaksh/templates/yaksh/show_lesson_quiz.html:36
+#: yaksh/templates/yaksh/show_lesson_statistics.html:89
+msgid "Topic:"
+msgstr "Gai:"
+
+#: yaksh/templates/yaksh/statistics_question.html:40
+msgid "Total attempts"
+msgstr "Saiakera guztiak"
+
+#: yaksh/templates/yaksh/grade_user.html:279
+#: yaksh/templates/yaksh/user_data.html:60
+#: yaksh/templates/yaksh/view_answerpaper.html:65
+msgid "Total attempts at questions:"
+msgstr "Galderen guztizko saiakerak:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:51
+#: yaksh/templates/yaksh/grade_user.html:272
+#: yaksh/templates/yaksh/user_data.html:55
+#: yaksh/templates/yaksh/view_answerpaper.html:60
+msgid "Total Marks:"
+msgstr "Marka guztiak:"
+
+#: yaksh/templates/yaksh/statistics_question.html:35
+msgid "Total number of participants:"
+msgstr "Parte-hartzaile kopurua:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:168
+msgid "Total Submissions:"
+msgstr "Bidalketak guztira:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "Total Time:"
+msgstr "Denbora osoa:"
+
+#: yaksh/templates/yaksh/add_quiz.html:70
+msgid "Try as student"
+msgstr "Saiatu ikasle gisa"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Try as student:"
+msgstr "Saiatu ikasle gisa:"
+
+#: yaksh/templates/yaksh/add_quiz.html:74
+msgid "Try as teacher"
+msgstr "Saiatu irakasle gisa"
+
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Try as teacher:"
+msgstr "Saiatu irakasle gisa:"
+
+#: yaksh/templates/yaksh/grade_user.html:160
+#: yaksh/templates/yaksh/grade_user.html:319
+#: yaksh/templates/yaksh/show_lesson_statistics.html:72
+#: yaksh/templates/yaksh/showquestions.html:165
+#: yaksh/templates/yaksh/statistics_question.html:39
+#: yaksh/templates/yaksh/user_data.html:74
+#: yaksh/templates/yaksh/view_answerpaper.html:79
+msgid "Type"
+msgstr "Mota"
+
+#: yaksh/templates/yaksh/question.html:166
+#: yaksh/templates/yaksh/show_lesson_quiz.html:40
+#: yaksh/templates/yaksh/show_lesson_statistics.html:94
+#: yaksh/templates/yaksh/show_lesson_statistics.html:96
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+#: yaksh/templates/yaksh/statistics_question.html:71
+msgid "Type:"
+msgstr "Mota:"
+
+#: yaksh/templates/exam.html:86
+msgid "Unattempted question(s)"
+msgstr "Saiatu gabeko galdera (k)"
+
+#: yaksh/templates/yaksh/question.html:334
+msgid "Undo Changes"
+msgstr "Desegin aldaketak"
+
+#: yaksh/templates/yaksh/editprofile.html:46
+msgid "Update"
+msgstr "Eguneratu"
+
+#: yaksh/templates/yaksh/course_students.html:24
+#: yaksh/templates/yaksh/monitor.html:131
+#: yaksh/templates/yaksh/question.html:349
+#: yaksh/templates/yaksh/upload_download_course_md.html:13
+#: yaksh/templates/yaksh/upload_file.html:32
+msgid "Upload"
+msgstr "Kargatu"
+
+#: yaksh/templates/yaksh/course_detail_options.html:103
+msgid "Upload / Download MD"
+msgstr "MD kargatu / deskargatu"
+
+#: yaksh/templates/yaksh/upload_file.html:23
+msgid "Upload assignment file for"
+msgstr "Kargatu fitxategiaren fitxategia"
+
+#: yaksh/templates/yaksh/showquestions.html:64
+#: yaksh/templates/yaksh/upload_file.html:6
+msgid "Upload File"
+msgstr "Fitxategia igo"
+
+#: yaksh/templates/yaksh/showquestions.html:19
+msgid "Upload Questions"
+msgstr "Kargatu galderak"
+
+#: yaksh/templates/yaksh/show_toc.html:16
+msgid "Upload TOC"
+msgstr "Kargatu TOC"
+
+#: yaksh/templates/yaksh/course_students.html:8
+msgid "Upload Users"
+msgstr "Erabiltzaileak igo"
+
+#: yaksh/templates/yaksh/add_question.html:81
+msgid "Uploaded files"
+msgstr "Kargatutako fitxategiak"
+
+#: yaksh/forms.py:96
+msgid "Use a dummy if you don't have one."
+msgstr "Erabili manikorrik ez baduzu."
+
+#: yaksh/templates/yaksh/user_data.html:6
+msgid "User Data"
+msgstr "Erabiltzailearen datuak"
+
+#: yaksh/templates/yaksh/user_data.html:32
+msgid "User IP:"
+msgstr "Erabiltzailearen IP:"
+
+#: yaksh/templates/yaksh/add_exercise.html:59
+msgid "User Mode"
+msgstr "Erabiltzaile modua"
+
+#: yaksh/templates/yaksh/error_template.html:72
+#: yaksh/templates/yaksh/grade_user.html:493
+#: yaksh/templates/yaksh/user_data.html:233
+#: yaksh/templates/yaksh/view_answerpaper.html:254
+msgid "User output"
+msgstr "Erabiltzailearen irteera"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:99
+msgid "user(s)"
+msgstr "erabiltzailea (k)"
+
+#: yaksh/forms.py:190 yaksh/templates/yaksh/addteacher.html:41
+msgid "Username"
+msgstr "Erabiltzaile izena"
+
+#: yaksh/forms.py:130
+msgid "Username already exists."
+msgstr "Erabiltzaile izena dagoeneko badago."
+
+#: yaksh/forms.py:208
+msgid "Username and/or Password is not entered"
+msgstr "Erabiltzaile izena eta / edo pasahitza ez da sartzen"
+
+#: yaksh/templates/yaksh/course_students.html:36
+msgid "Users created will have username and password same as their email"
+msgstr "Sortutako erabiltzaileek erabiltzaile izena eta pasahitza e-posta bezalakoak izango dituzte"
+
+#: yaksh/forms.py:583 yaksh/forms.py:592
+msgid "Value must be dictionary e.g {'youtube': 'video-id'}"
+msgstr "Balioak hiztegia izan behar du, adibidez, {'youtube': 'video-id'}"
+
+#: yaksh/templates/yaksh/add_lesson.html:98
+msgid "Video File:"
+msgstr "Bideo fitxategia:"
+
+#: yaksh/forms.py:531
+msgid "Video ID for Youtube, Vimeo and URL for others"
+msgstr "Bideoaren IDa Youtube, Vimeo eta URLa beste batzuentzat"
+
+#: yaksh/templates/yaksh/add_lesson.html:89
+msgid "Video Path:"
+msgstr "Bideoaren bidea:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:133
+msgid "Video Views"
+msgstr "Bideo Bistak"
+
+#: yaksh/templates/yaksh/course_modules.html:84
+#: yaksh/templates/yaksh/course_modules.html:151
+#: yaksh/templates/yaksh/course_modules.html:156
+msgid "View"
+msgstr "Ikusi"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:7
+msgid "View Answer paper"
+msgstr "Ikusi Erantzun papera"
+
+#: models.py:933
+msgid "view grade"
+msgstr "ikusi kalifikazioa"
+
+#: yaksh/templates/yaksh/grade_user.html:518
+#: yaksh/templates/yaksh/user_data.html:258
+#: yaksh/templates/yaksh/view_answerpaper.html:279
+msgid "We tried you code with the following test case:"
+msgstr "Kodea probatu dugu probako kasu honekin:"
+
+#: yaksh/templates/yaksh/error_template.html:27
+msgid "We tried your code with the following test case:"
+msgstr "Zure kodea probako kasu honekin probatu dugu:"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "Welcome"
+msgstr "Ongi etorri"
+
+msgid "What"
+msgstr "Zer"
+
+#: yaksh/templates/yaksh/add_module.html:166
+#: yaksh/templates/yaksh/design_course_session.html:73
+#: yaksh/templates/yaksh/design_course_session.html:79
+msgid "What\\"
+msgstr "Zer\\"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Will be available once the course is complete"
+msgstr "Ikastaroa amaitu ondoren erabilgarri egongo da"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:161
+msgid "with Error Margin"
+msgstr "Errorea marjinarekin"
+
+#: yaksh/templates/yaksh/question.html:331
+msgid "Write your program below:"
+msgstr "Idatzi zure programa behean:"
+
+#: yaksh/templates/yaksh/add_module.html:195
+#: yaksh/templates/yaksh/design_course_session.html:104
+#: yaksh/templates/yaksh/design_course_session.html:114
+msgid "Yes"
+msgstr "Bai"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "You can attempt this Quiz at any time between"
+msgstr "Galdetegi hau edozein unetan egin dezakezu"
+
+#: yaksh/templates/yaksh/add_exercise.html:57
+#: yaksh/templates/yaksh/add_quiz.html:68
+msgid "You can check the quiz by attempting it in the following modes:"
+msgstr "Galdetegia egiaztatu dezakezu honako modu hauetan saiatuz:"
+
+#: yaksh/templates/yaksh/showquestions.html:26
+msgid "You can upload question files the following ways -"
+msgstr "Galdera-fitxategiak modu honetan igo ditzakezu -"
+
+#: yaksh/templates/yaksh/question.html:292
+msgid "You can upload using the file browser here or via the QR code."
+msgstr "Fitxategi arakatzailea erabiliz kargatu dezakezu hemen edo QR kodearen bidez."
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "You have been given a special attempt to the"
+msgstr "Saiakera berezia egin dizute"
+
+#: yaksh/templates/yaksh/user_data.html:341
+#: yaksh/templates/yaksh/view_answerpaper.html:363
+msgid "You have not attempted the Exercise"
+msgstr "Ez duzu Ariketa saiatu"
+
+#: yaksh/templates/yaksh/user_data.html:343
+#: yaksh/templates/yaksh/view_answerpaper.html:365
+msgid "You have not attempted the quiz"
+msgstr "Ez duzu galdeketa egiten saiatu"
+
+#: yaksh/templates/yaksh/add_exercise.html:86
+#: yaksh/templates/yaksh/add_quiz.html:96
+msgid ""
+"You will be notified about quiz prerequisites.(You can still attempt the "
+"quiz though)"
+msgstr "Galdetegiaren aurretiazko baldintzen berri emango zaizu. (Galdetegia probatu dezakezu)"
+
+#: yaksh/templates/yaksh/question.html:411
+msgid "Your code will be reset."
+msgstr "Zure kodea berrezarri egingo da."
+
+#: yaksh/templates/yaksh/quit.html:47
+msgid "Your current answers are saved."
+msgstr "Zure uneko erantzunak gorde dira."
+
+#: yaksh/templates/registration/password_change_done.html:29
+msgid "Your password has been changed successfully."
+msgstr "Zure pasahitza behar bezala aldatu da."
+
+#: yaksh/templates/registration/password_reset_complete.html:20
+msgid "Your password has been reset."
+msgstr "Zure pasahitza berrezarri da."
+
+#: yaksh/templates/yaksh/profile_updated.html:26
+msgid "Your Profile is changed"
+msgstr "Zure profila aldatu da"

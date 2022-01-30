@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block nav %}
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+        
+        <a class="navbar-brand" href="{% url 'yaksh:index' %}">
+        <img src="{% static 'yaksh/images/yaksh_banner.png' %}" alt="YAKSH">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="{% url 'yaksh:index' %}"><i class="fa fa-home" style="size: 18px"></i>&nbsp;{% trans 'Home' %}</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'forum:index' %}"><i class="fa fa-commenting" style="size: 18px"></i>&nbsp;{% trans 'Forum' %}</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <form class="form-select form-select-lg mb-3 text-primary form-inline" action="{% url 'yaksh:set_language' %}" method="post">{% csrf_token %}
+                    <input name="next" type="hidden" value="{{ redirect_to }}">
+                    <select name="language" class="form-control">
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                                {{ language.name_local }} ({{ language.code }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                    <input type="submit" class="btn btn-info" value="Go">
+                </form>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'yaksh:view_notifications' %}">
+                <i class="fa fa-bell" style="size: 18px"></i>&nbsp;{% trans 'Notifications' %}
+                {% if request.custom_notifications > 0 %}
+                    <span class="badge badge-success badge-pill">
+                        {{request.custom_notifications}}
+                    </span>
+                {% endif %}
+              </a>
+            </li>
+            <li class="nav-item dropdown my-lg-0" style="font-size: 1.2rem">
+                <a class="dropdown-toggle nav-link" id="user_dropdown" data-toggle="dropdown" href="#">{{user.get_full_name|title}}
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'yaksh:edit_profile' %}">
+                    <i class="fa fa-user"></i>  {% trans 'My Profile' %}
+                </a>
+                <div class="dropdown-divider"></div>
+                {% if user.profile.is_moderator %}
+                    <a class="dropdown-item" href="{% url 'yaksh:toggle_moderator' %}"><i class="fa fa-exchange"></i>
+                        {% trans 'Switch To Moderator' %}
+                    </a>
+                    <div class="dropdown-divider"></div>
+                {% endif %}
+                <a class="dropdown-item" href="{% url 'password_change' %}">
+                    <i class="fa fa-key"></i> {% trans 'Change Password' %}
+                </a>
+                <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" id="user_logout" href="{% url 'yaksh:logout' %}">
+                        <i class="fa fa-sign-out"></i> {% trans 'Logout' %}
+                    </a>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+{% endblock %}
+{% block content %}  
+  {% block main %}
+    {% block navtab %}
+    {% endblock %}
+  {% endblock %}
+{% endblock %}

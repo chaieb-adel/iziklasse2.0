@@ -1,0 +1,127 @@
+{% load widget_tweaks %}
+
+<div class="card mt-3">
+	<div class="card-body">
+      	<p class="text-center"><i class="fas fa-exclamation-circle"></i> Formulaire de modification du quiz</p>
+      	<p class="text-center">Note: La modification de ce quiz n'affectera pas la copie originale.</p>
+      	<div class="row">
+      		{% csrf_token %}
+      		<!----item--->
+      		<div class="col-md-4 mb-3"><div id="niveau-block" style="text-align: left" class="btn btn-light col-md-12">{{quiz_modif.niveau}}</div></div>
+      		<div class="col-md-5">
+      			<div class="input-group mb-3">
+  					<div class="input-group-prepend">
+    					<span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i>...</span>
+  					</div>
+  				<!--<input type="text" id="niveau-field" class="form-control" placeholder="Niveau..." aria-label="Username" aria-describedby="basic-addon1">-->
+          <select id="niveau-field" class="form-select">
+            {% for nv in niveau %}
+            <option>{{nv}}</option>
+            {% endfor %}
+          </select>
+  				<div class="input-group-prepend">
+    					<a href="#" id="niveau-btn"><span class="input-group-text text-success" id="basic-addon1"><i class="far fa-check-circle"></i> Ok</span></a>
+  					</div>
+				</div>
+      		</div>
+      		<!----//---->
+      		<div class="col-md-4 mb-3"><div id="matiere-block" style="text-align: left" class="btn btn-light col-md-12">{{quiz_modif.matiere}}</div></div>
+      		<div class="col-md-5">
+      			<div class="input-group mb-3">
+  					<div class="input-group-prepend">
+    					<span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i>...</span>
+  					</div>
+  				<!--<input type="text" id="matiere-field" class="form-control" placeholder="Matiere..." aria-label="Username" aria-describedby="basic-addon1">-->
+          <select id="matiere-field" class="form-select">
+            {% for mt in matiere %}
+            <option>{{mt}}</option>
+            {% endfor %}
+          </select>
+  				<div class="input-group-prepend">
+    					<a href="#" id="matiere-btn"><span class="input-group-text text-success" id="basic-addon1"><i class="far fa-check-circle"></i> Ok</span></a>
+  					</div>
+				</div>
+      		</div>
+      		<!------//------>
+
+      		<!----//---->
+      		<div class="col-md-4 mb-3"><div id="description-block" style="text-align: left" class="btn btn-light col-md-12">{{quiz_modif.description}}</div></div>
+      		<div class="col-md-5">
+      			<div class="input-group mb-3">
+  					<div class="input-group-prepend">
+    					<span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i>...</span>
+  					</div>
+  				<textarea type="text" id="description-field" class="form-control" placeholder="Description..." aria-label="Username" aria-describedby="basic-addon1"></textarea>
+  				<div class="input-group-prepend">
+    					<a href="#" id="description-btn"><span class="input-group-text text-success" id="basic-addon1"><i class="far fa-check-circle"></i> Ok</span></a>
+  					</div>
+				</div>
+      		</div>
+      		<!------//------>
+
+      		<!----//---->
+      		<div class="col-md-4 mb-3"><div id="motcles-block" style="text-align: left" class="btn btn-light align-end col-md-12">{{quiz_modif.motCles}}</div></div>
+      		<div class="col-md-5">
+      			<div class="input-group mb-3">
+  					<div class="input-group-prepend">
+    					<span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i>...</span>
+  					</div>
+  				<input type="text" id="motcles-field" class="form-control" placeholder="Mot cles..." aria-label="Username" aria-describedby="basic-addon1">
+  				<div class="input-group-prepend">
+    					<a href="#" id="motcles-btn"><span class="input-group-text text-success" id="basic-addon1"><i class="far fa-check-circle"></i> Ok</span></a>
+  					</div>
+				</div>
+      		</div>
+      		<!------//------>
+
+      		<!----//---->
+      		<div class="col-md-4 mb-3">
+      		<div style="text-align: left" class="btn btn-light align-end col-md-12"> 
+      		{% if quiz_modif.numFichier == -1 %}
+      		Ce quiz n'a pas de questionnaire
+      		{% else %}
+      		Fichier de questionnaire {{quiz_modif.numFichier}}.xml
+      		{% endif %}
+      		</div>
+      		</div>
+      		
+      		<div class="col-md-5">
+      			<div class="input-group mb-3">
+  					<!--<div class="input-group-prepend">
+    					<span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i>...</span>
+  					</div>-->
+				  <a type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">Charger un nouveau questionnaire pour ce quiz ? <i class="fas fa-arrow-circle-right"></i></a>
+
+				  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Notification!</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+						 <div class="card mt-3">
+							<div class="card-body">
+								<p class="text-center">Etes vous sur de vouloir quitter cette page? s'il ya des modifications non enregistrer elle ne seront pas appliquez. si vous avez modifiez le quiz assurez vous d'avoir clicker sur le bouton 'enregistrer les changements'. si c'est fait alors continuer.
+							</div>
+						</div>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Retour</button>
+						  <a type="submit" href="{% url 'manager_add_question' quiz_id %}" class="btn btn-primary">C'est okay</a>
+						</div>
+						</form>
+					  </div>
+					</div>
+				  </div>
+				</div>
+      		</div>
+      		<!------//------>
+   
+      	</div>
+		    <div class="modal-footer">
+		        <a href="#" id="save_edit" type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Enregistrer les changements</a>
+		        <a href="../" type="button" class="btn btn-light" id="close" data-bs-dismiss="modal">Annuler</a>
+		    </div>
+      </div>
+</div>

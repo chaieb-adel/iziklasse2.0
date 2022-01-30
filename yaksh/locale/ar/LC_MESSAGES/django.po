@@ -1,0 +1,2996 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: email_host_user\n"
+"POT-Creation-Date: 2021-07-31 18:54:41\n"
+"PO-Revision-Date: 2021-07-31 18:54:41\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <email_host_user>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: yaksh/forms.py:263
+msgid ""
+"            <p>\n"
+"            This examination system has been developed with the intention of\n"
+"            making you learn programming and be assessed in an interactive and\n"
+"            fun manner.You will be presented with a series of programming\n"
+"            questions and problems that you will answer online and get\n"
+"            immediate feedback for.\n"
+"            </p><p>Here are some important instructions and rules that you\n"
+"            should understand carefully.</p>\n"
+"            <ul><li>For any programming questions, you can submit solutions as\n"
+"            many times as you want without a penalty. You may skip questions\n"
+"            and solve them later.</li><li> You <strong>may</strong>\n"
+"            use your computer's Python/IPython shell or an editor to solve the\n"
+"            problem and cut/paste the solution to the web interface.\n"
+"            </li><li> <strong>You are not allowed to use any internet resources\n"
+"            i.e. no google etc.</strong>\n"
+"            </li>\n"
+"            <li> Do not copy or share the questions or answers with anyone\n"
+"            until the exam is complete <strong>for everyone</strong>.\n"
+"            </li><li> <strong>All</strong> your attempts at the questions are\n"
+"            logged. Do not try to outsmart and break the testing system.\n"
+"            If you do, we know who you are and we will expel you from the\n"
+"            course. You have been warned.\n"
+"            </li></ul>\n"
+"            <p>We hope you enjoy taking this exam !!!</p>\n"
+"        "
+msgstr "            <p> تم تطوير نظام الاختبار هذا بهدف جعلك تتعلم البرمجة ويتم تقييمك بطريقة تفاعلية وممتعة. سيتم تقديمك بسلسلة من الأسئلة والمشكلات البرمجية التي ستجيب عليها عبر الإنترنت وستحصل على تعليقات فورية بشأنها. </p> <p> فيما يلي بعض الإرشادات والقواعد المهمة التي يجب أن تفهمها جيدًا. </ p> <ul> <li> بالنسبة لأية أسئلة تتعلق بالبرمجة ، يمكنك إرسال حلول قدر ما تشاء دون عقوبة. يمكنك تخطي الأسئلة وحلها لاحقًا. </ li> <li> <strong> يجوز لك </ strong> استخدام لغة Python / IPython للكمبيوتر الخاص بك أو محرر لحل المشكلة وقص / لصق الحل على واجهة الويب. </li> <li> <strong> لا يُسمح لك باستخدام أي من موارد الإنترنت ، مثل عدم استخدام google وما إلى ذلك. </ strong> </li> <li> لا تنسخ أو تشارك الأسئلة أو الإجابات مع أي شخص حتى ينتهي الاختبار أكمل <strong> للجميع </ strong>. </li> <li> <strong> جميع </ strong> محاولاتك في طرح الأسئلة يتم تسجيلها. لا تحاول التغلب على نظام الاختبار وكسره. إذا قمت بذلك ، فنحن نعرف من أنت وسنطردك من الدورة. لقد تم تحذيرك. </li> </ul> <p> نأمل أن تستمتع بأداء هذا الاختبار !!! </ p>\n"
+"        "
+
+#: yaksh/templates/yaksh/paginator.html:19
+msgid "(current)"
+msgstr "(تيار)"
+
+#: yaksh/templates/yaksh/monitor.html:236
+msgid "(Latest)"
+msgstr "(أحدث)"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "(will take"
+msgstr "(سيستغرق"
+
+#: yaksh/templates/yaksh/course_students.html:35
+msgid "- If username and password are not provided then"
+msgstr "- إذا لم يتم توفير اسم المستخدم وكلمة المرور بعد ذلك"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "- Mandatory fields are"
+msgstr "- الحقول الإلزامية هي"
+
+#: yaksh/templates/yaksh/course_students.html:34
+msgid "- Other fields are optional."
+msgstr "- الحقول الأخرى اختيارية."
+
+#: yaksh/templates/yaksh/course_students.html:30
+msgid ""
+"- The uploaded csv should have headers exactly same as mentioned below:"
+msgstr "- يجب أن يحتوي ملف csv الذي تم تحميله على الرؤوس تمامًا كما هو مذكور أدناه:"
+
+#: yaksh/templates/yaksh/activation_status.html:5
+#: yaksh/templates/yaksh/activation_status.html:6
+msgid "Account Activation"
+msgstr "تفعيل الحساب"
+
+#: yaksh/templates/yaksh/add_lesson.html:87
+#: yaksh/templates/yaksh/add_module.html:82
+#: yaksh/templates/yaksh/courses.html:172
+#: yaksh/templates/yaksh/courses.html:258
+#: yaksh/templates/yaksh/lessons.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:58
+#: yaksh/templates/yaksh/modules.html:101
+#: yaksh/templates/yaksh/quizzes.html:109
+msgid "Active"
+msgstr "نشيط"
+
+#: yaksh/templates/yaksh/add_lesson.html:217
+#: yaksh/templates/yaksh/quizzes.html:139
+msgid "Add"
+msgstr "يضيف"
+
+#: yaksh/templates/yaksh/add_lesson.html:226
+msgid "Add a Video Path or Upload a video file to setup lesson contents"
+msgstr "أضف مسار فيديو أو قم بتحميل ملف فيديو لإعداد محتويات الدرس"
+
+#: yaksh/templates/yaksh/post_comments.html:57
+msgid "Add comment:"
+msgstr "أضف تعليق:"
+
+#: yaksh/templates/yaksh/add_course.html:15
+#: yaksh/templates/yaksh/add_course.html:16
+#: yaksh/templates/yaksh/moderator_dashboard.html:19
+msgid "Add Course"
+msgstr "أضف دورة"
+
+#: yaksh/templates/yaksh/add_exercise.html:5
+#: yaksh/templates/yaksh/add_exercise.html:6
+#: yaksh/templates/yaksh/course_added_modules.html:39
+msgid "Add Exercise"
+msgstr "أضف تمرين"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:33
+msgid "Add Fixed Questions"
+msgstr "أضف أسئلة ثابتة"
+
+#: yaksh/templates/yaksh/course_added_modules.html:29
+msgid "Add Lesson"
+msgstr "أضف درسًا"
+
+#: yaksh/templates/yaksh/course_added_modules.html:7
+msgid "Add Module"
+msgstr "إضافة وحدة"
+
+#: yaksh/templates/yaksh/add_video_quiz.html:24
+msgid "Add More"
+msgstr "أضف المزيد"
+
+#: yaksh/templates/yaksh/quizzes.html:49
+msgid "Add New Exercise"
+msgstr "أضف تمرين جديد"
+
+#: yaksh/templates/yaksh/lessons.html:45
+msgid "Add new Lesson"
+msgstr "أضف درسًا جديدًا"
+
+#: yaksh/templates/yaksh/modules.html:46
+msgid "Add new Module"
+msgstr "إضافة وحدة جديدة"
+
+#: yaksh/templates/yaksh/quizzes.html:46
+msgid "Add New Quiz"
+msgstr "إضافة اختبار جديد"
+
+#: yaksh/templates/yaksh/add_question.html:6
+#: yaksh/templates/yaksh/add_question.html:7
+#: yaksh/templates/yaksh/showquestions.html:146
+msgid "Add Question"
+msgstr "أضف سؤالا"
+
+#: yaksh/templates/yaksh/course_added_modules.html:34
+msgid "Add Quiz"
+msgstr "أضف مسابقة"
+
+#: yaksh/templates/yaksh/modules.html:113
+msgid "Add Quizzes/Lessons for"
+msgstr "أضف اختبارات / دروسًا لـ"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:39
+msgid "Add Random Questions"
+msgstr "أضف أسئلة عشوائية"
+
+#: yaksh/templates/yaksh/addteacher.html:72
+msgid "Add Selected"
+msgstr "اضف اختيارك"
+
+#: yaksh/templates/yaksh/addteacher.html:4
+#: yaksh/templates/yaksh/course_detail_options.html:83
+msgid "Add Teachers/TAs"
+msgstr "إضافة مدرسين / مساعدين"
+
+#: yaksh/templates/yaksh/add_question.html:121
+msgid "Add Test Case:"
+msgstr "إضافة حالة الاختبار:"
+
+#: yaksh/templates/yaksh/design_course_session.html:57
+msgid "Add to course"
+msgstr "أضف إلى الدورة"
+
+#: yaksh/templates/yaksh/add_module.html:148
+msgid "Add to Module"
+msgstr "أضف إلى الوحدة النمطية"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:144
+#: yaksh/templates/yaksh/design_questionpaper.html:225
+msgid "Add to paper"
+msgstr "أضف إلى الورق"
+
+#: yaksh/forms.py:526
+msgid "Add videos from youtube, vimeo or other"
+msgstr "أضف مقاطع فيديو من youtube أو vimeo أو غيرها"
+
+#: yaksh/templates/yaksh/add_lesson.html:235
+msgid "Add/Edit Content"
+msgstr "إضافة / تحرير المحتوى"
+
+#: yaksh/templates/yaksh/add_course.html:29
+#: yaksh/templates/yaksh/courses.html:25 yaksh/templates/yaksh/lessons.html:18
+#: yaksh/templates/yaksh/modules.html:19 yaksh/templates/yaksh/quizzes.html:19
+msgid "Add/Edit Course"
+msgstr "إضافة / تحرير دورة"
+
+#: yaksh/templates/yaksh/add_quiz.html:5 yaksh/templates/yaksh/add_quiz.html:7
+msgid "Add/Edit Quiz"
+msgstr "إضافة / تحرير الاختبار"
+
+#: yaksh/templates/yaksh/add_course.html:34
+#: yaksh/templates/yaksh/courses.html:30 yaksh/templates/yaksh/lessons.html:34
+#: yaksh/templates/yaksh/modules.html:35 yaksh/templates/yaksh/quizzes.html:35
+msgid "Add/View Grading Systems"
+msgstr "إضافة / عرض أنظمة الدرجات"
+
+#: yaksh/templates/yaksh/lessons.html:28 yaksh/templates/yaksh/modules.html:29
+#: yaksh/templates/yaksh/quizzes.html:29
+msgid "Add/View Lessons"
+msgstr "إضافة / عرض الدروس"
+
+#: yaksh/templates/yaksh/lessons.html:31 yaksh/templates/yaksh/modules.html:32
+#: yaksh/templates/yaksh/quizzes.html:32
+msgid "Add/View Modules"
+msgstr "إضافة / عرض الوحدات"
+
+#: yaksh/templates/yaksh/lessons.html:25 yaksh/templates/yaksh/modules.html:26
+#: yaksh/templates/yaksh/quizzes.html:26
+msgid "Add/View Quizzes"
+msgstr "إضافة / عرض الاختبارات"
+
+#: yaksh/views.py:201
+msgid "All Courses"
+msgstr "جميع الدورات"
+
+#: yaksh/templates/yaksh/showquestions.html:18
+msgid "All Questions"
+msgstr "كل الأسئلة"
+
+#: yaksh/forms.py:118 yaksh/forms.py:502
+msgid "All timings are shown based on the selected timezone"
+msgstr "يتم عرض جميع التوقيتات بناءً على المنطقة الزمنية المحددة"
+
+#: yaksh/templates/yaksh/courses.html:116
+#: yaksh/templates/yaksh/courses.html:215
+msgid "Allotted Course"
+msgstr "الدورة المخصصة"
+
+#: yaksh/templates/yaksh/micromonitor.html:7
+#: yaksh/templates/yaksh/micromonitor.html:10
+msgid "Allow"
+msgstr "السماح"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:274
+msgid "Almost finished creating your question paper"
+msgstr "أوشكت على الانتهاء من إنشاء ورقة سؤالك"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "and"
+msgstr "و"
+
+#: yaksh/templates/yaksh/course_forum.html:125
+#: yaksh/templates/yaksh/lessons_forum.html:72
+#: yaksh/templates/yaksh/post_comments.html:37
+#: yaksh/templates/yaksh/post_comments.html:75
+#: yaksh/templates/yaksh/show_video.html:260
+msgid "Anonymous"
+msgstr "مجهول"
+
+#: yaksh/templates/yaksh/add_lesson.html:211
+msgid "Answer in Float"
+msgstr "الإجابة في تعويم"
+
+#: yaksh/templates/yaksh/add_lesson.html:207
+msgid "Answer in Integer"
+msgstr "الجواب في عدد صحيح"
+
+#: yaksh/templates/yaksh/add_lesson.html:209
+msgid "Answer in String"
+msgstr "الإجابة في سلسلة"
+
+#: yaksh/templates/yaksh/course_modules.html:178
+#: yaksh/templates/yaksh/course_modules.html:182
+msgid "Answer paper"
+msgstr "ورقة الإجابة"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:8
+msgid "Answer Paper  for"
+msgstr "ورقة إجابة لـ"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:39
+#: yaksh/templates/yaksh/show_lesson_statistics.html:155
+#: yaksh/templates/yaksh/show_lesson_statistics.html:158
+msgid "Answer:"
+msgstr "إجابة:"
+
+#: yaksh/templates/yaksh/statistics_question.html:41
+msgid "Answered Correctly"
+msgstr "أجاب بشكل صحيح"
+
+#: yaksh/templates/yaksh/quit.html:48
+msgid "Are you sure you wish to quit the exam?"
+msgstr "هل أنت متأكد أنك ترغب في ترك الامتحان؟"
+
+#: yaksh/templates/yaksh/quit.html:45
+msgid "Are you sure you wish to quit the Exercise?"
+msgstr "هل أنت متأكد أنك ترغب في إنهاء التمرين؟"
+
+#: yaksh/templates/yaksh/question.html:408
+msgid "Are you Sure?"
+msgstr "هل أنت متأكد؟"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+msgid "ARRANGE THE OPTIONS IN CORRECT ORDER"
+msgstr "رتّب الخيارات بترتيب صحيح"
+
+#: yaksh/templates/yaksh/grade_user.html:431
+#: yaksh/templates/yaksh/user_data.html:170
+#: yaksh/templates/yaksh/view_answerpaper.html:191
+msgid "Assignment File for"
+msgstr "ملف التنازل لـ"
+
+#: yaksh/templates/yaksh/grade_user.html:438
+#: yaksh/templates/yaksh/user_data.html:177
+#: yaksh/templates/yaksh/view_answerpaper.html:198
+msgid "Assignment not submitted by"
+msgstr "التنازل لم يقدم من قبل"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+msgid "ASSIGNMENT UPLOAD"
+msgstr "تحميل الإحالة"
+
+#: yaksh/templates/yaksh/course_send_mail.html:14
+msgid "Attachments:"
+msgstr "المرفقات:"
+
+#: yaksh/templates/yaksh/question.html:371
+msgid "Attempt Later"
+msgstr "حاول لاحقًا"
+
+#: yaksh/templates/yaksh/grade_user.html:281
+#: yaksh/templates/yaksh/grade_user.html:449
+#: yaksh/templates/yaksh/user_data.html:40
+#: yaksh/templates/yaksh/user_data.html:189
+#: yaksh/templates/yaksh/view_answerpaper.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:209
+msgid "Attempt Number:"
+msgstr "رقم المحاولة:"
+
+#: yaksh/templates/yaksh/add_exercise.html:82
+msgid "Attempt quiz the way normal users will attempt i.e. -"
+msgstr "محاولة الاختبار بالطريقة التي سيحاول بها المستخدمون العاديون ، على سبيل المثال -"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Attempt quiz the way students will attempt i.e. -"
+msgstr "محاولة الاختبار بالطريقة التي سيحاول بها الطلاب ، على سبيل المثال -"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Attempt quiz without any time or eligibilty constraints."
+msgstr "محاولة الاختبار دون أي وقت أو قيود الأهلية."
+
+#: yaksh/templates/yaksh/complete.html:41 yaksh/templates/yaksh/quit.html:32
+msgid "Attempted"
+msgstr "حاول"
+
+#: yaksh/templates/exam.html:84
+msgid "Attempted question(s)"
+msgstr "محاولة سؤال (أسئلة)"
+
+#: yaksh/templates/yaksh/monitor.html:92
+msgid "Auto-Refreshes every 5 minutes"
+msgstr "يتم التحديث تلقائيًا كل 5 دقائق"
+
+#: yaksh/templates/yaksh/add_module.html:126
+msgid "Available Lessons and quizzes: (Add Lessons and Quizzes)"
+msgstr "الدروس والاختبارات المتاحة: (إضافة دروس واختبارات)"
+
+#: yaksh/templates/yaksh/design_course_session.html:21
+msgid "Available Modules:"
+msgstr "الوحدات المتاحة:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:98
+#: yaksh/templates/yaksh/showquestions.html:103
+msgid "Available Tags"
+msgstr "العلامات المتاحة"
+
+#: yaksh/templates/yaksh/add_lesson.html:33
+#: yaksh/templates/yaksh/add_module.html:30
+#: yaksh/templates/yaksh/add_module.html:35
+#: yaksh/templates/yaksh/course_detail_options.html:9
+#: yaksh/templates/yaksh/course_forum.html:19
+#: yaksh/templates/yaksh/course_forum.html:23
+#: yaksh/templates/yaksh/design_questionpaper.html:23
+#: yaksh/templates/yaksh/lessons_forum.html:19
+#: yaksh/templates/yaksh/lessons_forum.html:23
+#: yaksh/templates/yaksh/show_lesson_statistics.html:37
+#: yaksh/templates/yaksh/view_answerpaper.html:19
+msgid "Back"
+msgstr "خلف"
+
+#: yaksh/templates/yaksh/post_comments.html:12
+msgid "Back to Posts"
+msgstr "رجوع إلى المشاركات"
+
+#: yaksh/templates/yaksh/quit.html:49
+msgid "Be sure, as you won\\"
+msgstr "تأكد ، لأنك ستفوز \\"
+
+#: yaksh/templates/yaksh/paginator.html:11
+msgid "begin"
+msgstr "يبدأ"
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "by the course creator"
+msgstr "من قبل منشئ الدورة"
+
+#: yaksh/templates/registration/password_change_form.html:98
+#: yaksh/templates/registration/password_reset_form.html:36
+#: yaksh/templates/yaksh/add_course.html:60
+#: yaksh/templates/yaksh/editprofile.html:47
+#: yaksh/templates/yaksh/question.html:415
+#: yaksh/templates/yaksh/register.html:58
+msgid "Cancel"
+msgstr "يلغي"
+
+#: yaksh/templates/exam.html:96
+msgid "Category"
+msgstr "فئة"
+
+#: yaksh/templates/registration/password_change_form.html:95
+#: yaksh/templates/yaksh/design_course_session.html:88
+#: yaksh/templates/yaksh/design_course_session.html:90
+msgid "Change"
+msgstr "يتغيرون"
+
+#: yaksh/templates/yaksh/add_module.html:212
+#: yaksh/templates/yaksh/design_course_session.html:131
+msgid "Change Order"
+msgstr "تغيير الترتيب"
+
+#: yaksh/templates/manage.html:74
+#: yaksh/templates/registration/password_change_form.html:29
+#: yaksh/templates/registration/password_change_form.html:43
+#: yaksh/templates/registration/password_change_form.html:45
+#: yaksh/templates/user.html:60
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: yaksh/templates/yaksh/add_module.html:213
+msgid "Change Prerequisite"
+msgstr "تغيير المتطلبات"
+
+#: yaksh/templates/yaksh/design_course_session.html:132
+msgid "Change Prerequisite Completion"
+msgstr "تغيير إكمال المتطلبات الأساسية"
+
+#: yaksh/templates/yaksh/design_course_session.html:133
+msgid "Change Prerequisite Passing"
+msgstr "تغيير اجتياز المتطلبات المسبقة"
+
+#: yaksh/templates/yaksh/question.html:355
+msgid "Check Answer"
+msgstr "تحقق من الجواب"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "Check on"
+msgstr "تفقد على"
+
+#: yaksh/templates/yaksh/add_module.html:163
+msgid "Check Prerequisite"
+msgstr "تحقق من المتطلبات المسبقة"
+
+#: yaksh/templates/yaksh/design_course_session.html:70
+msgid "Check Prerequisite Completion"
+msgstr "تحقق من إكمال المتطلبات الأساسية"
+
+#: yaksh/templates/yaksh/design_course_session.html:76
+msgid "Check Prerequisite Passing"
+msgstr "تحقق من اجتياز المتطلبات المسبقة"
+
+#: yaksh/templates/base.html:90
+msgid "Checking..."
+msgstr "تدقيق..."
+
+#: yaksh/templates/yaksh/grade_user.html:366
+#: yaksh/templates/yaksh/preview_questionpaper.html:44
+msgid "Choices:"
+msgstr "اختيارات:"
+
+#: yaksh/templates/yaksh/add_lesson.html:113
+#: yaksh/templates/yaksh/add_question.html:72
+#: yaksh/templates/yaksh/course_send_mail.html:17
+#: yaksh/templates/yaksh/course_students.html:18
+#: yaksh/templates/yaksh/showquestions.html:59
+msgid "Choose file"
+msgstr "اختر ملف"
+
+#: yaksh/templates/yaksh/add_module.html:155
+msgid "Chosen Lessons and quizzes:"
+msgstr "الدروس والاختبارات المختارة:"
+
+#: yaksh/templates/yaksh/design_course_session.html:63
+msgid "Chosen Modules:"
+msgstr "الوحدات المختارة:"
+
+#: yaksh/templates/yaksh/courses.html:62
+#: yaksh/templates/yaksh/showquestions.html:127
+msgid "Clear"
+msgstr "واضح"
+
+#: yaksh/templates/yaksh/course_forum.html:92
+#: yaksh/templates/yaksh/lessons.html:72 yaksh/templates/yaksh/modules.html:73
+#: yaksh/templates/yaksh/quizzes.html:76
+msgid "Clear Search"
+msgstr "مسح البحث"
+
+#: yaksh/templates/yaksh/course_students.html:39
+msgid "Click"
+msgstr "انقر"
+
+#: yaksh/templates/yaksh/courses.html:146
+#: yaksh/templates/yaksh/courses.html:235
+msgid "Clone Course"
+msgstr "دورة استنساخ"
+
+#: yaksh/templates/yaksh/course_forum.html:67
+#: yaksh/templates/yaksh/grade_user.html:635
+#: yaksh/templates/yaksh/monitor.html:248
+msgid "Close"
+msgstr "قريب"
+
+#: yaksh/templates/yaksh/lessons.html:103
+#: yaksh/templates/yaksh/modules.html:105
+#: yaksh/templates/yaksh/quizzes.html:113
+msgid "Closed"
+msgstr "مغلق"
+
+#: yaksh/templates/yaksh/grade_user.html:566
+msgid "Comment:"
+msgstr "تعليق:"
+
+#: yaksh/templates/yaksh/show_video.html:241
+msgid "Comments:"
+msgstr "تعليقات:"
+
+#: yaksh/templates/yaksh/complete.html:6
+msgid "Complete"
+msgstr "مكتمل"
+
+#: yaksh/templates/yaksh/monitor.html:195
+msgid "Completed"
+msgstr "مكتمل"
+
+#: yaksh/templates/yaksh/course_added_modules.html:110
+msgid "completed out of"
+msgstr "اكتمل من"
+
+#: yaksh/templates/yaksh/course_progress.html:36
+msgid "Completion Percentage"
+msgstr "نسبة الإنجاز"
+
+#: forms.py:85
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: yaksh/templates/base.html:128
+msgid "Contact: pythonsupport@fossee.in"
+msgstr "جهة الاتصال: pythonsupport@fossee.in"
+
+#: yaksh/templates/yaksh/course_modules.html:88
+#: yaksh/templates/yaksh/quizzes_user.html:82
+msgid "Continue"
+msgstr "يكمل"
+
+msgid "Correct Answer"
+msgstr "اجابة صحيحة"
+
+#: yaksh/templates/yaksh/grade_user.html:389
+#: yaksh/templates/yaksh/user_data.html:128
+#: yaksh/templates/yaksh/view_answerpaper.html:137
+msgid "Correct Answer:"
+msgstr "اجابة صحيحة:"
+
+#: yaksh/templates/yaksh/grade_user.html:401
+#: yaksh/templates/yaksh/user_data.html:140
+#: yaksh/templates/yaksh/view_answerpaper.html:149
+msgid "Correct Order:"
+msgstr "طلب صحيح:"
+
+#: forms.py:437
+msgid "Course Code"
+msgstr "كود الدورة"
+
+#: yaksh/templates/yaksh/course_modules.html:32
+#: yaksh/templates/yaksh/quizzes_user.html:143
+#: yaksh/templates/yaksh/user_status.html:9
+msgid "Course completed"
+msgstr "اكتملت الدورة"
+
+#: yaksh/templates/yaksh/quizzes_user.html:120
+msgid "Course Content"
+msgstr "محتوى الدورة"
+
+#: yaksh/templates/yaksh/course_detail.html:6
+#: yaksh/templates/yaksh/grade_user.html:240
+#: yaksh/templates/yaksh/user_data.html:21
+#: yaksh/templates/yaksh/view_answerpaper.html:27
+msgid "Course Details"
+msgstr "تفاصيل الدورة"
+
+#: forms.py:446
+msgid "Course End DateTime"
+msgstr "تاريخ انتهاء الدورة التدريبية"
+
+#: yaksh/templates/yaksh/sidebar.html:8
+msgid "Course Forum"
+msgstr "منتدى الدورة"
+
+#: forms.py:440
+msgid "Course instructions"
+msgstr "تعليمات الدورة"
+
+#: yaksh/templates/yaksh/course_added_modules.html:5
+#: yaksh/templates/yaksh/course_detail_options.html:33
+#: yaksh/templates/yaksh/course_modules.html:5
+msgid "Course Modules"
+msgstr "وحدات الدورة"
+
+#: forms.py:431
+msgid "Course Name"
+msgstr "اسم الدورة التدريبية"
+
+#: yaksh/templates/yaksh/monitor.html:63
+msgid "Course Name:"
+msgstr "اسم الدورة التدريبية:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:53
+#: yaksh/templates/yaksh/course_progress.html:8
+msgid "Course Progress"
+msgstr "تقدم الدورة"
+
+#: forms.py:443
+msgid "Course Start DateTime"
+msgstr "تاريخ بدء الدورة: الوقت"
+
+#: yaksh/templates/yaksh/courses.html:69
+msgid "Course(s) Available"
+msgstr "الدورات المتاحة"
+
+#: yaksh/templates/yaksh/grade_user.html:245
+#: yaksh/templates/yaksh/user_data.html:26
+#: yaksh/templates/yaksh/view_answerpaper.html:32
+msgid "Course:"
+msgstr "مسار:"
+
+#: yaksh/templates/manage.html:24 yaksh/templates/yaksh/courses.html:5
+#: yaksh/templates/yaksh/courses.html:6
+msgid "Courses"
+msgstr "الدورات"
+
+#: yaksh/templates/yaksh/course_forum.html:54
+msgid "Create a new Post"
+msgstr "أنشئ منشورًا جديدًا"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:22
+msgid "Create Demo Course"
+msgstr "إنشاء دورة تجريبية"
+
+#: yaksh/templates/yaksh/add_lesson.html:171
+msgid "Create lesson table of contents"
+msgstr "قم بإنشاء جدول محتويات الدرس"
+
+#: yaksh/templates/yaksh/login.html:92
+msgid "Create new account"
+msgstr "انشاء حساب جديد"
+
+#: yaksh/templates/yaksh/add_module.html:6
+msgid "Create/Edit Learning Module"
+msgstr "إنشاء / تحرير وحدة التعليم النمطية"
+
+#: yaksh/templates/yaksh/add_lesson.html:6
+msgid "Create/Edit Lesson"
+msgstr "إنشاء / تحرير الدرس"
+
+#: yaksh/templates/yaksh/course_forum.html:109
+#: yaksh/templates/yaksh/lessons_forum.html:56
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#: yaksh/templates/yaksh/courses.html:120
+#: yaksh/templates/yaksh/courses.html:219
+msgid "Created Course"
+msgstr "دورة تم إنشاؤها"
+
+#: yaksh/templates/yaksh/courses.html:180
+#: yaksh/templates/yaksh/courses.html:266
+msgid "Creator:"
+msgstr "المنشئ:"
+
+#: yaksh/templates/exam.html:85
+msgid "Current question"
+msgstr "السؤال الحالي"
+
+#: yaksh/templates/yaksh/course_detail_options.html:93
+msgid "Current Teachers/TAs"
+msgstr "المدرسون الحاليون / المساعدون الفنيون"
+
+#: yaksh/templates/yaksh/course_progress.html:35
+msgid "Current Unit"
+msgstr "الوحدة الحالية"
+
+#: yaksh/templates/yaksh/add_module.html:174
+#: yaksh/templates/yaksh/design_course_session.html:87
+#: yaksh/templates/yaksh/design_course_session.html:89
+msgid "Currently"
+msgstr "حاليا"
+
+#: yaksh/templates/yaksh/user_data.html:7
+msgid "Data for user"
+msgstr "بيانات للمستخدم"
+
+#: yaksh/templates/yaksh/add_question.html:85
+#: yaksh/templates/yaksh/add_question.html:97
+#: yaksh/templates/yaksh/showquestions.html:169
+msgid "Delete"
+msgstr "حذف"
+
+#: yaksh/templates/yaksh/add_lesson.html:148
+msgid "Delete Files"
+msgstr "حذف الملفات"
+
+#: yaksh/templates/yaksh/showquestions.html:218
+msgid "Delete Selected"
+msgstr "احذف المختار"
+
+#: yaksh/forms.py:108 yaksh/forms.py:492
+#: yaksh/templates/yaksh/addteacher.html:46
+#: yaksh/templates/yaksh/course_students.html:76
+#: yaksh/templates/yaksh/course_students.html:153
+#: yaksh/templates/yaksh/course_students.html:224
+msgid "Department"
+msgstr "قسم"
+
+#: yaksh/forms.py:106
+msgid "Department you work/study at"
+msgstr "القسم الذي تعمل فيه / تدرس فيه"
+
+#: yaksh/templates/yaksh/grade_user.html:227
+#: yaksh/templates/yaksh/view_profile.html:27
+msgid "Department:"
+msgstr "قسم:"
+
+#: yaksh/forms.py:314 yaksh/forms.py:687 yaksh/forms.py:737
+msgid "Description"
+msgstr "وصف"
+
+#: yaksh/templates/yaksh/add_lesson.html:76
+#: yaksh/templates/yaksh/add_module.html:102
+msgid "Description Preview"
+msgstr "معاينة الوصف"
+
+#: yaksh/templates/yaksh/statistics_question.html:59
+#: yaksh/templates/yaksh/view_notifications.html:47
+msgid "Description:"
+msgstr "وصف:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:43
+msgid "Design Course"
+msgstr "دورة التصميم"
+
+#: yaksh/templates/yaksh/design_course_session.html:5
+msgid "Design Course Session"
+msgstr "جلسة دورة التصميم"
+
+#: yaksh/templates/yaksh/course_added_modules.html:44
+#: yaksh/templates/yaksh/modules.html:85
+msgid "Design Module"
+msgstr "وحدة التصميم"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:7
+msgid "Design Question Paper"
+msgstr "ورقة أسئلة التصميم"
+
+#: yaksh/templates/yaksh/add_question.html:148
+#: yaksh/templates/yaksh/course_modules.html:76
+#: yaksh/templates/yaksh/grade_user.html:58
+#: yaksh/templates/yaksh/grade_user.html:460
+#: yaksh/templates/yaksh/grade_user.html:471
+#: yaksh/templates/yaksh/moderator_dashboard.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:67
+#: yaksh/templates/yaksh/show_lesson_statistics.html:59
+#: yaksh/templates/yaksh/user_data.html:200
+#: yaksh/templates/yaksh/user_data.html:211
+#: yaksh/templates/yaksh/view_answerpaper.html:220
+msgid "Details"
+msgstr "تفاصيل"
+
+#: yaksh/templates/yaksh/grade_user.html:353
+#: yaksh/templates/yaksh/user_data.html:93
+#: yaksh/templates/yaksh/view_answerpaper.html:102
+msgid "Details:"
+msgstr "تفاصيل:"
+
+#: yaksh/templates/base.html:125
+#: yaksh/templates/yaksh/download_course_templates/index.html:69
+#: yaksh/templates/yaksh/download_course_templates/module.html:64
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:98
+#: yaksh/templates/yaksh/download_course_templates/unit.html:129
+msgid "Developed by FOSSEE group, IIT Bombay"
+msgstr "تم تطويره بواسطة مجموعة FOSSEE ، IIT Bombay"
+
+#: yaksh/templates/yaksh/grade_user.html:445
+#: yaksh/templates/yaksh/user_data.html:185
+#: yaksh/templates/yaksh/view_answerpaper.html:205
+msgid "Did not attempt"
+msgstr "لم تحاول"
+
+#: yaksh/templates/yaksh/grade_user.html:625
+msgid "Did not Grade"
+msgstr "لم يتم التقدير"
+
+#: yaksh/templates/yaksh/course_detail_options.html:73
+#: yaksh/templates/yaksh/course_forum.html:6
+#: yaksh/templates/yaksh/course_forum.html:13
+#: yaksh/templates/yaksh/course_modules.html:12
+#: yaksh/templates/yaksh/lessons_forum.html:13
+msgid "Discussion Forum"
+msgstr "منتدى للنقاش"
+
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Dont extract"
+msgstr "لا تستخرج"
+
+#: yaksh/templates/yaksh/monitor.html:245
+#: yaksh/templates/yaksh/showquestions.html:168
+#: yaksh/templates/yaksh/upload_download_course_md.html:6
+msgid "Download"
+msgstr "تحميل"
+
+#: yaksh/templates/yaksh/grade_user.html:142
+msgid "Download All Assignments"
+msgstr "تنزيل كافة الواجبات"
+
+#: yaksh/templates/yaksh/courses.html:160
+#: yaksh/templates/yaksh/courses.html:245
+msgid "Download Course"
+msgstr "تحميل الدورة"
+
+#: yaksh/templates/yaksh/courses.html:153
+#: yaksh/templates/yaksh/courses.html:240
+#: yaksh/templates/yaksh/monitor.html:98
+msgid "Download CSV"
+msgstr "تنزيل ملف CSV"
+
+#: yaksh/templates/yaksh/monitor.html:224
+msgid "Download CSV for"
+msgstr "تنزيل ملف CSV لملف"
+
+#: yaksh/templates/yaksh/course_progress.html:16
+msgid "Download Data"
+msgstr "تحميل البيانات"
+
+#: yaksh/templates/yaksh/show_toc.html:9
+msgid "Download Sample"
+msgstr "تحميل نموذج"
+
+#: yaksh/templates/yaksh/showquestions.html:215
+msgid "Download Selected"
+msgstr "تنزيل المحدد"
+
+#: yaksh/templates/yaksh/showquestions.html:52
+msgid "Download Template"
+msgstr "تحميل النموذج"
+
+#: yaksh/templates/yaksh/monitor.html:115
+msgid "Download the CSV file from the button"
+msgstr "قم بتنزيل ملف CSV من الزر"
+
+#: yaksh/templates/yaksh/upload_file.html:27
+msgid "Drop files here or click to upload."
+msgstr "قم بإسقاط الملفات هنا أو انقر للتحميل."
+
+#: yaksh/templates/yaksh/monitor.html:118
+msgid "Edit and upload the same"
+msgstr "تحرير وتحميل نفسه"
+
+#: yaksh/templates/yaksh/courses.html:139
+#: yaksh/templates/yaksh/courses.html:230
+msgid "Edit Course"
+msgstr "تحرير الدورة"
+
+#: yaksh/templates/yaksh/editprofile.html:4
+#: yaksh/templates/yaksh/view_profile.html:43
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: yaksh/templates/yaksh/add_exercise.html:50
+#: yaksh/templates/yaksh/add_quiz.html:61
+msgid "Edit Question Paper"
+msgstr "تحرير ورقة الأسئلة"
+
+#: yaksh/templates/yaksh/addteacher.html:44
+#: yaksh/templates/yaksh/course_send_mail.html:36
+#: yaksh/templates/yaksh/course_students.html:73
+#: yaksh/templates/yaksh/course_students.html:150
+#: yaksh/templates/yaksh/course_students.html:221
+#: yaksh/templates/yaksh/course_teachers.html:21
+#: yaksh/templates/yaksh/show_lesson_statistics.html:202
+msgid "Email"
+msgstr "بريد الالكتروني"
+
+#: yaksh/templates/yaksh/view_profile.html:19
+msgid "Email:"
+msgstr "بريد الالكتروني:"
+
+#: yaksh/templates/yaksh/paginator.html:32
+msgid "end"
+msgstr "نهاية"
+
+#: models.py:946
+msgid "End Date and Time for enrollment of course"
+msgstr "تاريخ الانتهاء ووقت التسجيل في الدورة"
+
+#: yaksh/templates/yaksh/grade_user.html:250
+#: yaksh/templates/yaksh/user_data.html:31
+#: yaksh/templates/yaksh/view_answerpaper.html:37
+msgid "End time:"
+msgstr "وقت النهاية:"
+
+#: yaksh/templates/yaksh/courses.html:186
+#: yaksh/templates/yaksh/courses.html:272
+#: yaksh/templates/yaksh/quizzes_user.html:138
+msgid "Ends On:"
+msgstr "ينتهي في:"
+
+#: yaksh/templates/yaksh/course_students.html:96
+msgid "Enroll "
+msgstr "يتسجل، يلتحق "
+
+#: models.py:85
+msgid "Enroll Request"
+msgstr "طلب التسجيل"
+
+#: yaksh/templates/yaksh/course_students.html:113
+#: yaksh/templates/yaksh/course_students.html:255
+msgid "Enroll selected"
+msgstr "تم تحديد التسجيل"
+
+#: yaksh/templates/yaksh/course_students.html:77
+msgid "Enroll/Reject"
+msgstr "التسجيل / الرفض"
+
+#: yaksh/templates/yaksh/course_students.html:129
+msgid "Enrolled Students"
+msgstr "الطلاب المسجلين"
+
+#: models.py:920
+msgid "enrollment"
+msgstr "التسجيل"
+
+#: yaksh/templates/yaksh/course_detail_options.html:23
+msgid "Enrollments"
+msgstr "التسجيلات"
+
+#: yaksh/templates/yaksh/quizzes_user.html:23
+msgid "Enter course code to search"
+msgstr "أدخل رمز الدورة للبحث"
+
+#: yaksh/templates/yaksh/question.html:253
+#: yaksh/templates/yaksh/show_lesson_quiz.html:92
+msgid "Enter Decimal Value :"
+msgstr "أدخل قيمة عشرية:"
+
+#: yaksh/templates/yaksh/question.html:239
+#: yaksh/templates/yaksh/show_lesson_quiz.html:78
+msgid "Enter Integer:"
+msgstr "أدخل عدد صحيح:"
+
+#: yaksh/forms.py:538
+msgid "Enter Lesson Description as Markdown text"
+msgstr "أدخل وصف الدرس كنص Markdown"
+
+#: yaksh/templates/yaksh/question.html:246
+#: yaksh/templates/yaksh/show_lesson_quiz.html:85
+msgid "Enter Text:"
+msgstr "أدخل النص:"
+
+#: yaksh/templates/registration/password_reset_form.html:19
+msgid "Enter your registered email address to reset your password"
+msgstr "أدخل عنوان بريدك الإلكتروني المسجل لإعادة تعيين كلمة المرور الخاصة بك"
+
+#: yaksh/templates/404.html:20
+msgid "Error Message:-"
+msgstr "رسالة خطأ:-"
+
+#: yaksh/templates/yaksh/error_template.html:15
+msgid "Error No."
+msgstr "رقم الخطأ"
+
+#: yaksh/templates/yaksh/error_template.html:90
+#: yaksh/templates/yaksh/grade_user.html:467
+#: yaksh/templates/yaksh/grade_user.html:511
+#: yaksh/templates/yaksh/user_data.html:207
+#: yaksh/templates/yaksh/view_answerpaper.html:227
+#: yaksh/templates/yaksh/view_answerpaper.html:272
+msgid "Error:"
+msgstr "خطأ:"
+
+#: yaksh/templates/yaksh/error_template.html:41
+#: yaksh/templates/yaksh/grade_user.html:531
+#: yaksh/templates/yaksh/user_data.html:271
+#: yaksh/templates/yaksh/view_answerpaper.html:292
+msgid "Exception Message:"
+msgstr "رسالة الاستثناء:"
+
+#: yaksh/templates/yaksh/error_template.html:37
+#: yaksh/templates/yaksh/grade_user.html:527
+#: yaksh/templates/yaksh/user_data.html:267
+#: yaksh/templates/yaksh/view_answerpaper.html:288
+msgid "Exception Name:"
+msgstr "اسم الاستثناء:"
+
+#: yaksh/templates/yaksh/add_lesson.html:195
+#: yaksh/templates/yaksh/course_added_modules.html:97
+msgid "Exercise"
+msgstr "يمارس"
+
+#: yaksh/forms.py:220
+msgid "Exercise Description"
+msgstr "وصف التمرين"
+
+#: yaksh/templates/yaksh/micromanaged.html:17
+msgid "Exhausted"
+msgstr "مرهق"
+
+#: yaksh/templates/yaksh/error_template.html:71
+#: yaksh/templates/yaksh/grade_user.html:492
+#: yaksh/templates/yaksh/user_data.html:232
+#: yaksh/templates/yaksh/view_answerpaper.html:253
+msgid "Expected Output"
+msgstr "الناتج المتوقع"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Extract"
+msgstr "استخراج"
+
+#: yaksh/templates/yaksh/grade_user.html:269
+#: yaksh/templates/yaksh/user_data.html:52
+#: yaksh/templates/yaksh/view_answerpaper.html:57
+msgid "Failed"
+msgstr "باءت بالفشل"
+
+#: yaksh/templates/yaksh/question.html:391
+msgid "File not selected"
+msgstr "الملف غير محدد"
+
+#: yaksh/templates/yaksh/add_question.html:67
+msgid "File:"
+msgstr "ملف:"
+
+#: yaksh/templates/yaksh/add_lesson.html:121
+msgid "Files added to this lesson"
+msgstr "تمت إضافة الملفات إلى هذا الدرس"
+
+#: yaksh/templates/yaksh/show_video.html:216
+msgid "Files for this lesson"
+msgstr "ملفات لهذا الدرس"
+
+#: yaksh/templates/yaksh/showquestions.html:40
+#: yaksh/templates/yaksh/showquestions.html:42
+msgid "Files required by questions"
+msgstr "الملفات التي تطلبها الأسئلة"
+
+#: yaksh/templates/yaksh/question.html:195
+msgid "Files to download for this question"
+msgstr "ملفات للتحميل لهذا السؤال"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+msgid "FILL IN THE BLANKS WITH FLOAT ANSWER"
+msgstr "املأ الفراغات بالإجابة المسطحة"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+msgid "FILL IN THE BLANKS WITH INTEGER ANSWER"
+msgstr "املأ الفراغات بالإجابة الصحيحة"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+msgid "FILL IN THE BLANKS WITH STRING ANSWER"
+msgstr "املأ الفراغات بإجابة السلسلة"
+
+#: yaksh/templates/yaksh/showquestions.html:93
+msgid "Filter"
+msgstr "منقي"
+
+#: yaksh/templates/yaksh/showquestions.html:88
+msgid "Filters Questions:"
+msgstr "أسئلة المرشحات:"
+
+#: yaksh/templates/exam.html:29
+#: yaksh/templates/yaksh/design_questionpaper.html:45
+msgid "Finish"
+msgstr "ينهي"
+
+#: yaksh/forms.py:90 yaksh/forms.py:482
+#: yaksh/templates/yaksh/addteacher.html:42
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: yaksh/templates/yaksh/view_profile.html:11
+msgid "First name:"
+msgstr "الاسم الأول:"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "firstname, lastname and email."
+msgstr "الاسم الأول والاسم الأخير والبريد الإلكتروني."
+
+#: yaksh/templates/yaksh/course_students.html:31
+msgid ""
+"firstname, lastname, email, username, password, institute, roll_no, "
+"department,"
+msgstr "الاسم الأول ، اسم العائلة ، البريد الإلكتروني ، اسم المستخدم ، كلمة المرور ، المعهد ، roll_no ، القسم ،"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:16
+msgid "Fixed Questions"
+msgstr "أسئلة ثابتة"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:149
+msgid "Fixed questions currently in paper:"
+msgstr "الأسئلة الثابتة حاليا في الورق:"
+
+#: forms.py:36
+msgid "Float Testcase"
+msgstr "تعويم Testcase"
+
+#: yaksh/templates/yaksh/course_added_modules.html:14
+msgid "For additional module settings, Click on Design Module"
+msgstr "للحصول على إعدادات وحدة إضافية ، انقر فوق وحدة التصميم"
+
+#: yaksh/templates/yaksh/error_template.html:58
+#: yaksh/templates/yaksh/grade_user.html:484
+#: yaksh/templates/yaksh/user_data.html:224
+#: yaksh/templates/yaksh/view_answerpaper.html:245
+msgid "For given Input value(s):"
+msgstr "لقيمة (قيم) الإدخال المحددة:"
+
+#: yaksh/templates/registration/password_reset_form.html:24
+msgid "Forgot Password?"
+msgstr "هل نسيت كلمة السر؟"
+
+#: yaksh/templates/yaksh/view_notifications.html:45
+msgid "From:"
+msgstr "من عند:"
+
+#: yaksh/templates/yaksh/course_send_mail.html:35
+#: yaksh/templates/yaksh/course_students.html:72
+#: yaksh/templates/yaksh/course_students.html:149
+#: yaksh/templates/yaksh/course_students.html:220
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#: yaksh/templates/yaksh/error_template.html:46
+#: yaksh/templates/yaksh/grade_user.html:535
+#: yaksh/templates/yaksh/user_data.html:275
+#: yaksh/templates/yaksh/view_answerpaper.html:296
+msgid "Full Traceback:"
+msgstr "التتبع الكامل:"
+
+#: yaksh/templates/yaksh/question.html:302
+msgid "Generate QR Code"
+msgstr "إنشاء رمز الاستجابة السريعة"
+
+#: yaksh/templates/yaksh/intro.html:32 yaksh/templates/yaksh/intro.html:37
+msgid "Go Back"
+msgstr "عد"
+
+#: yaksh/templates/registration/password_reset_done.html:23
+msgid "Go to Login"
+msgstr "اذهب إلى تسجيل الدخول"
+
+#: yaksh/templates/yaksh/download_course_templates/index.html:49
+msgid "Go to Module"
+msgstr "اذهب إلى الوحدة النمطية"
+
+#: yaksh/templates/yaksh/add_exercise.html:63
+msgid "God Mode"
+msgstr "وضع الله"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+msgid "God Mode:"
+msgstr "وضع الله:"
+
+#: yaksh/templates/yaksh/course_progress.html:37
+#: yaksh/templates/yaksh/grade_user.html:82
+msgid "Grade"
+msgstr "رتبة"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Grade:"
+msgstr "رتبة:"
+
+#: yaksh/templates/yaksh/add_lesson.html:194
+msgid "Graded Quiz"
+msgstr "اختبار متدرج"
+
+#: yaksh/templates/yaksh/grade_user.html:622
+msgid "Graded Successfully"
+msgstr "متدرج بنجاح"
+
+#: yaksh/templates/yaksh/add_exercise.html:66
+#: yaksh/templates/yaksh/add_quiz.html:77
+msgid "Help"
+msgstr "يساعد"
+
+#: yaksh/templates/yaksh/course_students.html:41
+msgid "here"
+msgstr "هنا"
+
+#: yaksh/templates/yaksh/error_template.html:19
+msgid "Hidden test case failed"
+msgstr "فشلت حالة الاختبار المخفية"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Hide"
+msgstr "إخفاء"
+
+#: yaksh/templates/user.html:17
+#: yaksh/templates/yaksh/activation_status.html:43
+#: yaksh/templates/yaksh/activation_status.html:69
+#: yaksh/templates/yaksh/complete.html:75
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: forms.py:33
+msgid "Hook Testcase"
+msgstr "Testcase هوك"
+
+#: yaksh/templates/yaksh/courses.html:176
+#: yaksh/templates/yaksh/courses.html:262
+#: yaksh/templates/yaksh/moderator_dashboard.html:62
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: yaksh/templates/yaksh/quizzes_user.html:104
+msgid "Inactive Course"
+msgstr "دورة غير نشطة"
+
+#: yaksh/templates/yaksh/monitor.html:193
+msgid "Inprogress"
+msgstr "في تقدم"
+
+#: yaksh/forms.py:103 yaksh/forms.py:489
+#: yaksh/templates/yaksh/addteacher.html:45
+#: yaksh/templates/yaksh/course_send_mail.html:38
+#: yaksh/templates/yaksh/course_students.html:75
+#: yaksh/templates/yaksh/course_students.html:152
+#: yaksh/templates/yaksh/course_students.html:223
+msgid "Institute"
+msgstr "معهد"
+
+#: yaksh/forms.py:101
+msgid "Institute/Organization"
+msgstr "المعهد / المنظمة"
+
+#: yaksh/templates/yaksh/grade_user.html:228
+#: yaksh/templates/yaksh/view_profile.html:23
+msgid "Institute:"
+msgstr "معهد:"
+
+#: yaksh/templates/registration/password_reset_done.html:20
+msgid ""
+"Instruction for setting new password has been mailed to your registered "
+"email address"
+msgstr "تم إرسال تعليمات تعيين كلمة المرور الجديدة إلى عنوان بريدك الإلكتروني المسجل"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:24
+#: yaksh/templates/yaksh/quizzes_user.html:131
+msgid "Instructions"
+msgstr "تعليمات"
+
+#: yaksh/templates/yaksh/quizzes_user.html:116
+msgid "Instructor:"
+msgstr "معلم:"
+
+#: forms.py:34
+msgid "Integer Testcase"
+msgstr "عدد صحيح Testcase"
+
+#: yaksh/templates/500.html:16
+msgid "Internal Server error."
+msgstr "خطأ في الخادم الداخلي."
+
+#: yaksh/forms.py:211
+msgid "Invalid username/password"
+msgstr "اسم المتسخدم / كلمة المرور غير صحيحة"
+
+#: yaksh/templates/404.html:16
+msgid "It seems that you have encountered an error"
+msgstr "يبدو أنك واجهت خطأ"
+
+#: yaksh/templates/yaksh/question.html:394
+msgid "Kindly attach a file and then click upload."
+msgstr "يرجى إرفاق ملف ثم النقر فوق تحميل."
+
+#: yaksh/templates/yaksh/showquestions.html:164
+msgid "Language"
+msgstr "لغة"
+
+#: yaksh/templates/yaksh/question.html:164
+#: yaksh/templates/yaksh/show_lesson_quiz.html:38
+#: yaksh/templates/yaksh/show_lesson_statistics.html:91
+msgid "Language:"
+msgstr "لغة:"
+
+#: yaksh/forms.py:93 yaksh/forms.py:486
+#: yaksh/templates/yaksh/addteacher.html:43
+msgid "Last Name"
+msgstr "الكنية"
+
+#: yaksh/templates/yaksh/view_profile.html:15
+msgid "Last name:"
+msgstr "الكنية:"
+
+#: yaksh/templates/yaksh/course_forum.html:111
+#: yaksh/templates/yaksh/lessons_forum.html:58
+msgid "Last reply"
+msgstr "الرد الأخير"
+
+#: yaksh/templates/yaksh/question.html:183
+msgid "Last submitted answer is considered for evaluation"
+msgstr "تعتبر آخر إجابة مقدمة للتقييم"
+
+#: yaksh/templates/yaksh/course_forum.html:121
+#: yaksh/templates/yaksh/lessons_forum.html:68
+msgid "Last updated:"
+msgstr "التحديث الاخير:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:203
+msgid "Latest Submission"
+msgstr "آخر تقديم"
+
+#: yaksh/templates/yaksh/modules.html:79
+msgid "Learning Module(s) Available"
+msgstr "وحدة (وحدات) التعلم المتاحة"
+
+#: yaksh/templates/yaksh/modules.html:84
+msgid "Learning Modules"
+msgstr "وحدات التعلم"
+
+#: yaksh/templates/yaksh/course_added_modules.html:102
+#: yaksh/templates/yaksh/lessons.html:83
+msgid "Lesson"
+msgstr "درس"
+
+#: yaksh/templates/yaksh/show_video.html:205
+msgid "Lesson Description"
+msgstr "وصف الدرس"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:93
+msgid "Lesson Files (Click on lesson file to download)"
+msgstr "ملفات الدروس (اضغط على ملف الدرس للتحميل)"
+
+#: yaksh/templates/yaksh/add_lesson.html:108
+msgid "Lesson Files:"
+msgstr "ملفات الدروس:"
+
+#: yaksh/forms.py:540
+msgid "Lesson Name"
+msgstr "اسم الدرس"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:6
+msgid "Lesson Quiz Stats"
+msgstr "إحصائيات اختبار الدرس"
+
+#: yaksh/templates/yaksh/lessons.html:78
+msgid "Lesson(s) Available"
+msgstr "الدرس (ق) المتاحة"
+
+#: yaksh/templates/yaksh/download_course_templates/module.html:39
+msgid "Lessons (Click on lesson name to open lesson)"
+msgstr "الدروس (اضغط على اسم الدرس لفتح الدرس)"
+
+#: yaksh/templates/yaksh/lessons_forum.html:6
+#: yaksh/templates/yaksh/sidebar.html:13
+msgid "Lessons Forum"
+msgstr "منتدى الدروس"
+
+#: yaksh/templates/yaksh/design_course_session.html:27
+#: yaksh/templates/yaksh/modules.html:86
+msgid "Lessons/Quizzes"
+msgstr "الدروس / الاختبارات"
+
+#: forms.py:72
+msgid "Letters, digits, period and underscores only."
+msgstr "أحرف وأرقام ونقاط وشرطات سفلية فقط."
+
+#: yaksh/templates/yaksh/error_template.html:70
+#: yaksh/templates/yaksh/grade_user.html:491
+#: yaksh/templates/yaksh/user_data.html:231
+#: yaksh/templates/yaksh/view_answerpaper.html:252
+msgid "Line No."
+msgstr "رقم الخط"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:6
+msgid "List of Question Papers"
+msgstr "قائمة أوراق الأسئلة"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:13
+msgid ""
+"List of quizzes! Click on the given links to have a look at answer papers "
+"for a quiz"
+msgstr "قائمة الاختبارات! انقر فوق الروابط المحددة لإلقاء نظرة على أوراق الإجابة للاختبار"
+
+#: yaksh/templates/base.html:96 yaksh/templates/base.html:99
+#: yaksh/templates/base.html:102 yaksh/templates/base.html:105
+msgid "Loading..."
+msgstr "تحميل..."
+
+#: yaksh/templates/registration/password_reset_complete.html:21
+msgid "Log in"
+msgstr "يسجل دخول"
+
+#: yaksh/templates/yaksh/login.html:6
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: yaksh/templates/manage.html:78
+#: yaksh/templates/registration/password_change_form.html:33
+#: yaksh/templates/user.html:64
+#: yaksh/templates/yaksh/activation_status.html:27
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:69
+msgid "Manage Course"
+msgstr "إدارة الدورة"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Manual mode to design the"
+msgstr "الوضع اليدوي لتصميم ملف"
+
+#: yaksh/templates/yaksh/view_notifications.html:23
+msgid "Mark all as read"
+msgstr "اشر عليها بانها قرات"
+
+#: yaksh/templates/yaksh/grade_user.html:354
+#: yaksh/templates/yaksh/preview_questionpaper.html:34
+#: yaksh/templates/yaksh/view_answerpaper.html:103
+msgid "Mark(s):"
+msgstr "العلامة (العلامات):"
+
+#: yaksh/forms.py:702 yaksh/forms.py:757
+msgid "Marker time should be in the format hh:mm:ss"
+msgstr "يجب أن يكون وقت العلامة بالتنسيق hh: mm: ss"
+
+#: yaksh/templates/yaksh/grade_user.html:161
+#: yaksh/templates/yaksh/monitor.html:165
+#: yaksh/templates/yaksh/showquestions.html:166
+msgid "Marks"
+msgstr "ماركس"
+
+#: yaksh/templates/yaksh/grade_user.html:320
+#: yaksh/templates/yaksh/user_data.html:75
+#: yaksh/templates/yaksh/view_answerpaper.html:80
+msgid "Marks Obtained"
+msgstr "العلامات المتحصل عليها"
+
+#: yaksh/templates/yaksh/grade_user.html:273
+#: yaksh/templates/yaksh/user_data.html:56
+#: yaksh/templates/yaksh/view_answerpaper.html:61
+msgid "Marks obtained:"
+msgstr "العلامات المتحصل عليها:"
+
+#: yaksh/views.py:4086
+msgid "Marks Uploaded!"
+msgstr "تم تحميل العلامات!"
+
+#: yaksh/templates/yaksh/grade_user.html:579
+#: yaksh/templates/yaksh/question.html:179
+#: yaksh/templates/yaksh/show_lesson_statistics.html:116
+#: yaksh/templates/yaksh/user_data.html:316
+msgid "Marks:"
+msgstr "علامات:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:13
+msgid "Maximum Mark(s):"
+msgstr "الحد الأقصى للعلامة (العلامات):"
+
+#: yaksh/templates/yaksh/results_user.html:13
+msgid "Maximum Marks"
+msgstr "علامات قصوى"
+
+#: forms.py:32
+msgid "MCQ Testcase"
+msgstr "MCQ Testcase"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "minutes"
+msgstr "الدقائق"
+
+#: yaksh/forms.py:612
+msgid "Module Description"
+msgstr "وصف الوحدة"
+
+#: yaksh/forms.py:609
+msgid "Module Name"
+msgstr "اسم وحدة"
+
+#: yaksh/templates/yaksh/design_course_session.html:26
+msgid "Modules"
+msgstr "الوحدات"
+
+#: yaksh/templates/yaksh/grade_user.html:77
+#: yaksh/templates/yaksh/monitor.html:6 yaksh/templates/yaksh/monitor.html:7
+msgid "Monitor"
+msgstr "مراقب"
+
+#: yaksh/templates/yaksh/courses.html:132
+#: yaksh/templates/yaksh/lessons.html:22 yaksh/templates/yaksh/modules.html:23
+#: yaksh/templates/yaksh/quizzes.html:23
+msgid "More"
+msgstr "أكثر"
+
+#: yaksh/templates/yaksh/add_question.html:89
+msgid "More info"
+msgstr "مزيد من المعلومات"
+
+#: yaksh/templates/yaksh/add_lesson.html:205
+msgid "Multiple Correct Choices"
+msgstr "اختيارات متعددة صحيحة"
+
+#: yaksh/templates/yaksh/add_course.html:24
+#: yaksh/templates/yaksh/courses.html:20 yaksh/templates/yaksh/lessons.html:13
+#: yaksh/templates/yaksh/modules.html:14 yaksh/templates/yaksh/quizzes.html:14
+msgid "My Courses"
+msgstr "دوراتي"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:6
+#: yaksh/templates/yaksh/moderator_dashboard.html:7
+msgid "My Dashboard"
+msgstr "لوحة القيادة الخاصة بي"
+
+#: yaksh/templates/yaksh/lessons.html:5
+msgid "My Lessons"
+msgstr "دروسي"
+
+#: yaksh/templates/manage.html:64
+#: yaksh/templates/registration/password_change_form.html:25
+#: yaksh/templates/user.html:50 yaksh/templates/yaksh/editprofile.html:5
+msgid "My Profile"
+msgstr "ملفي"
+
+#: yaksh/templates/yaksh/quizzes.html:6
+msgid "My Quizzes"
+msgstr "اختباراتي"
+
+#: yaksh/forms.py:681 yaksh/templates/yaksh/addteacher.html:87
+#: yaksh/templates/yaksh/course_progress.html:34
+#: yaksh/templates/yaksh/course_teachers.html:20
+#: yaksh/templates/yaksh/monitor.html:163
+msgid "Name"
+msgstr "اسم"
+
+#: yaksh/templates/yaksh/grade_user.html:218
+msgid "Name:"
+msgstr "اسم:"
+
+#: yaksh/templates/yaksh/course_forum.html:29
+msgid "New Post"
+msgstr "منشور جديد"
+
+#: yaksh/templates/yaksh/complete.html:64
+#: yaksh/templates/yaksh/complete.html:69
+#: yaksh/templates/yaksh/design_questionpaper.html:182
+#: yaksh/templates/yaksh/design_questionpaper.html:268
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:84
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:88
+#: yaksh/templates/yaksh/download_course_templates/unit.html:116
+#: yaksh/templates/yaksh/download_course_templates/unit.html:120
+#: yaksh/templates/yaksh/question.html:361
+#: yaksh/templates/yaksh/question.html:363
+#: yaksh/templates/yaksh/show_video.html:135
+#: yaksh/templates/yaksh/show_video.html:235
+msgid "Next"
+msgstr "التالي"
+
+#: yaksh/templates/yaksh/add_module.html:197
+#: yaksh/templates/yaksh/design_course_session.html:106
+#: yaksh/templates/yaksh/design_course_session.html:116
+#: yaksh/templates/yaksh/quit.html:56 yaksh/templates/yaksh/quit.html:58
+msgid "No"
+msgstr "لا"
+
+#: yaksh/views.py:1413
+msgid "No AnswerPapers found"
+msgstr "لم يتم العثور على أوراق"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:105
+#: yaksh/templates/yaksh/showquestions.html:110
+msgid "No Available Tags"
+msgstr "لا توجد علامات متاحة"
+
+#: yaksh/templates/yaksh/course_progress.html:83
+msgid "No course data found"
+msgstr "لم يتم العثور على بيانات الدورة التدريبية"
+
+#: yaksh/templates/yaksh/courses.html:41
+msgid "No Courses Found"
+msgstr "لم يتم العثور على دورات"
+
+#: yaksh/templates/yaksh/grade_user.html:107
+msgid "No courses found to grade"
+msgstr "لم يتم العثور على دورات لتقديرها"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:40
+msgid "No Courses found. Add a new course or Create demo course"
+msgstr "لم يتم العثور على دورات. إضافة دورة جديدة أو إنشاء دورة تدريبية"
+
+#: yaksh/templates/yaksh/quizzes_user.html:54
+msgid "No Courses to display"
+msgstr "لا توجد دورات لعرضها"
+
+#: yaksh/templates/yaksh/course_forum.html:154
+msgid "No discussion posts are there yet. Create one to start discussing."
+msgstr "لا توجد مشاركات مناقشة حتى الآن. قم بإنشاء واحدة لبدء المناقشة."
+
+#: yaksh/templates/yaksh/course_send_mail.html:66
+#: yaksh/templates/yaksh/course_students.html:189
+msgid "No enrolled students yet"
+msgstr "لا يوجد طلاب مسجلين بعد"
+
+#: yaksh/templates/yaksh/quizzes_user.html:99
+msgid "No Enrollments allowed"
+msgstr "لا يسمح بالتسجيل"
+
+#: yaksh/templates/yaksh/add_lesson.html:137
+msgid "No Files added to this lesson"
+msgstr "لم يتم إضافة ملفات إلى هذا الدرس"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:105
+msgid "No files for"
+msgstr "لا توجد ملفات لـ"
+
+#: yaksh/templates/yaksh/course_added_modules.html:161
+msgid "No learning modules"
+msgstr "لا توجد وحدات تعليمية"
+
+#: yaksh/templates/yaksh/modules.html:51
+msgid "No learning modules found"
+msgstr "لم يتم العثور على وحدات تعليمية"
+
+#: yaksh/templates/yaksh/modules.html:132
+msgid "No Learning units"
+msgstr "لا توجد وحدات تعليمية"
+
+#: yaksh/templates/yaksh/course_modules.html:60
+msgid "No lectures found"
+msgstr "لم يتم العثور على محاضرات"
+
+#: yaksh/templates/yaksh/lessons_forum.html:100
+msgid ""
+"No Lesson posts here. They will appear when someone comments on video "
+"lessons."
+msgstr "لا توجد مشاركات درس هنا. سيظهرون عندما يعلق شخص ما على دروس الفيديو."
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:227
+msgid "No lesson quizzes found"
+msgstr "لم يتم العثور على اختبارات الدرس"
+
+#: yaksh/templates/yaksh/course_added_modules.html:150
+msgid "No lesson/quiz added"
+msgstr "لم يتم إضافة درس / اختبار"
+
+#: yaksh/templates/yaksh/lessons.html:50
+msgid "No lessons found"
+msgstr "لم يتم العثور على دروس"
+
+#: yaksh/templates/yaksh/show_video.html:126
+msgid "No Module information"
+msgstr "لا توجد معلومات الوحدة النمطية"
+
+#: yaksh/templates/yaksh/view_notifications.html:60
+msgid "No Notifications Found"
+msgstr "لم يتم العثور على إخطارات"
+
+#: yaksh/templates/yaksh/quizzes.html:135
+msgid "No Question Paper"
+msgstr "لا سؤال ورقة"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:24
+msgid "No Question Papers available"
+msgstr "لا أوراق أسئلة متاحة"
+
+#: yaksh/templates/yaksh/showquestions.html:208
+msgid "No Questions found"
+msgstr "لم يتم العثور على أسئلة"
+
+#: yaksh/templates/yaksh/monitor.html:265
+msgid "No Quiz Found"
+msgstr "لم يتم العثور على اختبار"
+
+#: yaksh/templates/yaksh/grade_user.html:92
+#: yaksh/templates/yaksh/moderator_dashboard.html:108
+msgid "No Quizzes"
+msgstr "لا اختبارات"
+
+#: yaksh/templates/yaksh/quizzes.html:54
+msgid "No quizzes found"
+msgstr "لم يتم العثور على اختبارات"
+
+#: yaksh/templates/yaksh/course_students.html:262
+msgid "No rejected students yet"
+msgstr "لا يوجد طلاب مرفوضون حتى الآن"
+
+#: yaksh/templates/yaksh/course_students.html:119
+msgid "No requests yet"
+msgstr "لا توجد طلبات حتى الآن"
+
+#: yaksh/templates/yaksh/addteacher.html:20
+msgid "No results found"
+msgstr "لم يتم العثور على نتائج"
+
+#: yaksh/templates/yaksh/user_data.html:331
+#: yaksh/templates/yaksh/view_answerpaper.html:353
+msgid "No submissions found"
+msgstr "لم يتم العثور على عمليات إرسال"
+
+#: yaksh/templates/yaksh/show_toc.html:58
+#: yaksh/templates/yaksh/show_video.html:188
+msgid "No Table of contents added"
+msgstr "لم يتم إضافة جدول محتويات"
+
+#: yaksh/templates/yaksh/course_teachers.html:44
+msgid "No Teacher(s) added"
+msgstr "لم تتم إضافة مدرس (مدرسين)"
+
+#: yaksh/templates/yaksh/addteacher.html:97
+msgid "No Teacher(s)TA(s) Added"
+msgstr "لم يتم إضافة مدرس (مدرسين) TA (ق)"
+
+#: yaksh/templates/yaksh/grade_user.html:132
+#: yaksh/templates/yaksh/monitor.html:259
+msgid "No Users Found for"
+msgstr "لم يتم العثور على مستخدمين لـ"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:90
+msgid "No. of users Failed"
+msgstr "عدد المستخدمين فشل"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:89
+msgid "No. of users Passed"
+msgstr "اجتاز عدد المستخدمين"
+
+#: yaksh/templates/yaksh/course_forum.html:136
+#: yaksh/templates/yaksh/lessons_forum.html:83
+msgid "None"
+msgstr "لا أحد"
+
+#: yaksh/templates/yaksh/complete.html:45 yaksh/templates/yaksh/quit.html:35
+msgid "Not Attempted"
+msgstr "لم تحاول"
+
+#: yaksh/templates/yaksh/monitor.html:121
+msgid "Note: Do not change the CSV Headers"
+msgstr "ملاحظة: لا تغير رؤوس CSV"
+
+#: yaksh/templates/yaksh/complete.html:21
+msgid ""
+"Note:- Please Click on the Next button to submit the quiz. Please do not "
+"close the browser without clicking Next."
+msgstr "ملاحظة: - الرجاء الضغط على زر \"التالي\" لإرسال الاختبار. الرجاء عدم إغلاق المتصفح دون النقر فوق \"التالي\"."
+
+#: yaksh/templates/manage.html:51 yaksh/templates/user.html:37
+#: yaksh/templates/yaksh/view_notifications.html:4
+#: yaksh/templates/yaksh/view_notifications.html:5
+msgid "Notifications"
+msgstr "إشعارات"
+
+#: yaksh/templates/yaksh/monitor.html:71
+msgid "Number of papers:"
+msgstr "عدد الأوراق:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:194
+msgid "Number of questions to be picked from the pool"
+msgstr "عدد الأسئلة التي سيتم انتقاؤها من المسبح"
+
+#: yaksh/templates/yaksh/course_progress.html:12
+msgid "Number Of Students:"
+msgstr "عدد الطلاب:"
+
+#: yaksh/templates/yaksh/results_user.html:12
+msgid "Obtained Marks"
+msgstr "الحصول على العلامات"
+
+#: yaksh/templates/yaksh/question.html:397
+#: yaksh/templates/yaksh/question.html:414
+msgid "OK"
+msgstr "نعم"
+
+#: yaksh/templates/yaksh/showquestions.html:34
+msgid "One can also upload zip with the following zip structure -"
+msgstr "يمكن للمرء أيضًا تحميل ملف zip بهيكل zip التالي -"
+
+#: yaksh/forms.py:137
+msgid ""
+"Only letters, digits and punctuation                                        "
+"are allowed in password"
+msgstr "يُسمح فقط بالأحرف والأرقام وعلامات الترقيم في كلمة المرور"
+
+#: yaksh/forms.py:125
+msgid ""
+"Only letters, digits, period and underscore characters are allowed in "
+"username"
+msgstr "يُسمح فقط باستخدام الأحرف والأرقام والنقطة والشرطة السفلية في اسم المستخدم"
+
+#: yaksh/forms.py:588
+msgid "Only one type of video path is allowed"
+msgstr "يُسمح بنوع واحد فقط من مسارات الفيديو"
+
+#: models.py:86
+msgid "Open Enrollment"
+msgstr "افتح التسجيل"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:82
+#: yaksh/templates/yaksh/showquestions.html:54
+msgid "Or"
+msgstr "أو"
+
+#: yaksh/templates/yaksh/login.html:41
+msgid "Or Sign in with credentials"
+msgstr "أو قم بتسجيل الدخول باستخدام بيانات الاعتماد"
+
+#: yaksh/templates/yaksh/add_module.html:162
+#: yaksh/templates/yaksh/design_course_session.html:69
+msgid "Order"
+msgstr "ترتيب"
+
+#: yaksh/forms.py:522
+msgid "Others"
+msgstr "آحرون"
+
+#: yaksh/templates/yaksh/monitor.html:189
+msgid "out of"
+msgstr "بعيدا عن المكان"
+
+#: yaksh/templates/yaksh/monitor.html:75
+msgid "Papers Completed:"
+msgstr "الأوراق المنجزة:"
+
+#: yaksh/templates/yaksh/monitor.html:81
+msgid "Papers in progress:"
+msgstr "الأوراق قيد التنفيذ:"
+
+#: yaksh/templates/yaksh/grade_user.html:267
+#: yaksh/templates/yaksh/user_data.html:50
+#: yaksh/templates/yaksh/view_answerpaper.html:55
+msgid "Passed"
+msgstr "مر"
+
+#: yaksh/forms.py:196
+msgid "Password"
+msgstr "كلمه السر"
+
+#: yaksh/templates/registration/password_reset_done.html:18
+msgid "Password reset successful"
+msgstr "تمت إعادة تعيين كلمة المرور بنجاح"
+
+#: yaksh/forms.py:145
+msgid "Passwords do not match"
+msgstr "كلمة المرور غير مطابقة"
+
+#: yaksh/templates/yaksh/user_status.html:29
+msgid "Per Module Progress:"
+msgstr "التقدم لكل وحدة:"
+
+#: yaksh/templates/yaksh/results_user.html:14
+msgid "Percentage"
+msgstr "النسبة المئوية"
+
+#: yaksh/templates/yaksh/grade_user.html:277
+#: yaksh/templates/yaksh/user_data.html:58
+#: yaksh/templates/yaksh/view_answerpaper.html:63
+msgid "Percentage obtained:"
+msgstr "النسبة المئوية التي تم الحصول عليها:"
+
+#: yaksh/templates/404.html:18
+msgid "Please contact your administrator"
+msgstr "الرجاء الاتصال بالمسؤول الخاص بك"
+
+#: yaksh/templates/registration/password_reset_confirm.html:32
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly"
+msgstr "الرجاء إدخال كلمة المرور الجديدة مرتين حتى نتمكن من التحقق من كتابتها بشكل صحيح"
+
+#: yaksh/templates/yaksh/register.html:24
+msgid "Please fill in the following details:"
+msgstr "يرجى ملء التفاصيل التالية:"
+
+#: yaksh/views.py:1536
+msgid "Please select atleast one question"
+msgstr "الرجاء تحديد سؤال واحد على الأقل"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:70
+msgid "Please select Question type and Marks"
+msgstr "الرجاء تحديد نوع السؤال والعلامات"
+
+#: yaksh/forms.py:730
+msgid "Points"
+msgstr "نقاط"
+
+#: yaksh/templates/yaksh/show_lesson_quiz.html:53
+#: yaksh/templates/yaksh/statistics_question.html:65
+msgid "Points:"
+msgstr "نقاط:"
+
+#: yaksh/templates/yaksh/add_lesson.html:196
+msgid "Poll"
+msgstr "تصويت"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:230
+msgid "Pool of  questions currently in paper:"
+msgstr "مجموعة الأسئلة الموجودة حاليًا في الورق:"
+
+#: yaksh/forms.py:114 yaksh/forms.py:498
+#: yaksh/templates/yaksh/addteacher.html:47
+msgid "Position"
+msgstr "موقع"
+
+#: yaksh/templates/yaksh/grade_user.html:224
+#: yaksh/templates/yaksh/view_profile.html:35
+msgid "Position:"
+msgstr "موقع:"
+
+#: yaksh/templates/yaksh/course_forum.html:108
+#: yaksh/templates/yaksh/lessons_forum.html:55
+msgid "Posts"
+msgstr "دعامات"
+
+#: yaksh/templates/yaksh/quizzes.html:128
+msgid "Preview"
+msgstr "معاينة"
+
+#: yaksh/templates/yaksh/add_exercise.html:53
+#: yaksh/templates/yaksh/add_quiz.html:64
+msgid "Preview Question Paper"
+msgstr "معاينة ورقة الأسئلة"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:265
+#: yaksh/templates/yaksh/design_questionpaper.html:286
+msgid "Previous"
+msgstr "سابق"
+
+#: yaksh/templates/yaksh/profile_updated.html:5
+#: yaksh/templates/yaksh/view_profile.html:5
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+msgid "PROGRAMMING"
+msgstr "برمجة"
+
+#: yaksh/templates/yaksh/complete.html:32 yaksh/templates/yaksh/quit.html:23
+#: yaksh/templates/yaksh/statistics_question.html:38
+msgid "Question"
+msgstr "سؤال"
+
+#: yaksh/templates/exam.html:50
+msgid "Question Navigator"
+msgstr "سؤال الملاح"
+
+#: yaksh/templates/exam.html:97
+msgid "Question No."
+msgstr "رقم السؤال"
+
+#: yaksh/templates/yaksh/course_added_modules.html:81
+#: yaksh/templates/yaksh/course_added_modules.html:86
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Question Paper"
+msgstr "ورقة السؤال"
+
+#: yaksh/templates/yaksh/quizzes.html:124
+msgid "Question Paper for"
+msgstr "ورقة أسئلة لـ"
+
+#: yaksh/templates/yaksh/monitor.html:104
+#: yaksh/templates/yaksh/statistics_question.html:7
+msgid "Question Statistics"
+msgstr "إحصائيات السؤال"
+
+#: yaksh/forms.py:727
+msgid "Question topic name"
+msgstr "اسم موضوع السؤال"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s)"
+msgstr "أسئلة)"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s) from"
+msgstr "سؤال (أسئلة) من"
+
+#: yaksh/templates/exam.html:89
+msgid "Question(s) left:"
+msgstr "السؤال (الأسئلة) المتبقية:"
+
+#: yaksh/templates/yaksh/grade_user.html:360
+#: yaksh/templates/yaksh/preview_questionpaper.html:38
+#: yaksh/templates/yaksh/view_answerpaper.html:108
+msgid "Question:"
+msgstr "سؤال:"
+
+#: yaksh/templates/yaksh/quizzes.html:88
+msgid "QuestionPaper"
+msgstr "ورقة السؤال"
+
+#: yaksh/templates/manage.html:19 yaksh/templates/yaksh/grade_user.html:159
+#: yaksh/templates/yaksh/grade_user.html:318
+#: yaksh/templates/yaksh/showquestions.html:6
+#: yaksh/templates/yaksh/showquestions.html:8
+#: yaksh/templates/yaksh/user_data.html:73
+#: yaksh/templates/yaksh/view_answerpaper.html:78
+msgid "Questions"
+msgstr "أسئلة"
+
+#: yaksh/templates/yaksh/monitor.html:166
+msgid "Questions Attempted"
+msgstr "محاولة الأسئلة"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:6
+msgid "Questions in"
+msgstr "أسئلة في"
+
+#: yaksh/templates/exam.html:27
+msgid "Quit"
+msgstr "استقال"
+
+#: yaksh/templates/yaksh/course_added_modules.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:87
+msgid "Quiz"
+msgstr "اختبار"
+
+#: yaksh/templates/yaksh/results_user.html:11
+msgid "Quiz Description"
+msgstr "وصف الاختبار"
+
+#: yaksh/templates/yaksh/monitor.html:67
+msgid "Quiz Name:"
+msgstr "اسم الاختبار:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:136
+msgid "Quiz Submissions"
+msgstr "عمليات إرسال الاختبار"
+
+#: yaksh/templates/yaksh/add_exercise.html:75
+#: yaksh/templates/yaksh/add_quiz.html:86
+msgid "Quiz Test Modes"
+msgstr "أوضاع اختبار الاختبار"
+
+#: yaksh/forms.py:741
+msgid "Quiz Time"
+msgstr "وقت الاختبار"
+
+#: yaksh/templates/yaksh/add_exercise.html:84
+#: yaksh/templates/yaksh/add_quiz.html:94
+msgid "Quiz will have the same duration as that of the original quiz."
+msgstr "مدة الاختبار هي نفس مدة الاختبار الأصلي."
+
+#: yaksh/templates/yaksh/add_exercise.html:85
+msgid "Quiz won"
+msgstr "فاز المسابقة"
+
+#: yaksh/templates/yaksh/add_quiz.html:95
+msgid "Quiz won\\"
+msgstr "فاز الاختبار \\"
+
+#: yaksh/templates/yaksh/quizzes.html:82
+msgid "Quiz(zes) Available"
+msgstr "مسابقة (zes) متوفرة"
+
+#: yaksh/templates/yaksh/quizzes.html:87
+msgid "Quiz/Exercise"
+msgstr "مسابقة / تمرين"
+
+#: yaksh/templates/yaksh/grade_user.html:246
+#: yaksh/templates/yaksh/preview_questionpaper.html:6
+#: yaksh/templates/yaksh/user_data.html:27
+#: yaksh/templates/yaksh/view_answerpaper.html:33
+msgid "Quiz:"
+msgstr "اختبار:"
+
+#: yaksh/templates/manage.html:29 yaksh/templates/yaksh/grade_user.html:8
+#: yaksh/templates/yaksh/grade_user.html:10
+msgid "Quizzes"
+msgstr "الإختبارات"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:20
+msgid "Random Questions"
+msgstr "أسئلة عشوائية"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "Random Set"
+msgstr "مجموعة عشوائية"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "randomly out of"
+msgstr "عشوائيا من"
+
+#: yaksh/templates/registration/password_change_done.html:30
+msgid "Redirecting ..."
+msgstr "إعادة توجيه ..."
+
+#: yaksh/templates/yaksh/profile_updated.html:27
+msgid "Redirecting..."
+msgstr "إعادة توجيه..."
+
+#: yaksh/templates/yaksh/register.html:6
+#: yaksh/templates/yaksh/register.html:55
+msgid "Register"
+msgstr "يسجل"
+
+#: yaksh/templates/yaksh/register.html:7
+msgid "Registration"
+msgstr "تسجيل"
+
+#: yaksh/templates/yaksh/grade_user.html:162
+#: yaksh/templates/yaksh/grade_user.html:173
+#: yaksh/templates/yaksh/grade_user.html:321
+#: yaksh/templates/yaksh/grade_user.html:336
+#: yaksh/templates/yaksh/grade_user.html:611
+msgid "Regrade"
+msgstr "إعادة تقدير"
+
+#: yaksh/templates/yaksh/grade_user.html:150
+msgid "Regrade papers by questions"
+msgstr "إعادة ترتيب الأوراق عن طريق الأسئلة"
+
+#: yaksh/templates/yaksh/grade_user.html:308
+msgid "Regrade Whole Paper"
+msgstr "إعادة ترتيب الورق بالكامل"
+
+#: yaksh/templates/yaksh/course_students.html:100
+msgid "Reject "
+msgstr "رفض "
+
+#: yaksh/templates/yaksh/course_students.html:110
+#: yaksh/templates/yaksh/course_students.html:183
+msgid "Reject selected"
+msgstr "رفض المحدد"
+
+#: yaksh/templates/yaksh/course_students.html:200
+msgid "Rejected Students"
+msgstr "الطلاب المرفوضون"
+
+#: yaksh/templates/yaksh/course_students.html:32
+msgid "remove"
+msgstr "إزالة"
+
+#: yaksh/templates/yaksh/design_course_session.html:130
+msgid "Remove from course"
+msgstr "إزالة من الدورة"
+
+#: yaksh/templates/yaksh/add_module.html:211
+msgid "Remove from Module"
+msgstr "إزالة من الوحدة النمطية"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:176
+#: yaksh/templates/yaksh/design_questionpaper.html:259
+msgid "Remove from paper"
+msgstr "أزل من الورق"
+
+#: yaksh/templates/yaksh/course_teachers.html:40
+msgid "Remove Teachers"
+msgstr "إزالة المعلمين"
+
+#: yaksh/templates/yaksh/course_forum.html:110
+#: yaksh/templates/yaksh/lessons_forum.html:57
+msgid "Replies"
+msgstr "الردود"
+
+#: yaksh/templates/registration/password_reset_form.html:33
+msgid "Request"
+msgstr "طلب"
+
+#: yaksh/templates/yaksh/quizzes_user.html:73
+msgid "Request Pending"
+msgstr "الطلب معلق"
+
+#: yaksh/templates/yaksh/quizzes_user.html:77
+msgid "Request Rejected"
+msgstr "طلب رفض"
+
+#: yaksh/templates/yaksh/course_students.html:52
+msgid "Requested Students"
+msgstr "طلب الطلاب"
+
+#: yaksh/templates/registration/password_reset_confirm.html:29
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: yaksh/templates/yaksh/results_user.html:5
+msgid "Results"
+msgstr "نتائج"
+
+#: yaksh/templates/yaksh/micromonitor.html:5
+msgid "Revoke"
+msgstr "سحب او إبطال"
+
+#: yaksh/templates/yaksh/monitor.html:164
+#: yaksh/templates/yaksh/show_lesson_statistics.html:201
+msgid "Roll No"
+msgstr "لفة لا"
+
+#: yaksh/templates/yaksh/course_progress.html:33
+msgid "Roll No."
+msgstr "رقم اللفة"
+
+#: yaksh/forms.py:98 yaksh/forms.py:495
+#: yaksh/templates/yaksh/course_send_mail.html:37
+#: yaksh/templates/yaksh/course_students.html:74
+#: yaksh/templates/yaksh/course_students.html:151
+#: yaksh/templates/yaksh/course_students.html:222
+msgid "Roll Number"
+msgstr "رقم اللفة"
+
+#: yaksh/templates/yaksh/grade_user.html:223
+#: yaksh/templates/yaksh/view_profile.html:31
+msgid "Roll number:"
+msgstr "رقم اللفة:"
+
+#: yaksh/templates/yaksh/add_course.html:57
+#: yaksh/templates/yaksh/add_exercise.html:41
+#: yaksh/templates/yaksh/add_lesson.html:144
+#: yaksh/templates/yaksh/add_module.html:90
+#: yaksh/templates/yaksh/add_question.html:170
+#: yaksh/templates/yaksh/add_topic.html:12
+#: yaksh/templates/yaksh/add_video_quiz.html:44
+#: yaksh/templates/yaksh/grade_user.html:591
+msgid "Save"
+msgstr "يحفظ"
+
+#: yaksh/templates/yaksh/grade_user.html:260
+#: yaksh/templates/yaksh/user_data.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:50
+msgid "Scorecard"
+msgstr "بطاقة الأداء"
+
+#: yaksh/templates/yaksh/addteacher.html:11
+#: yaksh/templates/yaksh/course_forum.html:84
+#: yaksh/templates/yaksh/courses.html:59
+#: yaksh/templates/yaksh/design_questionpaper.html:92
+#: yaksh/templates/yaksh/lessons.html:70 yaksh/templates/yaksh/modules.html:71
+#: yaksh/templates/yaksh/quizzes.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:25
+msgid "Search"
+msgstr "بحث"
+
+#: yaksh/forms.py:392
+msgid "Search by course name"
+msgstr "البحث عن طريق اسم الدورة"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:85
+msgid "Search Questions:"
+msgstr "أسئلة البحث:"
+
+#: yaksh/templates/yaksh/addteacher.html:22 yaksh/views.py:191
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: yaksh/templates/yaksh/addteacher.html:25
+msgid "Search results does not include teachers already added"
+msgstr "نتائج البحث لا تشمل المعلمين المضافة بالفعل"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:84
+#: yaksh/templates/yaksh/showquestions.html:100
+msgid "Search using Tags:"
+msgstr "البحث باستخدام العلامات:"
+
+#: yaksh/templates/yaksh/courses.html:49
+msgid "Search/Filter Courses"
+msgstr "بحث / تصفية الدورات"
+
+#: yaksh/templates/yaksh/modules.html:59
+msgid "Search/Filter Learning Modules"
+msgstr "البحث / تصفية وحدات التعلم النمطية"
+
+#: yaksh/templates/yaksh/lessons.html:58
+msgid "Search/Filter Lessons"
+msgstr "بحث / تصفية الدروس"
+
+#: yaksh/templates/yaksh/quizzes.html:62
+msgid "Search/Filter Quizzes"
+msgstr "بحث / تصفية الاختبارات"
+
+#: yaksh/templates/yaksh/add_module.html:160
+#: yaksh/templates/yaksh/course_teachers.html:19
+#: yaksh/templates/yaksh/design_course_session.html:25
+#: yaksh/templates/yaksh/design_course_session.html:67
+#: yaksh/templates/yaksh/monitor.html:143
+#: yaksh/templates/yaksh/showquestions.html:161
+msgid "Select"
+msgstr "يختار"
+
+#: yaksh/templates/yaksh/course_send_mail.html:24
+#: yaksh/templates/yaksh/course_students.html:59
+#: yaksh/templates/yaksh/course_students.html:136
+#: yaksh/templates/yaksh/course_students.html:207
+msgid "Select all"
+msgstr "اختر الكل"
+
+#: yaksh/templates/yaksh/grade_user.html:286
+msgid "Select attempt number"
+msgstr "حدد رقم المحاولة"
+
+#: yaksh/templates/yaksh/monitor.html:139
+msgid "Select Attempt number:"
+msgstr "حدد رقم المحاولة:"
+
+#: yaksh/templates/yaksh/monitor.html:232
+msgid "Select Attempt Number: Default latest attempt"
+msgstr "حدد رقم المحاولة: آخر محاولة افتراضية"
+
+#: forms.py:25
+msgid "Select Language"
+msgstr "اختار اللغة"
+
+#: yaksh/templates/yaksh/add_lesson.html:192
+msgid "Select Marker"
+msgstr "حدد علامة"
+
+#: yaksh/forms.py:350 yaksh/forms.py:376
+msgid "Select Marks"
+msgstr "حدد العلامات"
+
+#: yaksh/templates/yaksh/add_lesson.html:201
+msgid "Select question type"
+msgstr "حدد نوع السؤال"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:190
+msgid "Select questions to add to the pool:"
+msgstr "حدد الأسئلة لإضافتها إلى التجمع:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:116
+msgid "Select questions to add:"
+msgstr "حدد أسئلة لإضافتها:"
+
+#: forms.py:40
+msgid "Select Status"
+msgstr "حدد الحالة"
+
+#: yaksh/templates/yaksh/grade_user.html:118
+msgid "Select student"
+msgstr "اختر الطالب"
+
+#: yaksh/templates/yaksh/add_question.html:124
+msgid "Select Testcase"
+msgstr "حدد Testcase"
+
+#: yaksh/forms.py:521
+msgid "Select Video Option"
+msgstr "حدد خيار الفيديو"
+
+#: yaksh/templates/yaksh/activation_status.html:57
+msgid "Send Email"
+msgstr "ارسل بريد الكتروني"
+
+#: yaksh/templates/yaksh/course_detail_options.html:63
+#: yaksh/templates/yaksh/course_send_mail.html:60
+msgid "Send Mail"
+msgstr "ارسل بريد"
+
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Show"
+msgstr "تبين"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:281
+msgid "Shuffle MCQ/MCC options for each student"
+msgstr "تبديل خيارات MCQ / MCC لكل طالب"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:277
+msgid "Shuffle questions\\"
+msgstr "تبديل الأسئلة عشوائيًا \\"
+
+#: yaksh/templates/yaksh/login.html:82
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#: yaksh/templates/yaksh/login.html:23
+msgid "Sign in with"
+msgstr "قم بتسجيل الدخول باستخدام"
+
+#: yaksh/templates/yaksh/add_lesson.html:203
+msgid "Single Correct Choice"
+msgstr "اختيار واحد صحيح"
+
+#: yaksh/forms.py:323
+msgid "Snippet"
+msgstr "مقتطف"
+
+#: yaksh/forms.py:320
+msgid "Solution"
+msgstr "حل"
+
+#: yaksh/templates/yaksh/question.html:216
+msgid "Solution by teacher"
+msgstr "حل من قبل المعلم"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:177
+msgid "Solution for the question"
+msgstr "حل السؤال"
+
+#: yaksh/templates/500.html:18
+msgid "Sorry for the inconvenience."
+msgstr "نأسف للإزعاج."
+
+#: yaksh/templates/yaksh/monitor.html:170
+msgid "Special Attempt"
+msgstr "محاولة خاصة"
+
+#: yaksh/templates/yaksh/addteacher.html:86
+#: yaksh/templates/yaksh/monitor.html:162
+#: yaksh/templates/yaksh/show_lesson_statistics.html:199
+#: yaksh/templates/yaksh/showquestions.html:162
+msgid "Sr No."
+msgstr "الأب رقم."
+
+#: yaksh/templates/yaksh/course_progress.html:32
+msgid "Sr. No"
+msgstr "الأب رقم"
+
+#: yaksh/templates/yaksh/lessons.html:82 yaksh/templates/yaksh/modules.html:83
+#: yaksh/templates/yaksh/quizzes.html:86
+msgid "Sr.No"
+msgstr "الأب رقم"
+
+#: forms.py:30
+msgid "Standard Testcase"
+msgstr "معيار Testcase"
+
+#: yaksh/templates/yaksh/course_modules.html:92
+#: yaksh/templates/yaksh/intro.html:47
+#: yaksh/templates/yaksh/quizzes_user.html:86
+#: yaksh/templates/yaksh/show_video.html:130
+msgid "Start"
+msgstr "يبدأ"
+
+#: models.py:939
+msgid "Start Date and Time for enrollment of course"
+msgstr "تاريخ البدء ووقت التسجيل في الدورة"
+
+#: yaksh/templates/yaksh/micromanaged.html:14
+msgid "Start Special Attempt"
+msgstr "ابدأ محاولة خاصة"
+
+#: yaksh/templates/yaksh/grade_user.html:249
+#: yaksh/templates/yaksh/user_data.html:30
+#: yaksh/templates/yaksh/view_answerpaper.html:36
+msgid "Start time:"
+msgstr "وقت البدء:"
+
+#: yaksh/templates/yaksh/courses.html:183
+#: yaksh/templates/yaksh/courses.html:269
+#: yaksh/templates/yaksh/quizzes_user.html:137
+msgid "Starts On:"
+msgstr "يبدأ في:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:118
+#: yaksh/templates/yaksh/course_added_modules.html:127
+msgid "Statistics"
+msgstr "إحصائيات"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:7
+#: yaksh/templates/yaksh/statistics_question.html:8
+msgid "Statistics for"
+msgstr "إحصائيات"
+
+#: yaksh/templates/yaksh/complete.html:33
+#: yaksh/templates/yaksh/error_template.html:73
+#: yaksh/templates/yaksh/grade_user.html:494
+#: yaksh/templates/yaksh/monitor.html:168 yaksh/templates/yaksh/quit.html:24
+#: yaksh/templates/yaksh/user_data.html:234
+#: yaksh/templates/yaksh/view_answerpaper.html:255
+msgid "Status"
+msgstr "حالة"
+
+#: yaksh/templates/yaksh/grade_user.html:265
+#: yaksh/templates/yaksh/user_data.html:48
+msgid "Status:"
+msgstr "حالة:"
+
+#: forms.py:31
+msgid "StdIO Based Testcase"
+msgstr "Testcase القائم على StdIO"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:32
+msgid "STEP 1"
+msgstr "الخطوة 1"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:38
+msgid "STEP 2"
+msgstr "الخطوة 2"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:44
+msgid "STEP 3"
+msgstr "الخطوه 3"
+
+#: forms.py:35
+msgid "String Testcase"
+msgstr "سلسلة Testcase"
+
+#: yaksh/templates/yaksh/grade_user.html:424
+#: yaksh/templates/yaksh/user_data.html:163
+#: yaksh/templates/yaksh/view_answerpaper.html:184
+msgid "Student answer(s):"
+msgstr "إجابة الطالب:"
+
+#: yaksh/templates/yaksh/quizzes_user.html:5
+msgid "Student Dashboard"
+msgstr "لوحة الطالب"
+
+#: yaksh/templates/yaksh/grade_user.html:215
+msgid "Student Details"
+msgstr "تفاصيل الطالب"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:200
+msgid "Student Name"
+msgstr "أسم الطالب"
+
+#: yaksh/templates/yaksh/user_status.html:4
+msgid "Student Name:"
+msgstr "أسم الطالب:"
+
+#: yaksh/forms.py:112
+msgid "Student/Faculty/Researcher/Industry/Fellowship/etc."
+msgstr "طالب / كلية / باحث / صناعة / زمالة / إلخ."
+
+#: yaksh/templates/yaksh/grade_user.html:304
+#: yaksh/templates/yaksh/user_data.html:67
+#: yaksh/templates/yaksh/view_answerpaper.html:72
+msgid "Submission Details"
+msgstr "تفاصيل التقديم"
+
+#: yaksh/templates/yaksh/complete.html:28 yaksh/templates/yaksh/quit.html:19
+msgid "Submission Status"
+msgstr "حالة تقديم"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:73
+msgid "Submissions"
+msgstr "التقديمات"
+
+#: yaksh/templates/registration/password_reset_confirm.html:64
+#: yaksh/templates/yaksh/activation_status.html:87
+#: yaksh/templates/yaksh/show_lesson_quiz.html:131
+#: yaksh/templates/yaksh/show_lesson_quiz.html:133
+msgid "Submit"
+msgstr "يقدم"
+
+#: yaksh/templates/yaksh/question.html:347
+#: yaksh/templates/yaksh/question.html:351
+msgid "Submit Answer"
+msgstr "سلم الاجابة"
+
+#: yaksh/forms.py:302 yaksh/forms.py:721
+#: yaksh/templates/yaksh/showquestions.html:163
+msgid "Summary"
+msgstr "ملخص"
+
+#: yaksh/templates/yaksh/statistics_question.html:53
+msgid "Summary:"
+msgstr "ملخص:"
+
+#: yaksh/templates/user.html:55
+msgid "Switch To Moderator"
+msgstr "التبديل إلى وسيط"
+
+#: yaksh/templates/manage.html:69
+msgid "Switch To Student"
+msgstr "قم بالتبديل إلى الطالب"
+
+#: yaksh/templates/yaksh/add_lesson.html:161
+#: yaksh/templates/yaksh/show_video.html:162
+msgid "Table Of Contents"
+msgstr "جدول المحتويات"
+
+#: yaksh/forms.py:317
+msgid "Tags"
+msgstr "العلامات"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:88
+msgid "Taken By"
+msgstr "اخذت بواسطة"
+
+#: yaksh/templates/yaksh/grade_user.html:586
+#: yaksh/templates/yaksh/user_data.html:323
+#: yaksh/templates/yaksh/view_answerpaper.html:345
+msgid "Teacher comments:"
+msgstr "تعليقات المعلم:"
+
+#: yaksh/templates/yaksh/addteacher.html:81
+msgid "Teacher(s) added"
+msgstr "تمت إضافة المعلم (المدرسين)"
+
+#: yaksh/templates/yaksh/course_teachers.html:3
+msgid "Teacher(s)/TA(s)"
+msgstr "المعلم (ق) / تا (ق)"
+
+#: yaksh/templates/yaksh/showquestions.html:167
+#: yaksh/templates/yaksh/showquestions.html:191
+msgid "Test"
+msgstr "اختبار"
+
+#: yaksh/templates/yaksh/add_question.html:143
+msgid "Test case"
+msgstr "حالة اختبار"
+
+#: yaksh/templates/yaksh/add_question.html:115
+msgid "Test Cases"
+msgstr "حالات تجريبية"
+
+#: yaksh/templates/yaksh/grade_user.html:412
+#: yaksh/templates/yaksh/user_data.html:151
+#: yaksh/templates/yaksh/view_answerpaper.html:160
+msgid "Test cases:"
+msgstr "حالات تجريبية:"
+
+#: yaksh/templates/yaksh/showquestions.html:216
+msgid "Test Selected"
+msgstr "اختبار محدد"
+
+#: yaksh/templates/yaksh/error_template.html:33
+#: yaksh/templates/yaksh/grade_user.html:524
+#: yaksh/templates/yaksh/user_data.html:264
+msgid "The following error took place:"
+msgstr "وقع الخطأ التالي:"
+
+#: yaksh/forms.py:152
+msgid "This email already exists"
+msgstr "هذا البريد الإلكتروني موجود بالفعل"
+
+#: yaksh/templates/500.html:17
+msgid "This event will be reported."
+msgstr "سيتم الإبلاغ عن هذا الحدث."
+
+#: yaksh/templates/yaksh/intro.html:17
+msgid "This Quiz has expired. You can no longer attempt this Quiz."
+msgstr "لقد انتهت صلاحية هذا الاختبار. لم يعد بإمكانك محاولة هذا الاختبار."
+
+#: yaksh/templates/registration/password_reset_confirm.html:67
+msgid "This reset link is no longer valid!"
+msgstr "لم يعد رابط إعادة التعيين هذا صالحًا!"
+
+#: yaksh/forms.py:684
+msgid "Time"
+msgstr "زمن"
+
+#: yaksh/templates/yaksh/monitor.html:169
+msgid "Time Extension"
+msgstr "تمديد الوقت"
+
+#: yaksh/templates/yaksh/monitor.html:167
+msgid "Time Left"
+msgstr "الوقت المتبقي"
+
+#: yaksh/templates/yaksh/view_profile.html:39
+msgid "Timezone:"
+msgstr "وحدة زمنية:"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "to delete files,"
+msgstr "لحذف الملفات ،"
+
+#: yaksh/templates/yaksh/course_students.html:42
+msgid "to download a sample CSV, edit and upload it"
+msgstr "لتنزيل نموذج CSV وتحريره وتحميله"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to extract files and"
+msgstr "لاستخراج الملفات و"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to hide files"
+msgstr "لإخفاء الملفات"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "to the programming quiz!"
+msgstr "لمسابقة البرمجة!"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:71
+msgid "TOC"
+msgstr "جدول المحتويات"
+
+#: yaksh/templates/yaksh/add_lesson.html:193
+msgid "Topic"
+msgstr "عنوان"
+
+#: yaksh/forms.py:308
+msgid "Topic name"
+msgstr "اسم الموضوع"
+
+#: yaksh/templates/yaksh/question.html:162
+#: yaksh/templates/yaksh/show_lesson_quiz.html:36
+#: yaksh/templates/yaksh/show_lesson_statistics.html:89
+msgid "Topic:"
+msgstr "عنوان:"
+
+#: yaksh/templates/yaksh/statistics_question.html:40
+msgid "Total attempts"
+msgstr "مجموع محاولات"
+
+#: yaksh/templates/yaksh/grade_user.html:279
+#: yaksh/templates/yaksh/user_data.html:60
+#: yaksh/templates/yaksh/view_answerpaper.html:65
+msgid "Total attempts at questions:"
+msgstr "إجمالي المحاولات في الأسئلة:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:51
+#: yaksh/templates/yaksh/grade_user.html:272
+#: yaksh/templates/yaksh/user_data.html:55
+#: yaksh/templates/yaksh/view_answerpaper.html:60
+msgid "Total Marks:"
+msgstr "مجموع علامات:"
+
+#: yaksh/templates/yaksh/statistics_question.html:35
+msgid "Total number of participants:"
+msgstr "إجمالي عدد المشاركين:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:168
+msgid "Total Submissions:"
+msgstr "إجمالي عمليات الإرسال:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "Total Time:"
+msgstr "الوقت الكلي:"
+
+#: yaksh/templates/yaksh/add_quiz.html:70
+msgid "Try as student"
+msgstr "حاول كطالب"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Try as student:"
+msgstr "حاول كطالب:"
+
+#: yaksh/templates/yaksh/add_quiz.html:74
+msgid "Try as teacher"
+msgstr "حاول كمدرس"
+
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Try as teacher:"
+msgstr "حاول كمدرس:"
+
+#: yaksh/templates/yaksh/grade_user.html:160
+#: yaksh/templates/yaksh/grade_user.html:319
+#: yaksh/templates/yaksh/show_lesson_statistics.html:72
+#: yaksh/templates/yaksh/showquestions.html:165
+#: yaksh/templates/yaksh/statistics_question.html:39
+#: yaksh/templates/yaksh/user_data.html:74
+#: yaksh/templates/yaksh/view_answerpaper.html:79
+msgid "Type"
+msgstr "نوع"
+
+#: yaksh/templates/yaksh/question.html:166
+#: yaksh/templates/yaksh/show_lesson_quiz.html:40
+#: yaksh/templates/yaksh/show_lesson_statistics.html:94
+#: yaksh/templates/yaksh/show_lesson_statistics.html:96
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+#: yaksh/templates/yaksh/statistics_question.html:71
+msgid "Type:"
+msgstr "نوع:"
+
+#: yaksh/templates/exam.html:86
+msgid "Unattempted question(s)"
+msgstr "سؤال (أسئلة) لم تتم الإجابة عليها"
+
+#: yaksh/templates/yaksh/question.html:334
+msgid "Undo Changes"
+msgstr "التراجع عن التغييرات"
+
+#: yaksh/templates/yaksh/editprofile.html:46
+msgid "Update"
+msgstr "تحديث"
+
+#: yaksh/templates/yaksh/course_students.html:24
+#: yaksh/templates/yaksh/monitor.html:131
+#: yaksh/templates/yaksh/question.html:349
+#: yaksh/templates/yaksh/upload_download_course_md.html:13
+#: yaksh/templates/yaksh/upload_file.html:32
+msgid "Upload"
+msgstr "تحميل"
+
+#: yaksh/templates/yaksh/course_detail_options.html:103
+msgid "Upload / Download MD"
+msgstr "تحميل / تنزيل MD"
+
+#: yaksh/templates/yaksh/upload_file.html:23
+msgid "Upload assignment file for"
+msgstr "تحميل ملف المهمة ل"
+
+#: yaksh/templates/yaksh/showquestions.html:64
+#: yaksh/templates/yaksh/upload_file.html:6
+msgid "Upload File"
+msgstr "رفع ملف"
+
+#: yaksh/templates/yaksh/showquestions.html:19
+msgid "Upload Questions"
+msgstr "تحميل الأسئلة"
+
+#: yaksh/templates/yaksh/show_toc.html:16
+msgid "Upload TOC"
+msgstr "تحميل جدول المحتويات"
+
+#: yaksh/templates/yaksh/course_students.html:8
+msgid "Upload Users"
+msgstr "تحميل المستخدمين"
+
+#: yaksh/templates/yaksh/add_question.html:81
+msgid "Uploaded files"
+msgstr "الملفات التي يتم تحميلها"
+
+#: yaksh/forms.py:96
+msgid "Use a dummy if you don't have one."
+msgstr "استخدم دمية إذا لم يكن لديك واحدة."
+
+#: yaksh/templates/yaksh/user_data.html:6
+msgid "User Data"
+msgstr "بيانات المستخدم"
+
+#: yaksh/templates/yaksh/user_data.html:32
+msgid "User IP:"
+msgstr "عنوان IP للمستخدم:"
+
+#: yaksh/templates/yaksh/add_exercise.html:59
+msgid "User Mode"
+msgstr "وضع المستخدم"
+
+#: yaksh/templates/yaksh/error_template.html:72
+#: yaksh/templates/yaksh/grade_user.html:493
+#: yaksh/templates/yaksh/user_data.html:233
+#: yaksh/templates/yaksh/view_answerpaper.html:254
+msgid "User output"
+msgstr "إخراج المستخدم"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:99
+msgid "user(s)"
+msgstr "مستخدم (ق)"
+
+#: yaksh/forms.py:190 yaksh/templates/yaksh/addteacher.html:41
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: yaksh/forms.py:130
+msgid "Username already exists."
+msgstr "اسم المستخدم موجود بالفعل."
+
+#: yaksh/forms.py:208
+msgid "Username and/or Password is not entered"
+msgstr "لم يتم إدخال اسم المستخدم و / أو كلمة المرور"
+
+#: yaksh/templates/yaksh/course_students.html:36
+msgid "Users created will have username and password same as their email"
+msgstr "سيكون لدى المستخدمين الذين تم إنشاؤهم اسم مستخدم وكلمة مرور مثل بريدهم الإلكتروني"
+
+#: yaksh/forms.py:583 yaksh/forms.py:592
+msgid "Value must be dictionary e.g {'youtube': 'video-id'}"
+msgstr "يجب أن تكون القيمة قاموسًا ، مثل {'youtube': 'video-id'}"
+
+#: yaksh/templates/yaksh/add_lesson.html:98
+msgid "Video File:"
+msgstr "ملف فيديو:"
+
+#: yaksh/forms.py:531
+msgid "Video ID for Youtube, Vimeo and URL for others"
+msgstr "معرف الفيديو لـ Youtube و Vimeo و URL للآخرين"
+
+#: yaksh/templates/yaksh/add_lesson.html:89
+msgid "Video Path:"
+msgstr "مسار الفيديو:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:133
+msgid "Video Views"
+msgstr "مشاهدات الفيديو"
+
+#: yaksh/templates/yaksh/course_modules.html:84
+#: yaksh/templates/yaksh/course_modules.html:151
+#: yaksh/templates/yaksh/course_modules.html:156
+msgid "View"
+msgstr "رأي"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:7
+msgid "View Answer paper"
+msgstr "مشاهدة Answer paper"
+
+#: models.py:933
+msgid "view grade"
+msgstr "عرض الصف"
+
+#: yaksh/templates/yaksh/grade_user.html:518
+#: yaksh/templates/yaksh/user_data.html:258
+#: yaksh/templates/yaksh/view_answerpaper.html:279
+msgid "We tried you code with the following test case:"
+msgstr "لقد جربنا لك الكود مع حالة الاختبار التالية:"
+
+#: yaksh/templates/yaksh/error_template.html:27
+msgid "We tried your code with the following test case:"
+msgstr "لقد جربنا الكود الخاص بك في حالة الاختبار التالية:"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "Welcome"
+msgstr "أهلا بك"
+
+msgid "What"
+msgstr "ماذا او ما"
+
+#: yaksh/templates/yaksh/add_module.html:166
+#: yaksh/templates/yaksh/design_course_session.html:73
+#: yaksh/templates/yaksh/design_course_session.html:79
+msgid "What\\"
+msgstr "ماذا او ما\\"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Will be available once the course is complete"
+msgstr "ستكون متاحة بمجرد اكتمال الدورة"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:161
+msgid "with Error Margin"
+msgstr "بهامش خطأ"
+
+#: yaksh/templates/yaksh/question.html:331
+msgid "Write your program below:"
+msgstr "اكتب برنامجك أدناه:"
+
+#: yaksh/templates/yaksh/add_module.html:195
+#: yaksh/templates/yaksh/design_course_session.html:104
+#: yaksh/templates/yaksh/design_course_session.html:114
+msgid "Yes"
+msgstr "نعم"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "You can attempt this Quiz at any time between"
+msgstr "يمكنك محاولة هذا الاختبار في أي وقت بين"
+
+#: yaksh/templates/yaksh/add_exercise.html:57
+#: yaksh/templates/yaksh/add_quiz.html:68
+msgid "You can check the quiz by attempting it in the following modes:"
+msgstr "يمكنك التحقق من الاختبار بمحاولته في الأوضاع التالية:"
+
+#: yaksh/templates/yaksh/showquestions.html:26
+msgid "You can upload question files the following ways -"
+msgstr "يمكنك تحميل ملفات الأسئلة بالطرق التالية -"
+
+#: yaksh/templates/yaksh/question.html:292
+msgid "You can upload using the file browser here or via the QR code."
+msgstr "يمكنك التحميل باستخدام متصفح الملفات هنا أو عبر رمز الاستجابة السريعة."
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "You have been given a special attempt to the"
+msgstr "لقد تم إعطاؤك محاولة خاصة لـ"
+
+#: yaksh/templates/yaksh/user_data.html:341
+#: yaksh/templates/yaksh/view_answerpaper.html:363
+msgid "You have not attempted the Exercise"
+msgstr "أنت لم تحاول التمرين"
+
+#: yaksh/templates/yaksh/user_data.html:343
+#: yaksh/templates/yaksh/view_answerpaper.html:365
+msgid "You have not attempted the quiz"
+msgstr "أنت لم تحاول الاختبار"
+
+#: yaksh/templates/yaksh/add_exercise.html:86
+#: yaksh/templates/yaksh/add_quiz.html:96
+msgid ""
+"You will be notified about quiz prerequisites.(You can still attempt the "
+"quiz though)"
+msgstr "سيتم إخطارك بالمتطلبات الأساسية للاختبار. (لا يزال بإمكانك محاولة الاختبار رغم ذلك)"
+
+#: yaksh/templates/yaksh/question.html:411
+msgid "Your code will be reset."
+msgstr "سيتم إعادة تعيين الرمز الخاص بك."
+
+#: yaksh/templates/yaksh/quit.html:47
+msgid "Your current answers are saved."
+msgstr "يتم حفظ إجاباتك الحالية."
+
+#: yaksh/templates/registration/password_change_done.html:29
+msgid "Your password has been changed successfully."
+msgstr "تم تغيير كلمة المرور الخاصة بك بنجاح."
+
+#: yaksh/templates/registration/password_reset_complete.html:20
+msgid "Your password has been reset."
+msgstr "تم إعادة تعيين كلمة المرور الخاصة بك."
+
+#: yaksh/templates/yaksh/profile_updated.html:26
+msgid "Your Profile is changed"
+msgstr "تم تغيير ملف التعريف الخاص بك"

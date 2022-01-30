@@ -1,0 +1,2996 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: email_host_user\n"
+"POT-Creation-Date: 2021-07-31 18:54:41\n"
+"PO-Revision-Date: 2021-07-31 18:54:41\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <email_host_user>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: yaksh/forms.py:263
+msgid ""
+"            <p>\n"
+"            This examination system has been developed with the intention of\n"
+"            making you learn programming and be assessed in an interactive and\n"
+"            fun manner.You will be presented with a series of programming\n"
+"            questions and problems that you will answer online and get\n"
+"            immediate feedback for.\n"
+"            </p><p>Here are some important instructions and rules that you\n"
+"            should understand carefully.</p>\n"
+"            <ul><li>For any programming questions, you can submit solutions as\n"
+"            many times as you want without a penalty. You may skip questions\n"
+"            and solve them later.</li><li> You <strong>may</strong>\n"
+"            use your computer's Python/IPython shell or an editor to solve the\n"
+"            problem and cut/paste the solution to the web interface.\n"
+"            </li><li> <strong>You are not allowed to use any internet resources\n"
+"            i.e. no google etc.</strong>\n"
+"            </li>\n"
+"            <li> Do not copy or share the questions or answers with anyone\n"
+"            until the exam is complete <strong>for everyone</strong>.\n"
+"            </li><li> <strong>All</strong> your attempts at the questions are\n"
+"            logged. Do not try to outsmart and break the testing system.\n"
+"            If you do, we know who you are and we will expel you from the\n"
+"            course. You have been warned.\n"
+"            </li></ul>\n"
+"            <p>We hope you enjoy taking this exam !!!</p>\n"
+"        "
+msgstr "            <p> Aquest sistema d'examen s'ha desenvolupat amb la intenció de fer-vos aprendre a programar i ser avaluat d'una manera interactiva i divertida. Se us presentarà una sèrie de preguntes i problemes de programació que respondreu en línia i obtindreu comentaris immediats. </p> <p> Aquí teniu algunes instruccions i regles importants que heu d’entendre amb atenció. </p> <ul> <li> Per a qualsevol pregunta sobre programació, podeu enviar solucions tantes vegades com vulgueu sense penalització. Podeu ometre preguntes i resoldre-les més endavant. </li> <li> Podeu <strong> utilitzar el shell de Python / IPython de l'ordinador o un editor per resoldre el problema i retallar / enganxar la solució a la interfície web. </li> <li> <strong> No teniu permís per utilitzar recursos d’Internet, és a dir, no utilitzeu Google, etc. </strong> </li> <li> No copieu ni compartiu les preguntes o respostes amb ningú fins que no es realitzi l’examen. completa <strong> per a tothom </strong>. </li> <li> <strong> Tots </strong> els vostres intents de preguntes es registren. No intenteu enganyar i trencar el sistema de proves. Si ho feu, sabem qui sou i us expulsarem del curs. Has estat avisat. </li> </ul> <p> Esperem que us agradi fer aquest examen !!! </p>\n"
+"        "
+
+#: yaksh/templates/yaksh/paginator.html:19
+msgid "(current)"
+msgstr "(actual)"
+
+#: yaksh/templates/yaksh/monitor.html:236
+msgid "(Latest)"
+msgstr "(Latest)"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "(will take"
+msgstr "(es durà a"
+
+#: yaksh/templates/yaksh/course_students.html:35
+msgid "- If username and password are not provided then"
+msgstr "- Si no es proporcionen el nom d'usuari i la contrasenya"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "- Mandatory fields are"
+msgstr "- Els camps obligatoris són"
+
+#: yaksh/templates/yaksh/course_students.html:34
+msgid "- Other fields are optional."
+msgstr "- Altres camps són opcionals."
+
+#: yaksh/templates/yaksh/course_students.html:30
+msgid ""
+"- The uploaded csv should have headers exactly same as mentioned below:"
+msgstr "- El CSV carregat hauria de tenir les capçaleres exactament iguals que es mencionen a continuació:"
+
+#: yaksh/templates/yaksh/activation_status.html:5
+#: yaksh/templates/yaksh/activation_status.html:6
+msgid "Account Activation"
+msgstr "Activació del compte"
+
+#: yaksh/templates/yaksh/add_lesson.html:87
+#: yaksh/templates/yaksh/add_module.html:82
+#: yaksh/templates/yaksh/courses.html:172
+#: yaksh/templates/yaksh/courses.html:258
+#: yaksh/templates/yaksh/lessons.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:58
+#: yaksh/templates/yaksh/modules.html:101
+#: yaksh/templates/yaksh/quizzes.html:109
+msgid "Active"
+msgstr "Actiu"
+
+#: yaksh/templates/yaksh/add_lesson.html:217
+#: yaksh/templates/yaksh/quizzes.html:139
+msgid "Add"
+msgstr "Afegeix"
+
+#: yaksh/templates/yaksh/add_lesson.html:226
+msgid "Add a Video Path or Upload a video file to setup lesson contents"
+msgstr "Afegiu un camí de vídeo o pengeu un fitxer de vídeo per configurar el contingut de la lliçó"
+
+#: yaksh/templates/yaksh/post_comments.html:57
+msgid "Add comment:"
+msgstr "Afegeix un comentari:"
+
+#: yaksh/templates/yaksh/add_course.html:15
+#: yaksh/templates/yaksh/add_course.html:16
+#: yaksh/templates/yaksh/moderator_dashboard.html:19
+msgid "Add Course"
+msgstr "Afegeix curs"
+
+#: yaksh/templates/yaksh/add_exercise.html:5
+#: yaksh/templates/yaksh/add_exercise.html:6
+#: yaksh/templates/yaksh/course_added_modules.html:39
+msgid "Add Exercise"
+msgstr "Afegir exercici"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:33
+msgid "Add Fixed Questions"
+msgstr "Afegiu preguntes solucionades"
+
+#: yaksh/templates/yaksh/course_added_modules.html:29
+msgid "Add Lesson"
+msgstr "Afegeix una lliçó"
+
+#: yaksh/templates/yaksh/course_added_modules.html:7
+msgid "Add Module"
+msgstr "Afegeix un mòdul"
+
+#: yaksh/templates/yaksh/add_video_quiz.html:24
+msgid "Add More"
+msgstr "Afegir més"
+
+#: yaksh/templates/yaksh/quizzes.html:49
+msgid "Add New Exercise"
+msgstr "Afegiu un nou exercici"
+
+#: yaksh/templates/yaksh/lessons.html:45
+msgid "Add new Lesson"
+msgstr "Afegeix una nova lliçó"
+
+#: yaksh/templates/yaksh/modules.html:46
+msgid "Add new Module"
+msgstr "Afegiu un mòdul nou"
+
+#: yaksh/templates/yaksh/quizzes.html:46
+msgid "Add New Quiz"
+msgstr "Afegeix un qüestionari nou"
+
+#: yaksh/templates/yaksh/add_question.html:6
+#: yaksh/templates/yaksh/add_question.html:7
+#: yaksh/templates/yaksh/showquestions.html:146
+msgid "Add Question"
+msgstr "Afegeix una pregunta"
+
+#: yaksh/templates/yaksh/course_added_modules.html:34
+msgid "Add Quiz"
+msgstr "Afegeix prova"
+
+#: yaksh/templates/yaksh/modules.html:113
+msgid "Add Quizzes/Lessons for"
+msgstr "Afegeix proves / lliçons per a"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:39
+msgid "Add Random Questions"
+msgstr "Afegiu preguntes aleatòries"
+
+#: yaksh/templates/yaksh/addteacher.html:72
+msgid "Add Selected"
+msgstr "Afegeix seleccionats"
+
+#: yaksh/templates/yaksh/addteacher.html:4
+#: yaksh/templates/yaksh/course_detail_options.html:83
+msgid "Add Teachers/TAs"
+msgstr "Afegiu professors / TA"
+
+#: yaksh/templates/yaksh/add_question.html:121
+msgid "Add Test Case:"
+msgstr "Afegeix un cas de prova:"
+
+#: yaksh/templates/yaksh/design_course_session.html:57
+msgid "Add to course"
+msgstr "Afegeix al curs"
+
+#: yaksh/templates/yaksh/add_module.html:148
+msgid "Add to Module"
+msgstr "Afegeix al mòdul"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:144
+#: yaksh/templates/yaksh/design_questionpaper.html:225
+msgid "Add to paper"
+msgstr "Afegir al paper"
+
+#: yaksh/forms.py:526
+msgid "Add videos from youtube, vimeo or other"
+msgstr "Afegiu vídeos de youtube, vimeo o altres"
+
+#: yaksh/templates/yaksh/add_lesson.html:235
+msgid "Add/Edit Content"
+msgstr "Afegeix / edita contingut"
+
+#: yaksh/templates/yaksh/add_course.html:29
+#: yaksh/templates/yaksh/courses.html:25 yaksh/templates/yaksh/lessons.html:18
+#: yaksh/templates/yaksh/modules.html:19 yaksh/templates/yaksh/quizzes.html:19
+msgid "Add/Edit Course"
+msgstr "Afegir / Editar curs"
+
+#: yaksh/templates/yaksh/add_quiz.html:5 yaksh/templates/yaksh/add_quiz.html:7
+msgid "Add/Edit Quiz"
+msgstr "Afegeix / edita el concurs"
+
+#: yaksh/templates/yaksh/add_course.html:34
+#: yaksh/templates/yaksh/courses.html:30 yaksh/templates/yaksh/lessons.html:34
+#: yaksh/templates/yaksh/modules.html:35 yaksh/templates/yaksh/quizzes.html:35
+msgid "Add/View Grading Systems"
+msgstr "Afegeix / visualitza sistemes de classificació"
+
+#: yaksh/templates/yaksh/lessons.html:28 yaksh/templates/yaksh/modules.html:29
+#: yaksh/templates/yaksh/quizzes.html:29
+msgid "Add/View Lessons"
+msgstr "Afegir / Veure lliçons"
+
+#: yaksh/templates/yaksh/lessons.html:31 yaksh/templates/yaksh/modules.html:32
+#: yaksh/templates/yaksh/quizzes.html:32
+msgid "Add/View Modules"
+msgstr "Afegeix / visualitza mòduls"
+
+#: yaksh/templates/yaksh/lessons.html:25 yaksh/templates/yaksh/modules.html:26
+#: yaksh/templates/yaksh/quizzes.html:26
+msgid "Add/View Quizzes"
+msgstr "Afegeix / visualitza proves"
+
+#: yaksh/views.py:201
+msgid "All Courses"
+msgstr "Tots els cursos"
+
+#: yaksh/templates/yaksh/showquestions.html:18
+msgid "All Questions"
+msgstr "Totes les preguntes"
+
+#: yaksh/forms.py:118 yaksh/forms.py:502
+msgid "All timings are shown based on the selected timezone"
+msgstr "Tots els horaris es mostren en funció de la zona horària seleccionada"
+
+#: yaksh/templates/yaksh/courses.html:116
+#: yaksh/templates/yaksh/courses.html:215
+msgid "Allotted Course"
+msgstr "Curs assignat"
+
+#: yaksh/templates/yaksh/micromonitor.html:7
+#: yaksh/templates/yaksh/micromonitor.html:10
+msgid "Allow"
+msgstr "Permet"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:274
+msgid "Almost finished creating your question paper"
+msgstr "Quasi he acabat de crear el vostre document de preguntes"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "and"
+msgstr "i"
+
+#: yaksh/templates/yaksh/course_forum.html:125
+#: yaksh/templates/yaksh/lessons_forum.html:72
+#: yaksh/templates/yaksh/post_comments.html:37
+#: yaksh/templates/yaksh/post_comments.html:75
+#: yaksh/templates/yaksh/show_video.html:260
+msgid "Anonymous"
+msgstr "Anònim"
+
+#: yaksh/templates/yaksh/add_lesson.html:211
+msgid "Answer in Float"
+msgstr "Resposta a Float"
+
+#: yaksh/templates/yaksh/add_lesson.html:207
+msgid "Answer in Integer"
+msgstr "Resposta en enter"
+
+#: yaksh/templates/yaksh/add_lesson.html:209
+msgid "Answer in String"
+msgstr "Respon en cadena"
+
+#: yaksh/templates/yaksh/course_modules.html:178
+#: yaksh/templates/yaksh/course_modules.html:182
+msgid "Answer paper"
+msgstr "Paper de resposta"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:8
+msgid "Answer Paper  for"
+msgstr "Paper de resposta per a"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:39
+#: yaksh/templates/yaksh/show_lesson_statistics.html:155
+#: yaksh/templates/yaksh/show_lesson_statistics.html:158
+msgid "Answer:"
+msgstr "Resposta:"
+
+#: yaksh/templates/yaksh/statistics_question.html:41
+msgid "Answered Correctly"
+msgstr "Respost correctament"
+
+#: yaksh/templates/yaksh/quit.html:48
+msgid "Are you sure you wish to quit the exam?"
+msgstr "Esteu segur que voleu deixar l'examen?"
+
+#: yaksh/templates/yaksh/quit.html:45
+msgid "Are you sure you wish to quit the Exercise?"
+msgstr "Esteu segur que voleu deixar l'exercici?"
+
+#: yaksh/templates/yaksh/question.html:408
+msgid "Are you Sure?"
+msgstr "Estàs segur?"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+msgid "ARRANGE THE OPTIONS IN CORRECT ORDER"
+msgstr "ORDENAR LES OPCIONS EN UNA ORDRE CORRECTA"
+
+#: yaksh/templates/yaksh/grade_user.html:431
+#: yaksh/templates/yaksh/user_data.html:170
+#: yaksh/templates/yaksh/view_answerpaper.html:191
+msgid "Assignment File for"
+msgstr "Fitxer de tasques per a"
+
+#: yaksh/templates/yaksh/grade_user.html:438
+#: yaksh/templates/yaksh/user_data.html:177
+#: yaksh/templates/yaksh/view_answerpaper.html:198
+msgid "Assignment not submitted by"
+msgstr "Tasca no enviada per"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+msgid "ASSIGNMENT UPLOAD"
+msgstr "CÀRREGA CÀRREGA"
+
+#: yaksh/templates/yaksh/course_send_mail.html:14
+msgid "Attachments:"
+msgstr "Fitxers adjunts:"
+
+#: yaksh/templates/yaksh/question.html:371
+msgid "Attempt Later"
+msgstr "Intenta més tard"
+
+#: yaksh/templates/yaksh/grade_user.html:281
+#: yaksh/templates/yaksh/grade_user.html:449
+#: yaksh/templates/yaksh/user_data.html:40
+#: yaksh/templates/yaksh/user_data.html:189
+#: yaksh/templates/yaksh/view_answerpaper.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:209
+msgid "Attempt Number:"
+msgstr "Número d'intent:"
+
+#: yaksh/templates/yaksh/add_exercise.html:82
+msgid "Attempt quiz the way normal users will attempt i.e. -"
+msgstr "Proveu de preguntar de la manera que intentaran els usuaris normals, és a dir, -"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Attempt quiz the way students will attempt i.e. -"
+msgstr "Prova de prova de la manera que intentaran els estudiants, és a dir, -"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Attempt quiz without any time or eligibilty constraints."
+msgstr "Proveu de prova sense cap restricció de temps ni d'elegibilitat."
+
+#: yaksh/templates/yaksh/complete.html:41 yaksh/templates/yaksh/quit.html:32
+msgid "Attempted"
+msgstr "Intentat"
+
+#: yaksh/templates/exam.html:84
+msgid "Attempted question(s)"
+msgstr "Intent de preguntes"
+
+#: yaksh/templates/yaksh/monitor.html:92
+msgid "Auto-Refreshes every 5 minutes"
+msgstr "Actualitza automàticament cada 5 minuts"
+
+#: yaksh/templates/yaksh/add_module.html:126
+msgid "Available Lessons and quizzes: (Add Lessons and Quizzes)"
+msgstr "Lliçons i concursos disponibles: (Afegiu lliçons i concursos)"
+
+#: yaksh/templates/yaksh/design_course_session.html:21
+msgid "Available Modules:"
+msgstr "Mòduls disponibles:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:98
+#: yaksh/templates/yaksh/showquestions.html:103
+msgid "Available Tags"
+msgstr "Etiquetes disponibles"
+
+#: yaksh/templates/yaksh/add_lesson.html:33
+#: yaksh/templates/yaksh/add_module.html:30
+#: yaksh/templates/yaksh/add_module.html:35
+#: yaksh/templates/yaksh/course_detail_options.html:9
+#: yaksh/templates/yaksh/course_forum.html:19
+#: yaksh/templates/yaksh/course_forum.html:23
+#: yaksh/templates/yaksh/design_questionpaper.html:23
+#: yaksh/templates/yaksh/lessons_forum.html:19
+#: yaksh/templates/yaksh/lessons_forum.html:23
+#: yaksh/templates/yaksh/show_lesson_statistics.html:37
+#: yaksh/templates/yaksh/view_answerpaper.html:19
+msgid "Back"
+msgstr "esquena"
+
+#: yaksh/templates/yaksh/post_comments.html:12
+msgid "Back to Posts"
+msgstr "Torna a Publicacions"
+
+#: yaksh/templates/yaksh/quit.html:49
+msgid "Be sure, as you won\\"
+msgstr "Assegureu-vos, ja que heu guanyat \\"
+
+#: yaksh/templates/yaksh/paginator.html:11
+msgid "begin"
+msgstr "començar"
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "by the course creator"
+msgstr "pel creador del curs"
+
+#: yaksh/templates/registration/password_change_form.html:98
+#: yaksh/templates/registration/password_reset_form.html:36
+#: yaksh/templates/yaksh/add_course.html:60
+#: yaksh/templates/yaksh/editprofile.html:47
+#: yaksh/templates/yaksh/question.html:415
+#: yaksh/templates/yaksh/register.html:58
+msgid "Cancel"
+msgstr "Cancel · lar"
+
+#: yaksh/templates/exam.html:96
+msgid "Category"
+msgstr "Categoria"
+
+#: yaksh/templates/registration/password_change_form.html:95
+#: yaksh/templates/yaksh/design_course_session.html:88
+#: yaksh/templates/yaksh/design_course_session.html:90
+msgid "Change"
+msgstr "Canvi"
+
+#: yaksh/templates/yaksh/add_module.html:212
+#: yaksh/templates/yaksh/design_course_session.html:131
+msgid "Change Order"
+msgstr "Canvia l’ordre"
+
+#: yaksh/templates/manage.html:74
+#: yaksh/templates/registration/password_change_form.html:29
+#: yaksh/templates/registration/password_change_form.html:43
+#: yaksh/templates/registration/password_change_form.html:45
+#: yaksh/templates/user.html:60
+msgid "Change Password"
+msgstr "Canvia la contrasenya"
+
+#: yaksh/templates/yaksh/add_module.html:213
+msgid "Change Prerequisite"
+msgstr "Requisit previ del canvi"
+
+#: yaksh/templates/yaksh/design_course_session.html:132
+msgid "Change Prerequisite Completion"
+msgstr "Completar el requisit previ de canvi"
+
+#: yaksh/templates/yaksh/design_course_session.html:133
+msgid "Change Prerequisite Passing"
+msgstr "Canvi d'aprovació del requisit previ"
+
+#: yaksh/templates/yaksh/question.html:355
+msgid "Check Answer"
+msgstr "Marqueu Resposta"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "Check on"
+msgstr "Comprovar"
+
+#: yaksh/templates/yaksh/add_module.html:163
+msgid "Check Prerequisite"
+msgstr "Comproveu el requisit previ"
+
+#: yaksh/templates/yaksh/design_course_session.html:70
+msgid "Check Prerequisite Completion"
+msgstr "Comproveu la finalització del requisit previ"
+
+#: yaksh/templates/yaksh/design_course_session.html:76
+msgid "Check Prerequisite Passing"
+msgstr "Comproveu l'aprovació del requisit previ"
+
+#: yaksh/templates/base.html:90
+msgid "Checking..."
+msgstr "S'està comprovant ..."
+
+#: yaksh/templates/yaksh/grade_user.html:366
+#: yaksh/templates/yaksh/preview_questionpaper.html:44
+msgid "Choices:"
+msgstr "Opcions:"
+
+#: yaksh/templates/yaksh/add_lesson.html:113
+#: yaksh/templates/yaksh/add_question.html:72
+#: yaksh/templates/yaksh/course_send_mail.html:17
+#: yaksh/templates/yaksh/course_students.html:18
+#: yaksh/templates/yaksh/showquestions.html:59
+msgid "Choose file"
+msgstr "Trieu l'arxiu"
+
+#: yaksh/templates/yaksh/add_module.html:155
+msgid "Chosen Lessons and quizzes:"
+msgstr "Lliçons i qüestionaris triats:"
+
+#: yaksh/templates/yaksh/design_course_session.html:63
+msgid "Chosen Modules:"
+msgstr "Mòduls triats:"
+
+#: yaksh/templates/yaksh/courses.html:62
+#: yaksh/templates/yaksh/showquestions.html:127
+msgid "Clear"
+msgstr "Clar"
+
+#: yaksh/templates/yaksh/course_forum.html:92
+#: yaksh/templates/yaksh/lessons.html:72 yaksh/templates/yaksh/modules.html:73
+#: yaksh/templates/yaksh/quizzes.html:76
+msgid "Clear Search"
+msgstr "Esborra la cerca"
+
+#: yaksh/templates/yaksh/course_students.html:39
+msgid "Click"
+msgstr "Feu clic a"
+
+#: yaksh/templates/yaksh/courses.html:146
+#: yaksh/templates/yaksh/courses.html:235
+msgid "Clone Course"
+msgstr "Curs de clonació"
+
+#: yaksh/templates/yaksh/course_forum.html:67
+#: yaksh/templates/yaksh/grade_user.html:635
+#: yaksh/templates/yaksh/monitor.html:248
+msgid "Close"
+msgstr "Tanca"
+
+#: yaksh/templates/yaksh/lessons.html:103
+#: yaksh/templates/yaksh/modules.html:105
+#: yaksh/templates/yaksh/quizzes.html:113
+msgid "Closed"
+msgstr "Tancat"
+
+#: yaksh/templates/yaksh/grade_user.html:566
+msgid "Comment:"
+msgstr "Comentari:"
+
+#: yaksh/templates/yaksh/show_video.html:241
+msgid "Comments:"
+msgstr "Comentaris:"
+
+#: yaksh/templates/yaksh/complete.html:6
+msgid "Complete"
+msgstr "Complet"
+
+#: yaksh/templates/yaksh/monitor.html:195
+msgid "Completed"
+msgstr "Completat"
+
+#: yaksh/templates/yaksh/course_added_modules.html:110
+msgid "completed out of"
+msgstr "completat fora de"
+
+#: yaksh/templates/yaksh/course_progress.html:36
+msgid "Completion Percentage"
+msgstr "Percentatge de realització"
+
+#: forms.py:85
+msgid "Confirm Password"
+msgstr "Confirma la contrassenya"
+
+#: yaksh/templates/base.html:128
+msgid "Contact: pythonsupport@fossee.in"
+msgstr "Contacte: pythonsupport@fossee.in"
+
+#: yaksh/templates/yaksh/course_modules.html:88
+#: yaksh/templates/yaksh/quizzes_user.html:82
+msgid "Continue"
+msgstr "Continua"
+
+msgid "Correct Answer"
+msgstr "Resposta correcta"
+
+#: yaksh/templates/yaksh/grade_user.html:389
+#: yaksh/templates/yaksh/user_data.html:128
+#: yaksh/templates/yaksh/view_answerpaper.html:137
+msgid "Correct Answer:"
+msgstr "Resposta correcta:"
+
+#: yaksh/templates/yaksh/grade_user.html:401
+#: yaksh/templates/yaksh/user_data.html:140
+#: yaksh/templates/yaksh/view_answerpaper.html:149
+msgid "Correct Order:"
+msgstr "Ordre correcte:"
+
+#: forms.py:437
+msgid "Course Code"
+msgstr "Codi del curs"
+
+#: yaksh/templates/yaksh/course_modules.html:32
+#: yaksh/templates/yaksh/quizzes_user.html:143
+#: yaksh/templates/yaksh/user_status.html:9
+msgid "Course completed"
+msgstr "Curs completat"
+
+#: yaksh/templates/yaksh/quizzes_user.html:120
+msgid "Course Content"
+msgstr "Contingut del curs"
+
+#: yaksh/templates/yaksh/course_detail.html:6
+#: yaksh/templates/yaksh/grade_user.html:240
+#: yaksh/templates/yaksh/user_data.html:21
+#: yaksh/templates/yaksh/view_answerpaper.html:27
+msgid "Course Details"
+msgstr "Detalls del curs"
+
+#: forms.py:446
+msgid "Course End DateTime"
+msgstr "Data de finalització del curs"
+
+#: yaksh/templates/yaksh/sidebar.html:8
+msgid "Course Forum"
+msgstr "Fòrum del curs"
+
+#: forms.py:440
+msgid "Course instructions"
+msgstr "Instruccions del curs"
+
+#: yaksh/templates/yaksh/course_added_modules.html:5
+#: yaksh/templates/yaksh/course_detail_options.html:33
+#: yaksh/templates/yaksh/course_modules.html:5
+msgid "Course Modules"
+msgstr "Mòduls del curs"
+
+#: forms.py:431
+msgid "Course Name"
+msgstr "Nom del curs"
+
+#: yaksh/templates/yaksh/monitor.html:63
+msgid "Course Name:"
+msgstr "Nom del curs:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:53
+#: yaksh/templates/yaksh/course_progress.html:8
+msgid "Course Progress"
+msgstr "Avanç del curs"
+
+#: forms.py:443
+msgid "Course Start DateTime"
+msgstr "Data d'inici del curs"
+
+#: yaksh/templates/yaksh/courses.html:69
+msgid "Course(s) Available"
+msgstr "Curs (s) disponible (s)"
+
+#: yaksh/templates/yaksh/grade_user.html:245
+#: yaksh/templates/yaksh/user_data.html:26
+#: yaksh/templates/yaksh/view_answerpaper.html:32
+msgid "Course:"
+msgstr "Curs:"
+
+#: yaksh/templates/manage.html:24 yaksh/templates/yaksh/courses.html:5
+#: yaksh/templates/yaksh/courses.html:6
+msgid "Courses"
+msgstr "Cursos"
+
+#: yaksh/templates/yaksh/course_forum.html:54
+msgid "Create a new Post"
+msgstr "Crea una publicació nova"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:22
+msgid "Create Demo Course"
+msgstr "Crea un curs de demostració"
+
+#: yaksh/templates/yaksh/add_lesson.html:171
+msgid "Create lesson table of contents"
+msgstr "Crea una taula de continguts de la lliçó"
+
+#: yaksh/templates/yaksh/login.html:92
+msgid "Create new account"
+msgstr "Crear un nou compte"
+
+#: yaksh/templates/yaksh/add_module.html:6
+msgid "Create/Edit Learning Module"
+msgstr "Crea / Edita el mòdul d'aprenentatge"
+
+#: yaksh/templates/yaksh/add_lesson.html:6
+msgid "Create/Edit Lesson"
+msgstr "Creació / edició de la lliçó"
+
+#: yaksh/templates/yaksh/course_forum.html:109
+#: yaksh/templates/yaksh/lessons_forum.html:56
+msgid "Created by"
+msgstr "Creat per"
+
+#: yaksh/templates/yaksh/courses.html:120
+#: yaksh/templates/yaksh/courses.html:219
+msgid "Created Course"
+msgstr "Curs creat"
+
+#: yaksh/templates/yaksh/courses.html:180
+#: yaksh/templates/yaksh/courses.html:266
+msgid "Creator:"
+msgstr "Creador:"
+
+#: yaksh/templates/exam.html:85
+msgid "Current question"
+msgstr "Pregunta actual"
+
+#: yaksh/templates/yaksh/course_detail_options.html:93
+msgid "Current Teachers/TAs"
+msgstr "Professors actuals"
+
+#: yaksh/templates/yaksh/course_progress.html:35
+msgid "Current Unit"
+msgstr "Unitat actual"
+
+#: yaksh/templates/yaksh/add_module.html:174
+#: yaksh/templates/yaksh/design_course_session.html:87
+#: yaksh/templates/yaksh/design_course_session.html:89
+msgid "Currently"
+msgstr "Actualment"
+
+#: yaksh/templates/yaksh/user_data.html:7
+msgid "Data for user"
+msgstr "Dades per a l'usuari"
+
+#: yaksh/templates/yaksh/add_question.html:85
+#: yaksh/templates/yaksh/add_question.html:97
+#: yaksh/templates/yaksh/showquestions.html:169
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: yaksh/templates/yaksh/add_lesson.html:148
+msgid "Delete Files"
+msgstr "Suprimeix fitxers"
+
+#: yaksh/templates/yaksh/showquestions.html:218
+msgid "Delete Selected"
+msgstr "Suprimeix els seleccionats"
+
+#: yaksh/forms.py:108 yaksh/forms.py:492
+#: yaksh/templates/yaksh/addteacher.html:46
+#: yaksh/templates/yaksh/course_students.html:76
+#: yaksh/templates/yaksh/course_students.html:153
+#: yaksh/templates/yaksh/course_students.html:224
+msgid "Department"
+msgstr "Departament"
+
+#: yaksh/forms.py:106
+msgid "Department you work/study at"
+msgstr "Departament al qual treballes / estudies"
+
+#: yaksh/templates/yaksh/grade_user.html:227
+#: yaksh/templates/yaksh/view_profile.html:27
+msgid "Department:"
+msgstr "Departament:"
+
+#: yaksh/forms.py:314 yaksh/forms.py:687 yaksh/forms.py:737
+msgid "Description"
+msgstr "Descripció"
+
+#: yaksh/templates/yaksh/add_lesson.html:76
+#: yaksh/templates/yaksh/add_module.html:102
+msgid "Description Preview"
+msgstr "Previsualització de la descripció"
+
+#: yaksh/templates/yaksh/statistics_question.html:59
+#: yaksh/templates/yaksh/view_notifications.html:47
+msgid "Description:"
+msgstr "Descripció:"
+
+#: yaksh/templates/yaksh/course_detail_options.html:43
+msgid "Design Course"
+msgstr "Curs de Disseny"
+
+#: yaksh/templates/yaksh/design_course_session.html:5
+msgid "Design Course Session"
+msgstr "Sessió del Curs de Disseny"
+
+#: yaksh/templates/yaksh/course_added_modules.html:44
+#: yaksh/templates/yaksh/modules.html:85
+msgid "Design Module"
+msgstr "Mòdul de disseny"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:7
+msgid "Design Question Paper"
+msgstr "Paper de preguntes de disseny"
+
+#: yaksh/templates/yaksh/add_question.html:148
+#: yaksh/templates/yaksh/course_modules.html:76
+#: yaksh/templates/yaksh/grade_user.html:58
+#: yaksh/templates/yaksh/grade_user.html:460
+#: yaksh/templates/yaksh/grade_user.html:471
+#: yaksh/templates/yaksh/moderator_dashboard.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:67
+#: yaksh/templates/yaksh/show_lesson_statistics.html:59
+#: yaksh/templates/yaksh/user_data.html:200
+#: yaksh/templates/yaksh/user_data.html:211
+#: yaksh/templates/yaksh/view_answerpaper.html:220
+msgid "Details"
+msgstr "Detalls"
+
+#: yaksh/templates/yaksh/grade_user.html:353
+#: yaksh/templates/yaksh/user_data.html:93
+#: yaksh/templates/yaksh/view_answerpaper.html:102
+msgid "Details:"
+msgstr "Detalls:"
+
+#: yaksh/templates/base.html:125
+#: yaksh/templates/yaksh/download_course_templates/index.html:69
+#: yaksh/templates/yaksh/download_course_templates/module.html:64
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:98
+#: yaksh/templates/yaksh/download_course_templates/unit.html:129
+msgid "Developed by FOSSEE group, IIT Bombay"
+msgstr "Desenvolupat pel grup FOSSEE, IIT Bombay"
+
+#: yaksh/templates/yaksh/grade_user.html:445
+#: yaksh/templates/yaksh/user_data.html:185
+#: yaksh/templates/yaksh/view_answerpaper.html:205
+msgid "Did not attempt"
+msgstr "No ho he intentat"
+
+#: yaksh/templates/yaksh/grade_user.html:625
+msgid "Did not Grade"
+msgstr "No es va classificar"
+
+#: yaksh/templates/yaksh/course_detail_options.html:73
+#: yaksh/templates/yaksh/course_forum.html:6
+#: yaksh/templates/yaksh/course_forum.html:13
+#: yaksh/templates/yaksh/course_modules.html:12
+#: yaksh/templates/yaksh/lessons_forum.html:13
+msgid "Discussion Forum"
+msgstr "Fòrum de debat"
+
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Dont extract"
+msgstr "No extreu"
+
+#: yaksh/templates/yaksh/monitor.html:245
+#: yaksh/templates/yaksh/showquestions.html:168
+#: yaksh/templates/yaksh/upload_download_course_md.html:6
+msgid "Download"
+msgstr "descarregar"
+
+#: yaksh/templates/yaksh/grade_user.html:142
+msgid "Download All Assignments"
+msgstr "Descarregueu totes les tasques"
+
+#: yaksh/templates/yaksh/courses.html:160
+#: yaksh/templates/yaksh/courses.html:245
+msgid "Download Course"
+msgstr "Descarregar curs"
+
+#: yaksh/templates/yaksh/courses.html:153
+#: yaksh/templates/yaksh/courses.html:240
+#: yaksh/templates/yaksh/monitor.html:98
+msgid "Download CSV"
+msgstr "Descarregueu CSV"
+
+#: yaksh/templates/yaksh/monitor.html:224
+msgid "Download CSV for"
+msgstr "Descarregueu CSV per a"
+
+#: yaksh/templates/yaksh/course_progress.html:16
+msgid "Download Data"
+msgstr "Descarregar dades"
+
+#: yaksh/templates/yaksh/show_toc.html:9
+msgid "Download Sample"
+msgstr "Descarregar mostra"
+
+#: yaksh/templates/yaksh/showquestions.html:215
+msgid "Download Selected"
+msgstr "Baixada seleccionada"
+
+#: yaksh/templates/yaksh/showquestions.html:52
+msgid "Download Template"
+msgstr "Descarrega la plantilla"
+
+#: yaksh/templates/yaksh/monitor.html:115
+msgid "Download the CSV file from the button"
+msgstr "Baixeu el fitxer CSV des del botó"
+
+#: yaksh/templates/yaksh/upload_file.html:27
+msgid "Drop files here or click to upload."
+msgstr "Deixa anar fitxers aquí o fes clic per penjar-los."
+
+#: yaksh/templates/yaksh/monitor.html:118
+msgid "Edit and upload the same"
+msgstr "Editeu-lo i pengeu-lo"
+
+#: yaksh/templates/yaksh/courses.html:139
+#: yaksh/templates/yaksh/courses.html:230
+msgid "Edit Course"
+msgstr "Edita el curs"
+
+#: yaksh/templates/yaksh/editprofile.html:4
+#: yaksh/templates/yaksh/view_profile.html:43
+msgid "Edit Profile"
+msgstr "Edita el perfil"
+
+#: yaksh/templates/yaksh/add_exercise.html:50
+#: yaksh/templates/yaksh/add_quiz.html:61
+msgid "Edit Question Paper"
+msgstr "Edita el paper de preguntes"
+
+#: yaksh/templates/yaksh/addteacher.html:44
+#: yaksh/templates/yaksh/course_send_mail.html:36
+#: yaksh/templates/yaksh/course_students.html:73
+#: yaksh/templates/yaksh/course_students.html:150
+#: yaksh/templates/yaksh/course_students.html:221
+#: yaksh/templates/yaksh/course_teachers.html:21
+#: yaksh/templates/yaksh/show_lesson_statistics.html:202
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: yaksh/templates/yaksh/view_profile.html:19
+msgid "Email:"
+msgstr "Correu electrònic:"
+
+#: yaksh/templates/yaksh/paginator.html:32
+msgid "end"
+msgstr "final"
+
+#: models.py:946
+msgid "End Date and Time for enrollment of course"
+msgstr "Data i hora de finalització de la inscripció del curs"
+
+#: yaksh/templates/yaksh/grade_user.html:250
+#: yaksh/templates/yaksh/user_data.html:31
+#: yaksh/templates/yaksh/view_answerpaper.html:37
+msgid "End time:"
+msgstr "Fi del temps:"
+
+#: yaksh/templates/yaksh/courses.html:186
+#: yaksh/templates/yaksh/courses.html:272
+#: yaksh/templates/yaksh/quizzes_user.html:138
+msgid "Ends On:"
+msgstr "Acaba el:"
+
+#: yaksh/templates/yaksh/course_students.html:96
+msgid "Enroll "
+msgstr "Inscriu-te "
+
+#: models.py:85
+msgid "Enroll Request"
+msgstr "Sol·licitud d'inscripció"
+
+#: yaksh/templates/yaksh/course_students.html:113
+#: yaksh/templates/yaksh/course_students.html:255
+msgid "Enroll selected"
+msgstr "Inscripció seleccionada"
+
+#: yaksh/templates/yaksh/course_students.html:77
+msgid "Enroll/Reject"
+msgstr "Inscriu-te / rebutja"
+
+#: yaksh/templates/yaksh/course_students.html:129
+msgid "Enrolled Students"
+msgstr "Estudiants matriculats"
+
+#: models.py:920
+msgid "enrollment"
+msgstr "inscripció"
+
+#: yaksh/templates/yaksh/course_detail_options.html:23
+msgid "Enrollments"
+msgstr "Inscripcions"
+
+#: yaksh/templates/yaksh/quizzes_user.html:23
+msgid "Enter course code to search"
+msgstr "Introduïu el codi del curs per cercar"
+
+#: yaksh/templates/yaksh/question.html:253
+#: yaksh/templates/yaksh/show_lesson_quiz.html:92
+msgid "Enter Decimal Value :"
+msgstr "Introduïu el valor decimal:"
+
+#: yaksh/templates/yaksh/question.html:239
+#: yaksh/templates/yaksh/show_lesson_quiz.html:78
+msgid "Enter Integer:"
+msgstr "Introduïu enter:"
+
+#: yaksh/forms.py:538
+msgid "Enter Lesson Description as Markdown text"
+msgstr "Introduïu la descripció de la lliçó com a text de Markdown"
+
+#: yaksh/templates/yaksh/question.html:246
+#: yaksh/templates/yaksh/show_lesson_quiz.html:85
+msgid "Enter Text:"
+msgstr "Introduïu el text:"
+
+#: yaksh/templates/registration/password_reset_form.html:19
+msgid "Enter your registered email address to reset your password"
+msgstr "Introduïu la vostra adreça electrònica registrada per restablir la contrasenya"
+
+#: yaksh/templates/404.html:20
+msgid "Error Message:-"
+msgstr "Missatge d'error:-"
+
+#: yaksh/templates/yaksh/error_template.html:15
+msgid "Error No."
+msgstr "Error núm."
+
+#: yaksh/templates/yaksh/error_template.html:90
+#: yaksh/templates/yaksh/grade_user.html:467
+#: yaksh/templates/yaksh/grade_user.html:511
+#: yaksh/templates/yaksh/user_data.html:207
+#: yaksh/templates/yaksh/view_answerpaper.html:227
+#: yaksh/templates/yaksh/view_answerpaper.html:272
+msgid "Error:"
+msgstr "Error:"
+
+#: yaksh/templates/yaksh/error_template.html:41
+#: yaksh/templates/yaksh/grade_user.html:531
+#: yaksh/templates/yaksh/user_data.html:271
+#: yaksh/templates/yaksh/view_answerpaper.html:292
+msgid "Exception Message:"
+msgstr "Missatge d'excepció:"
+
+#: yaksh/templates/yaksh/error_template.html:37
+#: yaksh/templates/yaksh/grade_user.html:527
+#: yaksh/templates/yaksh/user_data.html:267
+#: yaksh/templates/yaksh/view_answerpaper.html:288
+msgid "Exception Name:"
+msgstr "Nom de l'excepció:"
+
+#: yaksh/templates/yaksh/add_lesson.html:195
+#: yaksh/templates/yaksh/course_added_modules.html:97
+msgid "Exercise"
+msgstr "Exercici"
+
+#: yaksh/forms.py:220
+msgid "Exercise Description"
+msgstr "Descripció de l’exercici"
+
+#: yaksh/templates/yaksh/micromanaged.html:17
+msgid "Exhausted"
+msgstr "Esgotat"
+
+#: yaksh/templates/yaksh/error_template.html:71
+#: yaksh/templates/yaksh/grade_user.html:492
+#: yaksh/templates/yaksh/user_data.html:232
+#: yaksh/templates/yaksh/view_answerpaper.html:253
+msgid "Expected Output"
+msgstr "Sortida esperada"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Extract"
+msgstr "Extreure"
+
+#: yaksh/templates/yaksh/grade_user.html:269
+#: yaksh/templates/yaksh/user_data.html:52
+#: yaksh/templates/yaksh/view_answerpaper.html:57
+msgid "Failed"
+msgstr "Fracassat"
+
+#: yaksh/templates/yaksh/question.html:391
+msgid "File not selected"
+msgstr "El fitxer no està seleccionat"
+
+#: yaksh/templates/yaksh/add_question.html:67
+msgid "File:"
+msgstr "Dossier:"
+
+#: yaksh/templates/yaksh/add_lesson.html:121
+msgid "Files added to this lesson"
+msgstr "Fitxers afegits a aquesta lliçó"
+
+#: yaksh/templates/yaksh/show_video.html:216
+msgid "Files for this lesson"
+msgstr "Fitxers per a aquesta lliçó"
+
+#: yaksh/templates/yaksh/showquestions.html:40
+#: yaksh/templates/yaksh/showquestions.html:42
+msgid "Files required by questions"
+msgstr "Fitxers requerits per preguntes"
+
+#: yaksh/templates/yaksh/question.html:195
+msgid "Files to download for this question"
+msgstr "Fitxers per descarregar per a aquesta pregunta"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+msgid "FILL IN THE BLANKS WITH FLOAT ANSWER"
+msgstr "EMPLENEU ELS BUITS AMB RESPOSTA FLOTANTE"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+msgid "FILL IN THE BLANKS WITH INTEGER ANSWER"
+msgstr "EMPLENEU ELS BUITS AMB RESPOSTA INTEGRA"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+msgid "FILL IN THE BLANKS WITH STRING ANSWER"
+msgstr "EMPLENEU ELS BUITS AMB RESPOSTA DE CORDA"
+
+#: yaksh/templates/yaksh/showquestions.html:93
+msgid "Filter"
+msgstr "Filtre"
+
+#: yaksh/templates/yaksh/showquestions.html:88
+msgid "Filters Questions:"
+msgstr "Preguntes sobre els filtres:"
+
+#: yaksh/templates/exam.html:29
+#: yaksh/templates/yaksh/design_questionpaper.html:45
+msgid "Finish"
+msgstr "Acabar"
+
+#: yaksh/forms.py:90 yaksh/forms.py:482
+#: yaksh/templates/yaksh/addteacher.html:42
+msgid "First Name"
+msgstr "Nom"
+
+#: yaksh/templates/yaksh/view_profile.html:11
+msgid "First name:"
+msgstr "Nom:"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "firstname, lastname and email."
+msgstr "nom, cognom i correu electrònic."
+
+#: yaksh/templates/yaksh/course_students.html:31
+msgid ""
+"firstname, lastname, email, username, password, institute, roll_no, "
+"department,"
+msgstr "nom, cognom, correu electrònic, nom d'usuari, contrasenya, institut, roll_no, departament,"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:16
+msgid "Fixed Questions"
+msgstr "Preguntes solucionades"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:149
+msgid "Fixed questions currently in paper:"
+msgstr "Preguntes solucionades actualment en paper:"
+
+#: forms.py:36
+msgid "Float Testcase"
+msgstr "Float Testcase"
+
+#: yaksh/templates/yaksh/course_added_modules.html:14
+msgid "For additional module settings, Click on Design Module"
+msgstr "Per obtenir una configuració addicional del mòdul, feu clic a Mòdul de disseny"
+
+#: yaksh/templates/yaksh/error_template.html:58
+#: yaksh/templates/yaksh/grade_user.html:484
+#: yaksh/templates/yaksh/user_data.html:224
+#: yaksh/templates/yaksh/view_answerpaper.html:245
+msgid "For given Input value(s):"
+msgstr "Per als valors d'entrada donats:"
+
+#: yaksh/templates/registration/password_reset_form.html:24
+msgid "Forgot Password?"
+msgstr "Has oblidat la contrasenya?"
+
+#: yaksh/templates/yaksh/view_notifications.html:45
+msgid "From:"
+msgstr "Des de:"
+
+#: yaksh/templates/yaksh/course_send_mail.html:35
+#: yaksh/templates/yaksh/course_students.html:72
+#: yaksh/templates/yaksh/course_students.html:149
+#: yaksh/templates/yaksh/course_students.html:220
+msgid "Full Name"
+msgstr "Nom complet"
+
+#: yaksh/templates/yaksh/error_template.html:46
+#: yaksh/templates/yaksh/grade_user.html:535
+#: yaksh/templates/yaksh/user_data.html:275
+#: yaksh/templates/yaksh/view_answerpaper.html:296
+msgid "Full Traceback:"
+msgstr "Traceback complet:"
+
+#: yaksh/templates/yaksh/question.html:302
+msgid "Generate QR Code"
+msgstr "Generar codi QR"
+
+#: yaksh/templates/yaksh/intro.html:32 yaksh/templates/yaksh/intro.html:37
+msgid "Go Back"
+msgstr "Torna"
+
+#: yaksh/templates/registration/password_reset_done.html:23
+msgid "Go to Login"
+msgstr "Aneu a Inici de sessió"
+
+#: yaksh/templates/yaksh/download_course_templates/index.html:49
+msgid "Go to Module"
+msgstr "Aneu al mòdul"
+
+#: yaksh/templates/yaksh/add_exercise.html:63
+msgid "God Mode"
+msgstr "Mode Déu"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+msgid "God Mode:"
+msgstr "Mode Déu:"
+
+#: yaksh/templates/yaksh/course_progress.html:37
+#: yaksh/templates/yaksh/grade_user.html:82
+msgid "Grade"
+msgstr "Grau"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Grade:"
+msgstr "Grau:"
+
+#: yaksh/templates/yaksh/add_lesson.html:194
+msgid "Graded Quiz"
+msgstr "Concurs graduat"
+
+#: yaksh/templates/yaksh/grade_user.html:622
+msgid "Graded Successfully"
+msgstr "Qualificat correctament"
+
+#: yaksh/templates/yaksh/add_exercise.html:66
+#: yaksh/templates/yaksh/add_quiz.html:77
+msgid "Help"
+msgstr "Ajuda"
+
+#: yaksh/templates/yaksh/course_students.html:41
+msgid "here"
+msgstr "aquí"
+
+#: yaksh/templates/yaksh/error_template.html:19
+msgid "Hidden test case failed"
+msgstr "Ha fallat el cas de prova ocult"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Hide"
+msgstr "Amaga"
+
+#: yaksh/templates/user.html:17
+#: yaksh/templates/yaksh/activation_status.html:43
+#: yaksh/templates/yaksh/activation_status.html:69
+#: yaksh/templates/yaksh/complete.html:75
+msgid "Home"
+msgstr "Inici"
+
+#: forms.py:33
+msgid "Hook Testcase"
+msgstr "Penjador de ganxo"
+
+#: yaksh/templates/yaksh/courses.html:176
+#: yaksh/templates/yaksh/courses.html:262
+#: yaksh/templates/yaksh/moderator_dashboard.html:62
+msgid "Inactive"
+msgstr "Inactiu"
+
+#: yaksh/templates/yaksh/quizzes_user.html:104
+msgid "Inactive Course"
+msgstr "Curs inactiu"
+
+#: yaksh/templates/yaksh/monitor.html:193
+msgid "Inprogress"
+msgstr "En progrés"
+
+#: yaksh/forms.py:103 yaksh/forms.py:489
+#: yaksh/templates/yaksh/addteacher.html:45
+#: yaksh/templates/yaksh/course_send_mail.html:38
+#: yaksh/templates/yaksh/course_students.html:75
+#: yaksh/templates/yaksh/course_students.html:152
+#: yaksh/templates/yaksh/course_students.html:223
+msgid "Institute"
+msgstr "Institut"
+
+#: yaksh/forms.py:101
+msgid "Institute/Organization"
+msgstr "Institut / Organització"
+
+#: yaksh/templates/yaksh/grade_user.html:228
+#: yaksh/templates/yaksh/view_profile.html:23
+msgid "Institute:"
+msgstr "Institut:"
+
+#: yaksh/templates/registration/password_reset_done.html:20
+msgid ""
+"Instruction for setting new password has been mailed to your registered "
+"email address"
+msgstr "Les instruccions per definir una nova contrasenya s’han enviat per correu a la vostra adreça de correu electrònic registrada"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:24
+#: yaksh/templates/yaksh/quizzes_user.html:131
+msgid "Instructions"
+msgstr "Instruccions"
+
+#: yaksh/templates/yaksh/quizzes_user.html:116
+msgid "Instructor:"
+msgstr "Instructor:"
+
+#: forms.py:34
+msgid "Integer Testcase"
+msgstr "Integer Testcase"
+
+#: yaksh/templates/500.html:16
+msgid "Internal Server error."
+msgstr "Error del servidor intern."
+
+#: yaksh/forms.py:211
+msgid "Invalid username/password"
+msgstr "Nom d'usuari / contrasenya no vàlid"
+
+#: yaksh/templates/404.html:16
+msgid "It seems that you have encountered an error"
+msgstr "Sembla que heu trobat un error"
+
+#: yaksh/templates/yaksh/question.html:394
+msgid "Kindly attach a file and then click upload."
+msgstr "Si us plau, adjunteu un fitxer i feu clic a Carrega."
+
+#: yaksh/templates/yaksh/showquestions.html:164
+msgid "Language"
+msgstr "Llenguatge"
+
+#: yaksh/templates/yaksh/question.html:164
+#: yaksh/templates/yaksh/show_lesson_quiz.html:38
+#: yaksh/templates/yaksh/show_lesson_statistics.html:91
+msgid "Language:"
+msgstr "Llenguatge:"
+
+#: yaksh/forms.py:93 yaksh/forms.py:486
+#: yaksh/templates/yaksh/addteacher.html:43
+msgid "Last Name"
+msgstr "Cognom"
+
+#: yaksh/templates/yaksh/view_profile.html:15
+msgid "Last name:"
+msgstr "Cognom:"
+
+#: yaksh/templates/yaksh/course_forum.html:111
+#: yaksh/templates/yaksh/lessons_forum.html:58
+msgid "Last reply"
+msgstr "Darrera resposta"
+
+#: yaksh/templates/yaksh/question.html:183
+msgid "Last submitted answer is considered for evaluation"
+msgstr "Es considera l'avaluació de la darrera resposta enviada"
+
+#: yaksh/templates/yaksh/course_forum.html:121
+#: yaksh/templates/yaksh/lessons_forum.html:68
+msgid "Last updated:"
+msgstr "Última actualització:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:203
+msgid "Latest Submission"
+msgstr "Última presentació"
+
+#: yaksh/templates/yaksh/modules.html:79
+msgid "Learning Module(s) Available"
+msgstr "Mòduls d'aprenentatge disponibles"
+
+#: yaksh/templates/yaksh/modules.html:84
+msgid "Learning Modules"
+msgstr "Mòduls d’aprenentatge"
+
+#: yaksh/templates/yaksh/course_added_modules.html:102
+#: yaksh/templates/yaksh/lessons.html:83
+msgid "Lesson"
+msgstr "Lliçó"
+
+#: yaksh/templates/yaksh/show_video.html:205
+msgid "Lesson Description"
+msgstr "Descripció de la lliçó"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:93
+msgid "Lesson Files (Click on lesson file to download)"
+msgstr "Fitxers de lliçons (feu clic al fitxer de la lliçó per descarregar-lo)"
+
+#: yaksh/templates/yaksh/add_lesson.html:108
+msgid "Lesson Files:"
+msgstr "Fitxers de la lliçó:"
+
+#: yaksh/forms.py:540
+msgid "Lesson Name"
+msgstr "Nom de la lliçó"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:6
+msgid "Lesson Quiz Stats"
+msgstr "Estadístiques del qüestionari de la lliçó"
+
+#: yaksh/templates/yaksh/lessons.html:78
+msgid "Lesson(s) Available"
+msgstr "Lliçons disponibles"
+
+#: yaksh/templates/yaksh/download_course_templates/module.html:39
+msgid "Lessons (Click on lesson name to open lesson)"
+msgstr "Lliçons (Feu clic al nom de la lliçó per obrir la lliçó)"
+
+#: yaksh/templates/yaksh/lessons_forum.html:6
+#: yaksh/templates/yaksh/sidebar.html:13
+msgid "Lessons Forum"
+msgstr "Fòrum de lliçons"
+
+#: yaksh/templates/yaksh/design_course_session.html:27
+#: yaksh/templates/yaksh/modules.html:86
+msgid "Lessons/Quizzes"
+msgstr "Lessons/Quizzes"
+
+#: forms.py:72
+msgid "Letters, digits, period and underscores only."
+msgstr "Només lletres, dígits, punt i subratllat."
+
+#: yaksh/templates/yaksh/error_template.html:70
+#: yaksh/templates/yaksh/grade_user.html:491
+#: yaksh/templates/yaksh/user_data.html:231
+#: yaksh/templates/yaksh/view_answerpaper.html:252
+msgid "Line No."
+msgstr "Línia núm."
+
+#: yaksh/templates/yaksh/showquestionpapers.html:6
+msgid "List of Question Papers"
+msgstr "Llista de documents de preguntes"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:13
+msgid ""
+"List of quizzes! Click on the given links to have a look at answer papers "
+"for a quiz"
+msgstr "Llista de qüestionaris. Feu clic als enllaços donats per veure els articles de resposta per a un qüestionari"
+
+#: yaksh/templates/base.html:96 yaksh/templates/base.html:99
+#: yaksh/templates/base.html:102 yaksh/templates/base.html:105
+msgid "Loading..."
+msgstr "S'està carregant ..."
+
+#: yaksh/templates/registration/password_reset_complete.html:21
+msgid "Log in"
+msgstr "Iniciar Sessió"
+
+#: yaksh/templates/yaksh/login.html:6
+msgid "Login"
+msgstr "iniciar Sessió"
+
+#: yaksh/templates/manage.html:78
+#: yaksh/templates/registration/password_change_form.html:33
+#: yaksh/templates/user.html:64
+#: yaksh/templates/yaksh/activation_status.html:27
+msgid "Logout"
+msgstr "Tancar sessió"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:69
+msgid "Manage Course"
+msgstr "Gestiona el curs"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Manual mode to design the"
+msgstr "Mode manual per dissenyar el fitxer"
+
+#: yaksh/templates/yaksh/view_notifications.html:23
+msgid "Mark all as read"
+msgstr "Marcar tots com a llegits"
+
+#: yaksh/templates/yaksh/grade_user.html:354
+#: yaksh/templates/yaksh/preview_questionpaper.html:34
+#: yaksh/templates/yaksh/view_answerpaper.html:103
+msgid "Mark(s):"
+msgstr "Marca (s):"
+
+#: yaksh/forms.py:702 yaksh/forms.py:757
+msgid "Marker time should be in the format hh:mm:ss"
+msgstr "El temps del marcador ha de tenir el format hh: mm: ss"
+
+#: yaksh/templates/yaksh/grade_user.html:161
+#: yaksh/templates/yaksh/monitor.html:165
+#: yaksh/templates/yaksh/showquestions.html:166
+msgid "Marks"
+msgstr "Marques"
+
+#: yaksh/templates/yaksh/grade_user.html:320
+#: yaksh/templates/yaksh/user_data.html:75
+#: yaksh/templates/yaksh/view_answerpaper.html:80
+msgid "Marks Obtained"
+msgstr "Marques obtingudes"
+
+#: yaksh/templates/yaksh/grade_user.html:273
+#: yaksh/templates/yaksh/user_data.html:56
+#: yaksh/templates/yaksh/view_answerpaper.html:61
+msgid "Marks obtained:"
+msgstr "Marques obtingudes:"
+
+#: yaksh/views.py:4086
+msgid "Marks Uploaded!"
+msgstr "Marques penjades"
+
+#: yaksh/templates/yaksh/grade_user.html:579
+#: yaksh/templates/yaksh/question.html:179
+#: yaksh/templates/yaksh/show_lesson_statistics.html:116
+#: yaksh/templates/yaksh/user_data.html:316
+msgid "Marks:"
+msgstr "Marques:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:13
+msgid "Maximum Mark(s):"
+msgstr "Marca màxima:"
+
+#: yaksh/templates/yaksh/results_user.html:13
+msgid "Maximum Marks"
+msgstr "Marques màximes"
+
+#: forms.py:32
+msgid "MCQ Testcase"
+msgstr "MCQ Testcase"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "minutes"
+msgstr "minuts"
+
+#: yaksh/forms.py:612
+msgid "Module Description"
+msgstr "Descripció del mòdul"
+
+#: yaksh/forms.py:609
+msgid "Module Name"
+msgstr "Nom del mòdul"
+
+#: yaksh/templates/yaksh/design_course_session.html:26
+msgid "Modules"
+msgstr "Mòduls"
+
+#: yaksh/templates/yaksh/grade_user.html:77
+#: yaksh/templates/yaksh/monitor.html:6 yaksh/templates/yaksh/monitor.html:7
+msgid "Monitor"
+msgstr "Monitor"
+
+#: yaksh/templates/yaksh/courses.html:132
+#: yaksh/templates/yaksh/lessons.html:22 yaksh/templates/yaksh/modules.html:23
+#: yaksh/templates/yaksh/quizzes.html:23
+msgid "More"
+msgstr "Més"
+
+#: yaksh/templates/yaksh/add_question.html:89
+msgid "More info"
+msgstr "Més informació"
+
+#: yaksh/templates/yaksh/add_lesson.html:205
+msgid "Multiple Correct Choices"
+msgstr "Múltiples opcions correctes"
+
+#: yaksh/templates/yaksh/add_course.html:24
+#: yaksh/templates/yaksh/courses.html:20 yaksh/templates/yaksh/lessons.html:13
+#: yaksh/templates/yaksh/modules.html:14 yaksh/templates/yaksh/quizzes.html:14
+msgid "My Courses"
+msgstr "Els meus cursos"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:6
+#: yaksh/templates/yaksh/moderator_dashboard.html:7
+msgid "My Dashboard"
+msgstr "El meu tauler"
+
+#: yaksh/templates/yaksh/lessons.html:5
+msgid "My Lessons"
+msgstr "Les meves lliçons"
+
+#: yaksh/templates/manage.html:64
+#: yaksh/templates/registration/password_change_form.html:25
+#: yaksh/templates/user.html:50 yaksh/templates/yaksh/editprofile.html:5
+msgid "My Profile"
+msgstr "El meu perfil"
+
+#: yaksh/templates/yaksh/quizzes.html:6
+msgid "My Quizzes"
+msgstr "Els meus concursos"
+
+#: yaksh/forms.py:681 yaksh/templates/yaksh/addteacher.html:87
+#: yaksh/templates/yaksh/course_progress.html:34
+#: yaksh/templates/yaksh/course_teachers.html:20
+#: yaksh/templates/yaksh/monitor.html:163
+msgid "Name"
+msgstr "Nom"
+
+#: yaksh/templates/yaksh/grade_user.html:218
+msgid "Name:"
+msgstr "Nom:"
+
+#: yaksh/templates/yaksh/course_forum.html:29
+msgid "New Post"
+msgstr "Publicació nova"
+
+#: yaksh/templates/yaksh/complete.html:64
+#: yaksh/templates/yaksh/complete.html:69
+#: yaksh/templates/yaksh/design_questionpaper.html:182
+#: yaksh/templates/yaksh/design_questionpaper.html:268
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:84
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:88
+#: yaksh/templates/yaksh/download_course_templates/unit.html:116
+#: yaksh/templates/yaksh/download_course_templates/unit.html:120
+#: yaksh/templates/yaksh/question.html:361
+#: yaksh/templates/yaksh/question.html:363
+#: yaksh/templates/yaksh/show_video.html:135
+#: yaksh/templates/yaksh/show_video.html:235
+msgid "Next"
+msgstr "Pròxim"
+
+#: yaksh/templates/yaksh/add_module.html:197
+#: yaksh/templates/yaksh/design_course_session.html:106
+#: yaksh/templates/yaksh/design_course_session.html:116
+#: yaksh/templates/yaksh/quit.html:56 yaksh/templates/yaksh/quit.html:58
+msgid "No"
+msgstr "No"
+
+#: yaksh/views.py:1413
+msgid "No AnswerPapers found"
+msgstr "No s'ha trobat cap resposta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:105
+#: yaksh/templates/yaksh/showquestions.html:110
+msgid "No Available Tags"
+msgstr "No hi ha etiquetes disponibles"
+
+#: yaksh/templates/yaksh/course_progress.html:83
+msgid "No course data found"
+msgstr "No s'han trobat dades del curs"
+
+#: yaksh/templates/yaksh/courses.html:41
+msgid "No Courses Found"
+msgstr "No s'ha trobat cap curs"
+
+#: yaksh/templates/yaksh/grade_user.html:107
+msgid "No courses found to grade"
+msgstr "No s'ha trobat cap curs per qualificar"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:40
+msgid "No Courses found. Add a new course or Create demo course"
+msgstr "No s'ha trobat cap curs. Afegiu un curs nou o Creeu un curs de demostració"
+
+#: yaksh/templates/yaksh/quizzes_user.html:54
+msgid "No Courses to display"
+msgstr "No hi ha cursos per mostrar"
+
+#: yaksh/templates/yaksh/course_forum.html:154
+msgid "No discussion posts are there yet. Create one to start discussing."
+msgstr "Encara no hi ha publicacions de debat. Creeu-ne un per començar a debatre."
+
+#: yaksh/templates/yaksh/course_send_mail.html:66
+#: yaksh/templates/yaksh/course_students.html:189
+msgid "No enrolled students yet"
+msgstr "Encara no hi ha estudiants inscrits"
+
+#: yaksh/templates/yaksh/quizzes_user.html:99
+msgid "No Enrollments allowed"
+msgstr "No es permeten inscripcions"
+
+#: yaksh/templates/yaksh/add_lesson.html:137
+msgid "No Files added to this lesson"
+msgstr "No s'ha afegit cap fitxer a aquesta lliçó"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:105
+msgid "No files for"
+msgstr "No hi ha fitxers per a"
+
+#: yaksh/templates/yaksh/course_added_modules.html:161
+msgid "No learning modules"
+msgstr "No hi ha mòduls d’aprenentatge"
+
+#: yaksh/templates/yaksh/modules.html:51
+msgid "No learning modules found"
+msgstr "No s'ha trobat cap mòdul d'aprenentatge"
+
+#: yaksh/templates/yaksh/modules.html:132
+msgid "No Learning units"
+msgstr "No hi ha unitats d'aprenentatge"
+
+#: yaksh/templates/yaksh/course_modules.html:60
+msgid "No lectures found"
+msgstr "No s'ha trobat cap conferència"
+
+#: yaksh/templates/yaksh/lessons_forum.html:100
+msgid ""
+"No Lesson posts here. They will appear when someone comments on video "
+"lessons."
+msgstr "No hi ha publicacions de lliçons aquí. Apareixeran quan algú comenti les lliçons de vídeo."
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:227
+msgid "No lesson quizzes found"
+msgstr "No s'han trobat proves de lliçons"
+
+#: yaksh/templates/yaksh/course_added_modules.html:150
+msgid "No lesson/quiz added"
+msgstr "No s'ha afegit cap lliçó / prova"
+
+#: yaksh/templates/yaksh/lessons.html:50
+msgid "No lessons found"
+msgstr "No s'ha trobat cap lliçó"
+
+#: yaksh/templates/yaksh/show_video.html:126
+msgid "No Module information"
+msgstr "No hi ha informació del mòdul"
+
+#: yaksh/templates/yaksh/view_notifications.html:60
+msgid "No Notifications Found"
+msgstr "No s'han trobat notificacions"
+
+#: yaksh/templates/yaksh/quizzes.html:135
+msgid "No Question Paper"
+msgstr "Cap document de preguntes"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:24
+msgid "No Question Papers available"
+msgstr "No hi ha documents de preguntes disponibles"
+
+#: yaksh/templates/yaksh/showquestions.html:208
+msgid "No Questions found"
+msgstr "No s'ha trobat cap pregunta"
+
+#: yaksh/templates/yaksh/monitor.html:265
+msgid "No Quiz Found"
+msgstr "No s'ha trobat cap prova"
+
+#: yaksh/templates/yaksh/grade_user.html:92
+#: yaksh/templates/yaksh/moderator_dashboard.html:108
+msgid "No Quizzes"
+msgstr "Sense proves"
+
+#: yaksh/templates/yaksh/quizzes.html:54
+msgid "No quizzes found"
+msgstr "No s'han trobat proves"
+
+#: yaksh/templates/yaksh/course_students.html:262
+msgid "No rejected students yet"
+msgstr "Encara no hi ha estudiants rebutjats"
+
+#: yaksh/templates/yaksh/course_students.html:119
+msgid "No requests yet"
+msgstr "Encara no hi ha cap sol·licitud"
+
+#: yaksh/templates/yaksh/addteacher.html:20
+msgid "No results found"
+msgstr "Sense resultats"
+
+#: yaksh/templates/yaksh/user_data.html:331
+#: yaksh/templates/yaksh/view_answerpaper.html:353
+msgid "No submissions found"
+msgstr "No s'ha trobat cap enviament"
+
+#: yaksh/templates/yaksh/show_toc.html:58
+#: yaksh/templates/yaksh/show_video.html:188
+msgid "No Table of contents added"
+msgstr "No s'ha afegit cap taula de contingut"
+
+#: yaksh/templates/yaksh/course_teachers.html:44
+msgid "No Teacher(s) added"
+msgstr "No s'ha afegit cap professor"
+
+#: yaksh/templates/yaksh/addteacher.html:97
+msgid "No Teacher(s)TA(s) Added"
+msgstr "No s'ha afegit cap professor (s)"
+
+#: yaksh/templates/yaksh/grade_user.html:132
+#: yaksh/templates/yaksh/monitor.html:259
+msgid "No Users Found for"
+msgstr "No s'ha trobat cap usuari per a"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:90
+msgid "No. of users Failed"
+msgstr "S'ha produït un error en el nombre d'usuaris"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:89
+msgid "No. of users Passed"
+msgstr "Nombre d'usuaris aprovats"
+
+#: yaksh/templates/yaksh/course_forum.html:136
+#: yaksh/templates/yaksh/lessons_forum.html:83
+msgid "None"
+msgstr "Cap"
+
+#: yaksh/templates/yaksh/complete.html:45 yaksh/templates/yaksh/quit.html:35
+msgid "Not Attempted"
+msgstr "No s’intenta"
+
+#: yaksh/templates/yaksh/monitor.html:121
+msgid "Note: Do not change the CSV Headers"
+msgstr "Nota: no canvieu les capçaleres CSV"
+
+#: yaksh/templates/yaksh/complete.html:21
+msgid ""
+"Note:- Please Click on the Next button to submit the quiz. Please do not "
+"close the browser without clicking Next."
+msgstr "Nota: - Feu clic al botó Següent per enviar el qüestionari. No tanqueu el navegador sense fer clic a Següent."
+
+#: yaksh/templates/manage.html:51 yaksh/templates/user.html:37
+#: yaksh/templates/yaksh/view_notifications.html:4
+#: yaksh/templates/yaksh/view_notifications.html:5
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: yaksh/templates/yaksh/monitor.html:71
+msgid "Number of papers:"
+msgstr "Nombre de papers:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:194
+msgid "Number of questions to be picked from the pool"
+msgstr "Nombre de preguntes a triar a la piscina"
+
+#: yaksh/templates/yaksh/course_progress.html:12
+msgid "Number Of Students:"
+msgstr "Nombre d'estudiants:"
+
+#: yaksh/templates/yaksh/results_user.html:12
+msgid "Obtained Marks"
+msgstr "Marques obtingudes"
+
+#: yaksh/templates/yaksh/question.html:397
+#: yaksh/templates/yaksh/question.html:414
+msgid "OK"
+msgstr "D'ACORD"
+
+#: yaksh/templates/yaksh/showquestions.html:34
+msgid "One can also upload zip with the following zip structure -"
+msgstr "També es pot penjar zip amb la següent estructura zip:"
+
+#: yaksh/forms.py:137
+msgid ""
+"Only letters, digits and punctuation                                        "
+"are allowed in password"
+msgstr "Només es permeten lletres, dígits i puntuació a la contrasenya"
+
+#: yaksh/forms.py:125
+msgid ""
+"Only letters, digits, period and underscore characters are allowed in "
+"username"
+msgstr "Només es permeten lletres, dígits, punts i caràcters de subratllat al nom d'usuari"
+
+#: yaksh/forms.py:588
+msgid "Only one type of video path is allowed"
+msgstr "Només es permet un tipus de camí de vídeo"
+
+#: models.py:86
+msgid "Open Enrollment"
+msgstr "Inscripció oberta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:82
+#: yaksh/templates/yaksh/showquestions.html:54
+msgid "Or"
+msgstr "Or"
+
+#: yaksh/templates/yaksh/login.html:41
+msgid "Or Sign in with credentials"
+msgstr "O inicieu la sessió amb credencials"
+
+#: yaksh/templates/yaksh/add_module.html:162
+#: yaksh/templates/yaksh/design_course_session.html:69
+msgid "Order"
+msgstr "Comanda"
+
+#: yaksh/forms.py:522
+msgid "Others"
+msgstr "Altres"
+
+#: yaksh/templates/yaksh/monitor.html:189
+msgid "out of"
+msgstr "fora de"
+
+#: yaksh/templates/yaksh/monitor.html:75
+msgid "Papers Completed:"
+msgstr "Comunicacions completades:"
+
+#: yaksh/templates/yaksh/monitor.html:81
+msgid "Papers in progress:"
+msgstr "Comunicacions en curs:"
+
+#: yaksh/templates/yaksh/grade_user.html:267
+#: yaksh/templates/yaksh/user_data.html:50
+#: yaksh/templates/yaksh/view_answerpaper.html:55
+msgid "Passed"
+msgstr "Aprovat"
+
+#: yaksh/forms.py:196
+msgid "Password"
+msgstr "Contrasenya"
+
+#: yaksh/templates/registration/password_reset_done.html:18
+msgid "Password reset successful"
+msgstr "S'ha restablert la contrasenya correctament"
+
+#: yaksh/forms.py:145
+msgid "Passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+#: yaksh/templates/yaksh/user_status.html:29
+msgid "Per Module Progress:"
+msgstr "Per progrés del mòdul:"
+
+#: yaksh/templates/yaksh/results_user.html:14
+msgid "Percentage"
+msgstr "Percentatge"
+
+#: yaksh/templates/yaksh/grade_user.html:277
+#: yaksh/templates/yaksh/user_data.html:58
+#: yaksh/templates/yaksh/view_answerpaper.html:63
+msgid "Percentage obtained:"
+msgstr "Percentatge obtingut:"
+
+#: yaksh/templates/404.html:18
+msgid "Please contact your administrator"
+msgstr "Poseu-vos en contacte amb el vostre administrador"
+
+#: yaksh/templates/registration/password_reset_confirm.html:32
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly"
+msgstr "Introduïu la vostra nova contrasenya dues vegades per poder verificar que la heu escrit correctament"
+
+#: yaksh/templates/yaksh/register.html:24
+msgid "Please fill in the following details:"
+msgstr "Empleneu les dades següents:"
+
+#: yaksh/views.py:1536
+msgid "Please select atleast one question"
+msgstr "Seleccioneu almenys una pregunta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:70
+msgid "Please select Question type and Marks"
+msgstr "Seleccioneu Tipus de pregunta i Marques"
+
+#: yaksh/forms.py:730
+msgid "Points"
+msgstr "Punts"
+
+#: yaksh/templates/yaksh/show_lesson_quiz.html:53
+#: yaksh/templates/yaksh/statistics_question.html:65
+msgid "Points:"
+msgstr "Punts:"
+
+#: yaksh/templates/yaksh/add_lesson.html:196
+msgid "Poll"
+msgstr "Enquesta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:230
+msgid "Pool of  questions currently in paper:"
+msgstr "Grup de preguntes actualment en paper:"
+
+#: yaksh/forms.py:114 yaksh/forms.py:498
+#: yaksh/templates/yaksh/addteacher.html:47
+msgid "Position"
+msgstr "Posició"
+
+#: yaksh/templates/yaksh/grade_user.html:224
+#: yaksh/templates/yaksh/view_profile.html:35
+msgid "Position:"
+msgstr "Posició:"
+
+#: yaksh/templates/yaksh/course_forum.html:108
+#: yaksh/templates/yaksh/lessons_forum.html:55
+msgid "Posts"
+msgstr "Publicacions"
+
+#: yaksh/templates/yaksh/quizzes.html:128
+msgid "Preview"
+msgstr "Vista prèvia"
+
+#: yaksh/templates/yaksh/add_exercise.html:53
+#: yaksh/templates/yaksh/add_quiz.html:64
+msgid "Preview Question Paper"
+msgstr "Vista prèvia del document de preguntes"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:265
+#: yaksh/templates/yaksh/design_questionpaper.html:286
+msgid "Previous"
+msgstr "Anterior"
+
+#: yaksh/templates/yaksh/profile_updated.html:5
+#: yaksh/templates/yaksh/view_profile.html:5
+msgid "Profile"
+msgstr "Perfil"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+msgid "PROGRAMMING"
+msgstr "PROGRAMACIÓ"
+
+#: yaksh/templates/yaksh/complete.html:32 yaksh/templates/yaksh/quit.html:23
+#: yaksh/templates/yaksh/statistics_question.html:38
+msgid "Question"
+msgstr "Pregunta"
+
+#: yaksh/templates/exam.html:50
+msgid "Question Navigator"
+msgstr "Navegador de preguntes"
+
+#: yaksh/templates/exam.html:97
+msgid "Question No."
+msgstr "Pregunta núm."
+
+#: yaksh/templates/yaksh/course_added_modules.html:81
+#: yaksh/templates/yaksh/course_added_modules.html:86
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Question Paper"
+msgstr "Paper de preguntes"
+
+#: yaksh/templates/yaksh/quizzes.html:124
+msgid "Question Paper for"
+msgstr "Document de preguntes per a"
+
+#: yaksh/templates/yaksh/monitor.html:104
+#: yaksh/templates/yaksh/statistics_question.html:7
+msgid "Question Statistics"
+msgstr "Estadístiques de preguntes"
+
+#: yaksh/forms.py:727
+msgid "Question topic name"
+msgstr "Nom del tema de la pregunta"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s)"
+msgstr "pregunta (s)"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s) from"
+msgstr "pregunta (s) de"
+
+#: yaksh/templates/exam.html:89
+msgid "Question(s) left:"
+msgstr "Preguntes restants:"
+
+#: yaksh/templates/yaksh/grade_user.html:360
+#: yaksh/templates/yaksh/preview_questionpaper.html:38
+#: yaksh/templates/yaksh/view_answerpaper.html:108
+msgid "Question:"
+msgstr "Pregunta:"
+
+#: yaksh/templates/yaksh/quizzes.html:88
+msgid "QuestionPaper"
+msgstr "QuestionPaper"
+
+#: yaksh/templates/manage.html:19 yaksh/templates/yaksh/grade_user.html:159
+#: yaksh/templates/yaksh/grade_user.html:318
+#: yaksh/templates/yaksh/showquestions.html:6
+#: yaksh/templates/yaksh/showquestions.html:8
+#: yaksh/templates/yaksh/user_data.html:73
+#: yaksh/templates/yaksh/view_answerpaper.html:78
+msgid "Questions"
+msgstr "Preguntes"
+
+#: yaksh/templates/yaksh/monitor.html:166
+msgid "Questions Attempted"
+msgstr "Preguntes intentades"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:6
+msgid "Questions in"
+msgstr "Preguntes a"
+
+#: yaksh/templates/exam.html:27
+msgid "Quit"
+msgstr "Deixa"
+
+#: yaksh/templates/yaksh/course_added_modules.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:87
+msgid "Quiz"
+msgstr "Concurs"
+
+#: yaksh/templates/yaksh/results_user.html:11
+msgid "Quiz Description"
+msgstr "Descripció del concurs"
+
+#: yaksh/templates/yaksh/monitor.html:67
+msgid "Quiz Name:"
+msgstr "Nom del concurs:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:136
+msgid "Quiz Submissions"
+msgstr "Enviaments de qüestionaris"
+
+#: yaksh/templates/yaksh/add_exercise.html:75
+#: yaksh/templates/yaksh/add_quiz.html:86
+msgid "Quiz Test Modes"
+msgstr "Modes de prova de prova"
+
+#: yaksh/forms.py:741
+msgid "Quiz Time"
+msgstr "Temps de prova"
+
+#: yaksh/templates/yaksh/add_exercise.html:84
+#: yaksh/templates/yaksh/add_quiz.html:94
+msgid "Quiz will have the same duration as that of the original quiz."
+msgstr "El test tindrà la mateixa durada que el test original."
+
+#: yaksh/templates/yaksh/add_exercise.html:85
+msgid "Quiz won"
+msgstr "Va guanyar el concurs"
+
+#: yaksh/templates/yaksh/add_quiz.html:95
+msgid "Quiz won\\"
+msgstr "El concurs ha guanyat \\"
+
+#: yaksh/templates/yaksh/quizzes.html:82
+msgid "Quiz(zes) Available"
+msgstr "Quiz (zes) disponible"
+
+#: yaksh/templates/yaksh/quizzes.html:87
+msgid "Quiz/Exercise"
+msgstr "Prova / exercici"
+
+#: yaksh/templates/yaksh/grade_user.html:246
+#: yaksh/templates/yaksh/preview_questionpaper.html:6
+#: yaksh/templates/yaksh/user_data.html:27
+#: yaksh/templates/yaksh/view_answerpaper.html:33
+msgid "Quiz:"
+msgstr "Prova:"
+
+#: yaksh/templates/manage.html:29 yaksh/templates/yaksh/grade_user.html:8
+#: yaksh/templates/yaksh/grade_user.html:10
+msgid "Quizzes"
+msgstr "Concursos"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:20
+msgid "Random Questions"
+msgstr "Preguntes aleatòries"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "Random Set"
+msgstr "Conjunt aleatori"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "randomly out of"
+msgstr "fora de l'atzar"
+
+#: yaksh/templates/registration/password_change_done.html:30
+msgid "Redirecting ..."
+msgstr "S'està redirigint ..."
+
+#: yaksh/templates/yaksh/profile_updated.html:27
+msgid "Redirecting..."
+msgstr "S'està redirigint ..."
+
+#: yaksh/templates/yaksh/register.html:6
+#: yaksh/templates/yaksh/register.html:55
+msgid "Register"
+msgstr "Registra't"
+
+#: yaksh/templates/yaksh/register.html:7
+msgid "Registration"
+msgstr "Inscripció"
+
+#: yaksh/templates/yaksh/grade_user.html:162
+#: yaksh/templates/yaksh/grade_user.html:173
+#: yaksh/templates/yaksh/grade_user.html:321
+#: yaksh/templates/yaksh/grade_user.html:336
+#: yaksh/templates/yaksh/grade_user.html:611
+msgid "Regrade"
+msgstr "Regrade"
+
+#: yaksh/templates/yaksh/grade_user.html:150
+msgid "Regrade papers by questions"
+msgstr "Regrade papers per preguntes"
+
+#: yaksh/templates/yaksh/grade_user.html:308
+msgid "Regrade Whole Paper"
+msgstr "Regrade Paper sencer"
+
+#: yaksh/templates/yaksh/course_students.html:100
+msgid "Reject "
+msgstr "Rebutjar "
+
+#: yaksh/templates/yaksh/course_students.html:110
+#: yaksh/templates/yaksh/course_students.html:183
+msgid "Reject selected"
+msgstr "Rebutja la selecció"
+
+#: yaksh/templates/yaksh/course_students.html:200
+msgid "Rejected Students"
+msgstr "Estudiants rebutjats"
+
+#: yaksh/templates/yaksh/course_students.html:32
+msgid "remove"
+msgstr "eliminar"
+
+#: yaksh/templates/yaksh/design_course_session.html:130
+msgid "Remove from course"
+msgstr "Elimina del curs"
+
+#: yaksh/templates/yaksh/add_module.html:211
+msgid "Remove from Module"
+msgstr "Elimina del mòdul"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:176
+#: yaksh/templates/yaksh/design_questionpaper.html:259
+msgid "Remove from paper"
+msgstr "Traieu-lo del paper"
+
+#: yaksh/templates/yaksh/course_teachers.html:40
+msgid "Remove Teachers"
+msgstr "Elimina els professors"
+
+#: yaksh/templates/yaksh/course_forum.html:110
+#: yaksh/templates/yaksh/lessons_forum.html:57
+msgid "Replies"
+msgstr "Respostes"
+
+#: yaksh/templates/registration/password_reset_form.html:33
+msgid "Request"
+msgstr "Sol·licitud"
+
+#: yaksh/templates/yaksh/quizzes_user.html:73
+msgid "Request Pending"
+msgstr "Sol·licitud pendent"
+
+#: yaksh/templates/yaksh/quizzes_user.html:77
+msgid "Request Rejected"
+msgstr "Sol·licitud rebutjada"
+
+#: yaksh/templates/yaksh/course_students.html:52
+msgid "Requested Students"
+msgstr "Estudiants sol·licitats"
+
+#: yaksh/templates/registration/password_reset_confirm.html:29
+msgid "Reset Password"
+msgstr "Restablir la contrasenya"
+
+#: yaksh/templates/yaksh/results_user.html:5
+msgid "Results"
+msgstr "Resultats"
+
+#: yaksh/templates/yaksh/micromonitor.html:5
+msgid "Revoke"
+msgstr "Revocar"
+
+#: yaksh/templates/yaksh/monitor.html:164
+#: yaksh/templates/yaksh/show_lesson_statistics.html:201
+msgid "Roll No"
+msgstr "Rotllo núm"
+
+#: yaksh/templates/yaksh/course_progress.html:33
+msgid "Roll No."
+msgstr "Rotllo núm."
+
+#: yaksh/forms.py:98 yaksh/forms.py:495
+#: yaksh/templates/yaksh/course_send_mail.html:37
+#: yaksh/templates/yaksh/course_students.html:74
+#: yaksh/templates/yaksh/course_students.html:151
+#: yaksh/templates/yaksh/course_students.html:222
+msgid "Roll Number"
+msgstr "Número de rotllo"
+
+#: yaksh/templates/yaksh/grade_user.html:223
+#: yaksh/templates/yaksh/view_profile.html:31
+msgid "Roll number:"
+msgstr "Número del rotlle:"
+
+#: yaksh/templates/yaksh/add_course.html:57
+#: yaksh/templates/yaksh/add_exercise.html:41
+#: yaksh/templates/yaksh/add_lesson.html:144
+#: yaksh/templates/yaksh/add_module.html:90
+#: yaksh/templates/yaksh/add_question.html:170
+#: yaksh/templates/yaksh/add_topic.html:12
+#: yaksh/templates/yaksh/add_video_quiz.html:44
+#: yaksh/templates/yaksh/grade_user.html:591
+msgid "Save"
+msgstr "Desa"
+
+#: yaksh/templates/yaksh/grade_user.html:260
+#: yaksh/templates/yaksh/user_data.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:50
+msgid "Scorecard"
+msgstr "Quadre de comandament"
+
+#: yaksh/templates/yaksh/addteacher.html:11
+#: yaksh/templates/yaksh/course_forum.html:84
+#: yaksh/templates/yaksh/courses.html:59
+#: yaksh/templates/yaksh/design_questionpaper.html:92
+#: yaksh/templates/yaksh/lessons.html:70 yaksh/templates/yaksh/modules.html:71
+#: yaksh/templates/yaksh/quizzes.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:25
+msgid "Search"
+msgstr "Cerca"
+
+#: yaksh/forms.py:392
+msgid "Search by course name"
+msgstr "Cerca per nom del curs"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:85
+msgid "Search Questions:"
+msgstr "Preguntes de cerca:"
+
+#: yaksh/templates/yaksh/addteacher.html:22 yaksh/views.py:191
+msgid "Search Results"
+msgstr "Resultats de la cerca"
+
+#: yaksh/templates/yaksh/addteacher.html:25
+msgid "Search results does not include teachers already added"
+msgstr "Els resultats de la cerca no inclouen professors ja afegits"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:84
+#: yaksh/templates/yaksh/showquestions.html:100
+msgid "Search using Tags:"
+msgstr "Cerqueu amb etiquetes:"
+
+#: yaksh/templates/yaksh/courses.html:49
+msgid "Search/Filter Courses"
+msgstr "Cercar / filtrar cursos"
+
+#: yaksh/templates/yaksh/modules.html:59
+msgid "Search/Filter Learning Modules"
+msgstr "Cercar / filtrar mòduls d'aprenentatge"
+
+#: yaksh/templates/yaksh/lessons.html:58
+msgid "Search/Filter Lessons"
+msgstr "Buscar / Filtrar lliçons"
+
+#: yaksh/templates/yaksh/quizzes.html:62
+msgid "Search/Filter Quizzes"
+msgstr "Concursos de cerca / filtre"
+
+#: yaksh/templates/yaksh/add_module.html:160
+#: yaksh/templates/yaksh/course_teachers.html:19
+#: yaksh/templates/yaksh/design_course_session.html:25
+#: yaksh/templates/yaksh/design_course_session.html:67
+#: yaksh/templates/yaksh/monitor.html:143
+#: yaksh/templates/yaksh/showquestions.html:161
+msgid "Select"
+msgstr "Seleccioneu"
+
+#: yaksh/templates/yaksh/course_send_mail.html:24
+#: yaksh/templates/yaksh/course_students.html:59
+#: yaksh/templates/yaksh/course_students.html:136
+#: yaksh/templates/yaksh/course_students.html:207
+msgid "Select all"
+msgstr "Seleccionar tot"
+
+#: yaksh/templates/yaksh/grade_user.html:286
+msgid "Select attempt number"
+msgstr "Seleccioneu el número d'intent"
+
+#: yaksh/templates/yaksh/monitor.html:139
+msgid "Select Attempt number:"
+msgstr "Seleccioneu el número d'intent:"
+
+#: yaksh/templates/yaksh/monitor.html:232
+msgid "Select Attempt Number: Default latest attempt"
+msgstr "Seleccioneu el número d'intent: l'últim intent predeterminat"
+
+#: forms.py:25
+msgid "Select Language"
+msgstr "Escolliu l'idioma"
+
+#: yaksh/templates/yaksh/add_lesson.html:192
+msgid "Select Marker"
+msgstr "Seleccioneu Marcador"
+
+#: yaksh/forms.py:350 yaksh/forms.py:376
+msgid "Select Marks"
+msgstr "Seleccioneu Marques"
+
+#: yaksh/templates/yaksh/add_lesson.html:201
+msgid "Select question type"
+msgstr "Seleccioneu el tipus de pregunta"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:190
+msgid "Select questions to add to the pool:"
+msgstr "Seleccioneu les preguntes que voleu afegir a la piscina:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:116
+msgid "Select questions to add:"
+msgstr "Seleccioneu preguntes per afegir:"
+
+#: forms.py:40
+msgid "Select Status"
+msgstr "Seleccioneu Estat"
+
+#: yaksh/templates/yaksh/grade_user.html:118
+msgid "Select student"
+msgstr "Selecciona estudiant"
+
+#: yaksh/templates/yaksh/add_question.html:124
+msgid "Select Testcase"
+msgstr "Seleccioneu Testcase"
+
+#: yaksh/forms.py:521
+msgid "Select Video Option"
+msgstr "Seleccioneu Opció de vídeo"
+
+#: yaksh/templates/yaksh/activation_status.html:57
+msgid "Send Email"
+msgstr "Envia un correu electrònic"
+
+#: yaksh/templates/yaksh/course_detail_options.html:63
+#: yaksh/templates/yaksh/course_send_mail.html:60
+msgid "Send Mail"
+msgstr "Envia un correu"
+
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Show"
+msgstr "Espectacle"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:281
+msgid "Shuffle MCQ/MCC options for each student"
+msgstr "Barreja les opcions MCQ / MCC per a cada estudiant"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:277
+msgid "Shuffle questions\\"
+msgstr "Barreja preguntes \\"
+
+#: yaksh/templates/yaksh/login.html:82
+msgid "Sign in"
+msgstr "Inicieu la sessió"
+
+#: yaksh/templates/yaksh/login.html:23
+msgid "Sign in with"
+msgstr "Inicieu la sessió amb"
+
+#: yaksh/templates/yaksh/add_lesson.html:203
+msgid "Single Correct Choice"
+msgstr "Selecció correcta"
+
+#: yaksh/forms.py:323
+msgid "Snippet"
+msgstr "Fragment"
+
+#: yaksh/forms.py:320
+msgid "Solution"
+msgstr "Solució"
+
+#: yaksh/templates/yaksh/question.html:216
+msgid "Solution by teacher"
+msgstr "Solució per part del professor"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:177
+msgid "Solution for the question"
+msgstr "Solució per a la pregunta"
+
+#: yaksh/templates/500.html:18
+msgid "Sorry for the inconvenience."
+msgstr "Disculpeu les molèsties."
+
+#: yaksh/templates/yaksh/monitor.html:170
+msgid "Special Attempt"
+msgstr "Intent especial"
+
+#: yaksh/templates/yaksh/addteacher.html:86
+#: yaksh/templates/yaksh/monitor.html:162
+#: yaksh/templates/yaksh/show_lesson_statistics.html:199
+#: yaksh/templates/yaksh/showquestions.html:162
+msgid "Sr No."
+msgstr "Sr núm."
+
+#: yaksh/templates/yaksh/course_progress.html:32
+msgid "Sr. No"
+msgstr "Sr."
+
+#: yaksh/templates/yaksh/lessons.html:82 yaksh/templates/yaksh/modules.html:83
+#: yaksh/templates/yaksh/quizzes.html:86
+msgid "Sr.No"
+msgstr "Sr.No"
+
+#: forms.py:30
+msgid "Standard Testcase"
+msgstr "Prova de prova estàndard"
+
+#: yaksh/templates/yaksh/course_modules.html:92
+#: yaksh/templates/yaksh/intro.html:47
+#: yaksh/templates/yaksh/quizzes_user.html:86
+#: yaksh/templates/yaksh/show_video.html:130
+msgid "Start"
+msgstr "Començar"
+
+#: models.py:939
+msgid "Start Date and Time for enrollment of course"
+msgstr "Data i hora d'inici de la inscripció del curs"
+
+#: yaksh/templates/yaksh/micromanaged.html:14
+msgid "Start Special Attempt"
+msgstr "Inicia un intent especial"
+
+#: yaksh/templates/yaksh/grade_user.html:249
+#: yaksh/templates/yaksh/user_data.html:30
+#: yaksh/templates/yaksh/view_answerpaper.html:36
+msgid "Start time:"
+msgstr "L'hora d'inici:"
+
+#: yaksh/templates/yaksh/courses.html:183
+#: yaksh/templates/yaksh/courses.html:269
+#: yaksh/templates/yaksh/quizzes_user.html:137
+msgid "Starts On:"
+msgstr "Comença el:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:118
+#: yaksh/templates/yaksh/course_added_modules.html:127
+msgid "Statistics"
+msgstr "Estadístiques"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:7
+#: yaksh/templates/yaksh/statistics_question.html:8
+msgid "Statistics for"
+msgstr "Estadístiques de"
+
+#: yaksh/templates/yaksh/complete.html:33
+#: yaksh/templates/yaksh/error_template.html:73
+#: yaksh/templates/yaksh/grade_user.html:494
+#: yaksh/templates/yaksh/monitor.html:168 yaksh/templates/yaksh/quit.html:24
+#: yaksh/templates/yaksh/user_data.html:234
+#: yaksh/templates/yaksh/view_answerpaper.html:255
+msgid "Status"
+msgstr "Estat"
+
+#: yaksh/templates/yaksh/grade_user.html:265
+#: yaksh/templates/yaksh/user_data.html:48
+msgid "Status:"
+msgstr "Estat:"
+
+#: forms.py:31
+msgid "StdIO Based Testcase"
+msgstr "Prova de prova basada en StdIO"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:32
+msgid "STEP 1"
+msgstr "PAS 1"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:38
+msgid "STEP 2"
+msgstr "PAS 2"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:44
+msgid "STEP 3"
+msgstr "PAS 3"
+
+#: forms.py:35
+msgid "String Testcase"
+msgstr "Prova de cadena"
+
+#: yaksh/templates/yaksh/grade_user.html:424
+#: yaksh/templates/yaksh/user_data.html:163
+#: yaksh/templates/yaksh/view_answerpaper.html:184
+msgid "Student answer(s):"
+msgstr "Resposta (s) de l'estudiant:"
+
+#: yaksh/templates/yaksh/quizzes_user.html:5
+msgid "Student Dashboard"
+msgstr "Tauler d’estudiants"
+
+#: yaksh/templates/yaksh/grade_user.html:215
+msgid "Student Details"
+msgstr "Detalls de l’alumne"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:200
+msgid "Student Name"
+msgstr "Nom de l'estudiant"
+
+#: yaksh/templates/yaksh/user_status.html:4
+msgid "Student Name:"
+msgstr "Nom de l'estudiant:"
+
+#: yaksh/forms.py:112
+msgid "Student/Faculty/Researcher/Industry/Fellowship/etc."
+msgstr "Estudiant / Facultat / Investigador / Indústria / Beques / etc."
+
+#: yaksh/templates/yaksh/grade_user.html:304
+#: yaksh/templates/yaksh/user_data.html:67
+#: yaksh/templates/yaksh/view_answerpaper.html:72
+msgid "Submission Details"
+msgstr "Detalls de l'enviament"
+
+#: yaksh/templates/yaksh/complete.html:28 yaksh/templates/yaksh/quit.html:19
+msgid "Submission Status"
+msgstr "Estat de l'enviament"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:73
+msgid "Submissions"
+msgstr "Enviaments"
+
+#: yaksh/templates/registration/password_reset_confirm.html:64
+#: yaksh/templates/yaksh/activation_status.html:87
+#: yaksh/templates/yaksh/show_lesson_quiz.html:131
+#: yaksh/templates/yaksh/show_lesson_quiz.html:133
+msgid "Submit"
+msgstr "Presentar"
+
+#: yaksh/templates/yaksh/question.html:347
+#: yaksh/templates/yaksh/question.html:351
+msgid "Submit Answer"
+msgstr "Envia la resposta"
+
+#: yaksh/forms.py:302 yaksh/forms.py:721
+#: yaksh/templates/yaksh/showquestions.html:163
+msgid "Summary"
+msgstr "Resum"
+
+#: yaksh/templates/yaksh/statistics_question.html:53
+msgid "Summary:"
+msgstr "Resum:"
+
+#: yaksh/templates/user.html:55
+msgid "Switch To Moderator"
+msgstr "Canvia a moderador"
+
+#: yaksh/templates/manage.html:69
+msgid "Switch To Student"
+msgstr "Canvia a estudiant"
+
+#: yaksh/templates/yaksh/add_lesson.html:161
+#: yaksh/templates/yaksh/show_video.html:162
+msgid "Table Of Contents"
+msgstr "Taula de continguts"
+
+#: yaksh/forms.py:317
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:88
+msgid "Taken By"
+msgstr "Presa per"
+
+#: yaksh/templates/yaksh/grade_user.html:586
+#: yaksh/templates/yaksh/user_data.html:323
+#: yaksh/templates/yaksh/view_answerpaper.html:345
+msgid "Teacher comments:"
+msgstr "Comentaris del professor:"
+
+#: yaksh/templates/yaksh/addteacher.html:81
+msgid "Teacher(s) added"
+msgstr "S'han afegit professors"
+
+#: yaksh/templates/yaksh/course_teachers.html:3
+msgid "Teacher(s)/TA(s)"
+msgstr "Professor (s) / TA (s)"
+
+#: yaksh/templates/yaksh/showquestions.html:167
+#: yaksh/templates/yaksh/showquestions.html:191
+msgid "Test"
+msgstr "Prova"
+
+#: yaksh/templates/yaksh/add_question.html:143
+msgid "Test case"
+msgstr "Cas de prova"
+
+#: yaksh/templates/yaksh/add_question.html:115
+msgid "Test Cases"
+msgstr "Casos de prova"
+
+#: yaksh/templates/yaksh/grade_user.html:412
+#: yaksh/templates/yaksh/user_data.html:151
+#: yaksh/templates/yaksh/view_answerpaper.html:160
+msgid "Test cases:"
+msgstr "Casos de prova:"
+
+#: yaksh/templates/yaksh/showquestions.html:216
+msgid "Test Selected"
+msgstr "Prova seleccionada"
+
+#: yaksh/templates/yaksh/error_template.html:33
+#: yaksh/templates/yaksh/grade_user.html:524
+#: yaksh/templates/yaksh/user_data.html:264
+msgid "The following error took place:"
+msgstr "Es va produir l'error següent:"
+
+#: yaksh/forms.py:152
+msgid "This email already exists"
+msgstr "Aquesta adreça de correu electrònic ja existeix"
+
+#: yaksh/templates/500.html:17
+msgid "This event will be reported."
+msgstr "S’informarà d’aquest esdeveniment."
+
+#: yaksh/templates/yaksh/intro.html:17
+msgid "This Quiz has expired. You can no longer attempt this Quiz."
+msgstr "Aquest concurs ha caducat. Ja no podeu provar aquest concurs."
+
+#: yaksh/templates/registration/password_reset_confirm.html:67
+msgid "This reset link is no longer valid!"
+msgstr "Aquest enllaç de restabliment ja no és vàlid."
+
+#: yaksh/forms.py:684
+msgid "Time"
+msgstr "Temps"
+
+#: yaksh/templates/yaksh/monitor.html:169
+msgid "Time Extension"
+msgstr "Ampliació de temps"
+
+#: yaksh/templates/yaksh/monitor.html:167
+msgid "Time Left"
+msgstr "Temps restant"
+
+#: yaksh/templates/yaksh/view_profile.html:39
+msgid "Timezone:"
+msgstr "Fus horari:"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "to delete files,"
+msgstr "per esborrar fitxers,"
+
+#: yaksh/templates/yaksh/course_students.html:42
+msgid "to download a sample CSV, edit and upload it"
+msgstr "per descarregar un CSV de mostra, editar-lo i penjar-lo"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to extract files and"
+msgstr "per extreure fitxers i"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to hide files"
+msgstr "per amagar fitxers"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "to the programming quiz!"
+msgstr "al concurs de programació!"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:71
+msgid "TOC"
+msgstr "TOC"
+
+#: yaksh/templates/yaksh/add_lesson.html:193
+msgid "Topic"
+msgstr "Tema"
+
+#: yaksh/forms.py:308
+msgid "Topic name"
+msgstr "Nom del tema"
+
+#: yaksh/templates/yaksh/question.html:162
+#: yaksh/templates/yaksh/show_lesson_quiz.html:36
+#: yaksh/templates/yaksh/show_lesson_statistics.html:89
+msgid "Topic:"
+msgstr "Tema:"
+
+#: yaksh/templates/yaksh/statistics_question.html:40
+msgid "Total attempts"
+msgstr "Intents totals"
+
+#: yaksh/templates/yaksh/grade_user.html:279
+#: yaksh/templates/yaksh/user_data.html:60
+#: yaksh/templates/yaksh/view_answerpaper.html:65
+msgid "Total attempts at questions:"
+msgstr "Intents de preguntes totals:"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:51
+#: yaksh/templates/yaksh/grade_user.html:272
+#: yaksh/templates/yaksh/user_data.html:55
+#: yaksh/templates/yaksh/view_answerpaper.html:60
+msgid "Total Marks:"
+msgstr "Total de marques:"
+
+#: yaksh/templates/yaksh/statistics_question.html:35
+msgid "Total number of participants:"
+msgstr "Nombre total de participants:"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:168
+msgid "Total Submissions:"
+msgstr "Total d'enviaments:"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "Total Time:"
+msgstr "Temps total:"
+
+#: yaksh/templates/yaksh/add_quiz.html:70
+msgid "Try as student"
+msgstr "Prova com a estudiant"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Try as student:"
+msgstr "Proveu com a estudiant:"
+
+#: yaksh/templates/yaksh/add_quiz.html:74
+msgid "Try as teacher"
+msgstr "Intenta com a professor"
+
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Try as teacher:"
+msgstr "Prova com a professor:"
+
+#: yaksh/templates/yaksh/grade_user.html:160
+#: yaksh/templates/yaksh/grade_user.html:319
+#: yaksh/templates/yaksh/show_lesson_statistics.html:72
+#: yaksh/templates/yaksh/showquestions.html:165
+#: yaksh/templates/yaksh/statistics_question.html:39
+#: yaksh/templates/yaksh/user_data.html:74
+#: yaksh/templates/yaksh/view_answerpaper.html:79
+msgid "Type"
+msgstr "Tipus"
+
+#: yaksh/templates/yaksh/question.html:166
+#: yaksh/templates/yaksh/show_lesson_quiz.html:40
+#: yaksh/templates/yaksh/show_lesson_statistics.html:94
+#: yaksh/templates/yaksh/show_lesson_statistics.html:96
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+#: yaksh/templates/yaksh/statistics_question.html:71
+msgid "Type:"
+msgstr "Tipus:"
+
+#: yaksh/templates/exam.html:86
+msgid "Unattempted question(s)"
+msgstr "Preguntes sense intents"
+
+#: yaksh/templates/yaksh/question.html:334
+msgid "Undo Changes"
+msgstr "Desfés els canvis"
+
+#: yaksh/templates/yaksh/editprofile.html:46
+msgid "Update"
+msgstr "Actualització"
+
+#: yaksh/templates/yaksh/course_students.html:24
+#: yaksh/templates/yaksh/monitor.html:131
+#: yaksh/templates/yaksh/question.html:349
+#: yaksh/templates/yaksh/upload_download_course_md.html:13
+#: yaksh/templates/yaksh/upload_file.html:32
+msgid "Upload"
+msgstr "Pujar"
+
+#: yaksh/templates/yaksh/course_detail_options.html:103
+msgid "Upload / Download MD"
+msgstr "Carregar / descarregar MD"
+
+#: yaksh/templates/yaksh/upload_file.html:23
+msgid "Upload assignment file for"
+msgstr "Pengeu el fitxer de tasques per a"
+
+#: yaksh/templates/yaksh/showquestions.html:64
+#: yaksh/templates/yaksh/upload_file.html:6
+msgid "Upload File"
+msgstr "Penja el document"
+
+#: yaksh/templates/yaksh/showquestions.html:19
+msgid "Upload Questions"
+msgstr "Carregueu preguntes"
+
+#: yaksh/templates/yaksh/show_toc.html:16
+msgid "Upload TOC"
+msgstr "Pengeu TOC"
+
+#: yaksh/templates/yaksh/course_students.html:8
+msgid "Upload Users"
+msgstr "Pujar usuaris"
+
+#: yaksh/templates/yaksh/add_question.html:81
+msgid "Uploaded files"
+msgstr "Fitxers penjats"
+
+#: yaksh/forms.py:96
+msgid "Use a dummy if you don't have one."
+msgstr "Utilitzeu un maniquí si no en teniu."
+
+#: yaksh/templates/yaksh/user_data.html:6
+msgid "User Data"
+msgstr "Dades d’usuari"
+
+#: yaksh/templates/yaksh/user_data.html:32
+msgid "User IP:"
+msgstr "IP de l'usuari:"
+
+#: yaksh/templates/yaksh/add_exercise.html:59
+msgid "User Mode"
+msgstr "Mode d'usuari"
+
+#: yaksh/templates/yaksh/error_template.html:72
+#: yaksh/templates/yaksh/grade_user.html:493
+#: yaksh/templates/yaksh/user_data.html:233
+#: yaksh/templates/yaksh/view_answerpaper.html:254
+msgid "User output"
+msgstr "Sortida de l'usuari"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:99
+msgid "user(s)"
+msgstr "usuari (s)"
+
+#: yaksh/forms.py:190 yaksh/templates/yaksh/addteacher.html:41
+msgid "Username"
+msgstr "Nom d'usuari"
+
+#: yaksh/forms.py:130
+msgid "Username already exists."
+msgstr "El nom d'usuari ja existeix."
+
+#: yaksh/forms.py:208
+msgid "Username and/or Password is not entered"
+msgstr "No s’introdueix el nom d’usuari i / o la contrasenya"
+
+#: yaksh/templates/yaksh/course_students.html:36
+msgid "Users created will have username and password same as their email"
+msgstr "Els usuaris creats tindran el mateix nom d’usuari i contrasenya que el seu correu electrònic"
+
+#: yaksh/forms.py:583 yaksh/forms.py:592
+msgid "Value must be dictionary e.g {'youtube': 'video-id'}"
+msgstr "El valor ha de ser diccionari, per exemple, {'youtube': 'video-id'}"
+
+#: yaksh/templates/yaksh/add_lesson.html:98
+msgid "Video File:"
+msgstr "Fitxer de vídeo:"
+
+#: yaksh/forms.py:531
+msgid "Video ID for Youtube, Vimeo and URL for others"
+msgstr "Identificador de vídeo de Youtube, Vimeo i URL per a altres usuaris"
+
+#: yaksh/templates/yaksh/add_lesson.html:89
+msgid "Video Path:"
+msgstr "Camí del vídeo:"
+
+#: yaksh/templates/yaksh/course_added_modules.html:133
+msgid "Video Views"
+msgstr "Visualitzacions de vídeo"
+
+#: yaksh/templates/yaksh/course_modules.html:84
+#: yaksh/templates/yaksh/course_modules.html:151
+#: yaksh/templates/yaksh/course_modules.html:156
+msgid "View"
+msgstr "Veure"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:7
+msgid "View Answer paper"
+msgstr "Veure paper de resposta"
+
+#: models.py:933
+msgid "view grade"
+msgstr "veure el grau"
+
+#: yaksh/templates/yaksh/grade_user.html:518
+#: yaksh/templates/yaksh/user_data.html:258
+#: yaksh/templates/yaksh/view_answerpaper.html:279
+msgid "We tried you code with the following test case:"
+msgstr "Us hem provat el codi amb el següent cas de prova:"
+
+#: yaksh/templates/yaksh/error_template.html:27
+msgid "We tried your code with the following test case:"
+msgstr "Hem provat el vostre codi amb el següent cas de prova:"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "Welcome"
+msgstr "Benvingut"
+
+msgid "What"
+msgstr "Què"
+
+#: yaksh/templates/yaksh/add_module.html:166
+#: yaksh/templates/yaksh/design_course_session.html:73
+#: yaksh/templates/yaksh/design_course_session.html:79
+msgid "What\\"
+msgstr "Què\\"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Will be available once the course is complete"
+msgstr "Estarà disponible un cop finalitzat el curs"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:161
+msgid "with Error Margin"
+msgstr "amb marge d'error"
+
+#: yaksh/templates/yaksh/question.html:331
+msgid "Write your program below:"
+msgstr "Escriviu el vostre programa a continuació:"
+
+#: yaksh/templates/yaksh/add_module.html:195
+#: yaksh/templates/yaksh/design_course_session.html:104
+#: yaksh/templates/yaksh/design_course_session.html:114
+msgid "Yes"
+msgstr "Sí"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "You can attempt this Quiz at any time between"
+msgstr "Podeu provar aquest examen en qualsevol moment entre"
+
+#: yaksh/templates/yaksh/add_exercise.html:57
+#: yaksh/templates/yaksh/add_quiz.html:68
+msgid "You can check the quiz by attempting it in the following modes:"
+msgstr "Podeu consultar el qüestionari provant-lo en els modes següents:"
+
+#: yaksh/templates/yaksh/showquestions.html:26
+msgid "You can upload question files the following ways -"
+msgstr "Podeu penjar fitxers de preguntes de la següent manera:"
+
+#: yaksh/templates/yaksh/question.html:292
+msgid "You can upload using the file browser here or via the QR code."
+msgstr "Podeu carregar-lo mitjançant el navegador de fitxers aquí o mitjançant el codi QR."
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "You have been given a special attempt to the"
+msgstr "Se us ha provat un intent especial al"
+
+#: yaksh/templates/yaksh/user_data.html:341
+#: yaksh/templates/yaksh/view_answerpaper.html:363
+msgid "You have not attempted the Exercise"
+msgstr "No heu provat l'exercici"
+
+#: yaksh/templates/yaksh/user_data.html:343
+#: yaksh/templates/yaksh/view_answerpaper.html:365
+msgid "You have not attempted the quiz"
+msgstr "No heu provat el test"
+
+#: yaksh/templates/yaksh/add_exercise.html:86
+#: yaksh/templates/yaksh/add_quiz.html:96
+msgid ""
+"You will be notified about quiz prerequisites.(You can still attempt the "
+"quiz though)"
+msgstr "Se us notificarà sobre els requisits previs per a la prova (tot i així, podeu provar-la)"
+
+#: yaksh/templates/yaksh/question.html:411
+msgid "Your code will be reset."
+msgstr "El vostre codi es restablirà."
+
+#: yaksh/templates/yaksh/quit.html:47
+msgid "Your current answers are saved."
+msgstr "Les vostres respostes actuals es guarden."
+
+#: yaksh/templates/registration/password_change_done.html:29
+msgid "Your password has been changed successfully."
+msgstr "La vostra contrasenya s’ha canviat correctament."
+
+#: yaksh/templates/registration/password_reset_complete.html:20
+msgid "Your password has been reset."
+msgstr "La vostra contrasenya s’ha restablert."
+
+#: yaksh/templates/yaksh/profile_updated.html:26
+msgid "Your Profile is changed"
+msgstr "El vostre perfil ha canviat"

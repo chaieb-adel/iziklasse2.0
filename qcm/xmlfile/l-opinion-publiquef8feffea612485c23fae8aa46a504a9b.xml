@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text><![CDATA[<infos><name>l'opinion publique</name><answernumbering>123</answernumbering><niveau>1ERE</niveau><matiere>SC. ECONO.& SOCIALES</matiere></infos>]]></text>
+		</category>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les salons au 18ème siècle désignaient des lieux où l'ensemble de la population pouvait venir pour manger, boire et écouter de la musique.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les sondages incitent à voter pour les candidats qui sont mieux placés.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les premiers à être influencés par les sondages sont les responsables politiques.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">le développement des réseaux sociaux numériques a rendu les médias obsolètes.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">l'opinion publique est la somme des avis individuels des habitants d'un territoire donné.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">un échantillon représentatif désigne un groupe de personnes élues par le peuple.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">la principale critique concernant les sondages repose sur le manque de rigueur de leurs méthodes.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">la démocratie d'opinion désigne le fait que les gouvernants sont obligés en permanence de tenir compte de l'opinion dans leurs actions et décisions.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les "votes de paille" sont une expression pour désigner les abstentionnistes.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">pour Pierre Bourdieu, l'opinion publique n'existe pas car les citoyens ne sont pas assez cultivés pour avoir une opinion.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">la formulation des questions peut influencer les réponses aux sondages.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les partis politiques sont influencés par les sondages pour sélectionner leurs candidats et définir leur programme.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">en démocratie, toutes les décisions du pouvoir politique sont prises pour plaire au plus grand nombre.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les sondages se sont imposés progressivement comme la manière privilégiée de mesurer l'opinion publique.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les médias jouent un rôle dans la construction de l'opinion publique.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">la communication politique a pris de l'ampleur avec le développement des sondages.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">plus l'échantillon interrogé est grand , plus la marge d'erreur est faible.</div><div style="font-family: Arial; font-size: 13px;">&nbsp;</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">les sondages pré électoraux peuvent mener à des modifications de vote.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">la méthode quotas consiste, par un tirage au sort, à prélever au hasard un certain nombre de personnes parmi l'ensemble de la population.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">l'opinion publique ne s'exprime pas uniquement sous la forme de sondages d'opinion.</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[faux]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[vrai]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>

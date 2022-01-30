@@ -1,0 +1,2996 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: email_host_user\n"
+"POT-Creation-Date: 2021-07-31 18:54:41\n"
+"PO-Revision-Date: 2021-07-31 18:54:41\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <email_host_user>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: yaksh/forms.py:263
+msgid ""
+"            <p>\n"
+"            This examination system has been developed with the intention of\n"
+"            making you learn programming and be assessed in an interactive and\n"
+"            fun manner.You will be presented with a series of programming\n"
+"            questions and problems that you will answer online and get\n"
+"            immediate feedback for.\n"
+"            </p><p>Here are some important instructions and rules that you\n"
+"            should understand carefully.</p>\n"
+"            <ul><li>For any programming questions, you can submit solutions as\n"
+"            many times as you want without a penalty. You may skip questions\n"
+"            and solve them later.</li><li> You <strong>may</strong>\n"
+"            use your computer's Python/IPython shell or an editor to solve the\n"
+"            problem and cut/paste the solution to the web interface.\n"
+"            </li><li> <strong>You are not allowed to use any internet resources\n"
+"            i.e. no google etc.</strong>\n"
+"            </li>\n"
+"            <li> Do not copy or share the questions or answers with anyone\n"
+"            until the exam is complete <strong>for everyone</strong>.\n"
+"            </li><li> <strong>All</strong> your attempts at the questions are\n"
+"            logged. Do not try to outsmart and break the testing system.\n"
+"            If you do, we know who you are and we will expel you from the\n"
+"            course. You have been warned.\n"
+"            </li></ul>\n"
+"            <p>We hope you enjoy taking this exam !!!</p>\n"
+"        "
+msgstr "            <p>この試験システムは、プログラミングを学び、インタラクティブで楽しい方法で評価されることを目的として開発されました。オンラインで回答し、すぐにフィードバックを得る一連のプログラミングの質問と問題が提示されます。 </ p> <p>注意深く理解する必要のある重要な手順とルールをいくつか示します。</ p> <ul> <li>プログラミングに関する質問については、ペナルティなしで何度でもソリューションを送信できます。質問をスキップして後で解決することができます。</ li> <li>コンピュータのPython / IPythonシェルまたはエディタを使用して問題を解決し、ソリューションをWebインターフェイスにカットアンドペーストすることができます。</ li> <li> </ strong> </ li> <li> <strong>インターネットリソースの使用は許可されていません。つまり、Googleなどは使用できません。</ strong> </ li> <li>試験が終了するまで、質問や回答をコピーしたり、他の人と共有したりしないでください。 <strong>すべての人のために</ strong>完了します。 </ li> <li> <strong>すべて</ strong>の質問への試行がログに記録されます。テストシステムを裏切って壊そうとしないでください。もしそうなら、私たちはあなたが誰であるかを知っており、コースからあなたを追放します。あなたは警告されました。 </ li> </ ul> <p>この試験を楽しんでいただければ幸いです!!! </ p>\n"
+"        "
+
+#: yaksh/templates/yaksh/paginator.html:19
+msgid "(current)"
+msgstr "（現在）"
+
+#: yaksh/templates/yaksh/monitor.html:236
+msgid "(Latest)"
+msgstr "（最新）"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "(will take"
+msgstr "（とる"
+
+#: yaksh/templates/yaksh/course_students.html:35
+msgid "- If username and password are not provided then"
+msgstr "-ユーザー名とパスワードが提供されていない場合"
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "- Mandatory fields are"
+msgstr "-必須フィールドは"
+
+#: yaksh/templates/yaksh/course_students.html:34
+msgid "- Other fields are optional."
+msgstr "-その他のフィールドはオプションです。"
+
+#: yaksh/templates/yaksh/course_students.html:30
+msgid ""
+"- The uploaded csv should have headers exactly same as mentioned below:"
+msgstr "-アップロードされたcsvには、以下に記載されているものとまったく同じヘッダーが必要です。"
+
+#: yaksh/templates/yaksh/activation_status.html:5
+#: yaksh/templates/yaksh/activation_status.html:6
+msgid "Account Activation"
+msgstr "アカウント開設"
+
+#: yaksh/templates/yaksh/add_lesson.html:87
+#: yaksh/templates/yaksh/add_module.html:82
+#: yaksh/templates/yaksh/courses.html:172
+#: yaksh/templates/yaksh/courses.html:258
+#: yaksh/templates/yaksh/lessons.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:58
+#: yaksh/templates/yaksh/modules.html:101
+#: yaksh/templates/yaksh/quizzes.html:109
+msgid "Active"
+msgstr "アクティブ"
+
+#: yaksh/templates/yaksh/add_lesson.html:217
+#: yaksh/templates/yaksh/quizzes.html:139
+msgid "Add"
+msgstr "追加"
+
+#: yaksh/templates/yaksh/add_lesson.html:226
+msgid "Add a Video Path or Upload a video file to setup lesson contents"
+msgstr "ビデオパスを追加するか、ビデオファイルをアップロードしてレッスンの内容を設定します"
+
+#: yaksh/templates/yaksh/post_comments.html:57
+msgid "Add comment:"
+msgstr "コメントを追加する："
+
+#: yaksh/templates/yaksh/add_course.html:15
+#: yaksh/templates/yaksh/add_course.html:16
+#: yaksh/templates/yaksh/moderator_dashboard.html:19
+msgid "Add Course"
+msgstr "コースを追加"
+
+#: yaksh/templates/yaksh/add_exercise.html:5
+#: yaksh/templates/yaksh/add_exercise.html:6
+#: yaksh/templates/yaksh/course_added_modules.html:39
+msgid "Add Exercise"
+msgstr "運動を追加する"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:33
+msgid "Add Fixed Questions"
+msgstr "修正された質問を追加する"
+
+#: yaksh/templates/yaksh/course_added_modules.html:29
+msgid "Add Lesson"
+msgstr "レッスンを追加"
+
+#: yaksh/templates/yaksh/course_added_modules.html:7
+msgid "Add Module"
+msgstr "モジュールの追加"
+
+#: yaksh/templates/yaksh/add_video_quiz.html:24
+msgid "Add More"
+msgstr "さらに追加"
+
+#: yaksh/templates/yaksh/quizzes.html:49
+msgid "Add New Exercise"
+msgstr "新しい演習を追加する"
+
+#: yaksh/templates/yaksh/lessons.html:45
+msgid "Add new Lesson"
+msgstr "新しいレッスンを追加する"
+
+#: yaksh/templates/yaksh/modules.html:46
+msgid "Add new Module"
+msgstr "新しいモジュールを追加する"
+
+#: yaksh/templates/yaksh/quizzes.html:46
+msgid "Add New Quiz"
+msgstr "新しいクイズを追加する"
+
+#: yaksh/templates/yaksh/add_question.html:6
+#: yaksh/templates/yaksh/add_question.html:7
+#: yaksh/templates/yaksh/showquestions.html:146
+msgid "Add Question"
+msgstr "質問を追加"
+
+#: yaksh/templates/yaksh/course_added_modules.html:34
+msgid "Add Quiz"
+msgstr "クイズを追加"
+
+#: yaksh/templates/yaksh/modules.html:113
+msgid "Add Quizzes/Lessons for"
+msgstr "のクイズ/レッスンを追加する"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:39
+msgid "Add Random Questions"
+msgstr "ランダムな質問を追加する"
+
+#: yaksh/templates/yaksh/addteacher.html:72
+msgid "Add Selected"
+msgstr "選択したものを追加"
+
+#: yaksh/templates/yaksh/addteacher.html:4
+#: yaksh/templates/yaksh/course_detail_options.html:83
+msgid "Add Teachers/TAs"
+msgstr "教師/ TAを追加する"
+
+#: yaksh/templates/yaksh/add_question.html:121
+msgid "Add Test Case:"
+msgstr "テストケースの追加："
+
+#: yaksh/templates/yaksh/design_course_session.html:57
+msgid "Add to course"
+msgstr "コースに追加"
+
+#: yaksh/templates/yaksh/add_module.html:148
+msgid "Add to Module"
+msgstr "モジュールに追加"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:144
+#: yaksh/templates/yaksh/design_questionpaper.html:225
+msgid "Add to paper"
+msgstr "紙に追加"
+
+#: yaksh/forms.py:526
+msgid "Add videos from youtube, vimeo or other"
+msgstr "youtube、vimeoまたは他からのビデオを追加します"
+
+#: yaksh/templates/yaksh/add_lesson.html:235
+msgid "Add/Edit Content"
+msgstr "コンテンツの追加/編集"
+
+#: yaksh/templates/yaksh/add_course.html:29
+#: yaksh/templates/yaksh/courses.html:25 yaksh/templates/yaksh/lessons.html:18
+#: yaksh/templates/yaksh/modules.html:19 yaksh/templates/yaksh/quizzes.html:19
+msgid "Add/Edit Course"
+msgstr "コースの追加/編集"
+
+#: yaksh/templates/yaksh/add_quiz.html:5 yaksh/templates/yaksh/add_quiz.html:7
+msgid "Add/Edit Quiz"
+msgstr "クイズの追加/編集"
+
+#: yaksh/templates/yaksh/add_course.html:34
+#: yaksh/templates/yaksh/courses.html:30 yaksh/templates/yaksh/lessons.html:34
+#: yaksh/templates/yaksh/modules.html:35 yaksh/templates/yaksh/quizzes.html:35
+msgid "Add/View Grading Systems"
+msgstr "グレーディングシステムの追加/表示"
+
+#: yaksh/templates/yaksh/lessons.html:28 yaksh/templates/yaksh/modules.html:29
+#: yaksh/templates/yaksh/quizzes.html:29
+msgid "Add/View Lessons"
+msgstr "レッスンの追加/表示"
+
+#: yaksh/templates/yaksh/lessons.html:31 yaksh/templates/yaksh/modules.html:32
+#: yaksh/templates/yaksh/quizzes.html:32
+msgid "Add/View Modules"
+msgstr "モジュールの追加/表示"
+
+#: yaksh/templates/yaksh/lessons.html:25 yaksh/templates/yaksh/modules.html:26
+#: yaksh/templates/yaksh/quizzes.html:26
+msgid "Add/View Quizzes"
+msgstr "クイズの追加/表示"
+
+#: yaksh/views.py:201
+msgid "All Courses"
+msgstr "すべてのコース"
+
+#: yaksh/templates/yaksh/showquestions.html:18
+msgid "All Questions"
+msgstr "すべての質問"
+
+#: yaksh/forms.py:118 yaksh/forms.py:502
+msgid "All timings are shown based on the selected timezone"
+msgstr "すべてのタイミングは、選択したタイムゾーンに基づいて表示されます"
+
+#: yaksh/templates/yaksh/courses.html:116
+#: yaksh/templates/yaksh/courses.html:215
+msgid "Allotted Course"
+msgstr "割り当てられたコース"
+
+#: yaksh/templates/yaksh/micromonitor.html:7
+#: yaksh/templates/yaksh/micromonitor.html:10
+msgid "Allow"
+msgstr "許可する"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:274
+msgid "Almost finished creating your question paper"
+msgstr "質問用紙の作成がほぼ完了しました"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "and"
+msgstr "と"
+
+#: yaksh/templates/yaksh/course_forum.html:125
+#: yaksh/templates/yaksh/lessons_forum.html:72
+#: yaksh/templates/yaksh/post_comments.html:37
+#: yaksh/templates/yaksh/post_comments.html:75
+#: yaksh/templates/yaksh/show_video.html:260
+msgid "Anonymous"
+msgstr "匿名"
+
+#: yaksh/templates/yaksh/add_lesson.html:211
+msgid "Answer in Float"
+msgstr "浮動小数点での回答"
+
+#: yaksh/templates/yaksh/add_lesson.html:207
+msgid "Answer in Integer"
+msgstr "整数で答える"
+
+#: yaksh/templates/yaksh/add_lesson.html:209
+msgid "Answer in String"
+msgstr "文字列で答える"
+
+#: yaksh/templates/yaksh/course_modules.html:178
+#: yaksh/templates/yaksh/course_modules.html:182
+msgid "Answer paper"
+msgstr "解答用紙"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:8
+msgid "Answer Paper  for"
+msgstr "の解答用紙"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:39
+#: yaksh/templates/yaksh/show_lesson_statistics.html:155
+#: yaksh/templates/yaksh/show_lesson_statistics.html:158
+msgid "Answer:"
+msgstr "答え："
+
+#: yaksh/templates/yaksh/statistics_question.html:41
+msgid "Answered Correctly"
+msgstr "正解"
+
+#: yaksh/templates/yaksh/quit.html:48
+msgid "Are you sure you wish to quit the exam?"
+msgstr "試験をやめてもよろしいですか？"
+
+#: yaksh/templates/yaksh/quit.html:45
+msgid "Are you sure you wish to quit the Exercise?"
+msgstr "演習を終了してもよろしいですか？"
+
+#: yaksh/templates/yaksh/question.html:408
+msgid "Are you Sure?"
+msgstr "本気ですか？"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+msgid "ARRANGE THE OPTIONS IN CORRECT ORDER"
+msgstr "オプションを正しい順序で配置します"
+
+#: yaksh/templates/yaksh/grade_user.html:431
+#: yaksh/templates/yaksh/user_data.html:170
+#: yaksh/templates/yaksh/view_answerpaper.html:191
+msgid "Assignment File for"
+msgstr "の割り当てファイル"
+
+#: yaksh/templates/yaksh/grade_user.html:438
+#: yaksh/templates/yaksh/user_data.html:177
+#: yaksh/templates/yaksh/view_answerpaper.html:198
+msgid "Assignment not submitted by"
+msgstr "によって提出されていない割り当て"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+msgid "ASSIGNMENT UPLOAD"
+msgstr "割り当てのアップロード"
+
+#: yaksh/templates/yaksh/course_send_mail.html:14
+msgid "Attachments:"
+msgstr "添付ファイル："
+
+#: yaksh/templates/yaksh/question.html:371
+msgid "Attempt Later"
+msgstr "後で試す"
+
+#: yaksh/templates/yaksh/grade_user.html:281
+#: yaksh/templates/yaksh/grade_user.html:449
+#: yaksh/templates/yaksh/user_data.html:40
+#: yaksh/templates/yaksh/user_data.html:189
+#: yaksh/templates/yaksh/view_answerpaper.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:209
+msgid "Attempt Number:"
+msgstr "試行番号："
+
+#: yaksh/templates/yaksh/add_exercise.html:82
+msgid "Attempt quiz the way normal users will attempt i.e. -"
+msgstr "通常のユーザーが試みる方法でクイズを試みます。"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Attempt quiz the way students will attempt i.e. -"
+msgstr "生徒が試みる方法をクイズしてみてください。"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Attempt quiz without any time or eligibilty constraints."
+msgstr "時間や資格の制約なしにクイズを試してください。"
+
+#: yaksh/templates/yaksh/complete.html:41 yaksh/templates/yaksh/quit.html:32
+msgid "Attempted"
+msgstr "試みた"
+
+#: yaksh/templates/exam.html:84
+msgid "Attempted question(s)"
+msgstr "質問を試みました"
+
+#: yaksh/templates/yaksh/monitor.html:92
+msgid "Auto-Refreshes every 5 minutes"
+msgstr "5分ごとに自動更新"
+
+#: yaksh/templates/yaksh/add_module.html:126
+msgid "Available Lessons and quizzes: (Add Lessons and Quizzes)"
+msgstr "利用可能なレッスンとクイズ:(レッスンとクイズを追加）"
+
+#: yaksh/templates/yaksh/design_course_session.html:21
+msgid "Available Modules:"
+msgstr "利用可能なモジュール："
+
+#: yaksh/templates/yaksh/design_questionpaper.html:98
+#: yaksh/templates/yaksh/showquestions.html:103
+msgid "Available Tags"
+msgstr "利用可能なタグ"
+
+#: yaksh/templates/yaksh/add_lesson.html:33
+#: yaksh/templates/yaksh/add_module.html:30
+#: yaksh/templates/yaksh/add_module.html:35
+#: yaksh/templates/yaksh/course_detail_options.html:9
+#: yaksh/templates/yaksh/course_forum.html:19
+#: yaksh/templates/yaksh/course_forum.html:23
+#: yaksh/templates/yaksh/design_questionpaper.html:23
+#: yaksh/templates/yaksh/lessons_forum.html:19
+#: yaksh/templates/yaksh/lessons_forum.html:23
+#: yaksh/templates/yaksh/show_lesson_statistics.html:37
+#: yaksh/templates/yaksh/view_answerpaper.html:19
+msgid "Back"
+msgstr "戻る"
+
+#: yaksh/templates/yaksh/post_comments.html:12
+msgid "Back to Posts"
+msgstr "投稿に戻る"
+
+#: yaksh/templates/yaksh/quit.html:49
+msgid "Be sure, as you won\\"
+msgstr "あなたが勝ったように、必ず\\"
+
+#: yaksh/templates/yaksh/paginator.html:11
+msgid "begin"
+msgstr "始める"
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "by the course creator"
+msgstr "コース作成者による"
+
+#: yaksh/templates/registration/password_change_form.html:98
+#: yaksh/templates/registration/password_reset_form.html:36
+#: yaksh/templates/yaksh/add_course.html:60
+#: yaksh/templates/yaksh/editprofile.html:47
+#: yaksh/templates/yaksh/question.html:415
+#: yaksh/templates/yaksh/register.html:58
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: yaksh/templates/exam.html:96
+msgid "Category"
+msgstr "カテゴリー"
+
+#: yaksh/templates/registration/password_change_form.html:95
+#: yaksh/templates/yaksh/design_course_session.html:88
+#: yaksh/templates/yaksh/design_course_session.html:90
+msgid "Change"
+msgstr "変化する"
+
+#: yaksh/templates/yaksh/add_module.html:212
+#: yaksh/templates/yaksh/design_course_session.html:131
+msgid "Change Order"
+msgstr "順序の変更"
+
+#: yaksh/templates/manage.html:74
+#: yaksh/templates/registration/password_change_form.html:29
+#: yaksh/templates/registration/password_change_form.html:43
+#: yaksh/templates/registration/password_change_form.html:45
+#: yaksh/templates/user.html:60
+msgid "Change Password"
+msgstr "パスワードを変更する"
+
+#: yaksh/templates/yaksh/add_module.html:213
+msgid "Change Prerequisite"
+msgstr "前提条件の変更"
+
+#: yaksh/templates/yaksh/design_course_session.html:132
+msgid "Change Prerequisite Completion"
+msgstr "前提条件の完了を変更する"
+
+#: yaksh/templates/yaksh/design_course_session.html:133
+msgid "Change Prerequisite Passing"
+msgstr "前提条件の合格を変更する"
+
+#: yaksh/templates/yaksh/question.html:355
+msgid "Check Answer"
+msgstr "答えをチェック"
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "Check on"
+msgstr "チェックオン"
+
+#: yaksh/templates/yaksh/add_module.html:163
+msgid "Check Prerequisite"
+msgstr "前提条件を確認してください"
+
+#: yaksh/templates/yaksh/design_course_session.html:70
+msgid "Check Prerequisite Completion"
+msgstr "前提条件の完了を確認してください"
+
+#: yaksh/templates/yaksh/design_course_session.html:76
+msgid "Check Prerequisite Passing"
+msgstr "前提条件の合格を確認してください"
+
+#: yaksh/templates/base.html:90
+msgid "Checking..."
+msgstr "チェック中..."
+
+#: yaksh/templates/yaksh/grade_user.html:366
+#: yaksh/templates/yaksh/preview_questionpaper.html:44
+msgid "Choices:"
+msgstr "選択肢："
+
+#: yaksh/templates/yaksh/add_lesson.html:113
+#: yaksh/templates/yaksh/add_question.html:72
+#: yaksh/templates/yaksh/course_send_mail.html:17
+#: yaksh/templates/yaksh/course_students.html:18
+#: yaksh/templates/yaksh/showquestions.html:59
+msgid "Choose file"
+msgstr "ファイルを選ぶ"
+
+#: yaksh/templates/yaksh/add_module.html:155
+msgid "Chosen Lessons and quizzes:"
+msgstr "選択したレッスンとクイズ："
+
+#: yaksh/templates/yaksh/design_course_session.html:63
+msgid "Chosen Modules:"
+msgstr "選択したモジュール："
+
+#: yaksh/templates/yaksh/courses.html:62
+#: yaksh/templates/yaksh/showquestions.html:127
+msgid "Clear"
+msgstr "クリア"
+
+#: yaksh/templates/yaksh/course_forum.html:92
+#: yaksh/templates/yaksh/lessons.html:72 yaksh/templates/yaksh/modules.html:73
+#: yaksh/templates/yaksh/quizzes.html:76
+msgid "Clear Search"
+msgstr "クリア検索"
+
+#: yaksh/templates/yaksh/course_students.html:39
+msgid "Click"
+msgstr "クリック"
+
+#: yaksh/templates/yaksh/courses.html:146
+#: yaksh/templates/yaksh/courses.html:235
+msgid "Clone Course"
+msgstr "クローンコース"
+
+#: yaksh/templates/yaksh/course_forum.html:67
+#: yaksh/templates/yaksh/grade_user.html:635
+#: yaksh/templates/yaksh/monitor.html:248
+msgid "Close"
+msgstr "選ぶ"
+
+#: yaksh/templates/yaksh/lessons.html:103
+#: yaksh/templates/yaksh/modules.html:105
+#: yaksh/templates/yaksh/quizzes.html:113
+msgid "Closed"
+msgstr "閉まっている"
+
+#: yaksh/templates/yaksh/grade_user.html:566
+msgid "Comment:"
+msgstr "コメント："
+
+#: yaksh/templates/yaksh/show_video.html:241
+msgid "Comments:"
+msgstr "コメント："
+
+#: yaksh/templates/yaksh/complete.html:6
+msgid "Complete"
+msgstr "完了"
+
+#: yaksh/templates/yaksh/monitor.html:195
+msgid "Completed"
+msgstr "完了"
+
+#: yaksh/templates/yaksh/course_added_modules.html:110
+msgid "completed out of"
+msgstr "から完成"
+
+#: yaksh/templates/yaksh/course_progress.html:36
+msgid "Completion Percentage"
+msgstr "完了率"
+
+#: forms.py:85
+msgid "Confirm Password"
+msgstr "パスワードを認証する"
+
+#: yaksh/templates/base.html:128
+msgid "Contact: pythonsupport@fossee.in"
+msgstr "連絡先：pythonsupport@fossee.in"
+
+#: yaksh/templates/yaksh/course_modules.html:88
+#: yaksh/templates/yaksh/quizzes_user.html:82
+msgid "Continue"
+msgstr "継続する"
+
+msgid "Correct Answer"
+msgstr "正解"
+
+#: yaksh/templates/yaksh/grade_user.html:389
+#: yaksh/templates/yaksh/user_data.html:128
+#: yaksh/templates/yaksh/view_answerpaper.html:137
+msgid "Correct Answer:"
+msgstr "正解："
+
+#: yaksh/templates/yaksh/grade_user.html:401
+#: yaksh/templates/yaksh/user_data.html:140
+#: yaksh/templates/yaksh/view_answerpaper.html:149
+msgid "Correct Order:"
+msgstr "正しい順番："
+
+#: forms.py:437
+msgid "Course Code"
+msgstr "コースコード"
+
+#: yaksh/templates/yaksh/course_modules.html:32
+#: yaksh/templates/yaksh/quizzes_user.html:143
+#: yaksh/templates/yaksh/user_status.html:9
+msgid "Course completed"
+msgstr "コースが完了しました"
+
+#: yaksh/templates/yaksh/quizzes_user.html:120
+msgid "Course Content"
+msgstr "講座の内容"
+
+#: yaksh/templates/yaksh/course_detail.html:6
+#: yaksh/templates/yaksh/grade_user.html:240
+#: yaksh/templates/yaksh/user_data.html:21
+#: yaksh/templates/yaksh/view_answerpaper.html:27
+msgid "Course Details"
+msgstr "詳細ルート"
+
+#: forms.py:446
+msgid "Course End DateTime"
+msgstr "コース終了日時"
+
+#: yaksh/templates/yaksh/sidebar.html:8
+msgid "Course Forum"
+msgstr "コースフォーラム"
+
+#: forms.py:440
+msgid "Course instructions"
+msgstr "コースの説明"
+
+#: yaksh/templates/yaksh/course_added_modules.html:5
+#: yaksh/templates/yaksh/course_detail_options.html:33
+#: yaksh/templates/yaksh/course_modules.html:5
+msgid "Course Modules"
+msgstr "コースモジュール"
+
+#: forms.py:431
+msgid "Course Name"
+msgstr "コース名"
+
+#: yaksh/templates/yaksh/monitor.html:63
+msgid "Course Name:"
+msgstr "コース名："
+
+#: yaksh/templates/yaksh/course_detail_options.html:53
+#: yaksh/templates/yaksh/course_progress.html:8
+msgid "Course Progress"
+msgstr "コースの進捗状況"
+
+#: forms.py:443
+msgid "Course Start DateTime"
+msgstr "コース開始日時"
+
+#: yaksh/templates/yaksh/courses.html:69
+msgid "Course(s) Available"
+msgstr "利用可能なコース"
+
+#: yaksh/templates/yaksh/grade_user.html:245
+#: yaksh/templates/yaksh/user_data.html:26
+#: yaksh/templates/yaksh/view_answerpaper.html:32
+msgid "Course:"
+msgstr "コース："
+
+#: yaksh/templates/manage.html:24 yaksh/templates/yaksh/courses.html:5
+#: yaksh/templates/yaksh/courses.html:6
+msgid "Courses"
+msgstr "コース"
+
+#: yaksh/templates/yaksh/course_forum.html:54
+msgid "Create a new Post"
+msgstr "新しい投稿を作成する"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:22
+msgid "Create Demo Course"
+msgstr "デモコースを作成する"
+
+#: yaksh/templates/yaksh/add_lesson.html:171
+msgid "Create lesson table of contents"
+msgstr "レッスンの目次を作成する"
+
+#: yaksh/templates/yaksh/login.html:92
+msgid "Create new account"
+msgstr "新しいアカウントを作成する"
+
+#: yaksh/templates/yaksh/add_module.html:6
+msgid "Create/Edit Learning Module"
+msgstr "学習モジュールの作成/編集"
+
+#: yaksh/templates/yaksh/add_lesson.html:6
+msgid "Create/Edit Lesson"
+msgstr "レッスンの作成/編集"
+
+#: yaksh/templates/yaksh/course_forum.html:109
+#: yaksh/templates/yaksh/lessons_forum.html:56
+msgid "Created by"
+msgstr "によって作成された"
+
+#: yaksh/templates/yaksh/courses.html:120
+#: yaksh/templates/yaksh/courses.html:219
+msgid "Created Course"
+msgstr "作成したコース"
+
+#: yaksh/templates/yaksh/courses.html:180
+#: yaksh/templates/yaksh/courses.html:266
+msgid "Creator:"
+msgstr "作成者："
+
+#: yaksh/templates/exam.html:85
+msgid "Current question"
+msgstr "現在の質問"
+
+#: yaksh/templates/yaksh/course_detail_options.html:93
+msgid "Current Teachers/TAs"
+msgstr "現在の教師/ TA"
+
+#: yaksh/templates/yaksh/course_progress.html:35
+msgid "Current Unit"
+msgstr "現在の単位"
+
+#: yaksh/templates/yaksh/add_module.html:174
+#: yaksh/templates/yaksh/design_course_session.html:87
+#: yaksh/templates/yaksh/design_course_session.html:89
+msgid "Currently"
+msgstr "現在"
+
+#: yaksh/templates/yaksh/user_data.html:7
+msgid "Data for user"
+msgstr "ユーザーのデータ"
+
+#: yaksh/templates/yaksh/add_question.html:85
+#: yaksh/templates/yaksh/add_question.html:97
+#: yaksh/templates/yaksh/showquestions.html:169
+msgid "Delete"
+msgstr "消去"
+
+#: yaksh/templates/yaksh/add_lesson.html:148
+msgid "Delete Files"
+msgstr "ファイルを削除する"
+
+#: yaksh/templates/yaksh/showquestions.html:218
+msgid "Delete Selected"
+msgstr "選択を削除します"
+
+#: yaksh/forms.py:108 yaksh/forms.py:492
+#: yaksh/templates/yaksh/addteacher.html:46
+#: yaksh/templates/yaksh/course_students.html:76
+#: yaksh/templates/yaksh/course_students.html:153
+#: yaksh/templates/yaksh/course_students.html:224
+msgid "Department"
+msgstr "デパートメント"
+
+#: yaksh/forms.py:106
+msgid "Department you work/study at"
+msgstr "あなたが働いている/勉強している部門"
+
+#: yaksh/templates/yaksh/grade_user.html:227
+#: yaksh/templates/yaksh/view_profile.html:27
+msgid "Department:"
+msgstr "デパートメント："
+
+#: yaksh/forms.py:314 yaksh/forms.py:687 yaksh/forms.py:737
+msgid "Description"
+msgstr "説明"
+
+#: yaksh/templates/yaksh/add_lesson.html:76
+#: yaksh/templates/yaksh/add_module.html:102
+msgid "Description Preview"
+msgstr "説明プレビュー"
+
+#: yaksh/templates/yaksh/statistics_question.html:59
+#: yaksh/templates/yaksh/view_notifications.html:47
+msgid "Description:"
+msgstr "説明："
+
+#: yaksh/templates/yaksh/course_detail_options.html:43
+msgid "Design Course"
+msgstr "デザインコース"
+
+#: yaksh/templates/yaksh/design_course_session.html:5
+msgid "Design Course Session"
+msgstr "デザインコースセッション"
+
+#: yaksh/templates/yaksh/course_added_modules.html:44
+#: yaksh/templates/yaksh/modules.html:85
+msgid "Design Module"
+msgstr "設計モジュール"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:7
+msgid "Design Question Paper"
+msgstr "デザイン質問紙"
+
+#: yaksh/templates/yaksh/add_question.html:148
+#: yaksh/templates/yaksh/course_modules.html:76
+#: yaksh/templates/yaksh/grade_user.html:58
+#: yaksh/templates/yaksh/grade_user.html:460
+#: yaksh/templates/yaksh/grade_user.html:471
+#: yaksh/templates/yaksh/moderator_dashboard.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:67
+#: yaksh/templates/yaksh/show_lesson_statistics.html:59
+#: yaksh/templates/yaksh/user_data.html:200
+#: yaksh/templates/yaksh/user_data.html:211
+#: yaksh/templates/yaksh/view_answerpaper.html:220
+msgid "Details"
+msgstr "詳細"
+
+#: yaksh/templates/yaksh/grade_user.html:353
+#: yaksh/templates/yaksh/user_data.html:93
+#: yaksh/templates/yaksh/view_answerpaper.html:102
+msgid "Details:"
+msgstr "詳細："
+
+#: yaksh/templates/base.html:125
+#: yaksh/templates/yaksh/download_course_templates/index.html:69
+#: yaksh/templates/yaksh/download_course_templates/module.html:64
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:98
+#: yaksh/templates/yaksh/download_course_templates/unit.html:129
+msgid "Developed by FOSSEE group, IIT Bombay"
+msgstr "FOSSEEグループ、IITボンベイによって開発されました"
+
+#: yaksh/templates/yaksh/grade_user.html:445
+#: yaksh/templates/yaksh/user_data.html:185
+#: yaksh/templates/yaksh/view_answerpaper.html:205
+msgid "Did not attempt"
+msgstr "試みなかった"
+
+#: yaksh/templates/yaksh/grade_user.html:625
+msgid "Did not Grade"
+msgstr "採点しませんでした"
+
+#: yaksh/templates/yaksh/course_detail_options.html:73
+#: yaksh/templates/yaksh/course_forum.html:6
+#: yaksh/templates/yaksh/course_forum.html:13
+#: yaksh/templates/yaksh/course_modules.html:12
+#: yaksh/templates/yaksh/lessons_forum.html:13
+msgid "Discussion Forum"
+msgstr "ディスカッションフォーラム"
+
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Dont extract"
+msgstr "抽出しないでください"
+
+#: yaksh/templates/yaksh/monitor.html:245
+#: yaksh/templates/yaksh/showquestions.html:168
+#: yaksh/templates/yaksh/upload_download_course_md.html:6
+msgid "Download"
+msgstr "ダウンロード"
+
+#: yaksh/templates/yaksh/grade_user.html:142
+msgid "Download All Assignments"
+msgstr "すべての課題をダウンロード"
+
+#: yaksh/templates/yaksh/courses.html:160
+#: yaksh/templates/yaksh/courses.html:245
+msgid "Download Course"
+msgstr "コースをダウンロード"
+
+#: yaksh/templates/yaksh/courses.html:153
+#: yaksh/templates/yaksh/courses.html:240
+#: yaksh/templates/yaksh/monitor.html:98
+msgid "Download CSV"
+msgstr "CSVをダウンロード"
+
+#: yaksh/templates/yaksh/monitor.html:224
+msgid "Download CSV for"
+msgstr "のCSVをダウンロード"
+
+#: yaksh/templates/yaksh/course_progress.html:16
+msgid "Download Data"
+msgstr "データのダウンロード"
+
+#: yaksh/templates/yaksh/show_toc.html:9
+msgid "Download Sample"
+msgstr "サンプルをダウンロード"
+
+#: yaksh/templates/yaksh/showquestions.html:215
+msgid "Download Selected"
+msgstr "選択したものをダウンロード"
+
+#: yaksh/templates/yaksh/showquestions.html:52
+msgid "Download Template"
+msgstr "テンプレートをダウンロード"
+
+#: yaksh/templates/yaksh/monitor.html:115
+msgid "Download the CSV file from the button"
+msgstr "ボタンからCSVファイルをダウンロードする"
+
+#: yaksh/templates/yaksh/upload_file.html:27
+msgid "Drop files here or click to upload."
+msgstr "ここにファイルをドロップするか、クリックしてアップロードしてください。"
+
+#: yaksh/templates/yaksh/monitor.html:118
+msgid "Edit and upload the same"
+msgstr "同じものを編集してアップロードする"
+
+#: yaksh/templates/yaksh/courses.html:139
+#: yaksh/templates/yaksh/courses.html:230
+msgid "Edit Course"
+msgstr "コースの編集"
+
+#: yaksh/templates/yaksh/editprofile.html:4
+#: yaksh/templates/yaksh/view_profile.html:43
+msgid "Edit Profile"
+msgstr "プロファイル編集"
+
+#: yaksh/templates/yaksh/add_exercise.html:50
+#: yaksh/templates/yaksh/add_quiz.html:61
+msgid "Edit Question Paper"
+msgstr "質問用紙を編集する"
+
+#: yaksh/templates/yaksh/addteacher.html:44
+#: yaksh/templates/yaksh/course_send_mail.html:36
+#: yaksh/templates/yaksh/course_students.html:73
+#: yaksh/templates/yaksh/course_students.html:150
+#: yaksh/templates/yaksh/course_students.html:221
+#: yaksh/templates/yaksh/course_teachers.html:21
+#: yaksh/templates/yaksh/show_lesson_statistics.html:202
+msgid "Email"
+msgstr "Eメール"
+
+#: yaksh/templates/yaksh/view_profile.html:19
+msgid "Email:"
+msgstr "Eメール："
+
+#: yaksh/templates/yaksh/paginator.html:32
+msgid "end"
+msgstr "終わり"
+
+#: models.py:946
+msgid "End Date and Time for enrollment of course"
+msgstr "もちろん登録の終了日時"
+
+#: yaksh/templates/yaksh/grade_user.html:250
+#: yaksh/templates/yaksh/user_data.html:31
+#: yaksh/templates/yaksh/view_answerpaper.html:37
+msgid "End time:"
+msgstr "終了時間："
+
+#: yaksh/templates/yaksh/courses.html:186
+#: yaksh/templates/yaksh/courses.html:272
+#: yaksh/templates/yaksh/quizzes_user.html:138
+msgid "Ends On:"
+msgstr "終了日："
+
+#: yaksh/templates/yaksh/course_students.html:96
+msgid "Enroll "
+msgstr "登録 "
+
+#: models.py:85
+msgid "Enroll Request"
+msgstr "登録リクエスト"
+
+#: yaksh/templates/yaksh/course_students.html:113
+#: yaksh/templates/yaksh/course_students.html:255
+msgid "Enroll selected"
+msgstr "選択した登録"
+
+#: yaksh/templates/yaksh/course_students.html:77
+msgid "Enroll/Reject"
+msgstr "登録/拒否"
+
+#: yaksh/templates/yaksh/course_students.html:129
+msgid "Enrolled Students"
+msgstr "在籍学生"
+
+#: models.py:920
+msgid "enrollment"
+msgstr "登録"
+
+#: yaksh/templates/yaksh/course_detail_options.html:23
+msgid "Enrollments"
+msgstr "登録"
+
+#: yaksh/templates/yaksh/quizzes_user.html:23
+msgid "Enter course code to search"
+msgstr "検索するコースコードを入力してください"
+
+#: yaksh/templates/yaksh/question.html:253
+#: yaksh/templates/yaksh/show_lesson_quiz.html:92
+msgid "Enter Decimal Value :"
+msgstr "10進値を入力してください："
+
+#: yaksh/templates/yaksh/question.html:239
+#: yaksh/templates/yaksh/show_lesson_quiz.html:78
+msgid "Enter Integer:"
+msgstr "整数を入力してください："
+
+#: yaksh/forms.py:538
+msgid "Enter Lesson Description as Markdown text"
+msgstr "マークダウンテキストとしてレッスンの説明を入力します"
+
+#: yaksh/templates/yaksh/question.html:246
+#: yaksh/templates/yaksh/show_lesson_quiz.html:85
+msgid "Enter Text:"
+msgstr "テキストを入力してください："
+
+#: yaksh/templates/registration/password_reset_form.html:19
+msgid "Enter your registered email address to reset your password"
+msgstr "登録したメールアドレスを入力してパスワードをリセットしてください"
+
+#: yaksh/templates/404.html:20
+msgid "Error Message:-"
+msgstr "エラーメッセージ：-"
+
+#: yaksh/templates/yaksh/error_template.html:15
+msgid "Error No."
+msgstr "エラー番号"
+
+#: yaksh/templates/yaksh/error_template.html:90
+#: yaksh/templates/yaksh/grade_user.html:467
+#: yaksh/templates/yaksh/grade_user.html:511
+#: yaksh/templates/yaksh/user_data.html:207
+#: yaksh/templates/yaksh/view_answerpaper.html:227
+#: yaksh/templates/yaksh/view_answerpaper.html:272
+msgid "Error:"
+msgstr "エラー："
+
+#: yaksh/templates/yaksh/error_template.html:41
+#: yaksh/templates/yaksh/grade_user.html:531
+#: yaksh/templates/yaksh/user_data.html:271
+#: yaksh/templates/yaksh/view_answerpaper.html:292
+msgid "Exception Message:"
+msgstr "例外メッセージ："
+
+#: yaksh/templates/yaksh/error_template.html:37
+#: yaksh/templates/yaksh/grade_user.html:527
+#: yaksh/templates/yaksh/user_data.html:267
+#: yaksh/templates/yaksh/view_answerpaper.html:288
+msgid "Exception Name:"
+msgstr "例外名："
+
+#: yaksh/templates/yaksh/add_lesson.html:195
+#: yaksh/templates/yaksh/course_added_modules.html:97
+msgid "Exercise"
+msgstr "エクササイズ"
+
+#: yaksh/forms.py:220
+msgid "Exercise Description"
+msgstr "演習の説明"
+
+#: yaksh/templates/yaksh/micromanaged.html:17
+msgid "Exhausted"
+msgstr "疲れ果てた"
+
+#: yaksh/templates/yaksh/error_template.html:71
+#: yaksh/templates/yaksh/grade_user.html:492
+#: yaksh/templates/yaksh/user_data.html:232
+#: yaksh/templates/yaksh/view_answerpaper.html:253
+msgid "Expected Output"
+msgstr "期待される出力"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:100
+msgid "Extract"
+msgstr "エキス"
+
+#: yaksh/templates/yaksh/grade_user.html:269
+#: yaksh/templates/yaksh/user_data.html:52
+#: yaksh/templates/yaksh/view_answerpaper.html:57
+msgid "Failed"
+msgstr "失敗した"
+
+#: yaksh/templates/yaksh/question.html:391
+msgid "File not selected"
+msgstr "ファイルが選択されていません"
+
+#: yaksh/templates/yaksh/add_question.html:67
+msgid "File:"
+msgstr "ファイル："
+
+#: yaksh/templates/yaksh/add_lesson.html:121
+msgid "Files added to this lesson"
+msgstr "このレッスンに追加されたファイル"
+
+#: yaksh/templates/yaksh/show_video.html:216
+msgid "Files for this lesson"
+msgstr "このレッスンのファイル"
+
+#: yaksh/templates/yaksh/showquestions.html:40
+#: yaksh/templates/yaksh/showquestions.html:42
+msgid "Files required by questions"
+msgstr "質問に必要なファイル"
+
+#: yaksh/templates/yaksh/question.html:195
+msgid "Files to download for this question"
+msgstr "この質問のためにダウンロードするファイル"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+msgid "FILL IN THE BLANKS WITH FLOAT ANSWER"
+msgstr "フロートアンサーで空白を埋める"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+msgid "FILL IN THE BLANKS WITH INTEGER ANSWER"
+msgstr "整数の回答で空白を埋める"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+msgid "FILL IN THE BLANKS WITH STRING ANSWER"
+msgstr "文字列の回答で空白を埋める"
+
+#: yaksh/templates/yaksh/showquestions.html:93
+msgid "Filter"
+msgstr "フィルター"
+
+#: yaksh/templates/yaksh/showquestions.html:88
+msgid "Filters Questions:"
+msgstr "フィルタの質問："
+
+#: yaksh/templates/exam.html:29
+#: yaksh/templates/yaksh/design_questionpaper.html:45
+msgid "Finish"
+msgstr "終了"
+
+#: yaksh/forms.py:90 yaksh/forms.py:482
+#: yaksh/templates/yaksh/addteacher.html:42
+msgid "First Name"
+msgstr "ファーストネーム"
+
+#: yaksh/templates/yaksh/view_profile.html:11
+msgid "First name:"
+msgstr "ファーストネーム："
+
+#: yaksh/templates/yaksh/course_students.html:33
+msgid "firstname, lastname and email."
+msgstr "名、姓、メールアドレス。"
+
+#: yaksh/templates/yaksh/course_students.html:31
+msgid ""
+"firstname, lastname, email, username, password, institute, roll_no, "
+"department,"
+msgstr "名、姓、電子メール、ユーザー名、パスワード、研究所、roll_no、部門、"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:16
+msgid "Fixed Questions"
+msgstr "修正された質問"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:149
+msgid "Fixed questions currently in paper:"
+msgstr "現在紙に書かれている質問を修正しました："
+
+#: forms.py:36
+msgid "Float Testcase"
+msgstr "フロートテストケース"
+
+#: yaksh/templates/yaksh/course_added_modules.html:14
+msgid "For additional module settings, Click on Design Module"
+msgstr "追加のモジュール設定については、デザインモジュールをクリックしてください"
+
+#: yaksh/templates/yaksh/error_template.html:58
+#: yaksh/templates/yaksh/grade_user.html:484
+#: yaksh/templates/yaksh/user_data.html:224
+#: yaksh/templates/yaksh/view_answerpaper.html:245
+msgid "For given Input value(s):"
+msgstr "指定された入力値の場合："
+
+#: yaksh/templates/registration/password_reset_form.html:24
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: yaksh/templates/yaksh/view_notifications.html:45
+msgid "From:"
+msgstr "から："
+
+#: yaksh/templates/yaksh/course_send_mail.html:35
+#: yaksh/templates/yaksh/course_students.html:72
+#: yaksh/templates/yaksh/course_students.html:149
+#: yaksh/templates/yaksh/course_students.html:220
+msgid "Full Name"
+msgstr "フルネーム"
+
+#: yaksh/templates/yaksh/error_template.html:46
+#: yaksh/templates/yaksh/grade_user.html:535
+#: yaksh/templates/yaksh/user_data.html:275
+#: yaksh/templates/yaksh/view_answerpaper.html:296
+msgid "Full Traceback:"
+msgstr "完全なトレースバック："
+
+#: yaksh/templates/yaksh/question.html:302
+msgid "Generate QR Code"
+msgstr "QRコードを生成する"
+
+#: yaksh/templates/yaksh/intro.html:32 yaksh/templates/yaksh/intro.html:37
+msgid "Go Back"
+msgstr "戻る"
+
+#: yaksh/templates/registration/password_reset_done.html:23
+msgid "Go to Login"
+msgstr "ログインに移動"
+
+#: yaksh/templates/yaksh/download_course_templates/index.html:49
+msgid "Go to Module"
+msgstr "モジュールに移動"
+
+#: yaksh/templates/yaksh/add_exercise.html:63
+msgid "God Mode"
+msgstr "神モード"
+
+#: yaksh/templates/yaksh/add_exercise.html:88
+msgid "God Mode:"
+msgstr "神モード："
+
+#: yaksh/templates/yaksh/course_progress.html:37
+#: yaksh/templates/yaksh/grade_user.html:82
+msgid "Grade"
+msgstr "学年"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Grade:"
+msgstr "学年："
+
+#: yaksh/templates/yaksh/add_lesson.html:194
+msgid "Graded Quiz"
+msgstr "段階的なクイズ"
+
+#: yaksh/templates/yaksh/grade_user.html:622
+msgid "Graded Successfully"
+msgstr "正常に採点されました"
+
+#: yaksh/templates/yaksh/add_exercise.html:66
+#: yaksh/templates/yaksh/add_quiz.html:77
+msgid "Help"
+msgstr "ヘルプ"
+
+#: yaksh/templates/yaksh/course_students.html:41
+msgid "here"
+msgstr "ここ"
+
+#: yaksh/templates/yaksh/error_template.html:19
+msgid "Hidden test case failed"
+msgstr "非表示のテストケースが失敗しました"
+
+#: yaksh/templates/yaksh/add_question.html:86
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Hide"
+msgstr "隠れる"
+
+#: yaksh/templates/user.html:17
+#: yaksh/templates/yaksh/activation_status.html:43
+#: yaksh/templates/yaksh/activation_status.html:69
+#: yaksh/templates/yaksh/complete.html:75
+msgid "Home"
+msgstr "家"
+
+#: forms.py:33
+msgid "Hook Testcase"
+msgstr "フックテストケース"
+
+#: yaksh/templates/yaksh/courses.html:176
+#: yaksh/templates/yaksh/courses.html:262
+#: yaksh/templates/yaksh/moderator_dashboard.html:62
+msgid "Inactive"
+msgstr "非活性"
+
+#: yaksh/templates/yaksh/quizzes_user.html:104
+msgid "Inactive Course"
+msgstr "非アクティブコース"
+
+#: yaksh/templates/yaksh/monitor.html:193
+msgid "Inprogress"
+msgstr "進行中"
+
+#: yaksh/forms.py:103 yaksh/forms.py:489
+#: yaksh/templates/yaksh/addteacher.html:45
+#: yaksh/templates/yaksh/course_send_mail.html:38
+#: yaksh/templates/yaksh/course_students.html:75
+#: yaksh/templates/yaksh/course_students.html:152
+#: yaksh/templates/yaksh/course_students.html:223
+msgid "Institute"
+msgstr "研究所"
+
+#: yaksh/forms.py:101
+msgid "Institute/Organization"
+msgstr "研究所/組織"
+
+#: yaksh/templates/yaksh/grade_user.html:228
+#: yaksh/templates/yaksh/view_profile.html:23
+msgid "Institute:"
+msgstr "研究所："
+
+#: yaksh/templates/registration/password_reset_done.html:20
+msgid ""
+"Instruction for setting new password has been mailed to your registered "
+"email address"
+msgstr "登録したメールアドレスに新しいパスワードの設定方法がメールで送信されました"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:24
+#: yaksh/templates/yaksh/quizzes_user.html:131
+msgid "Instructions"
+msgstr "手順"
+
+#: yaksh/templates/yaksh/quizzes_user.html:116
+msgid "Instructor:"
+msgstr "インストラクター："
+
+#: forms.py:34
+msgid "Integer Testcase"
+msgstr "整数テストケース"
+
+#: yaksh/templates/500.html:16
+msgid "Internal Server error."
+msgstr "内部サーバーエラー。"
+
+#: yaksh/forms.py:211
+msgid "Invalid username/password"
+msgstr "無効なユーザー名/パスワード"
+
+#: yaksh/templates/404.html:16
+msgid "It seems that you have encountered an error"
+msgstr "エラーが発生したようです"
+
+#: yaksh/templates/yaksh/question.html:394
+msgid "Kindly attach a file and then click upload."
+msgstr "ファイルを添付して、[アップロード]をクリックしてください。"
+
+#: yaksh/templates/yaksh/showquestions.html:164
+msgid "Language"
+msgstr "言語"
+
+#: yaksh/templates/yaksh/question.html:164
+#: yaksh/templates/yaksh/show_lesson_quiz.html:38
+#: yaksh/templates/yaksh/show_lesson_statistics.html:91
+msgid "Language:"
+msgstr "言語："
+
+#: yaksh/forms.py:93 yaksh/forms.py:486
+#: yaksh/templates/yaksh/addteacher.html:43
+msgid "Last Name"
+msgstr "苗字"
+
+#: yaksh/templates/yaksh/view_profile.html:15
+msgid "Last name:"
+msgstr "苗字："
+
+#: yaksh/templates/yaksh/course_forum.html:111
+#: yaksh/templates/yaksh/lessons_forum.html:58
+msgid "Last reply"
+msgstr "最後の返信"
+
+#: yaksh/templates/yaksh/question.html:183
+msgid "Last submitted answer is considered for evaluation"
+msgstr "最後に提出された回答は評価の対象となります"
+
+#: yaksh/templates/yaksh/course_forum.html:121
+#: yaksh/templates/yaksh/lessons_forum.html:68
+msgid "Last updated:"
+msgstr "最終更新："
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:203
+msgid "Latest Submission"
+msgstr "最新の提出"
+
+#: yaksh/templates/yaksh/modules.html:79
+msgid "Learning Module(s) Available"
+msgstr "利用可能な学習モジュール"
+
+#: yaksh/templates/yaksh/modules.html:84
+msgid "Learning Modules"
+msgstr "学習モジュール"
+
+#: yaksh/templates/yaksh/course_added_modules.html:102
+#: yaksh/templates/yaksh/lessons.html:83
+msgid "Lesson"
+msgstr "レッスン"
+
+#: yaksh/templates/yaksh/show_video.html:205
+msgid "Lesson Description"
+msgstr "レッスンの説明"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:93
+msgid "Lesson Files (Click on lesson file to download)"
+msgstr "レッスンファイル（ダウンロードするにはレッスンファイルをクリックしてください）"
+
+#: yaksh/templates/yaksh/add_lesson.html:108
+msgid "Lesson Files:"
+msgstr "レッスンファイル："
+
+#: yaksh/forms.py:540
+msgid "Lesson Name"
+msgstr "レッスン名"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:6
+msgid "Lesson Quiz Stats"
+msgstr "レッスンクイズ統計"
+
+#: yaksh/templates/yaksh/lessons.html:78
+msgid "Lesson(s) Available"
+msgstr "利用可能なレッスン"
+
+#: yaksh/templates/yaksh/download_course_templates/module.html:39
+msgid "Lessons (Click on lesson name to open lesson)"
+msgstr "レッスン（レッスン名をクリックしてレッスンを開きます）"
+
+#: yaksh/templates/yaksh/lessons_forum.html:6
+#: yaksh/templates/yaksh/sidebar.html:13
+msgid "Lessons Forum"
+msgstr "レッスンフォーラム"
+
+#: yaksh/templates/yaksh/design_course_session.html:27
+#: yaksh/templates/yaksh/modules.html:86
+msgid "Lessons/Quizzes"
+msgstr "レッスン/クイズ"
+
+#: forms.py:72
+msgid "Letters, digits, period and underscores only."
+msgstr "文字、数字、ピリオド、アンダースコアのみ。"
+
+#: yaksh/templates/yaksh/error_template.html:70
+#: yaksh/templates/yaksh/grade_user.html:491
+#: yaksh/templates/yaksh/user_data.html:231
+#: yaksh/templates/yaksh/view_answerpaper.html:252
+msgid "Line No."
+msgstr "行番号"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:6
+msgid "List of Question Papers"
+msgstr "質問用紙のリスト"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:13
+msgid ""
+"List of quizzes! Click on the given links to have a look at answer papers "
+"for a quiz"
+msgstr "クイズのリスト！与えられたリンクをクリックして、クイズの解答用紙を見てください"
+
+#: yaksh/templates/base.html:96 yaksh/templates/base.html:99
+#: yaksh/templates/base.html:102 yaksh/templates/base.html:105
+msgid "Loading..."
+msgstr "読み込んでいます..."
+
+#: yaksh/templates/registration/password_reset_complete.html:21
+msgid "Log in"
+msgstr "ログイン"
+
+#: yaksh/templates/yaksh/login.html:6
+msgid "Login"
+msgstr "ログイン"
+
+#: yaksh/templates/manage.html:78
+#: yaksh/templates/registration/password_change_form.html:33
+#: yaksh/templates/user.html:64
+#: yaksh/templates/yaksh/activation_status.html:27
+msgid "Logout"
+msgstr "ログアウト"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:69
+msgid "Manage Course"
+msgstr "コースの管理"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Manual mode to design the"
+msgstr "を設計するための手動モード"
+
+#: yaksh/templates/yaksh/view_notifications.html:23
+msgid "Mark all as read"
+msgstr "すべて既読としてマーク"
+
+#: yaksh/templates/yaksh/grade_user.html:354
+#: yaksh/templates/yaksh/preview_questionpaper.html:34
+#: yaksh/templates/yaksh/view_answerpaper.html:103
+msgid "Mark(s):"
+msgstr "マーク："
+
+#: yaksh/forms.py:702 yaksh/forms.py:757
+msgid "Marker time should be in the format hh:mm:ss"
+msgstr "マーカー時間はhh：mm：ssの形式である必要があります"
+
+#: yaksh/templates/yaksh/grade_user.html:161
+#: yaksh/templates/yaksh/monitor.html:165
+#: yaksh/templates/yaksh/showquestions.html:166
+msgid "Marks"
+msgstr "マーク"
+
+#: yaksh/templates/yaksh/grade_user.html:320
+#: yaksh/templates/yaksh/user_data.html:75
+#: yaksh/templates/yaksh/view_answerpaper.html:80
+msgid "Marks Obtained"
+msgstr "獲得点数"
+
+#: yaksh/templates/yaksh/grade_user.html:273
+#: yaksh/templates/yaksh/user_data.html:56
+#: yaksh/templates/yaksh/view_answerpaper.html:61
+msgid "Marks obtained:"
+msgstr "獲得点数："
+
+#: yaksh/views.py:4086
+msgid "Marks Uploaded!"
+msgstr "マークがアップロードされました！"
+
+#: yaksh/templates/yaksh/grade_user.html:579
+#: yaksh/templates/yaksh/question.html:179
+#: yaksh/templates/yaksh/show_lesson_statistics.html:116
+#: yaksh/templates/yaksh/user_data.html:316
+msgid "Marks:"
+msgstr "マーク："
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:13
+msgid "Maximum Mark(s):"
+msgstr "最大マーク："
+
+#: yaksh/templates/yaksh/results_user.html:13
+msgid "Maximum Marks"
+msgstr "最大マーク"
+
+#: forms.py:32
+msgid "MCQ Testcase"
+msgstr "MCQテストケース"
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "minutes"
+msgstr "分"
+
+#: yaksh/forms.py:612
+msgid "Module Description"
+msgstr "モジュールの説明"
+
+#: yaksh/forms.py:609
+msgid "Module Name"
+msgstr "モジュール名"
+
+#: yaksh/templates/yaksh/design_course_session.html:26
+msgid "Modules"
+msgstr "モジュール"
+
+#: yaksh/templates/yaksh/grade_user.html:77
+#: yaksh/templates/yaksh/monitor.html:6 yaksh/templates/yaksh/monitor.html:7
+msgid "Monitor"
+msgstr "モニター"
+
+#: yaksh/templates/yaksh/courses.html:132
+#: yaksh/templates/yaksh/lessons.html:22 yaksh/templates/yaksh/modules.html:23
+#: yaksh/templates/yaksh/quizzes.html:23
+msgid "More"
+msgstr "もっと"
+
+#: yaksh/templates/yaksh/add_question.html:89
+msgid "More info"
+msgstr "より詳しい情報"
+
+#: yaksh/templates/yaksh/add_lesson.html:205
+msgid "Multiple Correct Choices"
+msgstr "複数の正しい選択"
+
+#: yaksh/templates/yaksh/add_course.html:24
+#: yaksh/templates/yaksh/courses.html:20 yaksh/templates/yaksh/lessons.html:13
+#: yaksh/templates/yaksh/modules.html:14 yaksh/templates/yaksh/quizzes.html:14
+msgid "My Courses"
+msgstr "私のコース"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:6
+#: yaksh/templates/yaksh/moderator_dashboard.html:7
+msgid "My Dashboard"
+msgstr "マイダッシュボード"
+
+#: yaksh/templates/yaksh/lessons.html:5
+msgid "My Lessons"
+msgstr "私のレッスン"
+
+#: yaksh/templates/manage.html:64
+#: yaksh/templates/registration/password_change_form.html:25
+#: yaksh/templates/user.html:50 yaksh/templates/yaksh/editprofile.html:5
+msgid "My Profile"
+msgstr "私のプロフィール"
+
+#: yaksh/templates/yaksh/quizzes.html:6
+msgid "My Quizzes"
+msgstr "私のクイズ"
+
+#: yaksh/forms.py:681 yaksh/templates/yaksh/addteacher.html:87
+#: yaksh/templates/yaksh/course_progress.html:34
+#: yaksh/templates/yaksh/course_teachers.html:20
+#: yaksh/templates/yaksh/monitor.html:163
+msgid "Name"
+msgstr "名前"
+
+#: yaksh/templates/yaksh/grade_user.html:218
+msgid "Name:"
+msgstr "名前："
+
+#: yaksh/templates/yaksh/course_forum.html:29
+msgid "New Post"
+msgstr "新しい投稿"
+
+#: yaksh/templates/yaksh/complete.html:64
+#: yaksh/templates/yaksh/complete.html:69
+#: yaksh/templates/yaksh/design_questionpaper.html:182
+#: yaksh/templates/yaksh/design_questionpaper.html:268
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:84
+#: yaksh/templates/yaksh/download_course_templates/quiz.html:88
+#: yaksh/templates/yaksh/download_course_templates/unit.html:116
+#: yaksh/templates/yaksh/download_course_templates/unit.html:120
+#: yaksh/templates/yaksh/question.html:361
+#: yaksh/templates/yaksh/question.html:363
+#: yaksh/templates/yaksh/show_video.html:135
+#: yaksh/templates/yaksh/show_video.html:235
+msgid "Next"
+msgstr "次"
+
+#: yaksh/templates/yaksh/add_module.html:197
+#: yaksh/templates/yaksh/design_course_session.html:106
+#: yaksh/templates/yaksh/design_course_session.html:116
+#: yaksh/templates/yaksh/quit.html:56 yaksh/templates/yaksh/quit.html:58
+msgid "No"
+msgstr "番号"
+
+#: yaksh/views.py:1413
+msgid "No AnswerPapers found"
+msgstr "AnswerPapersが見つかりません"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:105
+#: yaksh/templates/yaksh/showquestions.html:110
+msgid "No Available Tags"
+msgstr "利用可能なタグはありません"
+
+#: yaksh/templates/yaksh/course_progress.html:83
+msgid "No course data found"
+msgstr "コースデータが見つかりません"
+
+#: yaksh/templates/yaksh/courses.html:41
+msgid "No Courses Found"
+msgstr "コースが見つかりません"
+
+#: yaksh/templates/yaksh/grade_user.html:107
+msgid "No courses found to grade"
+msgstr "採点するコースが見つかりません"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:40
+msgid "No Courses found. Add a new course or Create demo course"
+msgstr "コースが見つかりません。新しいコースを追加するか、デモコースを作成します"
+
+#: yaksh/templates/yaksh/quizzes_user.html:54
+msgid "No Courses to display"
+msgstr "表示するコースはありません"
+
+#: yaksh/templates/yaksh/course_forum.html:154
+msgid "No discussion posts are there yet. Create one to start discussing."
+msgstr "ディスカッションの投稿はまだありません。議論を始めるためにそれを作成してください。"
+
+#: yaksh/templates/yaksh/course_send_mail.html:66
+#: yaksh/templates/yaksh/course_students.html:189
+msgid "No enrolled students yet"
+msgstr "まだ在籍している学生はいません"
+
+#: yaksh/templates/yaksh/quizzes_user.html:99
+msgid "No Enrollments allowed"
+msgstr "登録は許可されていません"
+
+#: yaksh/templates/yaksh/add_lesson.html:137
+msgid "No Files added to this lesson"
+msgstr "このレッスンにファイルは追加されていません"
+
+#: yaksh/templates/yaksh/download_course_templates/unit.html:105
+msgid "No files for"
+msgstr "のファイルはありません"
+
+#: yaksh/templates/yaksh/course_added_modules.html:161
+msgid "No learning modules"
+msgstr "学習モジュールなし"
+
+#: yaksh/templates/yaksh/modules.html:51
+msgid "No learning modules found"
+msgstr "学習モジュールが見つかりません"
+
+#: yaksh/templates/yaksh/modules.html:132
+msgid "No Learning units"
+msgstr "学習ユニットなし"
+
+#: yaksh/templates/yaksh/course_modules.html:60
+msgid "No lectures found"
+msgstr "講義が見つかりません"
+
+#: yaksh/templates/yaksh/lessons_forum.html:100
+msgid ""
+"No Lesson posts here. They will appear when someone comments on video "
+"lessons."
+msgstr "ここにレッスンの投稿はありません。誰かがビデオレッスンにコメントすると表示されます。"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:227
+msgid "No lesson quizzes found"
+msgstr "レッスンクイズが見つかりません"
+
+#: yaksh/templates/yaksh/course_added_modules.html:150
+msgid "No lesson/quiz added"
+msgstr "レッスン/クイズは追加されません"
+
+#: yaksh/templates/yaksh/lessons.html:50
+msgid "No lessons found"
+msgstr "レッスンが見つかりません"
+
+#: yaksh/templates/yaksh/show_video.html:126
+msgid "No Module information"
+msgstr "モジュール情報なし"
+
+#: yaksh/templates/yaksh/view_notifications.html:60
+msgid "No Notifications Found"
+msgstr "通知が見つかりません"
+
+#: yaksh/templates/yaksh/quizzes.html:135
+msgid "No Question Paper"
+msgstr "質問用紙なし"
+
+#: yaksh/templates/yaksh/showquestionpapers.html:24
+msgid "No Question Papers available"
+msgstr "質問用紙はありません"
+
+#: yaksh/templates/yaksh/showquestions.html:208
+msgid "No Questions found"
+msgstr "質問が見つかりません"
+
+#: yaksh/templates/yaksh/monitor.html:265
+msgid "No Quiz Found"
+msgstr "クイズが見つかりません"
+
+#: yaksh/templates/yaksh/grade_user.html:92
+#: yaksh/templates/yaksh/moderator_dashboard.html:108
+msgid "No Quizzes"
+msgstr "クイズなし"
+
+#: yaksh/templates/yaksh/quizzes.html:54
+msgid "No quizzes found"
+msgstr "クイズが見つかりません"
+
+#: yaksh/templates/yaksh/course_students.html:262
+msgid "No rejected students yet"
+msgstr "拒否された学生はまだいません"
+
+#: yaksh/templates/yaksh/course_students.html:119
+msgid "No requests yet"
+msgstr "まだリクエストはありません"
+
+#: yaksh/templates/yaksh/addteacher.html:20
+msgid "No results found"
+msgstr "結果が見つかりません"
+
+#: yaksh/templates/yaksh/user_data.html:331
+#: yaksh/templates/yaksh/view_answerpaper.html:353
+msgid "No submissions found"
+msgstr "提出物が見つかりません"
+
+#: yaksh/templates/yaksh/show_toc.html:58
+#: yaksh/templates/yaksh/show_video.html:188
+msgid "No Table of contents added"
+msgstr "目次は追加されていません"
+
+#: yaksh/templates/yaksh/course_teachers.html:44
+msgid "No Teacher(s) added"
+msgstr "教師が追加されていません"
+
+#: yaksh/templates/yaksh/addteacher.html:97
+msgid "No Teacher(s)TA(s) Added"
+msgstr "教師のTAは追加されていません"
+
+#: yaksh/templates/yaksh/grade_user.html:132
+#: yaksh/templates/yaksh/monitor.html:259
+msgid "No Users Found for"
+msgstr "のユーザーが見つかりません"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:90
+msgid "No. of users Failed"
+msgstr "失敗したユーザー数"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:89
+msgid "No. of users Passed"
+msgstr "合格したユーザー数"
+
+#: yaksh/templates/yaksh/course_forum.html:136
+#: yaksh/templates/yaksh/lessons_forum.html:83
+msgid "None"
+msgstr "なし"
+
+#: yaksh/templates/yaksh/complete.html:45 yaksh/templates/yaksh/quit.html:35
+msgid "Not Attempted"
+msgstr "試みられていない"
+
+#: yaksh/templates/yaksh/monitor.html:121
+msgid "Note: Do not change the CSV Headers"
+msgstr "注：CSVヘッダーは変更しないでください"
+
+#: yaksh/templates/yaksh/complete.html:21
+msgid ""
+"Note:- Please Click on the Next button to submit the quiz. Please do not "
+"close the browser without clicking Next."
+msgstr "注：-クイズを送信するには、[次へ]ボタンをクリックしてください。 [次へ]をクリックせずにブラウザを閉じないでください。"
+
+#: yaksh/templates/manage.html:51 yaksh/templates/user.html:37
+#: yaksh/templates/yaksh/view_notifications.html:4
+#: yaksh/templates/yaksh/view_notifications.html:5
+msgid "Notifications"
+msgstr "通知"
+
+#: yaksh/templates/yaksh/monitor.html:71
+msgid "Number of papers:"
+msgstr "論文数："
+
+#: yaksh/templates/yaksh/design_questionpaper.html:194
+msgid "Number of questions to be picked from the pool"
+msgstr "プールから選択する質問の数"
+
+#: yaksh/templates/yaksh/course_progress.html:12
+msgid "Number Of Students:"
+msgstr "生徒達の人数："
+
+#: yaksh/templates/yaksh/results_user.html:12
+msgid "Obtained Marks"
+msgstr "取得したマーク"
+
+#: yaksh/templates/yaksh/question.html:397
+#: yaksh/templates/yaksh/question.html:414
+msgid "OK"
+msgstr "OK"
+
+#: yaksh/templates/yaksh/showquestions.html:34
+msgid "One can also upload zip with the following zip structure -"
+msgstr "次のzip構造でzipをアップロードすることもできます-"
+
+#: yaksh/forms.py:137
+msgid ""
+"Only letters, digits and punctuation                                        "
+"are allowed in password"
+msgstr "パスワードには文字、数字、句読点のみを使用できます"
+
+#: yaksh/forms.py:125
+msgid ""
+"Only letters, digits, period and underscore characters are allowed in "
+"username"
+msgstr "ユーザー名には、文字、数字、ピリオド、アンダースコア文字のみを使用できます"
+
+#: yaksh/forms.py:588
+msgid "Only one type of video path is allowed"
+msgstr "1種類のビデオパスのみが許可されます"
+
+#: models.py:86
+msgid "Open Enrollment"
+msgstr "オープン登録"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:82
+#: yaksh/templates/yaksh/showquestions.html:54
+msgid "Or"
+msgstr "または"
+
+#: yaksh/templates/yaksh/login.html:41
+msgid "Or Sign in with credentials"
+msgstr "または資格情報を使用してサインインします"
+
+#: yaksh/templates/yaksh/add_module.html:162
+#: yaksh/templates/yaksh/design_course_session.html:69
+msgid "Order"
+msgstr "注文"
+
+#: yaksh/forms.py:522
+msgid "Others"
+msgstr "その他"
+
+#: yaksh/templates/yaksh/monitor.html:189
+msgid "out of"
+msgstr "から"
+
+#: yaksh/templates/yaksh/monitor.html:75
+msgid "Papers Completed:"
+msgstr "完成した論文："
+
+#: yaksh/templates/yaksh/monitor.html:81
+msgid "Papers in progress:"
+msgstr "進行中の論文："
+
+#: yaksh/templates/yaksh/grade_user.html:267
+#: yaksh/templates/yaksh/user_data.html:50
+#: yaksh/templates/yaksh/view_answerpaper.html:55
+msgid "Passed"
+msgstr "合格した"
+
+#: yaksh/forms.py:196
+msgid "Password"
+msgstr "パスワード"
+
+#: yaksh/templates/registration/password_reset_done.html:18
+msgid "Password reset successful"
+msgstr "パスワードのリセットに成功"
+
+#: yaksh/forms.py:145
+msgid "Passwords do not match"
+msgstr "パスワードが一致していません"
+
+#: yaksh/templates/yaksh/user_status.html:29
+msgid "Per Module Progress:"
+msgstr "モジュールごとの進捗状況："
+
+#: yaksh/templates/yaksh/results_user.html:14
+msgid "Percentage"
+msgstr "パーセンテージ"
+
+#: yaksh/templates/yaksh/grade_user.html:277
+#: yaksh/templates/yaksh/user_data.html:58
+#: yaksh/templates/yaksh/view_answerpaper.html:63
+msgid "Percentage obtained:"
+msgstr "得られたパーセンテージ："
+
+#: yaksh/templates/404.html:18
+msgid "Please contact your administrator"
+msgstr "管理者に連絡してください"
+
+#: yaksh/templates/registration/password_reset_confirm.html:32
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly"
+msgstr "正しく入力したことを確認できるように、新しいパスワードを2回入力してください"
+
+#: yaksh/templates/yaksh/register.html:24
+msgid "Please fill in the following details:"
+msgstr "次の詳細を入力してください。"
+
+#: yaksh/views.py:1536
+msgid "Please select atleast one question"
+msgstr "少なくとも1つの質問を選択してください"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:70
+msgid "Please select Question type and Marks"
+msgstr "質問の種類とマークを選択してください"
+
+#: yaksh/forms.py:730
+msgid "Points"
+msgstr "ポイント"
+
+#: yaksh/templates/yaksh/show_lesson_quiz.html:53
+#: yaksh/templates/yaksh/statistics_question.html:65
+msgid "Points:"
+msgstr "ポイント："
+
+#: yaksh/templates/yaksh/add_lesson.html:196
+msgid "Poll"
+msgstr "投票"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:230
+msgid "Pool of  questions currently in paper:"
+msgstr "現在紙に書かれている質問のプール："
+
+#: yaksh/forms.py:114 yaksh/forms.py:498
+#: yaksh/templates/yaksh/addteacher.html:47
+msgid "Position"
+msgstr "ポジション"
+
+#: yaksh/templates/yaksh/grade_user.html:224
+#: yaksh/templates/yaksh/view_profile.html:35
+msgid "Position:"
+msgstr "ポジション："
+
+#: yaksh/templates/yaksh/course_forum.html:108
+#: yaksh/templates/yaksh/lessons_forum.html:55
+msgid "Posts"
+msgstr "投稿"
+
+#: yaksh/templates/yaksh/quizzes.html:128
+msgid "Preview"
+msgstr "プレビュー"
+
+#: yaksh/templates/yaksh/add_exercise.html:53
+#: yaksh/templates/yaksh/add_quiz.html:64
+msgid "Preview Question Paper"
+msgstr "質問用紙のプレビュー"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:265
+#: yaksh/templates/yaksh/design_questionpaper.html:286
+msgid "Previous"
+msgstr "前"
+
+#: yaksh/templates/yaksh/profile_updated.html:5
+#: yaksh/templates/yaksh/view_profile.html:5
+msgid "Profile"
+msgstr "プロフィール"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+msgid "PROGRAMMING"
+msgstr "プログラミング"
+
+#: yaksh/templates/yaksh/complete.html:32 yaksh/templates/yaksh/quit.html:23
+#: yaksh/templates/yaksh/statistics_question.html:38
+msgid "Question"
+msgstr "質問"
+
+#: yaksh/templates/exam.html:50
+msgid "Question Navigator"
+msgstr "質問ナビゲーター"
+
+#: yaksh/templates/exam.html:97
+msgid "Question No."
+msgstr "質問番号"
+
+#: yaksh/templates/yaksh/course_added_modules.html:81
+#: yaksh/templates/yaksh/course_added_modules.html:86
+#: yaksh/templates/yaksh/design_questionpaper.html:27
+msgid "Question Paper"
+msgstr "質問紙"
+
+#: yaksh/templates/yaksh/quizzes.html:124
+msgid "Question Paper for"
+msgstr "の質問用紙"
+
+#: yaksh/templates/yaksh/monitor.html:104
+#: yaksh/templates/yaksh/statistics_question.html:7
+msgid "Question Statistics"
+msgstr "質問統計"
+
+#: yaksh/forms.py:727
+msgid "Question topic name"
+msgstr "質問トピック名"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s)"
+msgstr "質問"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:22
+msgid "question(s) from"
+msgstr "からの質問"
+
+#: yaksh/templates/exam.html:89
+msgid "Question(s) left:"
+msgstr "残った質問："
+
+#: yaksh/templates/yaksh/grade_user.html:360
+#: yaksh/templates/yaksh/preview_questionpaper.html:38
+#: yaksh/templates/yaksh/view_answerpaper.html:108
+msgid "Question:"
+msgstr "質問："
+
+#: yaksh/templates/yaksh/quizzes.html:88
+msgid "QuestionPaper"
+msgstr "QuestionPaper"
+
+#: yaksh/templates/manage.html:19 yaksh/templates/yaksh/grade_user.html:159
+#: yaksh/templates/yaksh/grade_user.html:318
+#: yaksh/templates/yaksh/showquestions.html:6
+#: yaksh/templates/yaksh/showquestions.html:8
+#: yaksh/templates/yaksh/user_data.html:73
+#: yaksh/templates/yaksh/view_answerpaper.html:78
+msgid "Questions"
+msgstr "質問"
+
+#: yaksh/templates/yaksh/monitor.html:166
+msgid "Questions Attempted"
+msgstr "試みられた質問"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:6
+msgid "Questions in"
+msgstr "の質問"
+
+#: yaksh/templates/exam.html:27
+msgid "Quit"
+msgstr "終了する"
+
+#: yaksh/templates/yaksh/course_added_modules.html:99
+#: yaksh/templates/yaksh/moderator_dashboard.html:87
+msgid "Quiz"
+msgstr "クイズ"
+
+#: yaksh/templates/yaksh/results_user.html:11
+msgid "Quiz Description"
+msgstr "クイズの説明"
+
+#: yaksh/templates/yaksh/monitor.html:67
+msgid "Quiz Name:"
+msgstr "クイズ名："
+
+#: yaksh/templates/yaksh/course_added_modules.html:136
+msgid "Quiz Submissions"
+msgstr "クイズの提出"
+
+#: yaksh/templates/yaksh/add_exercise.html:75
+#: yaksh/templates/yaksh/add_quiz.html:86
+msgid "Quiz Test Modes"
+msgstr "クイズテストモード"
+
+#: yaksh/forms.py:741
+msgid "Quiz Time"
+msgstr "クイズタイム"
+
+#: yaksh/templates/yaksh/add_exercise.html:84
+#: yaksh/templates/yaksh/add_quiz.html:94
+msgid "Quiz will have the same duration as that of the original quiz."
+msgstr "クイズの期間は、元のクイズと同じになります。"
+
+#: yaksh/templates/yaksh/add_exercise.html:85
+msgid "Quiz won"
+msgstr "クイズが勝ちました"
+
+#: yaksh/templates/yaksh/add_quiz.html:95
+msgid "Quiz won\\"
+msgstr "クイズに勝ちました\\"
+
+#: yaksh/templates/yaksh/quizzes.html:82
+msgid "Quiz(zes) Available"
+msgstr "クイズ（zes）が利用可能"
+
+#: yaksh/templates/yaksh/quizzes.html:87
+msgid "Quiz/Exercise"
+msgstr "クイズ/演習"
+
+#: yaksh/templates/yaksh/grade_user.html:246
+#: yaksh/templates/yaksh/preview_questionpaper.html:6
+#: yaksh/templates/yaksh/user_data.html:27
+#: yaksh/templates/yaksh/view_answerpaper.html:33
+msgid "Quiz:"
+msgstr "クイズ："
+
+#: yaksh/templates/manage.html:29 yaksh/templates/yaksh/grade_user.html:8
+#: yaksh/templates/yaksh/grade_user.html:10
+msgid "Quizzes"
+msgstr "クイズ"
+
+#: yaksh/templates/yaksh/editquestionpaper.html:20
+msgid "Random Questions"
+msgstr "ランダムな質問"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "Random Set"
+msgstr "ランダムセット"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:237
+msgid "randomly out of"
+msgstr "ランダムに"
+
+#: yaksh/templates/registration/password_change_done.html:30
+msgid "Redirecting ..."
+msgstr "リダイレクト..。"
+
+#: yaksh/templates/yaksh/profile_updated.html:27
+msgid "Redirecting..."
+msgstr "リダイレクト..."
+
+#: yaksh/templates/yaksh/register.html:6
+#: yaksh/templates/yaksh/register.html:55
+msgid "Register"
+msgstr "登録"
+
+#: yaksh/templates/yaksh/register.html:7
+msgid "Registration"
+msgstr "登録"
+
+#: yaksh/templates/yaksh/grade_user.html:162
+#: yaksh/templates/yaksh/grade_user.html:173
+#: yaksh/templates/yaksh/grade_user.html:321
+#: yaksh/templates/yaksh/grade_user.html:336
+#: yaksh/templates/yaksh/grade_user.html:611
+msgid "Regrade"
+msgstr "リグレード"
+
+#: yaksh/templates/yaksh/grade_user.html:150
+msgid "Regrade papers by questions"
+msgstr "質問による論文のグレードアップ"
+
+#: yaksh/templates/yaksh/grade_user.html:308
+msgid "Regrade Whole Paper"
+msgstr "紙全体をリグレードする"
+
+#: yaksh/templates/yaksh/course_students.html:100
+msgid "Reject "
+msgstr "拒絶 "
+
+#: yaksh/templates/yaksh/course_students.html:110
+#: yaksh/templates/yaksh/course_students.html:183
+msgid "Reject selected"
+msgstr "選択を拒否"
+
+#: yaksh/templates/yaksh/course_students.html:200
+msgid "Rejected Students"
+msgstr "拒否された学生"
+
+#: yaksh/templates/yaksh/course_students.html:32
+msgid "remove"
+msgstr "削除する"
+
+#: yaksh/templates/yaksh/design_course_session.html:130
+msgid "Remove from course"
+msgstr "コースから削除する"
+
+#: yaksh/templates/yaksh/add_module.html:211
+msgid "Remove from Module"
+msgstr "モジュールから削除"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:176
+#: yaksh/templates/yaksh/design_questionpaper.html:259
+msgid "Remove from paper"
+msgstr "紙から取り除く"
+
+#: yaksh/templates/yaksh/course_teachers.html:40
+msgid "Remove Teachers"
+msgstr "教師を削除する"
+
+#: yaksh/templates/yaksh/course_forum.html:110
+#: yaksh/templates/yaksh/lessons_forum.html:57
+msgid "Replies"
+msgstr "返信"
+
+#: yaksh/templates/registration/password_reset_form.html:33
+msgid "Request"
+msgstr "リクエスト"
+
+#: yaksh/templates/yaksh/quizzes_user.html:73
+msgid "Request Pending"
+msgstr "リクエストを保留"
+
+#: yaksh/templates/yaksh/quizzes_user.html:77
+msgid "Request Rejected"
+msgstr "リクエストが拒否されました"
+
+#: yaksh/templates/yaksh/course_students.html:52
+msgid "Requested Students"
+msgstr "リクエストされた学生"
+
+#: yaksh/templates/registration/password_reset_confirm.html:29
+msgid "Reset Password"
+msgstr "パスワードを再設定する"
+
+#: yaksh/templates/yaksh/results_user.html:5
+msgid "Results"
+msgstr "結果"
+
+#: yaksh/templates/yaksh/micromonitor.html:5
+msgid "Revoke"
+msgstr "取り消す"
+
+#: yaksh/templates/yaksh/monitor.html:164
+#: yaksh/templates/yaksh/show_lesson_statistics.html:201
+msgid "Roll No"
+msgstr "ロール番号"
+
+#: yaksh/templates/yaksh/course_progress.html:33
+msgid "Roll No."
+msgstr "ロール番号"
+
+#: yaksh/forms.py:98 yaksh/forms.py:495
+#: yaksh/templates/yaksh/course_send_mail.html:37
+#: yaksh/templates/yaksh/course_students.html:74
+#: yaksh/templates/yaksh/course_students.html:151
+#: yaksh/templates/yaksh/course_students.html:222
+msgid "Roll Number"
+msgstr "ロール番号"
+
+#: yaksh/templates/yaksh/grade_user.html:223
+#: yaksh/templates/yaksh/view_profile.html:31
+msgid "Roll number:"
+msgstr "ロール番号："
+
+#: yaksh/templates/yaksh/add_course.html:57
+#: yaksh/templates/yaksh/add_exercise.html:41
+#: yaksh/templates/yaksh/add_lesson.html:144
+#: yaksh/templates/yaksh/add_module.html:90
+#: yaksh/templates/yaksh/add_question.html:170
+#: yaksh/templates/yaksh/add_topic.html:12
+#: yaksh/templates/yaksh/add_video_quiz.html:44
+#: yaksh/templates/yaksh/grade_user.html:591
+msgid "Save"
+msgstr "保存する"
+
+#: yaksh/templates/yaksh/grade_user.html:260
+#: yaksh/templates/yaksh/user_data.html:45
+#: yaksh/templates/yaksh/view_answerpaper.html:50
+msgid "Scorecard"
+msgstr "スコアカード"
+
+#: yaksh/templates/yaksh/addteacher.html:11
+#: yaksh/templates/yaksh/course_forum.html:84
+#: yaksh/templates/yaksh/courses.html:59
+#: yaksh/templates/yaksh/design_questionpaper.html:92
+#: yaksh/templates/yaksh/lessons.html:70 yaksh/templates/yaksh/modules.html:71
+#: yaksh/templates/yaksh/quizzes.html:74
+#: yaksh/templates/yaksh/quizzes_user.html:25
+msgid "Search"
+msgstr "検索"
+
+#: yaksh/forms.py:392
+msgid "Search by course name"
+msgstr "コース名で検索"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:85
+msgid "Search Questions:"
+msgstr "検索の質問："
+
+#: yaksh/templates/yaksh/addteacher.html:22 yaksh/views.py:191
+msgid "Search Results"
+msgstr "の検索結果"
+
+#: yaksh/templates/yaksh/addteacher.html:25
+msgid "Search results does not include teachers already added"
+msgstr "検索結果には、すでに追加されている教師は含まれていません"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:84
+#: yaksh/templates/yaksh/showquestions.html:100
+msgid "Search using Tags:"
+msgstr "タグを使用して検索："
+
+#: yaksh/templates/yaksh/courses.html:49
+msgid "Search/Filter Courses"
+msgstr "検索/フィルターコース"
+
+#: yaksh/templates/yaksh/modules.html:59
+msgid "Search/Filter Learning Modules"
+msgstr "検索/フィルター学習モジュール"
+
+#: yaksh/templates/yaksh/lessons.html:58
+msgid "Search/Filter Lessons"
+msgstr "検索/フィルターレッスン"
+
+#: yaksh/templates/yaksh/quizzes.html:62
+msgid "Search/Filter Quizzes"
+msgstr "検索/フィルタークイズ"
+
+#: yaksh/templates/yaksh/add_module.html:160
+#: yaksh/templates/yaksh/course_teachers.html:19
+#: yaksh/templates/yaksh/design_course_session.html:25
+#: yaksh/templates/yaksh/design_course_session.html:67
+#: yaksh/templates/yaksh/monitor.html:143
+#: yaksh/templates/yaksh/showquestions.html:161
+msgid "Select"
+msgstr "選択する"
+
+#: yaksh/templates/yaksh/course_send_mail.html:24
+#: yaksh/templates/yaksh/course_students.html:59
+#: yaksh/templates/yaksh/course_students.html:136
+#: yaksh/templates/yaksh/course_students.html:207
+msgid "Select all"
+msgstr "すべて選択"
+
+#: yaksh/templates/yaksh/grade_user.html:286
+msgid "Select attempt number"
+msgstr "試行番号を選択します"
+
+#: yaksh/templates/yaksh/monitor.html:139
+msgid "Select Attempt number:"
+msgstr "試行番号を選択します。"
+
+#: yaksh/templates/yaksh/monitor.html:232
+msgid "Select Attempt Number: Default latest attempt"
+msgstr "試行番号の選択：デフォルトの最新の試行"
+
+#: forms.py:25
+msgid "Select Language"
+msgstr "言語を選択する"
+
+#: yaksh/templates/yaksh/add_lesson.html:192
+msgid "Select Marker"
+msgstr "マーカーを選択"
+
+#: yaksh/forms.py:350 yaksh/forms.py:376
+msgid "Select Marks"
+msgstr "マークを選択"
+
+#: yaksh/templates/yaksh/add_lesson.html:201
+msgid "Select question type"
+msgstr "質問タイプを選択してください"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:190
+msgid "Select questions to add to the pool:"
+msgstr "プールに追加する質問を選択します。"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:116
+msgid "Select questions to add:"
+msgstr "追加する質問を選択します。"
+
+#: forms.py:40
+msgid "Select Status"
+msgstr "ステータスを選択"
+
+#: yaksh/templates/yaksh/grade_user.html:118
+msgid "Select student"
+msgstr "学生を選択"
+
+#: yaksh/templates/yaksh/add_question.html:124
+msgid "Select Testcase"
+msgstr "テストケースを選択"
+
+#: yaksh/forms.py:521
+msgid "Select Video Option"
+msgstr "ビデオオプションを選択"
+
+#: yaksh/templates/yaksh/activation_status.html:57
+msgid "Send Email"
+msgstr "メールを送る"
+
+#: yaksh/templates/yaksh/course_detail_options.html:63
+#: yaksh/templates/yaksh/course_send_mail.html:60
+msgid "Send Mail"
+msgstr "メールを送る"
+
+#: yaksh/templates/yaksh/add_question.html:103
+msgid "Show"
+msgstr "見せる"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:281
+msgid "Shuffle MCQ/MCC options for each student"
+msgstr "各学生のMCQ / MCCオプションをシャッフルします"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:277
+msgid "Shuffle questions\\"
+msgstr "シャッフルの質問\\"
+
+#: yaksh/templates/yaksh/login.html:82
+msgid "Sign in"
+msgstr "ログイン"
+
+#: yaksh/templates/yaksh/login.html:23
+msgid "Sign in with"
+msgstr "でサインイン"
+
+#: yaksh/templates/yaksh/add_lesson.html:203
+msgid "Single Correct Choice"
+msgstr "単一の正しい選択"
+
+#: yaksh/forms.py:323
+msgid "Snippet"
+msgstr "スニペット"
+
+#: yaksh/forms.py:320
+msgid "Solution"
+msgstr "解決"
+
+#: yaksh/templates/yaksh/question.html:216
+msgid "Solution by teacher"
+msgstr "教師による解決策"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:177
+msgid "Solution for the question"
+msgstr "質問の解決策"
+
+#: yaksh/templates/500.html:18
+msgid "Sorry for the inconvenience."
+msgstr "ご不便おかけしてすみません。"
+
+#: yaksh/templates/yaksh/monitor.html:170
+msgid "Special Attempt"
+msgstr "特別な試み"
+
+#: yaksh/templates/yaksh/addteacher.html:86
+#: yaksh/templates/yaksh/monitor.html:162
+#: yaksh/templates/yaksh/show_lesson_statistics.html:199
+#: yaksh/templates/yaksh/showquestions.html:162
+msgid "Sr No."
+msgstr "シニア番号"
+
+#: yaksh/templates/yaksh/course_progress.html:32
+msgid "Sr. No"
+msgstr "シニアいいえ"
+
+#: yaksh/templates/yaksh/lessons.html:82 yaksh/templates/yaksh/modules.html:83
+#: yaksh/templates/yaksh/quizzes.html:86
+msgid "Sr.No"
+msgstr "Sr.No"
+
+#: forms.py:30
+msgid "Standard Testcase"
+msgstr "標準テストケース"
+
+#: yaksh/templates/yaksh/course_modules.html:92
+#: yaksh/templates/yaksh/intro.html:47
+#: yaksh/templates/yaksh/quizzes_user.html:86
+#: yaksh/templates/yaksh/show_video.html:130
+msgid "Start"
+msgstr "始める"
+
+#: models.py:939
+msgid "Start Date and Time for enrollment of course"
+msgstr "もちろん登録開始日時"
+
+#: yaksh/templates/yaksh/micromanaged.html:14
+msgid "Start Special Attempt"
+msgstr "特別な試みを開始する"
+
+#: yaksh/templates/yaksh/grade_user.html:249
+#: yaksh/templates/yaksh/user_data.html:30
+#: yaksh/templates/yaksh/view_answerpaper.html:36
+msgid "Start time:"
+msgstr "始まる時間："
+
+#: yaksh/templates/yaksh/courses.html:183
+#: yaksh/templates/yaksh/courses.html:269
+#: yaksh/templates/yaksh/quizzes_user.html:137
+msgid "Starts On:"
+msgstr "開始日："
+
+#: yaksh/templates/yaksh/course_added_modules.html:118
+#: yaksh/templates/yaksh/course_added_modules.html:127
+msgid "Statistics"
+msgstr "統計"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:7
+#: yaksh/templates/yaksh/statistics_question.html:8
+msgid "Statistics for"
+msgstr "の統計"
+
+#: yaksh/templates/yaksh/complete.html:33
+#: yaksh/templates/yaksh/error_template.html:73
+#: yaksh/templates/yaksh/grade_user.html:494
+#: yaksh/templates/yaksh/monitor.html:168 yaksh/templates/yaksh/quit.html:24
+#: yaksh/templates/yaksh/user_data.html:234
+#: yaksh/templates/yaksh/view_answerpaper.html:255
+msgid "Status"
+msgstr "状態"
+
+#: yaksh/templates/yaksh/grade_user.html:265
+#: yaksh/templates/yaksh/user_data.html:48
+msgid "Status:"
+msgstr "状態："
+
+#: forms.py:31
+msgid "StdIO Based Testcase"
+msgstr "StdIOベースのテストケース"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:32
+msgid "STEP 1"
+msgstr "ステップ1"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:38
+msgid "STEP 2"
+msgstr "ステップ2"
+
+#: yaksh/templates/yaksh/design_questionpaper.html:44
+msgid "STEP 3"
+msgstr "ステップ3"
+
+#: forms.py:35
+msgid "String Testcase"
+msgstr "文字列テストケース"
+
+#: yaksh/templates/yaksh/grade_user.html:424
+#: yaksh/templates/yaksh/user_data.html:163
+#: yaksh/templates/yaksh/view_answerpaper.html:184
+msgid "Student answer(s):"
+msgstr "学生の回答："
+
+#: yaksh/templates/yaksh/quizzes_user.html:5
+msgid "Student Dashboard"
+msgstr "学生ダッシュボード"
+
+#: yaksh/templates/yaksh/grade_user.html:215
+msgid "Student Details"
+msgstr "学生の詳細"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:200
+msgid "Student Name"
+msgstr "学生の名前"
+
+#: yaksh/templates/yaksh/user_status.html:4
+msgid "Student Name:"
+msgstr "学生の名前："
+
+#: yaksh/forms.py:112
+msgid "Student/Faculty/Researcher/Industry/Fellowship/etc."
+msgstr "Student/Faculty/Researcher/Industry/Fellowship/etc."
+
+#: yaksh/templates/yaksh/grade_user.html:304
+#: yaksh/templates/yaksh/user_data.html:67
+#: yaksh/templates/yaksh/view_answerpaper.html:72
+msgid "Submission Details"
+msgstr "提出の詳細"
+
+#: yaksh/templates/yaksh/complete.html:28 yaksh/templates/yaksh/quit.html:19
+msgid "Submission Status"
+msgstr "提出状況"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:73
+msgid "Submissions"
+msgstr "提出物"
+
+#: yaksh/templates/registration/password_reset_confirm.html:64
+#: yaksh/templates/yaksh/activation_status.html:87
+#: yaksh/templates/yaksh/show_lesson_quiz.html:131
+#: yaksh/templates/yaksh/show_lesson_quiz.html:133
+msgid "Submit"
+msgstr "送信"
+
+#: yaksh/templates/yaksh/question.html:347
+#: yaksh/templates/yaksh/question.html:351
+msgid "Submit Answer"
+msgstr "回答を送信"
+
+#: yaksh/forms.py:302 yaksh/forms.py:721
+#: yaksh/templates/yaksh/showquestions.html:163
+msgid "Summary"
+msgstr "概要"
+
+#: yaksh/templates/yaksh/statistics_question.html:53
+msgid "Summary:"
+msgstr "概要："
+
+#: yaksh/templates/user.html:55
+msgid "Switch To Moderator"
+msgstr "モデレーターに切り替える"
+
+#: yaksh/templates/manage.html:69
+msgid "Switch To Student"
+msgstr "学生に切り替える"
+
+#: yaksh/templates/yaksh/add_lesson.html:161
+#: yaksh/templates/yaksh/show_video.html:162
+msgid "Table Of Contents"
+msgstr "目次"
+
+#: yaksh/forms.py:317
+msgid "Tags"
+msgstr "タグ"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:88
+msgid "Taken By"
+msgstr "で撮影"
+
+#: yaksh/templates/yaksh/grade_user.html:586
+#: yaksh/templates/yaksh/user_data.html:323
+#: yaksh/templates/yaksh/view_answerpaper.html:345
+msgid "Teacher comments:"
+msgstr "先生のコメント："
+
+#: yaksh/templates/yaksh/addteacher.html:81
+msgid "Teacher(s) added"
+msgstr "教師が追加されました"
+
+#: yaksh/templates/yaksh/course_teachers.html:3
+msgid "Teacher(s)/TA(s)"
+msgstr "教師/ TA"
+
+#: yaksh/templates/yaksh/showquestions.html:167
+#: yaksh/templates/yaksh/showquestions.html:191
+msgid "Test"
+msgstr "テスト"
+
+#: yaksh/templates/yaksh/add_question.html:143
+msgid "Test case"
+msgstr "テストケース"
+
+#: yaksh/templates/yaksh/add_question.html:115
+msgid "Test Cases"
+msgstr "テストケース"
+
+#: yaksh/templates/yaksh/grade_user.html:412
+#: yaksh/templates/yaksh/user_data.html:151
+#: yaksh/templates/yaksh/view_answerpaper.html:160
+msgid "Test cases:"
+msgstr "テストケース："
+
+#: yaksh/templates/yaksh/showquestions.html:216
+msgid "Test Selected"
+msgstr "選択したテスト"
+
+#: yaksh/templates/yaksh/error_template.html:33
+#: yaksh/templates/yaksh/grade_user.html:524
+#: yaksh/templates/yaksh/user_data.html:264
+msgid "The following error took place:"
+msgstr "次のエラーが発生しました。"
+
+#: yaksh/forms.py:152
+msgid "This email already exists"
+msgstr "このメールは既に存在します"
+
+#: yaksh/templates/500.html:17
+msgid "This event will be reported."
+msgstr "このイベントは報告されます。"
+
+#: yaksh/templates/yaksh/intro.html:17
+msgid "This Quiz has expired. You can no longer attempt this Quiz."
+msgstr "このクイズは期限切れです。このクイズはもう試すことができません。"
+
+#: yaksh/templates/registration/password_reset_confirm.html:67
+msgid "This reset link is no longer valid!"
+msgstr "このリセットリンクは無効になりました。"
+
+#: yaksh/forms.py:684
+msgid "Time"
+msgstr "時間"
+
+#: yaksh/templates/yaksh/monitor.html:169
+msgid "Time Extension"
+msgstr "時間延長"
+
+#: yaksh/templates/yaksh/monitor.html:167
+msgid "Time Left"
+msgstr "残り時間"
+
+#: yaksh/templates/yaksh/view_profile.html:39
+msgid "Timezone:"
+msgstr "タイムゾーン："
+
+#: yaksh/templates/yaksh/add_question.html:85
+msgid "to delete files,"
+msgstr "ファイルを削除するには、"
+
+#: yaksh/templates/yaksh/course_students.html:42
+msgid "to download a sample CSV, edit and upload it"
+msgstr "サンプルCSVをダウンロードするには、編集してアップロードします"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to extract files and"
+msgstr "ファイルを抽出し、"
+
+#: yaksh/templates/yaksh/add_question.html:86
+msgid "to hide files"
+msgstr "ファイルを非表示にする"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "to the programming quiz!"
+msgstr "プログラミングクイズへ！"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:71
+msgid "TOC"
+msgstr "TOC"
+
+#: yaksh/templates/yaksh/add_lesson.html:193
+msgid "Topic"
+msgstr "トピック"
+
+#: yaksh/forms.py:308
+msgid "Topic name"
+msgstr "トピック名"
+
+#: yaksh/templates/yaksh/question.html:162
+#: yaksh/templates/yaksh/show_lesson_quiz.html:36
+#: yaksh/templates/yaksh/show_lesson_statistics.html:89
+msgid "Topic:"
+msgstr "トピック："
+
+#: yaksh/templates/yaksh/statistics_question.html:40
+msgid "Total attempts"
+msgstr "総試行回数"
+
+#: yaksh/templates/yaksh/grade_user.html:279
+#: yaksh/templates/yaksh/user_data.html:60
+#: yaksh/templates/yaksh/view_answerpaper.html:65
+msgid "Total attempts at questions:"
+msgstr "質問の合計試行回数："
+
+#: yaksh/templates/yaksh/design_questionpaper.html:51
+#: yaksh/templates/yaksh/grade_user.html:272
+#: yaksh/templates/yaksh/user_data.html:55
+#: yaksh/templates/yaksh/view_answerpaper.html:60
+msgid "Total Marks:"
+msgstr "合計点数："
+
+#: yaksh/templates/yaksh/statistics_question.html:35
+msgid "Total number of participants:"
+msgstr "参加者の総数："
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:168
+msgid "Total Submissions:"
+msgstr "総提出数："
+
+#: yaksh/templates/yaksh/preview_questionpaper.html:16
+msgid "Total Time:"
+msgstr "合計時間："
+
+#: yaksh/templates/yaksh/add_quiz.html:70
+msgid "Try as student"
+msgstr "学生としてお試しください"
+
+#: yaksh/templates/yaksh/add_quiz.html:92
+msgid "Try as student:"
+msgstr "学生として試してみてください："
+
+#: yaksh/templates/yaksh/add_quiz.html:74
+msgid "Try as teacher"
+msgstr "先生としてお試しください"
+
+#: yaksh/templates/yaksh/add_quiz.html:98
+msgid "Try as teacher:"
+msgstr "教師としてお試しください："
+
+#: yaksh/templates/yaksh/grade_user.html:160
+#: yaksh/templates/yaksh/grade_user.html:319
+#: yaksh/templates/yaksh/show_lesson_statistics.html:72
+#: yaksh/templates/yaksh/showquestions.html:165
+#: yaksh/templates/yaksh/statistics_question.html:39
+#: yaksh/templates/yaksh/user_data.html:74
+#: yaksh/templates/yaksh/view_answerpaper.html:79
+msgid "Type"
+msgstr "タイプ"
+
+#: yaksh/templates/yaksh/question.html:166
+#: yaksh/templates/yaksh/show_lesson_quiz.html:40
+#: yaksh/templates/yaksh/show_lesson_statistics.html:94
+#: yaksh/templates/yaksh/show_lesson_statistics.html:96
+#: yaksh/templates/yaksh/show_lesson_statistics.html:98
+#: yaksh/templates/yaksh/show_lesson_statistics.html:100
+#: yaksh/templates/yaksh/show_lesson_statistics.html:102
+#: yaksh/templates/yaksh/show_lesson_statistics.html:104
+#: yaksh/templates/yaksh/show_lesson_statistics.html:111
+#: yaksh/templates/yaksh/show_lesson_statistics.html:113
+#: yaksh/templates/yaksh/statistics_question.html:71
+msgid "Type:"
+msgstr "タイプ："
+
+#: yaksh/templates/exam.html:86
+msgid "Unattempted question(s)"
+msgstr "未試行の質問"
+
+#: yaksh/templates/yaksh/question.html:334
+msgid "Undo Changes"
+msgstr "変更を元に戻します"
+
+#: yaksh/templates/yaksh/editprofile.html:46
+msgid "Update"
+msgstr "アップデート"
+
+#: yaksh/templates/yaksh/course_students.html:24
+#: yaksh/templates/yaksh/monitor.html:131
+#: yaksh/templates/yaksh/question.html:349
+#: yaksh/templates/yaksh/upload_download_course_md.html:13
+#: yaksh/templates/yaksh/upload_file.html:32
+msgid "Upload"
+msgstr "アップロード"
+
+#: yaksh/templates/yaksh/course_detail_options.html:103
+msgid "Upload / Download MD"
+msgstr "MDのアップロード/ダウンロード"
+
+#: yaksh/templates/yaksh/upload_file.html:23
+msgid "Upload assignment file for"
+msgstr "の割り当てファイルをアップロードする"
+
+#: yaksh/templates/yaksh/showquestions.html:64
+#: yaksh/templates/yaksh/upload_file.html:6
+msgid "Upload File"
+msgstr "ファイルをアップロードする"
+
+#: yaksh/templates/yaksh/showquestions.html:19
+msgid "Upload Questions"
+msgstr "質問をアップロードする"
+
+#: yaksh/templates/yaksh/show_toc.html:16
+msgid "Upload TOC"
+msgstr "TOCをアップロード"
+
+#: yaksh/templates/yaksh/course_students.html:8
+msgid "Upload Users"
+msgstr "ユーザーのアップロード"
+
+#: yaksh/templates/yaksh/add_question.html:81
+msgid "Uploaded files"
+msgstr "アップロードされたファイル"
+
+#: yaksh/forms.py:96
+msgid "Use a dummy if you don't have one."
+msgstr "ダミーがない場合はダミーを使用してください。"
+
+#: yaksh/templates/yaksh/user_data.html:6
+msgid "User Data"
+msgstr "ユーザーデータ"
+
+#: yaksh/templates/yaksh/user_data.html:32
+msgid "User IP:"
+msgstr "ユーザーIP："
+
+#: yaksh/templates/yaksh/add_exercise.html:59
+msgid "User Mode"
+msgstr "ユーザーモード"
+
+#: yaksh/templates/yaksh/error_template.html:72
+#: yaksh/templates/yaksh/grade_user.html:493
+#: yaksh/templates/yaksh/user_data.html:233
+#: yaksh/templates/yaksh/view_answerpaper.html:254
+msgid "User output"
+msgstr "ユーザー出力"
+
+#: yaksh/templates/yaksh/moderator_dashboard.html:99
+msgid "user(s)"
+msgstr "ユーザー"
+
+#: yaksh/forms.py:190 yaksh/templates/yaksh/addteacher.html:41
+msgid "Username"
+msgstr "ユーザー名"
+
+#: yaksh/forms.py:130
+msgid "Username already exists."
+msgstr "ユーザー名は既に存在します。"
+
+#: yaksh/forms.py:208
+msgid "Username and/or Password is not entered"
+msgstr "ユーザー名および/またはパスワードが入力されていません"
+
+#: yaksh/templates/yaksh/course_students.html:36
+msgid "Users created will have username and password same as their email"
+msgstr "作成されたユーザーのユーザー名とパスワードはメールアドレスと同じになります"
+
+#: yaksh/forms.py:583 yaksh/forms.py:592
+msgid "Value must be dictionary e.g {'youtube': 'video-id'}"
+msgstr "値は辞書である必要があります。例：{'youtube'： 'video-id'}"
+
+#: yaksh/templates/yaksh/add_lesson.html:98
+msgid "Video File:"
+msgstr "ビデオファイル："
+
+#: yaksh/forms.py:531
+msgid "Video ID for Youtube, Vimeo and URL for others"
+msgstr "Youtube、VimeoのビデオID、その他のURL"
+
+#: yaksh/templates/yaksh/add_lesson.html:89
+msgid "Video Path:"
+msgstr "ビデオパス："
+
+#: yaksh/templates/yaksh/course_added_modules.html:133
+msgid "Video Views"
+msgstr "ビデオビュー"
+
+#: yaksh/templates/yaksh/course_modules.html:84
+#: yaksh/templates/yaksh/course_modules.html:151
+#: yaksh/templates/yaksh/course_modules.html:156
+msgid "View"
+msgstr "意見"
+
+#: yaksh/templates/yaksh/view_answerpaper.html:7
+msgid "View Answer paper"
+msgstr "解答用紙を見る"
+
+#: models.py:933
+msgid "view grade"
+msgstr "グレードを表示"
+
+#: yaksh/templates/yaksh/grade_user.html:518
+#: yaksh/templates/yaksh/user_data.html:258
+#: yaksh/templates/yaksh/view_answerpaper.html:279
+msgid "We tried you code with the following test case:"
+msgstr "次のテストケースでコーディングを試みました。"
+
+#: yaksh/templates/yaksh/error_template.html:27
+msgid "We tried your code with the following test case:"
+msgstr "次のテストケースでコードを試しました。"
+
+#: yaksh/templates/yaksh/intro.html:24
+msgid "Welcome"
+msgstr "いらっしゃいませ"
+
+msgid "What"
+msgstr "何"
+
+#: yaksh/templates/yaksh/add_module.html:166
+#: yaksh/templates/yaksh/design_course_session.html:73
+#: yaksh/templates/yaksh/design_course_session.html:79
+msgid "What\\"
+msgstr "何\\"
+
+#: yaksh/templates/yaksh/course_modules.html:17
+msgid "Will be available once the course is complete"
+msgstr "コースが完了すると利用可能になります"
+
+#: yaksh/templates/yaksh/show_lesson_statistics.html:161
+msgid "with Error Margin"
+msgstr "エラーマージンあり"
+
+#: yaksh/templates/yaksh/question.html:331
+msgid "Write your program below:"
+msgstr "以下にプログラムを書いてください。"
+
+#: yaksh/templates/yaksh/add_module.html:195
+#: yaksh/templates/yaksh/design_course_session.html:104
+#: yaksh/templates/yaksh/design_course_session.html:114
+msgid "Yes"
+msgstr "はい"
+
+#: yaksh/templates/yaksh/intro.html:21
+msgid "You can attempt this Quiz at any time between"
+msgstr "このクイズはいつでも試すことができます"
+
+#: yaksh/templates/yaksh/add_exercise.html:57
+#: yaksh/templates/yaksh/add_quiz.html:68
+msgid "You can check the quiz by attempting it in the following modes:"
+msgstr "次のモードでクイズを試すことで、クイズを確認できます。"
+
+#: yaksh/templates/yaksh/showquestions.html:26
+msgid "You can upload question files the following ways -"
+msgstr "質問ファイルは次の方法でアップロードできます-"
+
+#: yaksh/templates/yaksh/question.html:292
+msgid "You can upload using the file browser here or via the QR code."
+msgstr "こちらのファイルブラウザまたはQRコードを使用してアップロードできます。"
+
+#: yaksh/templates/yaksh/micromanaged.html:9
+msgid "You have been given a special attempt to the"
+msgstr "あなたは特別な試みを与えられました"
+
+#: yaksh/templates/yaksh/user_data.html:341
+#: yaksh/templates/yaksh/view_answerpaper.html:363
+msgid "You have not attempted the Exercise"
+msgstr "あなたは運動を試みていません"
+
+#: yaksh/templates/yaksh/user_data.html:343
+#: yaksh/templates/yaksh/view_answerpaper.html:365
+msgid "You have not attempted the quiz"
+msgstr "クイズを試していません"
+
+#: yaksh/templates/yaksh/add_exercise.html:86
+#: yaksh/templates/yaksh/add_quiz.html:96
+msgid ""
+"You will be notified about quiz prerequisites.(You can still attempt the "
+"quiz though)"
+msgstr "クイズの前提条件について通知されます（ただし、クイズを試すことはできます）"
+
+#: yaksh/templates/yaksh/question.html:411
+msgid "Your code will be reset."
+msgstr "コードがリセットされます。"
+
+#: yaksh/templates/yaksh/quit.html:47
+msgid "Your current answers are saved."
+msgstr "現在の回答が保存されます。"
+
+#: yaksh/templates/registration/password_change_done.html:29
+msgid "Your password has been changed successfully."
+msgstr "パスワードが正常に変更されました。"
+
+#: yaksh/templates/registration/password_reset_complete.html:20
+msgid "Your password has been reset."
+msgstr "あなたのパスワードはリセットされました。"
+
+#: yaksh/templates/yaksh/profile_updated.html:26
+msgid "Your Profile is changed"
+msgstr "あなたのプロフィールが変更されました"

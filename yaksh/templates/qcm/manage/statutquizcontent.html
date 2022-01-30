@@ -1,0 +1,71 @@
+
+{% if has_questions %}
+<div class="card col-md-12" style="height: 400px; overflow-y: auto;">
+		
+      
+    <div class="card-body">
+      <table class="table-hover table-sm" style="width:95%">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Question</th>
+      <th scope="col">Type</th>
+      <th scope="col">Liste reponses</th>
+      <th scope="col">Reutilisation</th>
+      <th scope="col">Image</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  	{% for question in question_liste %}
+    <tr style="border-bottom:1px solid rgba(255,200,200,0.5)">
+      <th scope="row">{{forloop.counter }} .</th>
+      {% if question.question_text|length > 200 %}
+      <td style="width: 40%">{{question.question_text|slice:":20"}}</td>
+      {% else %}
+      <td>{{question.question_text}}</td>
+      {% endif %}
+      <td>{{question.question_type}}</td>
+      <td><a type="button" href="{% url 'show_quiz' quiz_id %}" class="btn waves-effect"><i class="far fa-eye"></i></a></td>
+      <td>100</td>
+      <td>
+        {% if question.question_image %}
+        <img style="width: 50%" src="{{MEDIA_URL}}{{question.question_image}}"/>
+        {% else %}
+        <span style="font-size: 10px;"><i class="fas fa-image"></i> no image</span>
+        {% endif %}
+      </td>
+      <td>
+      	<a id="modif_quest" href="#" type="button" class="btn waves-effect"><i class="fas fa-pen-nib mx-2"></i></a> 
+
+      	<a href="{% url 'del_quest' question.id %}" type="button" class="btn waves-effect"><i class="far fa-trash-alt text-danger mx-2"></i></a>
+      
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+  	</div>
+</div>
+{% else %}
+
+<div class="card">
+		
+      
+    <div class="card-body">
+
+	    <p class="text-center">
+	      	Ce quiz ne possede pas actuellement des questionaire!
+	    </p>
+	    
+	    <p class="text-center">
+	      <i class="far fa-folder-open fa-5x"></i>
+	  	</p>
+
+      
+  	</div>
+</div>
+
+{% endif %}

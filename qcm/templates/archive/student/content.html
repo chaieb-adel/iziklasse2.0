@@ -1,0 +1,154 @@
+{% load static %}
+{% block content %}
+<!--//-->
+<div class="row">
+	<div class="col-md-3 mb-2"></div>
+	<div class="col-md-3 mb-2"></div>
+	<div class="col-md-3">
+		<button type="button" class="btn header-item waves-effect" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="far fa-file-alt "></i> Mes cotes
+		</button>
+
+		<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+			<div class="p-3">
+				<div class="row align-items-center">
+					<div class="col">
+						<h6 class="m-0"> Selectionner un fichier .xml </h6>
+					</div>
+					<!--<div class="col-auto"> <a href="#!" class="small"> View All</a></div>-->
+					<form method='POST' action='' enctype="multipart/form-data" id="xml">
+						{% csrf_token %}
+						<label for="formFileSm" class="form-label"><a href="#">besoin d'aide?</a></label>
+						{{fileform}}
+						<button type="submit" id="xmlbtn" class="btn btn-light float-end mt-2" data-mdb-ripple-color="dark">valider</button>
+					</form>
+				</div>
+				</div>
+			</div>
+	</div>
+	<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 col-md-6" aria-labelledby="page-header-notifications-dropdown">
+			<div class="p-3">
+				<div class="row align-items-center">
+					<div class="col">
+						<h6 class="m-0"> Formulaire d'ajout d'un nouveau quiz </h6>
+					</div>
+					<!--<div class="col-auto"> <a href="#!" class="small"> View All</a></div>-->
+
+					<form method='POST' action='' enctype="multipart/form-data">
+						<label for="formFileSm" class="form-label"><a href="#">besoin d'aide?</a></label>
+						{{fileform}}
+						<button type="button" id="sqlbtn" class="btn btn-light float-end mt-2" data-mdb-ripple-color="dark">valider</button>
+					</form>
+				</div>
+				</div>
+			</div>
+	</div>
+
+
+<div class="row">
+	
+	<div class="col-md-8">
+		<!--<form class="form-inline">
+			{% csrf_token %}
+		<div class="form-group">
+        <label>Niveau:</label>
+        <select id="niveauw" name="niveau" class="form-control">
+            <option value="0">Tout niveaux</option>
+            {% for niveau in niveau_liste %}
+            <option value="{{niveau}}" class="s-niveau">{{niveau}}</option>
+            {% endfor %}
+        </select>
+       
+    	</div>
+	</form>-->
+	<label>Niveau:</label>
+	<button
+	  type="button"
+	  class="btn btn-outline-dark btn-rounded"
+	  data-mdb-ripple-color="dark"> &nbsp; &nbsp; &nbsp;6EM&nbsp; &nbsp; &nbsp;<i class="fas fa-caret-down"></i> 
+	</button>
+
+	<label>Matiere:</label>
+	<button
+	  type="button"
+	  class="btn btn-outline-dark btn-rounded"
+	  data-mdb-ripple-color="dark"> &nbsp; &nbsp; &nbsp;CHIMIE-ORGANIQUE&nbsp; &nbsp; &nbsp;<i class="fas fa-caret-down"></i> 
+	</button>
+
+	<label>Prof:</label>
+	<button
+	  type="button"
+	  class="btn btn-outline-dark btn-rounded"
+	  data-mdb-ripple-color="dark"> &nbsp; &nbsp; &nbsp;Dr. Enock CHIMALA&nbsp; &nbsp; &nbsp;<i class="fas fa-caret-down"></i> 
+	</button>
+
+
+
+	</div>
+
+	<div class="col-md-4">
+		<form id="srch-form" method="POST" action="">
+			{% csrf_token %}
+			<div class="row">
+				<div class="col-md-10">
+		  			
+					<input type="text" class="form-control" list="datalistOptions" id="srch-motcles" placeholder="Entrer mots cles..."/>
+					<datalist id="datalistOptions">
+					{% for k in mot_cles %}
+					  <option value="{{k}}">
+					{% endfor %}
+					</datalist>
+		  		</div>
+		  		<div class="col-md-1">
+		  			
+				  	<button type="submit" class="btn btn-secondary"><i class="fas fa-search"></i>
+					</button>
+
+				</div>
+			</div>
+		</form>
+	</div>
+		
+	<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      <table class="table">
+  		<thead>
+    		<tr>
+      			<th scope="col"><i class="fas fa-hand-holding"></i> 11-Nov-2021</th>
+      			<th scope="col">6EM</th>
+      			<th scope="col">CHIMIE ORGANIQUE</th>
+      			<th scope="col">Porf. Enock CHIMALAKA</th>
+      			<th scope="col"><a href="{% url 'student_show_quiz' 1%}" class="btn btn-secondary">Repondre a ce quiz <i class="fas fa-arrow-circle-right"></i></a></th>
+    		</tr>
+
+    		<tr>
+      			<th scope="col"><i class="fas fa-hand-holding"></i> 11-Nov-2021</th>
+      			<th scope="col">6EM</th>
+      			<th scope="col">CHIMIE ORGANIQUE</th>
+      			<th scope="col">Porf. Enock CHIMALAKA</th>
+      			<th scope="col"><a href="{% url 'student_show_quiz' 1%}" class="btn btn-secondary">Repondre a ce quiz <i class="fas fa-arrow-circle-right"></i></a></th>
+    		</tr>
+
+    		<tr>
+      			<th scope="col"><i class="fas fa-hand-holding"></i> 11-Nov-2021</th>
+      			<th scope="col">6EM</th>
+      			<th scope="col">CHIMIE ORGANIQUE</th>
+      			<th scope="col">Porf. Enock CHIMALAKA</th>
+      			<th scope="col"><a href="{% url 'student_show_quiz' 1%}" class="btn btn-secondary">Repondre a ce quiz <i class="fas fa-arrow-circle-right"></i></a></th>
+    		</tr>
+
+    		<tr>
+      			<th scope="col"><i class="fas fa-hand-holding"></i> 11-Nov-2021</th>
+      			<th scope="col">6EM</th>
+      			<th scope="col">CHIMIE ORGANIQUE</th>
+      			<th scope="col">Porf. Enock CHIMALAKA</th>
+      			<th scope="col"><a href="{% url 'student_show_quiz' 1%}" class="btn btn-secondary">Repondre a ce quiz <i class="fas fa-arrow-circle-right"></i></a></th>
+    		</tr>
+  		</thead>
+	</table>
+      <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+  </div>
+</div>
+
+{% endblock content %}

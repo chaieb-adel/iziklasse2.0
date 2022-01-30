@@ -1,0 +1,17 @@
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      	<p class="text-center text-danger"><i class="fas fa-exclamation-circle text-danger"></i> Vous etes sur le point de supprimer ce quiz!</p>
+      	<p class="text-center">Note: Cette copie du quiz sera supprimer sans possible récuperation, son proprietaire sera notifier, cependant une copie restera toujours dans notre banque de donnees pour servir d'archive et vous pourrez toujours le consulter plutard si vous le souhaitez!</p>
+      	<div class="row">
+      		<div class="col-md-6 col">
+      			{% csrf_token %}
+      			<button type="button" value="{{quiz_id}}" id="confirmDelete" class="btn btn-danger col-md-11"><i class="far fa-trash-alt mx-2"></i> Supprimer</button>
+			</div>
+			<div class="col-md-6 col">
+      			<a type="button" href="../" class="btn btn-secondary col-md-11"><i class="fas fa-power-off"></i> Annuler la suppression</a>
+      		</div>
+      	</div>
+      </div>
+</div>

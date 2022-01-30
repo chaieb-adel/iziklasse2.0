@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block title %} {{questionpaper.quiz.description}} {% endblock %}
+{% block pagetitle %} Quiz Instructions and Rules {% endblock pagetitle %}
+
+{% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      {{questionpaper.quiz.description}}
+    </div>
+    <div class="card-body">
+      {% if questionpaper.quiz.is_expired %}
+          <div class="alert alert-error">
+              {% trans 'This Quiz has expired. You can no longer attempt this Quiz.' %}
+          </div>
+      {% else %}
+          <div class="alert alert-info">
+            {% trans 'You can attempt this Quiz at any time between' %} <b>{{ questionpaper.quiz.start_date_time }}</b> {% trans 'and' %} <b>{{ questionpaper.quiz.end_date_time }}</b>
+          </div>
+      {% endif %}
+      <p> {% trans 'Welcome' %} <strong>{{user.get_full_name|title}}</strong>, {% trans 'to the programming quiz!' %} </p>
+      {{ questionpaper.quiz.instructions|safe }}
+      <div class="row">
+        <div class="col-md-6">
+          <center>
+            {% if status != "moderator" %}
+              <a href="{% url 'yaksh:view_module' module.id course.id %}" class="btn btn-primary btn-lg" name="home">
+                <i class="fa fa-step-backward"></i>
+                {% trans 'Go Back' %}
+              </a>
+            {% else %}
+              <a href="{% url 'yaksh:index' %}" class="btn btn-primary btn-lg" name="home">
+                <i class="fa fa-step-backward"></i>
+                {% trans 'Go Back' %}
+              </a>
+            {% endif %}
+          </center>
+        </div>
+        <div class="col-md-6">
+          {% if not questionpaper.quiz.is_expired %}
+              <form action="{% url 'yaksh:start_quiz' attempt_num module.id questionpaper.id course.id %}" method="post" align="center">
+               {% csrf_token %}
+                <button class="btn btn-success btn-lg" type="submit" name="start">
+                  {% trans 'Start' %} <i class="fa fa-play"></i>
+                </button>
+              </form>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

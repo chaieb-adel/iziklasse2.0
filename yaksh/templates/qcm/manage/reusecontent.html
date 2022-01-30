@@ -1,0 +1,71 @@
+{% load widget_tweaks %}
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      	<p class="text-center text-secondary"><i class="fas fa-exclamation-circle text-secondary"></i> Selectionner les qestions ( Une fois valider la selection vous pourez personnaliser les questions et editer les quota des points) </p>
+      	<p class="text-center">Note: Selectionner les questions de ce quiz que vous souhaitez ajouter a votre propre quiz</p>
+      	<div class="row">
+      		<div class="col-md-4">
+      		<select id="slct-question" class="custom-select col-md-12" size="10">
+  				<option value="0" selected>Selectionner une question...</option>
+  				{% for qst in question_liste %}
+  				<option q_type={{qst.question_type}} value="{{qst.id}}">{{qst.question_text}}</option>
+  				{% endfor %}
+			</select>
+			<a id="chose-q" class="btn btn-light btn-sm mt-2">Choisir <i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+      		<div class="col-md-8">
+      			<div class="col-md-12 scroll">
+      			<div class="card bg-light mt-3">
+      				<div class="card-header">
+      					Listes des questions choisi:
+      				</div>
+      				<div id="selected-q-box" class="card-body">
+      				</div>
+      				<div class="card-footer">
+      					<button id="empty_q_box_btn" class="btn btn-danger btn-sm mt-2 disabled">Vider la liste <i class="far fa-trash-alt mx-2"></i></button>
+
+      					
+      					<button type="button" id="continu-btn" class="btn btn-secondary btn-sm mt-2 disabled" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=""><i class="fas fa-arrow-circle-right"></i> Valider et continuer</button>
+
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title text-secondary" id="exampleModalLabel">Completez ces champs pour finaliser la création du quiz:</h6>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body">
+						      	<div class="card bg-light text-success p-3"><span><i class="far fa-check-circle"></i> Questionnaire enregistrée, remplissez ce formulaire pour terminé.</span></div>
+						      	<span class="d-none" id="form-error"></span>
+						        <form method="POST" action="" enctype="multipart/form-data" id="reuse_form">
+						        	{% csrf_token %}
+						        	<label>Entrer le niveau:</label>
+						        	{% render_field addform.niveau id="reuse_niveau" %}
+						        	<label>Entrer la matiere(Nom du cours):</label>
+						        	{% render_field addform.matiere id="reuse_matiere" %}
+						        	<label>Entrer la description( Quelques mots descriptif pour ce quiz):</label>
+						        	{% render_field addform.description id="reuse_description" %}
+						        	<label>Mots cles( Quelques mots cles pour ce quiz):</label>
+						        	{% render_field addform.motCles id="reuse_motcles" %}
+						        	<input type="hidden" class="old_quiz" id="{{quiz_id}}" name="">
+						        	
+						       
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Annuler</button>
+						        <input type="submit" class="btn btn-primary" value="Envoyer">
+						      </div>
+						      </form>
+						    </div>
+						  </div>
+						</div>
+					<!----->
+      				</div>
+      			</div>
+      		</div>
+      		</div>	
+      	</div>
+      </div>
+</div>

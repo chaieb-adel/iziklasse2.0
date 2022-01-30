@@ -1,0 +1,40 @@
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+            <div class="row">
+                  <p class="text-center text-success"><i class="fas fa-exclamation-circle text-success"></i> La question ID : <span style="font-weight: bold; font-size: 20px">{{question_indice}}</span> du quiz ID : <span style="font-weight: bold; font-size: 20px">{{quiz_id}}</span> a etait supprimer avec success.</p>
+                  <p class="col-md-12 text-center"> Quelques details sur ce quiz </p>
+            </div>
+      	<div class="row">
+                  <div class="col-md-12 text-center">
+                  <table class="table">
+                        <thead>
+                              <tr>
+                                    <th>ID</th>
+                                    <th>Niveau</th>
+                                    <th>Matiere</th>
+                                    <th>Date de publication</th>
+                                    <th>Nombre de question actuelle</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                              <td>{{quiz_id}}</td>
+                              <td>{{niveau}}</td>
+                              <td>{{matiere}}</td>
+                              <td>{{date_pub}}</td>
+                              <td>{{nbr_question}}</td>
+                        </tbody>
+                  </table>
+                  </div>     
+            </div>
+      	<div class="row text-center mt-5" style="padding-left: 50px">
+      
+      		<a href="../" class="col-md-2 btn btn-light">Retour home</a>
+		    <a href="{% url 'manager_add_question' quiz_id %}" class="col-md-2 btn btn-info">Retour questionnaire</a>
+			<a href="{% url 'show_quiz' quiz_id %}" class="col-md-2 btn btn-secondary">Visualiser ce quiz</a>
+      		<a href="{% url 'delete_quiz' quiz_id %}" class="col-md-2 btn btn-danger">Supprimer ce quiz</a>
+                  
+      	</div>
+      </div>
+</div>

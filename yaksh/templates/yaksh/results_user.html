@@ -1,0 +1,27 @@
+{% extends "user.html" %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block pagetitle %} {% trans 'Results' %} {% endblock pagetitle %}
+{% block content %}
+<div class="yakshwell container">
+<form>
+  {% csrf_token %}
+  <center><table class="table table-responsive-sm">
+    <th>{% trans 'Quiz Description' %}
+    <th>{% trans 'Obtained Marks' %}
+    <th>{% trans 'Maximum Marks' %}
+    <th>{% trans 'Percentage' %}
+    {% for paper in papers %}
+        <tr>
+            <td>{{ paper.question_paper.quiz.description }}</td>
+            <td>{{ paper.marks_obtained }}</td>
+            <td>{{ paper.question_paper.total_marks }}</td>
+            <td>{{ paper.percent }}</td>
+        </tr>
+    {% endfor %}
+  </table></center>
+</form>
+</div>
+{% endblock %}
+

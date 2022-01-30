@@ -1,0 +1,240 @@
+{% load static %}
+{% block content %}
+<!--//-->
+
+<div class="row">
+<!---fin-->
+	<div class="col-md-3 mb-2"></div>
+	<div class="col-md-3 mb-2"></div>
+	<div class="col-md-3">
+	</div>
+
+	<!--menu-->
+	<div class="col-md-3">
+		<button type="button" class="btn header-item waves-effect" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=""><i class="fas fa-plus-circle"></i> Ajouter un nouveau quiz</button>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Formulaire d'ajout d'un nouveau quiz</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		      	<span class="d-none" id="form-error"></span>
+		        <form method="POST" action="" enctype="multipart/form-data" id="addForm">
+		        	{% csrf_token %}
+		        	{{addform}}
+		       
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Annuler</button>
+		        <button type="submit" class="btn btn-primary">Envoyer</button>
+		      </div>
+		      </form>
+		    </div>
+		  </div>
+		</div>
+	<!----->
+
+
+
+		<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 col-md-6" aria-labelledby="page-header-notifications-dropdown">
+			<div class="p-3">
+				<div class="row align-items-center">
+					<div class="col">
+						<h6 class="m-0"> Formulaire d'ajout d'un nouveau quiz </h6>
+					</div>
+					<!--<div class="col-auto"> <a href="#!" class="small"> View All</a></div>-->
+
+					<form method='POST' action='' enctype="multipart/form-data">
+						<label for="formFileSm" class="form-label"><a href="#">besoin d'aide?</a></label>
+						{{fileform}}
+						<button type="button" id="sqlbtn" class="btn btn-light float-end mt-2" data-mdb-ripple-color="dark">valider</button>
+					</form>
+				</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+
+
+<div class="row">
+	
+	<div class="col-md-2">
+		<form class="form-inline">
+			{% csrf_token %}
+		<div class="form-group">
+        <label>Niveau:</label>
+        <select id="niveauw" name="niveau" class="form-control">
+            <option value="0">Tout niveaux</option>
+            {% for niveau in niveau_liste %}
+            <option value="{{niveau}}" class="s-niveau">{{niveau}}</option>
+            {% endfor %}
+        </select>
+       
+    	</div>
+	</form>
+
+	</div>
+
+
+	<div class="col-md-2">
+		<form class="form-inline">
+			{% csrf_token %}
+		<div class="form-group">
+        <label>Auteur:</label>
+        <select id="auteur" name="" class="form-control">
+            <option value="0">Tous</option>
+            {% for auteur in auteur_liste %}
+            <option value="{{auteur}}" class="s-niveau">{{auteur}}</option>
+            {% endfor %}
+        </select>
+       
+    	</div>
+	</form>
+
+	</div>
+
+
+	<div class="col-md-2">
+		<form class="form-inline">
+			{% csrf_token %}
+		<div class="form-group">
+        <label>Matiere:</label>
+        <select id="matiere" name="" class="form-control">
+            <option value="0">Tout matiere</option>
+            {% for matiere in matiere_liste %}
+            <option value="{{matiere}}">{{matiere}}</option>
+  			{% endfor %}
+        </select>
+    </div>
+</form>
+
+	</div>
+
+	<div class="col-md-6 mb-2">
+		
+		<form id="srch-form" method="POST" action="">
+			{% csrf_token %}
+			<div class="row">
+				<div class="col-md-10">
+		  			<label>Recherche par mot cles :</label>
+					<input type="text" class="form-control" list="datalistOptions" id="srch-motcles" placeholder="Entrer mots cles..."/>
+					<datalist id="datalistOptions">
+					{% for k in mot_cles %}
+					  <option value="{{k}}">
+					{% endfor %}
+					</datalist>
+		  		</div>
+		  		<div class="col-md-1">
+		  			<label>.</label>
+				  	<button type="submit" class="btn btn-secondary"><i class="fas fa-search"></i>
+					</button>
+
+				</div>
+			</div>
+		</form>
+	</div>
+		
+	<div class="card">
+		
+      
+      <div class="card-body">
+      <!--<h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">
+         
+      </p>-->
+      <div class="table-responsive">
+      <table class="table table-condensed">
+  		<thead>
+    		<tr>
+      			<th scope="col">
+        			<div class="form-check">
+			          <input
+			            class="form-check-input"
+			            type="checkbox"
+			            value=""
+			            id="flexCheckDefault"
+			          />
+        			</div>
+      			</th>
+      			<th scope="col">ID</th>
+      			<th scope="col">Niveau</th>
+      			<th scope="col">Matiere</th>
+      			<th scope="col">Description</th>
+      			<th scope="col">Mots-cles</th>
+      			<th scope="col">Auteur</th>
+      			<th scope="col">Date</th>
+      			<th scope="col">Questionnaire</th>
+      			<th scope="col">Géstion</th>
+    		</tr>
+  		</thead>
+  		<tbody id="table-item">
+
+  			{% for q in q_liste %}
+		    <tr>
+		      <th scope="row">
+		        <div class="form-check">
+		          <input
+		            class="form-check-input"
+		            type="checkbox"
+		            value=""
+		            id="flexCheckDefault"
+		          />
+		        </div>
+		      </th>
+
+		      <td>{{q.id_quiz}}</td>
+		      <td>{{q.niveau}}</td>
+		      <td>{{q.matiere}}</td>
+		      <td>{{q.description}}</td>
+		      <td>{{q.mot_cles}}</td>
+		      <td>{{q.auteur}}</td>
+		      <td>{{q.date|date:"D d M Y H : i"}}</td>
+		      <td>
+		      	<a type="button" href="{% url 'manager_add_question' q.id_quiz %}" class="btn waves-effect"><i class="fas fa-upload fa-sm"></i>
+				</a>
+		      </td>
+		      <td>
+				<button value="{{q.id_quiz}}" id="mngbtn" type="button" class="btn waves-effect" data-bs-toggle="modal" data-bs-target="#manageQuiz" data-bs-whatever=""><i class="fas fa-server"></i></button>
+  			  </td>
+
+		    </tr>
+		    {% endfor %}
+		    <div class="modal fade" id="manageQuiz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  		<div class="modal-dialog">
+			    		<div class="modal-content">
+			      			<div class="modal-header">
+			        			<h5 class="modal-title" id="exampleModalLabel"></h5>
+			        			<button type="button" id="close" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      			</div>
+			      			<div class="modal-body">
+			      				<div class="row">
+			      					<div class="col-md-4">
+			      						<a href="" id="mngdelbtn" type="button" class="btn btn-danger"><i class="far fa-trash-alt mx-2"></i> Supprimer</a>
+			      					</div>
+			      					<div class="col-md-4">
+			      						<a id="mngeditbtn" type="button" class="btn btn-secondary"><i class="far fa-edit"></i> Modifier</a>
+			      					</div>
+			      					<div class="col-md-4">
+			      						<a id="mngshowbtn" type="button" class="btn btn-secondary"><i class="fas fa-eye"></i> Visualiser</a>
+			      					</div>
+			      				</div>
+			      				
+			      			</div>
+			      			<div class="modal-footer">
+			      				
+			      			</div>
+			    		</div>
+			  		</div>
+				</div>
+		 </tbody>
+	</table>
+</div>
+      <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+  </div>
+</div>
+
+{% endblock content %}

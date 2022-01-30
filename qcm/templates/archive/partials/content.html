@@ -1,0 +1,90 @@
+{% load static %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4 mb-2">
+		<div class="input-group rounded col-md-4">
+		  	<input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+		  				aria-describedby="search-addon" />
+		  		<span class="input-group-text border-0" id="search-addon">
+		    		<i class="fas fa-search"></i>
+		  			</span>
+		</div>
+	</div>
+	<div class="col-md-3"></div>
+	<div class="col-md-4"> 
+		<span class="mx-2" id="search-addon">
+	    		<i class="fas fa-plus"></i>Import quiz sample</a>
+	  			</span>
+	</div>
+</div>
+
+		
+	<div class="card">
+		
+      
+      <div class="card-body">
+      <!--<h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">
+         
+      </p>-->
+
+      <table class="table">
+  		<thead>
+    		<tr>
+      			<th scope="col">
+        			<div class="form-check">
+			          <input
+			            class="form-check-input"
+			            type="checkbox"
+			            value=""
+			            id="flexCheckDefault"
+			          />
+        			</div>
+      			</th>
+      			<th scope="col">Q. ID</th>
+      			<th scope="col">Sujet</th>
+      			<th scope="col">Type de question</th>
+      			<th scope="col">Niveau</th>
+      			<th scope="col">Question</th>
+      			<th scope="col">Actions</th>
+    		</tr>
+  		</thead>
+  		<tbody>
+
+  			{% for question in data %}
+		    <tr>
+		      <th scope="row">
+		        <div class="form-check">
+		          <input
+		            class="form-check-input"
+		            type="checkbox"
+		            value=""
+		            id="flexCheckDefault"
+		          />
+		        </div>
+		      </th>
+		      <td>{{question.id}}</td>
+		      <td>{{question.matiere}}</td>
+		      <td>{{question.question_type}}</td>
+		      <td>{{question.question_niveau}}</td>
+		      <td>{{question.question_titre}}</td>
+		      <td>
+		      	<span class="px-1" id="search-addon">
+    		<i class="fas fa-eye"></i>
+  			</span>
+  			<span class="px-1" id="search-addon">
+    		<i class="fas fa-pen"></i>
+  			</span>
+  			<span class="px-1" id="search-addon">
+    		<i class="fas fa-times"></i>
+  			</span>
+		      </td>
+		    </tr>
+		    {% endfor %}
+
+  		</tbody>
+	</table>
+      <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+  </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,35 @@
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      	<h4 class="text-center text-secondary"><i class="fas fa-exclamation-circle text-warning"></i> Consignes!</h4>
+      	<p class="text-center"><i class="fab fa-jenkins fa-3x"></i>Quelques consignes avant de passer le quiz.</p>
+      	<div class="row">
+      		
+      		<div class="col-md-12">
+      			<span> <i class="far fa-hand-point-right"></i> Ce quiz possede {{nbr_q}} questions, soit {{cotes}} points par question. Ce qui fait un maxima de {{maxima}} poins.
+      		</div>
+
+      		<div class="col-md-12">
+      			<span> <i class="fas fa-stopwatch"></i> Concernant la duree, vous avez tout votre temps. donc allez y a votre rithme. l'essentiel est de repondre a toutes les questions.
+      		</div>
+
+      		<div class="col-md-12">
+      			<span> <i class="far fa-hand-point-right "></i> Si vous ne connaissez pas la reponse vous pouvez sauter une question...vous aurez alors zero points sur cette question.
+      		</div>
+
+      		<div class="col-md-12 mb-2">
+      			<span> <i class="far fa-hand-point-right"></i> A la fin du quiz vos points serons calculer et enregistrer, vous pourrez alors le retrouves plutard depuis le lien mes cotes.
+      		</div>
+      	</div>
+      	<div class="row">
+      		<div class="col-md-6 col">
+      			{% csrf_token %}
+      			<a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+			</div>
+			<div class="col-md-6 col">
+      			<a type="button" href="{% url 'show_question' indice_question=0 %}" class="btn btn-secondary col-md-11"> Poursuivre <i class="fas fa-arrow-circle-right"></i></a>
+      		</div>
+      	</div>
+      </div>
+</div>

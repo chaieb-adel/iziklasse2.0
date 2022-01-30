@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block title %} {% trans 'Preview Question paper' %} {% endblock title %}
+{% block pagetitle %} {% trans 'Quiz:' %} {{ paper.quiz.description }} {% endblock pagetitle %}
+
+{% block content %}
+<div class="container">
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">{% trans 'Maximum Mark(s):' %} {{ paper.total_marks }}</div>
+            <div class="col-md-6">
+                <span class="pull-right">
+                    {% trans 'Total Time:' %} {{ paper.quiz.duration }} {% trans 'minutes' %}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <div class="card-header">{% trans 'Instructions' %}</div>
+    <div class="card-body" id="instructions">
+        {{ paper.quiz.instructions|safe }}
+    </div>
+</div>
+<br>
+{% for question in questions %}
+    <div class="card">
+        <div class="card-header">
+            <strong> {{forloop.counter}}. {{ question.summary }} 
+            <span class="marks pull-right"> {% trans 'Mark(s):' %} {{ question.points }} </span>
+            </strong>
+        </div>
+        <div class="card-body">
+            <h5><u>{% trans 'Question:' %}</u></h5> <strong>{{ question.description|safe }}</strong>
+            <br/><b>{% trans 'Answer:' %}</b><br/>
+            {% if question.type == "code" %}
+                <div class="card"><pre>{{ question.snippet }}</pre><br/></div>
+            {% endif %}
+            {% if question.type == "mcq" or question.type == "mcc" %}
+                <h5> <u>{% trans 'Choices:' %}</u></h5>
+                {% for testcase in question.get_test_cases %}
+                <br/><strong>
+                {{ forloop.counter }}. {{ testcase.options|safe }}</strong>
+                {% endfor %}
+            {% endif %}
+            
+        </div>
+    </div>
+    <br>
+{% endfor %}
+</div>
+{% endblock %}

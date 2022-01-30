@@ -1,0 +1,24 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% if micromanagers %}
+<hr>
+<div class="row">
+    {% for micromanager in micromanagers %}
+    {% if micromanager.attempts_permitted > 0 %}
+             <div class="col-md-8">
+               <p> {% trans 'You have been given a special attempt to the' %}  {{ micromanager.quiz.description }} {% trans 'by the course creator' %}</p>
+             </div>
+             <div class="col-md-3">
+            {% if micromanager.can_student_attempt %}
+               <a class="btn btn-success" href="{% url 'yaksh:special_start' micromanager.id %}">
+                {% trans 'Start Special Attempt' %}
+               </a>
+            {% else %}
+                <span class="badge badge-warning badge-pill">{% trans 'Exhausted' %}</span>
+            {% endif %}
+             </div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text><![CDATA[<infos><name>Chapitre 7: Racine carrée</name><answernumbering>123</answernumbering><niveau>4EME</niveau><matiere>MATHEMATIQUES</matiere></infos>]]></text>
+		</category>
+	</question>
+	<question type="matching">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<subquestion>
+			<text><![CDATA[6 x 6 ]]></text>
+			<answer>
+				<text><![CDATA[36]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[11 x 11]]></text>
+			<answer>
+				<text><![CDATA[121]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[8 x 8]]></text>
+			<answer>
+				<text><![CDATA[64]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[4 x 4 ]]></text>
+			<answer>
+				<text><![CDATA[16]]></text>
+			</answer>
+		</subquestion>
+		<shuffleanswers>true</shuffleanswers>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAVAQMAAABbtd0DAAAAA1BMVEX///+nxBvIAAAADElEQVR4nGNgIBYAAAAqAAFi4XRDAAAAAElFTkSuQmCC" alt="\sqrt{25} = ..." data-latex="\sqrt{25} = ..."><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAYBAMAAACipgb5AAAAHlBMVEX///8BAQF9fX3f399ISEhaWlq+vr4XFxeQkJCjo6MvAUwcAAAAuUlEQVR4nGNgGEDAIggHApSblkGcsgCiVLE1EKWMFahSyYOBVVDEAJ8yoNMsGMwVmGYkEHJauwFTARNhp6UwMAkwzdTAqWYG2GlAwBLAZMAyAexUFyBA9TxnOCzUzIHOZ3LAZRp7AwNEzhmIOXBGFVMBJNRYDRimQ5UxhQKBAqoy5koWMK3MMGEqHksZ1MFOY+qcGWDBwJ6ALGNiAIFgjmEBiJwoKBjAphGGYoB5AgSCOawNOC0aCgAA/vMcPTND7+IAAAAASUVORK5CYII=" alt="\sqrt{25}~=~...." data-latex="\sqrt{25}~=~...."></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[5]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><div style="font-family: Arial; font-size: 13px;">Un carré a une aire de 81 cm². <br>Combien mesure son côté (en cm) ?</div></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[9]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[9 cm]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[9 centimètres]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[9 centimètre]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAYBAMAAACfNGefAAAAHlBMVEX///+SkpIAAABRUVE6Ojp5eXnY2NgaGhq8vLympqYtSqOVAAAAr0lEQVR4nGNgGHDArIQCFCg3sZFYhQZEquMQIFIhMwMD4xSQ4mQoxgVATmQBKTSBYlzAAKqQMwSC8ToRpDBDBIKxgolgJ0IUCohAMBAwGgMBcmBwhkNDEaiQkUEEjLEDdgFIKAIVtgEVteFUyFoACUWgwtBQ9zAQxmo1A4Mm2ImQ4AmBYqwgvBGfwpQE5gnME8DMpAKwVUGuDQysRWFgjATSG9gF2CExzEpsRA92AADDMhkxPBqjvQAAAABJRU5ErkJggg==" alt="\sqrt{144}=..." data-latex="\sqrt{144}=..."></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[12]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAYBAMAAADAJejWAAAAHlBMVEX////39/dWVlaSkpIBAQG4uLh4eHgXFxfi4uI8PDwXHNINAAABVElEQVR4nN2TQUvDMBTH/21Z3W5hiLu2ijhvBWVlx6EMj2WV9VqYrHjb2BcoWNYPoAw/rsl72axuCT0vgTTt++fX/8tLgLNpvedDm/yPVb+x3AhwLHDRxkFqiYVtABZRJ2qx3iZy26QgRd44gvewPFbL7NIY2Ka3FoDagl6EOrkIjmIquwx4x2NpBoQMABjgyPe+9kLZZWr2agaQiAAZi2bA3jBtgQI4O7N9EinA/FsTAzfRTqjACjDOKdS/lq25596dYBE5qBP+Olqo8WOjC0wp3BscDCIWEcBdaeMBPWLBBSZAZai1v2aRBIyF/9J0IOF8CiTgE5fByRTgbFgkAUXpTpp7AH/FZzxDd4oqN+RQsEgC5hiwaF+F7lOoARgiLpurZkJ1mlZrNXpvu6SzuGFTh3NQkNnt1xJXo+Gf38ZCdZq6JHJO3ttaf7Ndd2vQuvBM2g+wxDK2fPyGWwAAAABJRU5ErkJggg==" alt="\sqrt{13}\times\sqrt{13}=..." data-latex="\sqrt{13}\times\sqrt{13}=..."></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[13]]></text>
+			<feedback>
+				<text><![CDATA[La racine carrée de 13 est le nombre qui multiplié par lui-même donne 13 !]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family:Arial;font-size:13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAYBAMAAADAJejWAAAAHlBMVEX////29vYAAACBgYGcnJxLS0u7u7tcXFwZGRng4OCkQHKeAAABbElEQVR4nN1UTUvDQBB9IU3S3Bak2KPEKvQWaIQcg02h3izSe7D141iNSr21KoK3UgTzc53sbOwXWXPubMgmO29f5s3sBNgbs7w/O9r2LVe+SSmBoSEXVSIYaXyDKgQakO1X2E+gUVmklsDrvwQEOve8Nka9aMdH6t7y9HXONMkgUBB3fXti7xIMYDzFvYWVHCzKCSgFEUw0FcSg94b6HqlzE9yip1PAebrA9bjDC3fAy0odMfq4issyMVYg10eYOCzBnjhJvu9BFdgUxgkyGVNjSLYutDYVDHIWeBS1Ga92g/z+/a4K/AP3GPX1bWvWjBiUASHstgr8Uk6hYHUBjBbqJQfZnDOon18FAUdA5FIdPoEPRXC4LYG4GfRMbVNIUDmAOZPq3FMgLZWAkBthSIFHFoOKKrgtqc4mgnuRbRykG5EP+bicyymlYFIu4+ocTKU694uSnW6WsS/yIR8dTbdkVXpZ9y/Q+fbFfgHWLjp7Gd9VAwAAAABJRU5ErkJggg==" alt="\sqrt{76}\times\sqrt{76}=..." data-latex="\sqrt{76}\times\sqrt{76}=..."></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[76]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quel encadrement est correct ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAYBAMAAAAVG/7eAAAAHlBMVEX///8AAACHh4dGRkbg4OBmZmahoaHOzs68vLwdHR3gYV2xAAABC0lEQVR4nGNgGILAUBAOaGsRhwIZmpjJsamJsJIgJXQRAwYGNSMGBtckBWRRFjVxMAa7JYEpACLa3AChwV4CajJhCIPrUAUR4lDMwNDowCIAZhSrQBWAvWTEwDGBoROmR7kBVVOiA4sEWE8IipeMGJgMGAodkPUgaXIsYBcDUqUQPWwJYC+BNLEaAOWQ9SBpYg1gAmpyhdqTOgEaS0YMzDBNyVA9SJoYktSRNDFMgsYSkk3JCZiaGNhFEM5j0ITGErKfsDivgQnsCaguxwQDBnjoZaIEHpImzgZPiHmQIGedoQDVxDAdEU/oQc6hFA6VKQbJsEhCAkRYAyVFgCJXVVgFjLGAIGyCwx8AAOYzKrlPdYrYAAAAAElFTkSuQmCC" alt="9<\sqrt{10}<11" data-latex="9<\sqrt{10}<11"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAYBAMAAABuPzwSAAAAHlBMVEX///9/f3+Wlpa6urre3t4BAQFiYmJOTk4nJyc6OjqnV9/QAAABDUlEQVR4nN2Rv27CMBDGP5IogS0EWhidBVZ3QDCCKkJGxB8JVoSY8whA+wAlat+3tu8ChiIkhg5wg2Nfvp8/3x3wIPEzP8b/GLjiTiC41+Httn/U6F+kMiDKgUEsLqShXiuhv6VzV1p5BXxjddS+6iUN6cBAt84/TQk53C16hb5h7mozkMozPZWQo5RheKZ3RgQM9nodkV53NCPAVwBV16a3vgfsUFbfhO9vjbm0HIECpKWHKABnpoA1u094CpYDAw4ISKU7wYlo8hSoBvtJSbV50OeOdKZWEUOR4U+X2KNiHHwEX1ZbSx+CAXye5kBtIsCLNpw1g/MWZh8va0hiUQBmcN7LDldidS35XPELtU8ogZ3BjgoAAAAASUVORK5CYII=" alt="3<\sqrt{10}<4" data-latex="3<\sqrt{10}<4"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAYBAMAAABuPzwSAAAAHlBMVEX////39/cAAACYmJhERES7u7tgYGCAgIDd3d0hISHj8x/oAAABJklEQVR4nNWSu27CUAyGf9QmMEaUJ0As3VJUEUZuEoyoQiC2hqhqRy6Fli1CIqwFhOBxOcd2SMLQNlNVR3IS+/9i+zjAP7FG8WK/A6yUBYxxSsBMW2HwQ75wHXCBWRPYOHYivCu6/DCVDnpdvtMICujAC7WZhXJeVfJlBnoTyd5aBBhfGIb6d/2t8CjuVgT0PxMjNJGtgTOih1fhFh4oHLDeUG3XGTCfsfJJ/8hCN3Miia8B0aOylS0wQErRK2trt6bCwZt0u+cRNFCTChHQ0s75GM0QEUuLtxCbQVpSFVuseaKwNJW36wJEp8SEaeMYB9CnY80exgKoEcM90DEZ3dyW3m4aLxymxeXuCXdKcwTRpmlxg4XPL+qK2St5Kxn8ztL+qX9vZ88tNice/dnHAAAAAElFTkSuQmCC" alt="4<\sqrt{10}<5" data-latex="4<\sqrt{10}<5"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un carré a une aire de 40cm².<br>Combien mesure son côté (en cm) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>false</single>
+		<answer fraction="100" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAYBAMAAABU74NhAAAAHlBMVEX////29vYBAQGVlZVTU1PV1dV4eHg1NTW4uLgcHBzLYrS9AAAA50lEQVR4nGNgoANgUYIDBSzSjPh1N+OXdsQry2GA32UCQCKEgTXZGLfV7gzsASxYjQFZzZzO0M7AUQCyyqU4vLQyojIA2eoIc4YUBlZFIMtcIIytTLxMMgFqMMhqRgNzBhcGVlUGEBZldwBCkCbmTAGw1cwCMGm2CQwMnAacBkwNIN2SBmCrWxlg0iwODAxCAUIBQWC72SaCrU5Lq0yF2A2SbhIAQrC7GJXBvmZgSGfoZOAAGsw8ldXAksESyAeDTGiApzOIg/3N6DlNIAXoC0+w3QxBhWBKbFIq1lCDhhSuOCUQ1zQDAK9pJYDLFmEJAAAAAElFTkSuQmCC" alt="\sqrt{40}cm" data-latex="\sqrt{40}cm"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">10 cm</div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">20 cm</div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quel encadrement est correct ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>false</single>
+		<answer fraction="100" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAYBAMAAABuPzwSAAAAHlBMVEX////39/cBAQGBgYFISEicnJy8vLzh4eFlZWUbGxs2biwLAAABMklEQVR4nNWSwU6DQBCGf6Sw9NY0+gIbjfaGipHeFuMDYCuGI7Z4J2qMRxITjUfTaF/X7sxuBdNDORkngVmW/9+Zb3eBfxIXch3bGQYdC/hhR0Ova4X5xln31gwe8vrXr2T1CIV5lLbqSjnSWSTCtFwWnAmhp0QqFlbsxECQZa96HNhlyuMmwlR5S7xbfbRay4Mg6TDLibE8byL4d8pPcNLQawoSzkJPaf0bt5Mywh5NXrb0uKH3pBCHwDPrkX8wwpU2iCXNXRs9FL1nlXPwY3A+CcGvtGG3YoOh9NlwT4a1YzzQCMFptChgFzElgppSn1oCHhl6mCYMqOBWXgu6z9vv1l7d2Fb3K7SGsyxvbit2zHnFsbk6dHBiRF/O+OhJyn1YR0y9YFO8cNr+/nW9qX8f3+MlMLkX1cIeAAAAAElFTkSuQmCC" alt="6<\sqrt{42}<7" data-latex="6<\sqrt{42}<7"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAAYBAMAAAAGzL4qAAAAHlBMVEX///97e3tISEiVlZXf398BAQFjY2MdHR3CwsKvr699tKo2AAABPUlEQVR4nOWTv0vDQBTHv8kdJbddqjG4xaHOp2LmLK3NqBBcC1rEzWAQuzUpOotDwf/W3E+SQEE6OOgbLpd3+Xzf970jwB+ISeHidwoGYk/Q37di/SNxlibDpEzQBerxwDLjuEgXen8JeBZs1voZcKmYUEFLx5zL5YrTFV70Nx2wOXQu2jhLSIXYcp+qdioVNUimDnQcNlJxkwQJoh7HZi0YVCojHPiuOSZ0i4TI9bTLYT7iCGLVD8ssODP1tk/6FoUEjXpjZiRaEPRVbnM48N64elYtskyCftYFCSSIBzWBcHlsrNqSsWrRC8flGlZMW52F8UleIdJqb244psmp0K9t1stIj4TPRxWWGIBmrN5KWPDga4se6fP2ivXdkskji8sPQ8qB0Vtj+Tovihs4Uh5FJeqjnT/A3a6D/xXfYA0y4PwUOz8AAAAASUVORK5CYII=" alt="41<\sqrt{42}<43" data-latex="41<\sqrt{42}<43"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAYBAMAAABuPzwSAAAAHlBMVEX///++vr6Dg4Obm5sBAQHf399paWlQUFAeHh4/Pz82kfSGAAABIklEQVR4nN1SPU/DMBB9juWEblEZukYpBNgMkdIVpAg6BgnxsSEQArZIDKxtUXYP/GDi8zmYCiF1YICTHFuX9+7eOxv4I/FeD/E7DUS2ISHZtMP4x7+ynqdrqbZfqsX4WX9FTpe0lR4/4YPIrCyjtFoN4KJfOQ6J0Hj8Lh/IwpGRHZ48fq+vpRbcqCwc/iG0ILaNMNgJ8IhfKpIg0+j2Ey+0syCl6b+vAR6jDh1rPgauuH61cBa0JSgHmDlvWwaPTDgBLr2gN7IgGktInL2ZG9aodZ6uU0sYWuyThTg/WKXwRVyLhAk3jZU0MC50S3tkEDUyNC1ZUoQkC8YaLzNPmJZVOFawaZXfc5YuTs1Z2ul5XZ95Al3cpFh/EhR33yX/V3wAocEqyhcsL/wAAAAASUVORK5CYII=" alt="5<\sqrt{42}<6" data-latex="5<\sqrt{42}<6"></div>]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">AB est la longueur du segment [AB].</div><div style="font-family: Arial; font-size: 13px;"><br>On a AB² = 100 cm, quelle est la longueur du segment [AB] (en cm) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>0</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[10 cm]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[10]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[10 centimètre]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[10 centimètres]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>

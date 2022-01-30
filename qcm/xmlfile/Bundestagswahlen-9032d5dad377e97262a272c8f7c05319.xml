@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text><![CDATA[<infos><name>Bundestagswahlen </name><answernumbering>123</answernumbering><niveau>TERMINALE</niveau><matiere>ALLEMAND</matiere></infos>]]></text>
+		</category>
+	</question>
+	<question type="cloze">
+		<name>
+			<text><![CDATA[Wer bin ich ? ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><span>Ich bin eine Frau und habe 16 Jahre lang Deutschland regiert: ich bin {:SHORTANSWER:%100%Angela Merkel#}</span></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Wer bin ich?]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Auch ich war 16 Jahre lang Bundeskanzler</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Helmut Kohl]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Helmut Schmidt]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Konrad Adenauer]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Willy Brandt]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Wähle die richtige Antwort!]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Wie lange dauert das Mandat eines Bundeskanzlers bzw. einer Bundeskanzlerin?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[4 Jahre]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[6 Jahre]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[8 Jahre]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>

@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text>
+				<![CDATA[<infos><name>Les verbes irréguliers</name><answernumbering>123</answernumbering><niveau>3EME</niveau><matiere>ANGLAIS LV1</matiere></infos>]]>
+			</text>
+		</category>
+	</question>
+	<question type="shortanswer">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme prétérit de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Bear</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Bore]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="shortanswer">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme prétérit de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Drive</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Drove]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="shortanswer">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme prétérit de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Foresee</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Foresaw]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="shortanswer">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme prétérit de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Hurt</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Hurt]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="shortanswer">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme prétérit de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Lose</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Lost]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme Participe Passé de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Begin</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Began]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Begin]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Beginned]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Begun]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme Participe Passé de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Choose</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Choose]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Choosed]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Choosen]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Chose]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Chosen]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme Participe Passé de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Grow</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Grew]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Grewn]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Grow]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Grown]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme Participe Passé de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Put</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Pit]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Punt]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Put]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Putted]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[Quelle est la forme Participe Passé de...]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;">Shoot</div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Shooted]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text>
+				<![CDATA[Shot]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text>
+				<![CDATA[Shut]]>
+			</text>
+			<feedback>
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="cloze">
+		<name>
+			<text>
+				<![CDATA[Complétez le texte suivant en conjuguant les verbes au Prétérit et au Participe passé]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;"><p><span>Alice</span><span> (to be) </span>{:SHORTANSWER:%100%was#} beginning to get very (to tire) {:SHORTANSWER:%100%tired#} of sitting by her sister on the bank, and of having nothing to do: once or twice she (to have peeped) {:SHORTANSWER:%100%had peeped#} into the book her sister was reading, but it (to have) {:SHORTANSWER:%100%had#} no pictures or conversations in it, "and what is<span> </span><span id="2" class="pagenum ws-pagenum" title="Page:Lewis_Carroll_-_Alice%27s_Adventures_in_Wonderland.djvu/22" data-page-number="2"></span>the use of a book," (to think) {:SHORTANSWER:%100%thought#} Alice, "without pictures or conversations?"</p><p>So she was considering in her own mind, (as well as she could, for the hot day (to make) {:SHORTANSWER:%100%made#} her feel very sleepy and stupid,) whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a white rabbit with pink eyes (to run) {:SHORTANSWER:%100%ran#} close by her.</p></div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+	<question type="cloze">
+		<name>
+			<text>
+				<![CDATA[Complétez le texte suivant en conjuguant les verbes au Prétérit et au Participe passé]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;"><p>In another moment down (to go) {:SHORTANSWER:%100%went#} Alice after it, never once considering how in the world she (to be) {:SHORTANSWER:%100%was#} to get out again.</p><p>The rabbit-hole went straight on like a tunnel for some way, and then (to dip) {:SHORTANSWER:%100%dipped#} suddenly down, so suddenly that Alice (to have) {:SHORTANSWER:%100%had#} not a moment to think about stopping herself before she (to find) {:SHORTANSWER:%100%found#} herself falling down what (to seem) {:SHORTANSWER:%100%seemed#} to be a very deep well.</p></div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+	<question type="cloze">
+		<name>
+			<text>
+				<![CDATA[Complétez le texte suivant en conjuguant les verbes au Prétérit et au Participe passé]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;"><span>First, she (to try) {:SHORTANSWER:%100%tried#} to look down and make out what she (to be) {:SHORTANSWER:%100%was#} coming to, but it was too dark to see anything: then she (to look) {:SHORTANSWER:%100%looked#} at the sides of the well, and (to notice) {:SHORTANSWER:%100%noticed#} that they (to be filled) {:SHORTANSWER:%100%were filled#} with cupboards and book-shelves: here and there she (to see) {:SHORTANSWER:%100%saw#} maps and pictures (to hang) {:SHORTANSWER:%100%hung#} upon pegs.</span></div><div style="font-family: Arial; font-size: 13px;"><span>She (to take) {:SHORTANSWER:%100%took#} down </span><span id="4" class="pagenum ws-pagenum" title="Page:Lewis_Carroll_-_Alice%27s_Adventures_in_Wonderland.djvu/24" data-page-number="4"></span><span>a jar from one of the shelves as she (to pass) {:SHORTANSWER:%100%passed#}; it (to be labelled) {:SHORTANSWER:%100%was labelled#} "ORANGE MARMALADE," but to her great disappointment it was empty: she (to do) {:SHORTANSWER:%100%did#} not like to drop the jar for fear of killing somebody underneath, so (to manage) {:SHORTANSWER:%100%managed#} to put it into one of the cupboards as she (to fall) {:SHORTANSWER:%100%fell#} past it.</span></div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+	<question type="cloze">
+		<name>
+			<text>
+				<![CDATA[Complétez le texte suivant en conjuguant les verbes au Prétérit et au Participe passé]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;"><span>She (to feel) {:SHORTANSWER:%100%felt#} that she was dozing off, and (to have just began) {:SHORTANSWER:%100%had just begun#} to dream that she was walking hand in hand with Dinah, and was saying to her very earnestly, "Now, Dinah, tell me the truth: (to do) {:SHORTANSWER:%100%did#} you ever eat a bat?" when suddenly, thump! thump! down she (to come) {:SHORTANSWER:%100%came#} upon a heap of sticks and dry leaves, and the fall was over.</span></div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+	<question type="cloze">
+		<name>
+			<text>
+				<![CDATA[Complétez le texte suivant en conjuguant les verbes au Prétérit et au Participe passé]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[<div style="font-family: Arial; font-size: 13px;"><p>She (to find) {:SHORTANSWER:%100%found#} herself in a long, low hall, which (to be lit up) {:SHORTANSWER:%100%was lit up#} by a row of lamps hanging from the roof.</p><p>There (to be) {:SHORTANSWER:%100%were#} doors all round the hall, but they (to be all locked) {:SHORTANSWER:%100%were all locked#}; and when Alice (to have been) {:SHORTANSWER:%100%had been#} all the way down one side and up the other, trying every door, she (to walk) {:SHORTANSWER:%100%walked#} sadly down the middle, wondering how she was ever to get out again.</p></div>]]>
+			</text>
+		</questiontext>
+		<externallink></externallink>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+	</question>
+</quiz>

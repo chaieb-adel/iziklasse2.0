@@ -1,0 +1,199 @@
+<!--if home-->
+{% load my_templatetags %}
+{% if start_quiz %}
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      	<h4 class="text-center text-secondary"><i class="fas fa-exclamation-circle text-secondary"></i> Simulation de passation d'un quiz</h4>
+      	<p class="text-center">Cette interface de visualisation a etait fait pour vous donnez une vue eleve directement depuis votre compte administrateur, il s'agit d'une simulation.
+      	Quand vous etes pret clicker sur commencer ! Bonne chance quand meme :-) .</p>
+      	<div class="row">
+      		<div class="col-md-3 col">
+      			{% csrf_token %}
+      			<a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+			</div>
+			<div class="col-md-5"></div>
+			<div class="col-md-4 col">
+      			<a type="button" href="{% url 'show_question' 1 %}" class="btn btn-secondary col-md-11"> Commencer le quiz <i class="fas fa-arrow-circle-right"></i></a>
+      		</div>
+      	</div>
+      </div>
+</div>
+{% elif end_quiz %}
+<div class="card mt-3">
+    
+      
+      <div class="card-body">
+        <h4 class="text-center text-secondary"><i class="fas fa-exclamation-circle text-secondary"></i> Bravoo! vous avez fini la simulation.</h4>
+        <p class="text-center">Vous pouvez recomencer ou retourner a l'acceuil pour visualiser un autre quiz</p>
+        <div class="row">
+          <div class="col-md-3 col">
+            {% csrf_token %}
+            <a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+      </div>
+      <div class="col-md-5"></div>
+      <div class="col-md-4 col">
+            <a type="button" href="{% url 'show_question' 1 %}" class="btn btn-secondary col-md-11"> Commencer le quiz <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+</div>
+{% else %}
+<!----/////----->
+
+
+<div class="row">
+<div class="card col-md-4" style="padding: 0px;">
+		
+      
+      <div class="card-body">
+      	<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Questionnaire !</h5>
+    <div>
+      {% for q in total_question %}
+    	<button type="button" class="btn btn-light mb-1">{{ forloop.counter }}</button>
+    	{% endfor %}
+
+
+    
+  </div>
+</div>
+      		</div>
+      	<div class="row">
+      		<div class="col-md-12 col">
+      			{% csrf_token %}
+      			<a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+			</div>
+      		
+      	</div>
+      </div>
+</div>
+<div class="card col-md-8">
+	<div class="card border-success mb-3">
+  <div class="card-header bg-transparent border-success">Question {{current}} /{{nombre_of}} {{question_name}}</div>
+  <div class="card-body text-success">
+  	<div class="row">
+<!------------------------------------------------->
+      {%if question_image %}
+  		<div class="col-md-8">
+      {% else %}
+      <div class="col-md-10">
+      {% endif %}
+        {% if question_type == "multichoice" %}
+
+  			<h5 class="card-title">Q: {{question_titre}}</h5>
+    		<p class="card-text">
+          {% if choix_unique %}
+            <input type="hidden" name="choix_unique">
+            {% for r in reponses %}
+      			 <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r.answer_text}}</button>
+            {% endfor %}
+
+    			{% elif choix_multiple %}
+            <input type="hidden" name="choix_multiple">
+            {% for r in reponses %}
+             <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r.answer_text}}</button>
+            {% endfor %}
+          {% else %}
+            <input type="hidden" name="choix_unique">
+            {% for r in reponses %}
+             <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r.answer_text}}</button>
+            {% endfor %}
+          {% endif %}
+    		</p>
+
+        {% elif question_type == "cloze" %}
+          <!---le reponse est dans la question -->
+          <h5 class="card-title">Q:
+
+            {% for bribe in question %}
+              {{bribe}}
+              {% if forloop.counter < question|length %}
+
+                {% if short_answer %}
+                <!---l'attribut name contient la bonne reponse-->
+                <input type="text" style="width:30%;" name="{{answer_liste|index_liste:rep_indice}}" value="" class="d-inline-block m-1">
+                {% else %}
+                <!---le case a selection-->
+                <select style="width:30%;height:30px" id="Select" class="form-select d-inline-block m-1">
+                  <option></option>
+                  {% for ans in answer_liste|index_liste:forloop.counter %}
+                  <option value={{ans.fraction}}>{{ans.text}}</option>
+                  {% endfor %}
+                </select>
+                {% endif %}
+                
+
+              {% endif %}
+            {% endfor %}
+
+        </h5>
+        {% elif shortanswer %}
+          <h5 class="card-title">Q: {{question_titre}}</h5>
+          <p class="card-text">
+             <!--<button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r}}</button>-->
+             <input type="text" style="width:30%;" name="{{reponses|index_liste:1}}" value="" class="d-inline-block m-1">
+          </p>
+        {% elif matching %}
+          <h5 class="card-title">Q: {{question_titre}}</h5>
+          <p class="card-text">
+            <div class="row">
+              <div class="col-md-6">
+            {% for r in reponses %}
+             <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-8 mb-1">{{r}}</button>
+            {% endfor %}
+            </div>
+            <div class="col-md-6">
+              {% for r in reponses %}
+             <div style="height: 25px" data-drop-target="true" fraction="{{r.answer_fraction}}" class="col-md-6 border border-info btn-sm text-center text-secondary mt-1 mb-2"></div>
+            {% endfor %}
+            </div>
+            <div class="row">
+              {% for r in reponses %}
+              <div id="dragable" style="height: 25px" draggable="true" class="col-md-3 bg-light m-1">{{r.answer_fraction}}</div>
+          
+              {% endfor %}
+            </div>
+          </div>
+        </p>
+        {% else %}
+
+        <h5 class="card-title">Q: {{question_titre}}</h5>
+          <p class="card-text">
+            {% for r in reponses %}
+             <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r}}</button>
+            {% endfor %}
+        </p>
+
+        {% endif %}
+  		</div>
+<!--------------------------//----------------->
+  		{%if question_image %}
+      <div class="col-md-4">
+      {% else %}
+      <div class="col-md-2">
+      {% endif %}
+  		<div class="row">
+        <div class="col-md-12">
+          {% if question_image %}
+            <img style="width: 50%" src="{{MEDIA_URL}}{{question_image}}"/>
+          {% endif %}
+        </div>
+        <div class="col-md-12">
+          <a href="{{question_link}}">{{question_link}}</a>
+        </div>  
+      </div>
+  		</div>
+  	</div>
+    
+  </div>
+  <div class="card-footer bg-transparent border-success">
+  	<button type="button" class="btn btn-success">Je valide ma reponse</button>
+  	<a href="{% url 'show_question' next_q %}" type="button" class="btn btn-warning">Je saute la question</a>
+  </div>
+</div>
+</div>
+</div>
+{% endif %}

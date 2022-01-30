@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text><![CDATA[<infos><name>H2 Descolonizacion</name><answernumbering>123</answernumbering><niveau>TERMINALE</niveau><matiere>HISTOIRE-GEOGRAPHIE</matiere></infos>]]></text>
+		</category>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Qué desafíos políticos internos enfrentan los nuevos países descolonizados?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>false</single>
+		<answer fraction="20" format="plain_text">
+			<text><![CDATA[Construir estructuras administrativas viables]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="20" format="plain_text">
+			<text><![CDATA[Definir las fronteras en países que no son homogéneos]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="20" format="plain_text">
+			<text><![CDATA[Enfrentarse a divisiones internas]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="20" format="plain_text">
+			<text><![CDATA[Enfrentarse a guerras civiles]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="20" format="plain_text">
+			<text><![CDATA[Instalar la democracia]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿En qué continente se sitúan los tres cuartos de las guerras civiles o militares desde 1950?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[África]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="matching">
+		<name>
+			<text><![CDATA[III. La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿En qué países, estos líderes políticos jugaron un papel mayor? </span></p><p style="text-align: justify;"><span style="font-size: 12.0pt;">Asocia un líder a un país </span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<subquestion>
+			<text><![CDATA[Jawaharlal Nehru]]></text>
+			<answer>
+				<text><![CDATA[India]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[Habib Bourguiba]]></text>
+			<answer>
+				<text><![CDATA[Tunez ]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[Houari Boumédiène]]></text>
+			<answer>
+				<text><![CDATA[Argelia ]]></text>
+			</answer>
+		</subquestion>
+		<subquestion>
+			<text><![CDATA[Leopoldo Sedar Senghor]]></text>
+			<answer>
+				<text><![CDATA[Senegal]]></text>
+			</answer>
+		</subquestion>
+		<shuffleanswers>true</shuffleanswers>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Dentro de estos países, ¿Cuál no conoció una vía pacífica a la democracia?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[India]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Senegal]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Túnez]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Zaire ]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Cuál es la fecha de la Primavera Árabe? ¿En qué año?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[2011]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Dónde se juntan por primera vez los países qué proclaman que un tercer mundo es posible? pais/ciudad<br></span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>false</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Argel]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="50" format="plain_text">
+			<text><![CDATA[Bandung]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[India]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="50" format="plain_text">
+			<text><![CDATA[Indonesia]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Yakarta]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Yugoslavia]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿La expresión “tercer mundo” es formada en 1952 por el sociólogo francés que se llama…?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Alfred Sauvy]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Laurent Carroué]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[René Dumont]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Cuál es la primera conferencia de los países no-alineados?</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Argel en 1973]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Bandung (Indonesia) en 1955]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Belgrado (ex Yugoslavia) en 1961]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La Habana (Cuba), en 1979]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p style="text-align: justify;"><span style="font-size: 12.0pt;">¿Cuál es el nombre del activista sudafricano condenado a prisión en 1964, liberado en 1990, y premier presidente de Sudáfrica, tras el abandono del Apartheid?</span></p><p style="text-align: justify;"><span style="font-size: 12.0pt;">Apellido en minúscula</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[mandela]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="numerical">
+		<name>
+			<text><![CDATA[La emergencia del Tercer Mundo: desafíos múltiples ]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;"><p><span style="font-size: 12.0pt;">¿A qué noción corresponde la definición siguiente? : </span></p><p><span style="font-size: 12.0pt;">política de dominación de las antiguas potencias coloniales y de los EEUU hacia las antiguas colonias, en los ámbitos militares, económicos, financieros, políticos.</span></p></div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<editeur>0</editeur>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[neocolonialismo]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>

@@ -1,0 +1,89 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: email_host_user\n"
+"POT-Creation-Date: 2021-07-31 18:54:41\n"
+"PO-Revision-Date: 2021-07-31 18:54:41\n"
+"Last-Translator: Server <root@localhost>\n"
+"Language-Team: English <email_host_user>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:8
+msgid "About the grading system!"
+msgstr "A propos du système de notation!"
+
+#: grades/templates/grading_systems.html:33
+msgid "Add a Grading System"
+msgstr "Ajouter un système de notation"
+
+#: grades/templates/add_grades.html:24
+#: grades/templates/grading_systems.html:19
+msgid "Add/Edit Course"
+msgstr "Ajouter/Modifier un cours"
+
+#: grades/templates/add_grades.html:6 grades/templates/add_grades.html:7
+msgid "Add/Edit Grading"
+msgstr "Ajouter/Modifier une notation"
+
+#: grades/templates/add_grades.html:29
+#: grades/templates/grading_systems.html:24
+msgid "Add/View Grading Systems"
+msgstr "Ajouter/afficher des systèmes de notation"
+
+#: grades/templates/grading_systems.html:36
+msgid "Available Grading Systems:"
+msgstr "Systèmes de classement disponibles :"
+
+#: grades/templates/grading_systems.html:53
+#: grades/templates/grading_systems.html:82
+msgid "Description"
+msgstr "La description"
+
+#: grades/templates/grading_systems.html:52
+#: grades/templates/grading_systems.html:81
+msgid "Grade"
+msgstr "Noter"
+
+#: grades/templates/grading_systems.html:40
+msgid "Grading Ranges"
+msgstr "Échelles de notation"
+
+#: grades/templates/grading_systems.html:39
+msgid "Grading System"
+msgstr "Système de notation"
+
+#: grades/templates/grading_systems.html:50
+#: grades/templates/grading_systems.html:79
+msgid "Lower Limit"
+msgstr "Limite inférieure"
+
+#: grades/templates/add_grades.html:19
+#: grades/templates/grading_systems.html:14
+msgid "My Courses"
+msgstr "Mes cours"
+
+#: grades/templates/add_grades.html:42
+msgid ""
+"Note: For grade range lower limit is inclusive and upper limit is exclusive"
+msgstr ""
+"Remarque : Pour la plage de niveaux, la limite inférieure est inclusive et "
+"la limite supérieure est exclusive"
+
+#: grades/templates/add_grades.html:113
+msgid "Note: This is a default grading system. You cannot change this."
+msgstr ""
+"Remarque : Il s'agit d'un système de notation par défaut. Vous ne pouvez pas"
+" changer cela."
+
+#: grades/templates/grading_systems.html:51
+#: grades/templates/grading_systems.html:80
+msgid "Upper Limit"
+msgstr "Limite supérieure"
+
+#: grades/templates/add_grades.html:38 grades/templates/grading_systems.html:4
+#: grades/templates/grading_systems.html:5
+msgid "View Grading Systems"
+msgstr "Voir les systèmes de notation"

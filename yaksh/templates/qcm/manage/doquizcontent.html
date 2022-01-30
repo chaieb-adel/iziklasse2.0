@@ -1,0 +1,323 @@
+<!--if home-->
+{% load my_templatetags %}
+{% if start_quiz %}
+<div class="card mt-3">
+		
+      
+      <div class="card-body">
+      	<h4 class="text-center text-secondary"><i class="fas fa-exclamation-circle text-secondary"></i> Simulation de passation d'un quiz</h4>
+      	<p class="text-center">Cette interface de visualisation a etait fait pour vous donnez une vue eleve directement depuis votre compte administrateur, il s'agit d'une simulation.
+      	Quand vous etes pret clicker sur commencer ! Bonne chance quand meme :-) .</p>
+      	<div class="row">
+      		<div class="col-md-3 col">
+      			{% csrf_token %}
+      			<a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+			</div>
+			<div class="col-md-5"></div>
+			<div class="col-md-4 col">
+      			<a type="button" href="{% url 'show_question' 1 %}" class="btn btn-secondary col-md-11"> Commencer le quiz <i class="fas fa-arrow-circle-right"></i></a>
+      		</div>
+      	</div>
+      </div>
+</div>
+{% elif end_quiz %}
+<div class="card mt-3">
+    
+      
+      <div class="card-body">
+        <h4 class="text-center text-secondary"><i class="fas fa-exclamation-circle text-secondary"></i> Bravoo! vous avez fini la simulation.</h4>
+        <p class="text-center">Vous pouvez recomencer ou retourner a l'acceuil pour visualiser un autre quiz</p>
+        <div class="row">
+          <div class="col-md-3 col">
+            {% csrf_token %}
+            <a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+      </div>
+      <div class="col-md-5"></div>
+      <div class="col-md-4 col">
+            <a type="button" href="{% url 'show_question' 1 %}" class="btn btn-secondary col-md-11"> Commencer le quiz <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+</div>
+{% else %}
+<!----/////----->
+
+
+<div class="row" style="margin-top: 40px;">
+<div class="card col-md-4" style="padding: 0px;">
+		
+      
+      <div class="card-body">
+      	<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Questionnaire !</h5>
+    <div>
+      {% for q in total_question %}
+        {% if forloop.counter in missed_liste %}
+        <button class="btn btn-danger mb-1">{{ forloop.counter }}</button>
+        {% elif forloop.counter in success_liste %}
+        <button class="btn btn-success mb-1">{{ forloop.counter }}</button>
+        {% elif current == forloop.counter %}
+        <button type="button" style="background:rgba(255,255,255,0.5);" class="btn btn-light mb-1">{{ forloop.counter }}</button>
+        {% else %}
+        <button class="btn btn-light mb-1">{{ forloop.counter }}</button>
+        {% endif %}
+    	{% endfor %}
+
+
+    
+  </div>
+  <div class="card-footer p-3 mt-3">
+    <!--<table>
+      <tr>
+        <td style="width:20%;" class="bg-secondary px-3"></td>
+        <td>Total <span style="font-size: 20px; font-weight: bold">{{nombre_of}}</span></td>
+        <td style="width:20%;" class="bg-success px-3"></td>
+        <td>Bonne reponse <span style="font-size: 20px; font-weight: bold">{{success_length}}</span></td>
+        <td style="width:20%;" class="bg-danger px-3"></td>
+        <td>Echec <span style="font-size: 20px; font-weight: bold">{{missed_length}}</span></td>
+      </tr>
+    </table>-->
+    <div class="row">
+      <div class="col-md-12">
+        <p style="font-size: 11px; margin: 0px">Reussi : {{success_length}} question(s)</p>
+      <div class="col-md-12 progress" style="padding: 0px">
+        <div class="progress-bar bg-success" role="progressbar" style="width: {{success_percent}}%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{success_percent}}%</div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <p style="font-size: 11px; margin: 0px">Echec : {{missed_length}} question(s)</p>
+      <div class="col-md-12 progress" style="padding: 0px">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: {{missed_percent}}%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{missed_percent}}%</div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <p style="font-size: 11px; margin: 0px">Total : {{nombre_of}} questions</p>
+      <div class="col-md-12 progress" style="padding: 0px">
+        <div class="progress-bar" role="progressbar" style="width: 100%; background: gray" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+      		</div>
+      	<div class="row">
+      		<div class="col-md-12 col">
+      			{% csrf_token %}
+      			<a href="../" type="button" value="" id="" class="btn btn-light col-md-11"><i class="fas fa-home"></i>Retour a l'acceuil</a>
+			</div>
+      		
+      	</div>
+      </div>
+</div>
+<div class="card col-md-8">
+	<div class="card border-success mb-3">
+  <div class="card-header bg-transparent border-success">Question {{current}} /{{nombre_of}} {{question_name}} &nbsp;&nbsp;&nbsp;Points {{cote}}</div>
+  <div class="card-body text-success">
+  	<div class="row">
+<!------------------------------------------------->
+      {%if question_image %}
+  		<div class="col-md-8">
+      {% else %}
+      <div class="col-md-10">
+      {% endif %}
+        {% if question_type == "multichoice" %}
+
+  			<h5 class="card-title">Q: {{question_titre}}</h5>
+    		<p class="card-text">
+          {% if choix_unique %}
+            <input id="multichoice-type" type="hidden" name="choix_unique">
+            {% for r in reponses %}
+      			 <button id="chx-item" type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">
+             {{r.answer_text|strip_html_tag:"item 1"}}
+             </button>
+            {% endfor %}
+
+    			{% elif choix_multiple %}
+            <input id="multichoice-type" type="hidden" name="choix_multiple">
+            {% for r in reponses %}
+             <button id="chx-item" type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r.answer_text|strip_html_tag:"item 1"}}</button>
+            {% endfor %}
+          {% else %}
+            <input id="multichoice-type" type="hidden" name="choix_multiple">
+            {% for r in reponses %}
+             <button id="chx-item" type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r.answer_text|strip_html_tag:"item 1"}}</button>
+            {% endfor %}
+          {% endif %}
+    		</p>
+
+        {% elif question_type == "cloze" %}
+          <!---le reponse est dans la question -->
+          <h5 class="card-title">Q:
+
+            {% for bribe in question %}
+              {{bribe}}
+              {% if forloop.counter < question|length %}
+
+                {% if short_answer %}
+                <!---l'attribut name contient la bonne reponse-->
+                <input id="multichoice-type" type="hidden" name="cloze-short">
+                <input id="chx-item" type="text" style="width:30%;" name="{{answer_liste|index_liste:forloop.counter}}" value="" class="d-inline-block m-1">
+                {% else %}
+                <!---le case a selection-->
+                <input id="multichoice-type" type="hidden" name="cloze-select">
+                <select style="width:30%;height:30px" id="select-cloze" class="form-select d-inline-block m-1">
+                  <option></option>
+                  {% for ans in answer_liste|index_liste:forloop.counter %}
+                  <option id="sel-chx-item" value={{ans.fraction}}>{{ans.text}}</option>
+                  {% endfor %}
+                </select>
+                {% endif %}
+                
+
+              {% endif %}
+            {% endfor %}
+
+        </h5>
+        {% elif shortanswer %}
+          <h5 class="card-title">Q: {{question_titre}}</h5>
+          <input id="multichoice-type" type="hidden" name="shortanswer">
+          <p class="card-text">
+             <!--<button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r}}</button>-->
+             <input id="reponse-short" type="text" style="width:30%;" name="{{reponses|index_liste:1}}" value="" class="d-inline-block m-1">
+          </p>
+        {% elif matching %}
+        <input id="multichoice-type" type="hidden" name="matching_quest">
+          <h5 class="card-title">Q: {{question_titre}}</h5>
+          <p class="card-text">
+            <div class="row">
+              <div class="col-md-6">
+            <!--question------->
+            {% for r in reponses %}
+             <button id="match-rep" type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-8 mb-1">{{r}}</button>
+            <!--//------------>
+            {% endfor %}
+            </div>
+            <div class="col-md-6">
+              <!--- liste de drop zone------>
+              {% for r in reponses %}
+             <div id="drp-{{forloop.counter}}" style="" fraction="{{r.answer_fraction}}" class="col-md-6  example-dropzone m-1"
+                ondragover="onDragOver(event);"
+                ondrop="onDrop(event);"
+                ondragleave="onDragLeave(event);">
+                </div>
+            {% endfor %}
+            <!----------//--------------->
+            </div>
+            <div class="row">
+              <!---liste d'element draggable--------->
+              {% for r in reponses %}
+              <div class="col-md-3 example-draggable bg-dark text-white text-center" id="draggable-{{forloop.counter}}" draggable="true" ondragstart="onDragStart(event);">{{r.answer_fraction}}</div>
+          
+              {% endfor %}
+            <!-----------//---------------->
+            </div>
+          </div>
+        </p>
+        {% else %}
+
+        <h5 class="card-title">Q: {{question_titre}}</h5>
+          <p class="card-text">
+            {% for r in reponses %}
+             <button type="button" fraction="{{r.answer_fraction}}" class="btn btn-light btn-sm col-md-6 mb-1">{{r}}</button>
+            {% endfor %}
+        </p>
+
+        {% endif %}
+  		</div>
+<!--------------------------//----------------->
+  		{%if question_image %}
+      <div class="col-md-4">
+      {% else %}
+      <div class="col-md-2">
+      {% endif %}
+  		<div class="row">
+        <div class="col-md-12">
+          {% if question_image %}
+            <img style="width: 50%" src="{{MEDIA_URL}}{{question_image}}"/>
+          {% endif %}
+        </div>
+        <div class="col-md-12">
+          <a href="{{question_link}}">{{question_link}}</a>
+        </div>  
+      </div>
+  		</div>
+  	</div>
+    <div id="correction-box" class="bg-dark d-none" style="position: absolute;top:200px; right:0px;z-index: 1000; width:45%;border:2px solid gray; border-radius: 15px/15px; padding: 10px">
+          <div class="row">
+            <span style="cursor:pointer" id="close-correct" class="col-md-12 text-end text-white"><i class="fas fa-times"> &nbsp;&nbsp;</i></span>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center" id="icon-correction">
+              <i class="fas fa-check-circle fa-5x"></i>
+            </div>
+            <div class="col-md-12 text-center" id="stat-correction">Bravooo!</div>
+          </div>
+          <div class="row">
+            <p id="les-reponses" class="col-md-12 text-center text-white" style="width: 100%">La ( les ) reponses etait bien : </p>
+          </div>
+                <!--<div class="text-white text-center">
+                  <div class="col-12">
+                    <div class="row">
+                    <table style="width: 100%; overflow-y: auto; overflow-x: auto;">
+                      <tr>
+                        <td id="icon-correction" class="text-success"><i class="fas fa-check-circle fa-5x"></i></td>
+                      </tr>
+                      <tr>
+                        <td id="stat-correction">Bravooo!</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>
+                          <p id="les-reponses" style="width: 100%">La ( les ) reponses etait bien : </p></td>
+                        
+                      </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>-->
+</div>
+  <div class="card-footer bg-transparent border-success">
+    <!--<button id="ok-reponse" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" data-bs-whatever="" data-backdrop="static" data-keyboard="false">Je valide ma reponse <i class="fas fa-check-circle"></i></button>--->
+          <!-- Modal -->
+          <!--<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content bg-dark">
+              
+                    <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times-circle fa-2x"></i></button>
+                <div class="modal-body text-white text-center">
+                  <div class="col-12">
+                    <div class="row">
+                    <table>
+                      <tr>
+                        <td id="icon-correction" class="text-success"><i class="fas fa-check-circle fa-5x"></i></td>
+                      </tr>
+                      <tr>
+                        <td id="stat-correction">Bravooo!</td>
+                        
+                      </tr>
+                      <tr>
+                        <td id="les-reponses">La ( les ) reponses etait bien : </td>
+                        
+                      </tr>
+                    </table>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4 float-ends text-center">
+                  <div class="row">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+    <div id="current" class="d-none">{{current}}</div>
+    <button id="ok-reponse" type="button" class="btn btn-success">Je valide ma reponse <i class="fas fa-check-circle"></i></button>
+  	<a href="{% url 'show_question' next_q %}" type="button" class="btn btn-warning">Passer au suivant</a>
+  </div>
+</div>
+</div>
+</div>
+{% endif %}
